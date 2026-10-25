@@ -2,7 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { axes, questionsFor } from "@/lib/data";
+import { axes, questions } from "@/lib/data";
+import { newSeed, sessionQuestions } from "@/lib/order";
 import { type Answer, type Mode, encodeResult, scoreAxes } from "@/lib/scoring";
 
 // A bolinha à esquerda cresce com a intensidade, igual para concordar e discordar: nenhuma cor sugere a resposta certa.
@@ -14,53 +15,49 @@ const OPTIONS: { value: Exclude<Answer, null>; label: string; dot: number }[] = 
   { value: -2, label: "Discordo totalmente", dot: 14 },
 ];
 
-// Intercala os eixos (1ª de cada eixo, 2ª de cada eixo…) para não haver blocos temáticos que induzam a resposta.
-function interleave<T extends { axis: string }>(qs: T[]): T[] {
-  const byAxis = new Map<string, T[]>();
-  for (const q of qs) byAxis.set(q.axis, [...(byAxis.get(q.axis) ?? []), q]);
-  const lists = [...byAxis.values()];
-  const out: T[] = [];
-  for (let i = 0; out.length < qs.length; i++) for (const l of lists) if (l[i]) out.push(l[i]);
-  return out;
-}
-
 function lower(s: string) {
   return s.charAt(0).toLowerCase() + s.slice(1);
 }
 
 export default function Quiz({ mode }: { mode: Mode }) {
   const router = useRouter();
-  const qs = useMemo(() => interleave(questionsFor(mode)), [mode]);
   const storageKey = `perfil-politico:${mode}`;
+  // Semente do sorteio (ordem e, no modo rápido, quais perguntas). Só existe depois da montagem, no navegador.
+  const [seed, setSeed] = useState<number | null>(null);
+  const qs = useMemo(() => (seed === null ? [] : sessionQuestions(questions, mode, seed)), [mode, seed]);
   const [answers, setAnswers] = useState<Record<string, Answer>>({});
   const [i, setI] = useState(0);
-  const [restored, setRestored] = useState(false);
   // Quem abre a explicação uma vez provavelmente quer vê-la nas próximas: fica aberta até ser fechada.
   const [showInfo, setShowInfo] = useState(false);
 
-  // Progresso só neste navegador (sessionStorage), para não perder tudo num recarregamento. Lido depois da montagem
-  // porque a página é pré-renderizada sem storage; ler no estado inicial quebraria a hidratação.
+  // Progresso e sorteio só neste navegador (sessionStorage): recarregar a página mantém as mesmas perguntas, na mesma
+  // ordem. Lido depois da montagem porque a página é pré-renderizada sem storage.
   useEffect(() => {
     /* eslint-disable react-hooks/set-state-in-effect */
+    let restored = false;
     try {
       const saved = JSON.parse(sessionStorage.getItem(storageKey) ?? "null");
-      if (saved && typeof saved.i === "number" && saved.answers) {
+      if (saved && typeof saved.seed === "number" && typeof saved.i === "number" && saved.answers) {
+        setSeed(saved.seed);
         setAnswers(saved.answers);
-        setI(Math.min(saved.i, qs.length - 1));
+        setI(saved.i);
+        restored = true;
       }
     } catch {}
-    setRestored(true);
+    if (!restored) setSeed(newSeed());
     /* eslint-enable react-hooks/set-state-in-effect */
-  }, [storageKey, qs.length]);
+  }, [storageKey]);
 
   useEffect(() => {
-    if (!restored) return;
+    if (seed === null) return;
     try {
-      sessionStorage.setItem(storageKey, JSON.stringify({ i, answers }));
+      sessionStorage.setItem(storageKey, JSON.stringify({ seed, i, answers }));
     } catch {}
-  }, [restored, storageKey, i, answers]);
+  }, [seed, storageKey, i, answers]);
 
-  const q = qs[i];
+  if (!qs.length) return <div className="pt-24 text-center text-muted" aria-busy="true">Sorteando as perguntas…</div>;
+
+  const q = qs[Math.min(i, qs.length - 1)];
   const current = q.id in answers ? answers[q.id] : undefined;
   const axis = axes.find((a) => a.id === q.axis)!;
 

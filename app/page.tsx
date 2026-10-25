@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { axes, questions, questionsFor } from "@/lib/data";
+import { QUICK_SIZE, axes, questions } from "@/lib/data";
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
             href="/teste/rapido"
             className="inline-flex items-center justify-center rounded-full border border-line px-7 h-14 text-lg font-medium hover:border-ink"
           >
-            Versão rápida ({questionsFor("rapido").length})
+            Versão rápida ({QUICK_SIZE})
           </Link>
         </div>
         <p className="font-mono text-xs uppercase tracking-wider text-muted">

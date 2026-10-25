@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { axes, countries, figures, ideologies, questions, questionsFor } from './data';
+import { axes, countries, figures, ideologies, questions } from './data';
+import { sessionQuestions } from './order';
 import {
   type Answer,
   decodeResult,
@@ -14,15 +15,12 @@ import { PERSONAS, answerAs } from './personas';
 const all = (a: Answer) => Object.fromEntries(questions.map((q) => [q.id, a]));
 
 describe('dados', () => {
-  it('cada eixo tem 6 perguntas, 3 em cada sentido, e 1 de cada sentido no modo rápido', () => {
+  it('cada eixo tem 6 perguntas, 3 em cada sentido', () => {
     for (const ax of axes) {
       const qs = questions.filter((q) => q.axis === ax.id);
       expect(qs.length, ax.id).toBe(6);
       expect(qs.filter((q) => q.dir === 1).length, ax.id).toBe(3);
-      const quick = qs.filter((q) => q.quick);
-      expect(quick.map((q) => q.dir).sort(), ax.id).toEqual([-1, 1]);
     }
-    expect(questionsFor('rapido').length).toBe(axes.length * 2);
   });
 
   it('toda pergunta tem contexto e o que significa concordar e discordar', () => {
@@ -122,7 +120,7 @@ describe('personas (coerência do resultado)', () => {
   for (const p of PERSONAS) {
     it(`${p.name} cai numa ideologia coerente (completo e rápido)`, () => {
       for (const mode of ['completo', 'rapido'] as const) {
-        const qs = questionsFor(mode);
+        const qs = sessionQuestions(questions, mode, 7);
         const scores = scoreAxes(axes, qs, answerAs(p.stance, qs));
         const top = rank(scores, ideologies)[0];
         expect(expected[p.id], `${mode}: ${top.target.id}`).toContain(top.target.id);

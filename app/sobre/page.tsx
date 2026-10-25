@@ -52,11 +52,13 @@ export default function Sobre() {
             Comparações com menos de 6 eixos em comum são descartadas.
           </li>
           <li>
-            O modo rápido usa 2 afirmações por eixo (uma em cada sentido) e é menos preciso.
+            O modo rápido sorteia, em cada eixo, 1 afirmação de cada sentido entre as 3 disponíveis (24 no total), então
+            o equilíbrio se mantém e cada sessão vê um conjunto diferente. É menos preciso que o completo.
           </li>
           <li>
-            A ordem das afirmações intercala os eixos e as palavras foram escolhidas para que tanto quem está à esquerda
-            quanto quem está à direita encontre afirmações com as quais concorda.
+            A ordem é sorteada a cada teste, sem duas afirmações seguidas do mesmo eixo, para que a ordem não influencie
+            as respostas. As palavras foram escolhidas para que quem está à esquerda e quem está à direita encontre
+            afirmações com as quais concorda.
           </li>
         </ul>
       </section>

@@ -38,8 +38,7 @@ export const ideologies = ideologiesJson.ideologies as unknown as Ideology[];
 export const figures = figuresJson.figures as unknown as Figure[];
 export const countries = countriesJson.countries as unknown as Country[];
 
-export function questionsFor(mode: 'completo' | 'rapido'): QuestionInfo[] {
-  return mode === 'rapido' ? questions.filter((q) => q.quick) : questions;
-}
+/** Tamanho do modo rápido: 1 pergunta de cada sentido por eixo (sorteadas em lib/order.ts). */
+export const QUICK_SIZE = axesJson.axes.length * 2;
 
 export type { Coords };

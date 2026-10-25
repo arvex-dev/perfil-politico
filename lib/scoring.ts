@@ -17,7 +17,6 @@ export interface Question {
   axis: string;
   dir: 1 | -1;
   weight: number;
-  quick?: boolean;
   text: string;
 }
 
