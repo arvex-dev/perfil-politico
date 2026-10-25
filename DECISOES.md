@@ -60,3 +60,23 @@ Registro das escolhas feitas sem consultar o dono, com o motivo. Data: 2026-10-2
   (`.gitignore`), e a classificação versionada guarda os ids sem o texto das perguntas. Os resultados das personas e
   as análises citam o 12axes por id e com trechos curtos. Nenhuma pergunta do nosso banco foi copiada de outro teste.
 - **PolitiScale não extraído** (sem código público, site fora do ar). Questão Pública e iSideWith BR não verificados.
+
+## Refinamento (2026-10-25, tarde)
+
+- **Identidade própria na família ARVEX.** Base comum da família (Inter, JetBrains Mono, raios 6/12/20/pílula, toque
+  ≥ 44 px, foco de 3 px, rodapé ARVEX); do produto: papel de jornal (#f2efe8), tinta (#15161b), Archivo Expanded 800 nos
+  títulos e um único destaque verde-petróleo (#0b6e69). Evitadas as cores associadas a partidos (vermelho, azul,
+  verde-amarelo, laranja) e o violeta, que é do ARVEX. A barra ARVEX de 40 px do canvas da família ainda não existe no
+  `@arvex-dev/brand`; entra quando for publicada.
+- **Alinhamento político** (esquerda … direita) a partir de 7 dos 12 eixos (ver /sobre), com rótulo próprio para perfis
+  cruzados. Mapa 2D economia × costumes com 10 figuras fixas: 4 à esquerda (Boulos, Lula, Ciro, Haddad), 2 ao centro
+  (Tebet, FHC), 4 à direita (Tarcísio, Zema, Bolsonaro, Milei).
+- **Duas imagens**: 1080×1920 para stories/status (baixar ou compartilhar o arquivo pelo menu do celular) e 1200×630
+  como prévia de link, porque WhatsApp e X cortam imagem vertical na prévia.
+- **Fact-check** (docs/pesquisa/factcheck/): 30 itens corrigidos ou reescritos. Itens trocados: tra5 (fim da escala 6x1,
+  aprovado no Congresso em 2026, virou salário mínimo com ganho real). Reescritos para tirar dupla pergunta: eco3,
+  dis3, cos2, cos5, seg4, div6; para atualizar fatos: dis1, dis5 (dividendos tributados desde 2026), tra2, tra3, tra4,
+  cos1, amb6, geo2, div4 e outros. Modo rápido: seg4 (armas) substitui seg1 (maioridade penal), que tem ~80% de
+  apoio e quase não discrimina. Equilíbrio de 3 itens por sentido em cada eixo mantido.
+- Fatos de 2026 vieram de buscas (o modelo não os conhecia); os que não foram abertos numa fonte estão marcados no
+  fontes.json e não aparecem como fonte na tela.

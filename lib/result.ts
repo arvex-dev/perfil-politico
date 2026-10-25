@@ -1,7 +1,21 @@
+import { alignment } from "./alignment";
 import { axes, countries, figures, ideologies } from "./data";
 import { decodeResult, explain, rank } from "./scoring";
 
-/** Tudo o que a página de resultado e a imagem mostram, a partir do código da URL. */
+// Referências fixas do mapa, do mesmo tamanho dos dois lados: 4 à esquerda, 2 ao centro, 4 à direita.
+const MAP_REFS: [string, string][] = [
+  ["Guilherme Boulos", "Boulos"], ["Lula", "Lula"], ["Ciro Gomes", "Ciro"], ["Fernando Haddad", "Haddad"],
+  ["Simone Tebet", "Tebet"], ["Fernando Henrique Cardoso", "FHC"],
+  ["Tarcísio de Freitas", "Tarcísio"], ["Romeu Zema", "Zema"], ["Jair Bolsonaro", "Bolsonaro"], ["Javier Milei", "Milei"],
+];
+
+export const mapRefs = MAP_REFS.map(([name, short]) => {
+  const f = figures.find((x) => x.name === name)!;
+  const a = alignment(f.coords);
+  return { name: f.name, short, x: a.economic ?? 0, y: a.cultural ?? 0 };
+});
+
+/** Tudo o que a página de resultado e as imagens mostram, a partir do código da URL. */
 export function buildResult(code: string) {
   const decoded = decodeResult(axes, code);
   if (!decoded) return null;
@@ -13,6 +27,7 @@ export function buildResult(code: string) {
     code,
     mode,
     scores,
+    alignment: alignment(scores),
     ideology,
     alternatives: ideologyRank.slice(1, 3),
     figures: rank(scores, figures).slice(0, 3),

@@ -1,39 +1,75 @@
 @import "tailwindcss";
 
+/* Perfil Político na família ARVEX: base comum (Inter, JetBrains Mono, raios 6/12/20/pílula, toque ≥ 44 px, foco de
+   3 px) e identidade própria: papel de jornal, tinta, Archivo Expanded nos títulos e um só destaque, verde-petróleo.
+   Nenhuma cor partidária (vermelho, azul, verde-amarelo, laranja). */
 :root {
-  --background: #f7f7f5;
-  --surface: #ffffff;
-  --foreground: #1b1d24;
-  --muted: #5f6472;
-  --line: #e2e3e8;
-  --accent: #3d4ed8;
-  --accent-soft: #e8eafc;
+  --paper: #f2efe8;
+  --card: #fbfaf6;
+  --ink: #15161b;
+  --muted: #565964;
+  --line: #dcd7cc;
+  --track: #e4e0d6;
+  --accent: #0b6e69;
+  --accent-ink: #ffffff;
+  --accent-soft: #dcebe8;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #111318;
-    --surface: #1a1d24;
-    --foreground: #eceef3;
-    --muted: #a0a5b3;
-    --line: #2c303a;
-    --accent: #8d9bff;
-    --accent-soft: #252a45;
+    --paper: #121316;
+    --card: #1b1c21;
+    --ink: #eeece6;
+    --muted: #a5a8b2;
+    --line: #2e3038;
+    --track: #2a2c33;
+    --accent: #46c4b9;
+    --accent-ink: #0b1514;
+    --accent-soft: #19302e;
   }
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-surface: var(--surface);
-  --color-foreground: var(--foreground);
+  --color-paper: var(--paper);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
   --color-muted: var(--muted);
   --color-line: var(--line);
+  --color-track: var(--track);
   --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
   --color-accent-soft: var(--accent-soft);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-archivo);
+  --font-mono: var(--font-jetbrains);
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.font-display {
+  font-family: var(--font-archivo), system-ui, sans-serif;
+  font-stretch: 125%;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fade-in {
+    animation: fade-in 220ms ease-out;
+  }
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: none; }
+  }
 }

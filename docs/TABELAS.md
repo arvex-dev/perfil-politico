@@ -10,52 +10,52 @@ Sentido +1: concordar puxa para o polo B. R = modo rápido.
 |---|---|---:|---:|---|---|---|
 | eco1 | Econ | −1 | 1 | R | O governo deveria segurar o preço dos combustíveis quando ele sobe muito, mesmo que a Petrobras lucre menos. | Debate sobre a política de preços da Petrobras (PPI), 2016–2023 |
 | eco2 | Econ | +1 | 1 | R | A Petrobras deveria ser privatizada. | ESEB e Brazilian Legislative Survey (itens sobre privatização) |
-| eco3 | Econ | +1 | 1 |  | Serviços como saneamento, energia e correios funcionam melhor nas mãos de empresas privadas. | LAPOP ROS (papel do Estado), Marco do Saneamento 2020 |
+| eco3 | Econ | +1 | 1 |  | A distribuição de energia e o saneamento funcionam melhor nas mãos de empresas privadas, sob regulação. | Marco do Saneamento (Lei 14.026/2020); capitalização da Eletrobras (Lei 14.182/2021) |
 | eco4 | Econ | −1 | 1 |  | O Estado deve ser o principal responsável por gerar empregos e crescimento econômico. | LAPOP ROS4 / ROS1 (adaptado) |
 | eco5 | Econ | −1 | 1 |  | Bancos públicos como o BNDES devem emprestar a juros mais baixos para setores considerados estratégicos. | PELA-USAL (intervenção estatal), debate sobre TLP/TJLP |
 | eco6 | Econ | +1 | 1 |  | O governo deveria cortar gastos para equilibrar as contas, mesmo que isso reduza programas públicos. | Teto de gastos (EC 95) e arcabouço fiscal |
-| dis1 | Dist | −1 | 1 | R | Quem ganha mais deveria pagar uma porcentagem maior de imposto de renda do que paga hoje. | LAPOP REDIST (adaptado), reforma do IR 2025 |
+| dis1 | Dist | −1 | 1 | R | Quem ganha mais deveria pagar uma porcentagem maior de imposto de renda do que paga hoje. | LAPOP REDIST (adaptado); Lei 15.270/2025 |
 | dis2 | Dist | +1 | 1 | R | Programas como o Bolsa Família desestimulam as pessoas a procurar trabalho. | LAPOP (itens sobre transferências condicionadas) |
-| dis3 | Dist | −1 | 1 |  | Grandes fortunas e heranças deveriam ser mais taxadas. | Debate sobre IGF e ITCMD progressivo |
+| dis3 | Dist | −1 | 1 |  | Heranças e doações de valores muito altos deveriam pagar uma alíquota maior de imposto. | EC 132/2023 (ITCMD progressivo); Resolução do Senado 9/1992 |
 | dis4 | Dist | +1 | 1 |  | A desigualdade de renda no Brasil é resultado, principalmente, de diferenças de esforço e de escolhas pessoais. | Latinobarómetro (causas da pobreza, adaptado) |
-| dis5 | Dist | +1 | 1 |  | É justo que os dividendos recebidos por acionistas continuem isentos de imposto de renda. | Debate sobre tributação de dividendos (Lei 9.249/1995) |
+| dis5 | Dist | +1 | 1 |  | Lucros e dividendos já são tributados na empresa e não deveriam pagar imposto de novo quando chegam ao acionista. | Lei 9.249/1995 art. 10; Lei 15.270/2025 |
 | dis6 | Dist | −1 | 1 |  | O Estado deveria garantir uma renda mínima a toda família pobre, mesmo sem exigir contrapartidas. | Lei 10.835/2004 (renda básica de cidadania) |
 | tra1 | Trab | +1 | 1 | R | A reforma trabalhista de 2017 foi positiva para o país. | Lei 13.467/2017 |
-| tra2 | Trab | −1 | 1 | R | Motoristas e entregadores de aplicativo deveriam ter direitos como férias, 13º salário e contribuição ao INSS. | PLP 12/2024 (trabalho por aplicativo) |
-| tra3 | Trab | −1 | 1 |  | Os sindicatos deveriam voltar a receber uma contribuição obrigatória dos trabalhadores. | Fim do imposto sindical (2017) e decisões do STF |
-| tra4 | Trab | +1 | 1 |  | Acordos negociados diretamente entre empresa e empregado deveriam valer mais do que a lei trabalhista. | Negociado sobre o legislado (Lei 13.467/2017) |
-| tra5 | Trab | −1 | 1 |  | A escala de trabalho 6x1 (seis dias de trabalho para um de folga) deveria ser proibida por lei. | PEC do fim da escala 6x1 (2024) |
+| tra2 | Trab | −1 | 1 | R | Motoristas e entregadores de aplicativo deveriam ter direitos como férias, 13º salário e contribuição ao INSS. | PLP 12/2024 e PLP 152/2025; STF Tema 1291 |
+| tra3 | Trab | −1 | 1 |  | Todo trabalhador da categoria deveria contribuir com o sindicato, a não ser que peça para não pagar. | Lei 13.467/2017; STF ARE 1018459 (Tema 935) |
+| tra4 | Trab | +1 | 1 |  | Acordos coletivos entre empresas e sindicatos deveriam poder valer mais do que a lei trabalhista. | CLT art. 611-A (Lei 13.467/2017); STF Tema 1046 |
+| tra5 | Trab | −1 | 1 |  | O salário mínimo deveria ter aumento acima da inflação todos os anos. | Lei 14.663/2023 (política de valorização); pacote fiscal de 2024 |
 | tra6 | Trab | +1 | 1 |  | A idade mínima para se aposentar deveria subir à medida que a expectativa de vida aumenta. | Reforma da Previdência (EC 103/2019) |
 | cos1 | Cost | −1 | 1 | R | O aborto deveria ser legal nas primeiras semanas de gestação, por decisão da mulher. | ESEB, LAPOP W14A; ADPF 442 |
-| cos2 | Cost | −1 | 1 |  | Casais do mesmo sexo devem ter os mesmos direitos de casamento e adoção que casais heterossexuais. | LAPOP D6; Resolução CNJ 175/2013 |
+| cos2 | Cost | −1 | 1 |  | Casais do mesmo sexo devem ter o direito de se casar no cartório, como casais de homem e mulher. | STF ADI 4277/ADPF 132 (2011); Resolução CNJ 175/2013; LAPOP D6 |
 | cos3 | Cost | +1 | 1 | R | Escolas não deveriam tratar de temas de gênero e orientação sexual. | Debate Escola sem Partido / planos de educação |
 | cos4 | Cost | +1 | 1 |  | A família formada por pai, mãe e filhos deve ser o modelo protegido e incentivado pelo Estado. | Estatuto da Família (PL 6583/2013) |
-| cos5 | Cost | −1 | 1 |  | A educação sexual nas escolas ajuda a prevenir abuso e gravidez na adolescência. | Debate sobre educação sexual (adaptado) |
+| cos5 | Cost | −1 | 1 |  | A escola deveria ensinar educação sexual aos alunos. | Debate sobre educação sexual (adaptado) |
 | cos6 | Cost | +1 | 1 |  | Os valores morais da sociedade brasileira estão mudando rápido demais. | World Values Survey / ESEB (adaptado) |
 | rel1 | Reli | +1 | 1 | R | Seria bom para o Brasil ter mais políticos comprometidos com valores cristãos. | ESEB 2018/2022 (religião e voto, adaptado) |
 | rel2 | Reli | −1 | 1 | R | As leis devem se basear em argumentos que valham para todos, e não nos preceitos de uma religião. | Laicidade (CF art. 19) |
 | rel3 | Reli | +1 | 1 |  | Líderes religiosos podem orientar seus fiéis sobre em quem votar. | Debate sobre abuso de poder religioso (TSE) |
 | rel4 | Reli | −1 | 1 |  | Igrejas e templos deveriam pagar impostos como outras organizações. | Imunidade tributária de templos (CF art. 150) |
-| rel5 | Reli | +1 | 1 |  | O ensino religioso nas escolas públicas é importante para a formação moral dos alunos. | ADI 4439 (STF, 2017) |
+| rel5 | Reli | +1 | 1 |  | O ensino religioso deveria ser oferecido nas escolas públicas. | ADI 4439 (STF, 2017) |
 | rel6 | Reli | −1 | 1 |  | Símbolos religiosos, como crucifixos, não deveriam ficar em prédios públicos. | Debate sobre símbolos religiosos em repartições |
-| seg1 | Segu | +1 | 1 | R | A maioridade penal deveria ser reduzida para 16 anos. | PEC 171/1993; LAPOP (punitivismo) |
+| seg1 | Segu | +1 | 1 |  | A maioridade penal deveria ser reduzida para 16 anos. | PEC 171/1993; LAPOP (punitivismo) |
 | seg2 | Segu | −1 | 1 | R | Investir em educação e oportunidades para jovens reduz mais a violência do que aumentar penas. | LAPOP AOJ22 (prevenção × punição) |
-| seg3 | Segu | +1 | 1 |  | A polícia deveria ter mais liberdade para agir, mesmo que isso aumente o risco de abusos. | LAPOP (apoio a ações policiais fora da lei, adaptado) |
-| seg4 | Segu | +1 | 1 |  | Cidadãos sem antecedentes criminais deveriam poder comprar e portar armas para se defender. | Referendo de 2005; decretos de armas 2019–2023 |
+| seg3 | Segu | +1 | 1 |  | As regras que limitam o uso da força pela polícia deveriam ser flexibilizadas. | LAPOP (apoio a ações policiais fora da lei, adaptado) |
+| seg4 | Segu | +1 | 1 | R | Cidadãos sem antecedentes criminais deveriam poder comprar arma de fogo para se defender. | Referendo de 2005; decretos de armas 2019–2023 |
 | seg5 | Segu | −1 | 1 |  | O uso de câmeras corporais por policiais deveria ser obrigatório. | Programa Olho Vivo (SP); diretrizes do MJSP 2024 |
 | seg6 | Segu | −1 | 1 |  | Penas alternativas para crimes sem violência são melhores do que a prisão. | Lei 9.714/1998; superlotação carcerária |
 | lib1 | Libe | −1 | 1 | R | O uso de maconha por adultos deveria ser legalizado. | RE 635659 (STF); Uruguai 2013 |
-| lib2 | Libe | +1 | 1 | R | Autoridades deveriam poder mandar remover das redes sociais conteúdos que consideram desinformação. | PL 2630/2020; Marco Civil art. 19 (STF 2025) |
+| lib2 | Libe | +1 | 1 | R | A Justiça deveria poder mandar remover das redes sociais conteúdos classificados como desinformação. | Marco Civil da Internet art. 19 (STF, 2025); PL 2630/2020 |
 | lib3 | Libe | −1 | 1 |  | O Estado não deve interferir no que adultos fazem com a própria vida, desde que não prejudiquem outras pessoas. | Princípio do dano (Mill), adaptado |
 | lib4 | Libe | +1 | 1 |  | Em momentos de crise, o governo deve ter poderes especiais, mesmo que limite algumas liberdades. | LAPOP (apoio a governar sem Congresso, adaptado) |
 | lib5 | Libe | +1 | 1 |  | Câmeras de reconhecimento facial nas ruas são uma boa forma de aumentar a segurança. | Debate sobre vigilância biométrica (Smart Sampa) |
 | lib6 | Libe | −1 | 1 |  | Ninguém deveria ser punido por opiniões, mesmo ofensivas, que não incitem violência. | Liberdade de expressão (CF art. 5º), adaptado |
 | amb1 | Ambi | −1 | 1 | R | Proteger a Amazônia deve vir antes de expandir a área de agricultura e pecuária. | LAPOP (ambiente × crescimento, adaptado) |
-| amb2 | Ambi | +1 | 1 | R | O agronegócio é injustamente culpado pelos problemas ambientais do Brasil. | Debate agro × ambiente |
+| amb2 | Ambi | +1 | 1 | R | A responsabilidade do agronegócio pelos problemas ambientais do Brasil é exagerada. | Debate agro × ambiente |
 | amb3 | Ambi | +1 | 1 |  | O Brasil deveria explorar petróleo na Margem Equatorial, perto da foz do Amazonas. | Licenciamento do bloco FZA-M-59 (Ibama, 2023–2025) |
 | amb4 | Ambi | −1 | 1 |  | A fiscalização e as multas ambientais deveriam ser mais rigorosas, mesmo que isso encareça a produção. | Código Florestal; Ibama |
 | amb5 | Ambi | −1 | 1 |  | O uso de agrotóxicos no Brasil deveria ser mais restrito. | Lei 14.785/2023 (agrotóxicos) |
-| amb6 | Ambi | +1 | 1 |  | O licenciamento ambiental deveria ser simplificado para destravar obras e investimentos. | Lei Geral do Licenciamento (PL 2159/2021) |
+| amb6 | Ambi | +1 | 1 |  | O licenciamento ambiental deveria ser mais simples e rápido, mesmo com menos exigências. | Lei 15.190/2025 (Lei Geral do Licenciamento) |
 | sob1 | Mode | +1 | 1 | R | O Brasil deveria reduzir as tarifas de importação para aumentar a concorrência. | PELA-USAL / BLS (abertura comercial) |
 | sob2 | Mode | −1 | 1 | R | O governo deve proteger a indústria nacional, mesmo que os produtos fiquem mais caros. | Tradição cepalina; Nova Indústria Brasil (2024) |
 | sob3 | Mode | +1 | 1 |  | Estrangeiros deveriam poder comprar terras no Brasil com menos restrições. | PL 2963/2019 (terras para estrangeiros) |
@@ -63,9 +63,9 @@ Sentido +1: concordar puxa para o polo B. R = modo rápido.
 | sob5 | Mode | +1 | 1 |  | Cada país do Mercosul deveria poder fazer acordos comerciais por conta própria. | Debate sobre flexibilização do Mercosul (Uruguai, Argentina) |
 | sob6 | Mode | −1 | 1 |  | As compras do governo devem dar preferência a empresas brasileiras. | Margem de preferência (Lei 14.133/2021) |
 | geo1 | Polí | +1 | 1 | R | O Brasil deveria se alinhar mais aos Estados Unidos na política externa. | LAPOP / Latinobarómetro (opinião sobre EUA e China) |
-| geo2 | Polí | −1 | 1 | R | O BRICS é mais importante para o futuro do Brasil do que a relação com os EUA e a Europa. | Debate sobre o BRICS |
+| geo2 | Polí | −1 | 1 | R | O BRICS deveria ter prioridade sobre os EUA e a Europa na política externa do Brasil. | Debate sobre o BRICS |
 | geo3 | Polí | −1 | 1 |  | A integração política da América Latina deveria ser prioridade da diplomacia brasileira. | CF art. 4º, parágrafo único; UNASUL/CELAC |
-| geo4 | Polí | +1 | 1 |  | O Brasil deveria se afastar de governos como os da Venezuela, de Cuba e da Nicarágua. | Debate sobre política externa regional |
+| geo4 | Polí | +1 | 1 |  | O Brasil deveria reduzir a proximidade diplomática com governos autoritários da região, como Venezuela, Cuba e Nicarágua. | Debate sobre política externa regional |
 | geo5 | Polí | +1 | 1 |  | A presença crescente da China na economia brasileira é uma ameaça à soberania do país. | LAPOP (influência da China, adaptado) |
 | geo6 | Polí | −1 | 1 |  | O Brasil deveria fazer comércio em moedas próprias para depender menos do dólar. | Debate sobre desdolarização no BRICS |
 | ins1 | Inst | +1 | 1 | R | O sistema político brasileiro está tão corrompido que só uma mudança radical resolve. | LAPOP B (apoio ao sistema), adaptado |
@@ -77,9 +77,9 @@ Sentido +1: concordar puxa para o polo B. R = modo rápido.
 | div1 | Dive | −1 | 1 | R | As cotas raciais nas universidades públicas são justas. | Lei 12.711/2012; ESEB |
 | div2 | Dive | +1 | 1 | R | Políticas públicas deveriam tratar todos igualmente, sem levar em conta raça ou gênero. | Debate universalismo × ações afirmativas |
 | div3 | Dive | −1 | 1 |  | O racismo é um problema estrutural no Brasil, presente nas instituições e não só em atitudes individuais. | LAPOP (discriminação racial), adaptado |
-| div4 | Dive | −1 | 1 |  | A demarcação de terras indígenas deveria ser acelerada. | CF art. 231; Lei 14.701/2023 (marco temporal) |
+| div4 | Dive | −1 | 1 |  | A demarcação de terras indígenas deveria ser acelerada. | CF art. 231; STF Tema 1031; Lei 14.701/2023 e ADIs 7582/7583/7586 |
 | div5 | Dive | +1 | 1 |  | A linguagem neutra (como "todes") não deveria ser usada em escolas e documentos oficiais. | Projetos estaduais e municipais contra linguagem neutra |
-| div6 | Dive | +1 | 1 |  | Cotas de gênero para candidaturas e conselhos de empresas são desnecessárias. | Lei 9.504/1997 art. 10 (cota de 30%) |
+| div6 | Dive | +1 | 1 |  | As cotas de gênero nas candidaturas eleitorais são desnecessárias. | Lei 9.504/1997 art. 10 (cota de 30%) |
 
 ## Ideologias (21)
 

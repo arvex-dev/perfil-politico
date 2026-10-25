@@ -1,85 +1,55 @@
 import { ImageResponse } from "next/og";
-import { axes } from "@/lib/data";
 import { buildResult } from "@/lib/result";
+import { Brand, C, Label, MapBox, fonts } from "@/lib/og";
 
-// Imagem vertical 1080×1920 (stories e status do WhatsApp), gerada a partir do código da URL. O resultado depende
-// só do código, então o cache pode ser longo.
+// Imagem vertical 1080×1920 para stories e status do WhatsApp. Depende só do código, então o cache é longo.
 export async function GET(_req: Request, { params }: RouteContext<"/r/[code]/imagem">) {
   const { code } = await params;
   const r = buildResult(code);
   if (!r) return new Response("Resultado inválido", { status: 404 });
-
-  const ink = "#1b1d24";
-  const muted = "#5f6472";
-  const accent = "#3d4ed8";
+  const label = r.alignment.label;
 
   return new ImageResponse(
     (
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          flexDirection: "column",
-          background: "#f7f7f5",
-          color: ink,
-          padding: "90px 80px 70px",
-          fontSize: 30,
-        }}
-      >
-        <div style={{ display: "flex", fontSize: 32, color: muted }}>Meu perfil político</div>
-        <div style={{ display: "flex", fontSize: 78, fontWeight: 700, lineHeight: 1.05, marginTop: 14 }}>
-          {r.ideology.target.name}
-        </div>
-        <div style={{ display: "flex", fontSize: 30, color: muted, marginTop: 18 }}>
-          {`Mais perto de: ${r.figures.map((f) => f.target.name).join(", ")}`}
+      <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", background: C.paper, color: C.ink, padding: "96px 84px 80px", fontFamily: "Inter" }}>
+        <Brand size={40} />
+
+        <div style={{ display: "flex", flexDirection: "column", marginTop: 80, gap: 18 }}>
+          <Label size={26}>Meu alinhamento político</Label>
+          <div style={{ display: "flex", fontFamily: "Archivo", fontSize: label.length > 16 ? 70 : 104, lineHeight: 1.02 }}>{label}</div>
+          <div style={{ display: "flex", fontSize: 34, color: C.muted, lineHeight: 1.35 }}>{r.alignment.detail}</div>
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column", marginTop: 60, gap: 44 }}>
-          {axes.map((ax) => {
-            const s = r.scores[ax.id];
-            const pos = s === null ? 50 : (s + 100) / 2;
-            return (
-              <div key={ax.id} style={{ display: "flex", flexDirection: "column" }}>
-                <div style={{ display: "flex", justifyContent: "space-between", fontSize: 27, color: muted }}>
-                  <span style={{ color: s !== null && s < -10 ? ink : muted }}>{ax.poleA}</span>
-                  <span style={{ color: s !== null && s > 10 ? ink : muted }}>{ax.poleB}</span>
-                </div>
-                <div style={{ display: "flex", position: "relative", height: 18, marginTop: 8, borderRadius: 9, background: "#e2e3e8" }}>
-                  <div style={{ position: "absolute", left: 459, top: 0, width: 2, height: 18, background: "#b9bcc6" }} />
-                  {s !== null && (
-                    <div
-                      style={{
-                        position: "absolute",
-                        left: `${pos}%`,
-                        top: -7,
-                        width: 32,
-                        height: 32,
-                        marginLeft: -16,
-                        borderRadius: 16,
-                        background: accent,
-                        border: "4px solid #f7f7f5",
-                      }}
-                    />
-                  )}
-                </div>
-              </div>
-            );
-          })}
+        <div style={{ display: "flex", justifyContent: "center", marginTop: 56 }}>
+          <MapBox r={r} size={740} />
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column", marginTop: "auto", gap: 8 }}>
-          <div style={{ display: "flex", fontSize: 34, fontWeight: 700 }}>Faça o seu: perfil.arvex.dev</div>
-          <div style={{ display: "flex", fontSize: 22, color: muted }}>
-            12 eixos calibrados para o Brasil · protótipo sem validação estatística · não é recomendação de voto
+        <div style={{ display: "flex", flexDirection: "column", marginTop: 56, gap: 14 }}>
+          <Label size={24}>Corrente mais próxima</Label>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+            <div style={{ display: "flex", fontFamily: "Archivo", fontSize: 50, maxWidth: 760, lineHeight: 1.08 }}>{r.ideology.target.name}</div>
+            <div style={{ display: "flex", fontFamily: "Mono", fontSize: 44 }}>{`${r.ideology.similarity}%`}</div>
           </div>
+        </div>
+
+        <div style={{ display: "flex", flexDirection: "column", marginTop: 40, gap: 14 }}>
+          <Label size={24}>Mais parecido com</Label>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 14 }}>
+            {r.figures.map((f) => (
+              <div key={f.target.id} style={{ display: "flex", gap: 12, alignItems: "center", background: C.card, border: `2px solid ${C.line}`, borderRadius: 999, padding: "12px 24px", fontSize: 32 }}>
+                <span style={{ fontWeight: 600 }}>{f.target.name}</span>
+                <span style={{ fontFamily: "Mono", color: C.muted, fontSize: 28 }}>{`${f.similarity}%`}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div style={{ display: "flex", flexDirection: "column", marginTop: "auto", gap: 10 }}>
+          <div style={{ display: "flex", fontFamily: "Archivo", fontSize: 40 }}>perfil.arvex.dev</div>
+          <div style={{ display: "flex", fontSize: 24, color: C.muted }}>Faça o seu · 12 eixos feitos para o Brasil · não é recomendação de voto</div>
         </div>
       </div>
     ),
-    {
-      width: 1080,
-      height: 1920,
-      headers: { "Cache-Control": "public, max-age=31536000, immutable" },
-    },
+    { width: 1080, height: 1920, fonts: await fonts(), headers: { "Cache-Control": "public, max-age=31536000, immutable" } },
   );
 }

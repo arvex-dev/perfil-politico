@@ -1,40 +1,43 @@
 import type { Metadata, Viewport } from "next";
-import { Geist } from "next/font/google";
+import { Archivo, Inter, JetBrains_Mono } from "next/font/google";
 import { footerHtml } from "@arvex-dev/brand";
 import Link from "next/link";
+import { Logo } from "@/components/Logo";
 import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
+const archivo = Archivo({ variable: "--font-archivo", subsets: ["latin"], axes: ["wdth"] });
+const jetbrains = JetBrains_Mono({ variable: "--font-jetbrains", subsets: ["latin"], weight: ["500"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: { default: "Perfil Político", template: "%s · Perfil Político" },
   description:
-    "Teste político em 12 eixos calibrado para o Brasil e a América do Sul: economia, costumes, segurança, ambiente, instituições e mais.",
+    "Teste político em 12 eixos feito para o Brasil: economia, costumes, segurança, ambiente, instituições e mais. Sem cadastro, nada é guardado.",
   openGraph: { locale: "pt_BR", siteName: "Perfil Político", type: "website" },
 };
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f7f7f5" },
-    { media: "(prefers-color-scheme: dark)", color: "#111318" },
+    { media: "(prefers-color-scheme: light)", color: "#f2efe8" },
+    { media: "(prefers-color-scheme: dark)", color: "#121316" },
   ],
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="pt-BR" className={`${geistSans.variable} h-full antialiased`}>
+    <html lang="pt-BR" className={`${inter.variable} ${archivo.variable} ${jetbrains.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col font-sans">
-        <header className="mx-auto w-full max-w-3xl px-4 pt-5 pb-2 flex items-center justify-between text-sm">
-          <Link href="/" className="font-semibold tracking-tight">
-            Perfil Político
+        <header className="mx-auto w-full max-w-2xl px-4 pt-5 pb-3 flex items-center justify-between">
+          <Link href="/" aria-label="Perfil Político, início" className="rounded-md">
+            <Logo />
           </Link>
-          <Link href="/sobre" className="text-muted hover:text-foreground">
-            Metodologia
+          <Link href="/sobre" className="text-sm text-muted hover:text-ink rounded-md px-2 py-2">
+            Como funciona
           </Link>
         </header>
-        <main className="mx-auto w-full max-w-3xl flex-1 px-4 pb-12">{children}</main>
+        <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-14">{children}</main>
         <div className="hidden dark:block" dangerouslySetInnerHTML={{ __html: footerHtml({ tone: "dark", source: "perfil-politico" }) }} />
         <div className="dark:hidden" dangerouslySetInnerHTML={{ __html: footerHtml({ source: "perfil-politico" }) }} />
       </body>

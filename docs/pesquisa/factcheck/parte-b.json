@@ -1,0 +1,1209 @@
+{
+ "checked_at": "2026-10-25",
+ "items": [
+  {
+   "id": "lib1",
+   "verdict": "ok",
+   "problems": [
+    "Fatos corretos: RE 635659 (Tema 506), julgamento concluído em 26/06/2024 por 6x5; porte de até 40 g ou 6 plantas fêmeas presume uso, vira infração administrativa (não crime); produção e venda seguem ilícitas; embargos rejeitados em fev/2025.",
+    "Detalhe opcional: a presunção de 40 g é relativa."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "STF define 40 gramas de maconha como critério para diferenciar usuário de traficante",
+     "publisher": "STF (Notícias)",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-define-40-gramas-de-maconha-como-criterio-para-diferenciar-usuario-de-traficante/",
+     "date": "2024-06-26",
+     "kind": "primaria",
+     "supports": "RE 635659: 40 g/6 plantas presumem uso; porte vira infração administrativa; produção e venda seguem ilícitas",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "STF mantém tese da descriminalização da maconha para consumo próprio",
+     "publisher": "Conjur",
+     "url": "https://www.conjur.com.br/?p=836250",
+     "date": "2025-02",
+     "kind": "secundaria",
+     "supports": "Embargos rejeitados em 2025; tese mantida",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Datafolha: 67% dos brasileiros são contra descriminalização da maconha",
+     "publisher": "Exame / Datafolha",
+     "url": "https://exame.com/brasil/datafolha-67-dos-brasileiros-sao-contra-descriminalizacao-da-maconha/",
+     "date": "2024-03",
+     "kind": "academica",
+     "supports": "Pesquisa: 67% contra e 31% a favor da descriminalização do porte (mar/2024)",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Maioria diz ser contra uso recreativo de maconha, mas a favor do medicinal, segundo Datafolha",
+     "publisher": "Gazeta SP / Datafolha",
+     "url": "https://www.gazetasp.com.br/brasil/maioria-diz-ser-contra-uso-recreativo-de-maconha-mas-a-favor-do/",
+     "date": "2023-09",
+     "kind": "academica",
+     "supports": "72% contra legalização geral; 76% a favor do uso medicinal (set/2023)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Item polarizador, não consenso: Datafolha 2023 mostra 72% contra legalizar o uso geral (76% a favor do medicinal). Manter, mas saiba que a resposta majoritária é 'discordo'.",
+   "notes": "Texto 'legalizada' é mais amplo que a decisão do STF (descriminalização do porte); o contexto já distingue."
+  },
+  {
+   "id": "lib2",
+   "verdict": "corrigir",
+   "problems": [
+    "O texto fala em 'Autoridades' e 'conteúdos que consideram desinformação', mas o agree fala em 'Justiça ou órgão regulador': há descompasso de sujeito e a palavra 'consideram' carrega tom pejorativo.",
+    "O contexto justapõe a decisão do STF (junho/2025, 8x3) como se tratasse de desinformação; na verdade ela trata de conteúdo ilícito: art. 19 do Marco Civil foi declarado parcialmente inconstitucional e a remoção após notificação extrajudicial passa a valer para ilícitos em geral, com ordem judicial mantida para crimes contra a honra. 'Desinformação' em si não é categoria jurídica.",
+    "O PL 2630/2020 não avançou na Câmara (status 2025 não confirmado na busca)."
+   ],
+   "suggested": {
+    "text": "A Justiça deveria poder mandar remover das redes sociais conteúdos classificados como desinformação.",
+    "context": "Em 2025 o STF decidiu que as plataformas podem ser responsabilizadas por conteúdo ilegal sem ordem judicial prévia. Desinformação, em si, não é crime, e o debate é sobre quem decide o que sai do ar.",
+    "agree": "A Justiça ou um órgão regulador deve poder mandar remover desinformação das redes.",
+    "disagree": "Remover conteúdo por ser 'desinformação' ameaça a liberdade de expressão; só conteúdo ilegal deve sair."
+   },
+   "sources": [
+    {
+     "title": "STF artigo 19 Marco Civil da Internet: regulação das plataformas",
+     "publisher": "Grupo GEN (blog jurídico)",
+     "url": "https://blog.grupogen.com.br/juridico/areas-de-interesse/direito-digital/stf-artigo-19-marco-civil-internet-regulacao-plataformas/",
+     "date": "2025-06",
+     "kind": "secundaria",
+     "supports": "STF (26/06/2025, 8x3) declarou o art. 19 parcialmente inconstitucional; remoção após notificação para ilícitos em geral; ordem judicial mantida para crimes contra a honra",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Pesquisa Nexus: redes sociais (jan/2025)",
+     "publisher": "Nexus / Poder360 (PDF)",
+     "url": "https://static.poder360.com.br/2025/02/pesquisa-nexus-redes-jan2025.pdf",
+     "date": "2025-01",
+     "kind": "academica",
+     "supports": "60% apoiam regulação, caindo a 30% quando se cita risco à liberdade de expressão; 62% querem mais remoção",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Maioria dos brasileiros apoia regulação das redes sociais, diz pesquisa",
+     "publisher": "Olhar Digital",
+     "url": "https://olhardigital.com.br/2025/02/05/internet-e-redes-sociais/maioria-dos-brasileiros-apoia-regulacao-das-redes-sociais-diz-pesquisa/",
+     "date": "2025-02-05",
+     "kind": "secundaria",
+     "supports": "Resultados da pesquisa Nexus",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Pesquisa Nexus (jan/2025): 60% apoiam regular redes, mas o apoio cai a 30% quando se cita risco à liberdade de expressão: item sensível ao enquadramento; manter wording simétrico."
+  },
+  {
+   "id": "lib3",
+   "verdict": "ok",
+   "problems": [
+    "Sem fatos verificáveis no contexto (princípio filosófico). Agree e disagree equilibrados."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "Barómetro de las Américas 2023: Pulso de la democracia",
+     "publisher": "LAPOP / Vanderbilt",
+     "url": "https://www.vanderbilt.edu/lapop/ab2023/AB2023-Pulso-de-la-democracia-final-20240219.pdf",
+     "date": "2024-02",
+     "kind": "academica",
+     "supports": "Apoio à democracia e confiança institucional na região (números do Brasil a extrair)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Muito abstrata e próxima de consenso retórico ('desde que não prejudiquem outros'); a divergência real aparece em casos concretos (drogas, aborto, eutanásia). Considerar trocar por exemplo concreto.",
+   "notes": "Fonte primária/academica específica não encontrada em busca; o princípio do dano (Mill) é de referência clássica, sem URL aberta."
+  },
+  {
+   "id": "lib4",
+   "verdict": "ok",
+   "problems": [
+    "Sem fatos no contexto. Item vago ('crise', 'poderes especiais') e com duplo barril leve."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "Barómetro de las Américas 2023: Pulso de la democracia",
+     "publisher": "LAPOP / Vanderbilt",
+     "url": "https://www.vanderbilt.edu/lapop/ab2023/AB2023-Pulso-de-la-democracia-final-20240219.pdf",
+     "date": "2024-02",
+     "kind": "academica",
+     "supports": "Apoio à democracia e confiança institucional na região (números do Brasil a extrair)",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "LAPOP Brasil 2019 na Folha",
+     "publisher": "LAPOP / Vanderbilt",
+     "url": "https://www.vanderbilt.edu/lapop/news/040619.brazil-folha.pdf",
+     "date": "2019",
+     "kind": "academica",
+     "supports": "35% justificariam golpe militar com muita corrupção; 58% insatisfeitos com a democracia",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Ambígua: 'crise' mistura pandemia, guerra e violência. Sugestão: 'Em situações de emergência declarada, o governo deve poder limitar temporariamente algumas liberdades sem aval prévio do Congresso.'",
+   "notes": "Não há fonte direta sobre o item; LAPOP mede justificativa de golpe, não poderes de emergência. Fontes são contexto."
+  },
+  {
+   "id": "lib5",
+   "verdict": "ok",
+   "problems": [
+    "Afirmações do contexto plausíveis e apoiadas por estudos: expansão de 376 projetos de reconhecimento facial (CESeC, 2025) e vieses raciais documentados. Wording levemente desbalanceado: o disagree tem argumento ('riscos superam benefícios'), o agree não cita benefício."
+   ],
+   "suggested": {
+    "agree": "O reconhecimento facial nas ruas ajuda a prevenir e solucionar crimes e vale seus riscos.",
+    "disagree": "Os riscos à privacidade e de erros superam os benefícios."
+   },
+   "sources": [
+    {
+     "title": "Estudo aponta riscos de tecnologias de reconhecimento facial",
+     "publisher": "Forbes Brasil",
+     "url": "https://forbes.com.br/forbes-tech/2025/05/estudo-aponta-riscos-de-tecnologias-de-reconhecimento-facial/",
+     "date": "2025-05",
+     "kind": "secundaria",
+     "supports": "Riscos e expansão (CESeC: 376 projetos, 83 mi de pessoas vigiadas)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "notes": "Não achei pesquisa Datafolha/Quaest nacional com percentual de apoio; só uma GlobalData (n=644, 53% contra) de baixa qualidade, não incluída. Sugestão: buscar pesquisa específica (ex.: Locomotiva/Quaest sobre câmeras) antes de citar poll."
+  },
+  {
+   "id": "lib6",
+   "verdict": "corrigir",
+   "problems": [
+    "O contexto diz que o STF 'equiparou a homofobia ao racismo em 2019, mesmo sem incitação à violência'. Impreciso e tendencioso: na ADO 26/MI 4733 o STF (8x3) enquadrou provisoriamente condutas homotransfóbicas (discriminação, ofensa, incitação ao ódio) na Lei 7.716/1989, por omissão do Congresso, e ressalvou a liberdade religiosa para manifestações que não configurem discurso de ódio. Não foi uma punição de 'opiniões' em geral.",
+    "Também falta mencionar que a Lei 14.532/2023 passou a tratar injúria racial como racismo (pena de 2 a 5 anos)."
+   ],
+   "suggested": {
+    "context": "O Brasil já pune racismo e, desde 2023, a injúria racial. Em 2019 o STF enquadrou a homofobia e a transfobia na Lei do Racismo, enquanto o Congresso não legislar, preservando a liberdade religiosa."
+   },
+   "sources": [
+    {
+     "title": "ADO 26 e MI 4733 (STF, 2019) - resumo",
+     "publisher": "Cornell Law School (Gender Justice)",
+     "url": "https://www.law.cornell.edu/gender-justice/resource/A%C3%A7%C3%A3o_Direta_de_Inconstitucionalidade_por_Omiss%C3%A3o_n%C2%BA_26_e_Mandado_de_Injun%C3%A7%C3%A3o_n%C2%BA_4733_Supremo_Tribunal_Federal_2019",
+     "date": "2019",
+     "kind": "academica",
+     "supports": "STF enquadrou homotransfobia na Lei 7.716/1989 por omissão legislativa (8x3); liberdade religiosa preservada sem discurso de ódio",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "STF e a criminalização da homofobia",
+     "publisher": "Migalhas",
+     "url": "https://www.migalhas.com.br/depeso/319644/stf-e-a-criminalizacao-da-homofobia",
+     "date": "2019",
+     "kind": "secundaria",
+     "supports": "Descrição da decisão e das críticas",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Lula sanciona lei que equipara crime de injúria racial ao racismo",
+     "publisher": "Migalhas",
+     "url": "https://www.migalhas.com.br/quentes/379878/lula-sanciona-lei-que-equipara-crime-de-injuria-racial-ao-racismo",
+     "date": "2023-01-11",
+     "kind": "secundaria",
+     "supports": "Lei 14.532/2023: injúria racial passa à Lei 7.716, pena 2 a 5 anos",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Item longo e com duplo barril. Alternativa: 'Pessoas não deveriam ser punidas criminalmente por manifestar opiniões ofensivas, desde que não incitem violência.'"
+  },
+  {
+   "id": "amb1",
+   "verdict": "ok",
+   "problems": [
+    "Contexto verdadeiro: MapBiomas RAD 2024 atribui mais de 97% da perda de vegetação nativa (2019-2024) à agropecuária."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "Quase todos os biomas registraram redução do desmatamento em 2024",
+     "publisher": "InfoMoney (sobre RAD/MapBiomas)",
+     "url": "https://www.infomoney.com.br/?p=2868287",
+     "date": "2025-05",
+     "kind": "secundaria",
+     "supports": "RAD 2024: agropecuária responde por mais de 97% da perda de vegetação nativa 2019-2024; 43% da área desmatada em 2024 tinha alguma autorização",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Quase todos os biomas registraram redução do desmatamento em 2024",
+     "publisher": "Jornal do Brasil / Agência Brasil",
+     "url": "https://www.jb.com.br/brasil/meio-ambiente/2025/05/1055488-quase-todos-os-biomas-registraram-reducao-do-desmatamento-em-2024.html",
+     "date": "2025-05",
+     "kind": "secundaria",
+     "supports": "Mesmos dados do RAD 2024",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Duplo barril leve ('proteger antes de expandir'); a posição 'conciliar' fica no disagree. Boa para polarização."
+  },
+  {
+   "id": "amb2",
+   "verdict": "ok",
+   "problems": [
+    "Contexto correto e pode ser mais preciso: o RAD/MapBiomas 2024 aponta agropecuária como vetor de mais de 97% da perda de vegetação nativa em 2019-2024, e em 2024 43% da área desmatada tinha alguma autorização (66% no Cerrado). A frase 'o setor argumenta que a maioria cumpre a lei' é atribuída a ele, não verificada nas fontes abertas."
+   ],
+   "suggested": {
+    "context": "O MapBiomas atribui à agropecuária mais de 97% da perda de vegetação nativa entre 2019 e 2024. O setor diz que a maioria dos produtores cumpre a lei e que o desmatamento ilegal é concentrado."
+   },
+   "sources": [
+    {
+     "title": "Quase todos os biomas registraram redução do desmatamento em 2024",
+     "publisher": "InfoMoney (sobre RAD/MapBiomas)",
+     "url": "https://www.infomoney.com.br/?p=2868287",
+     "date": "2025-05",
+     "kind": "secundaria",
+     "supports": "RAD 2024: agropecuária responde por mais de 97% da perda de vegetação nativa 2019-2024; 43% da área desmatada em 2024 tinha alguma autorização",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Quase todos os biomas registraram redução do desmatamento em 2024",
+     "publisher": "Jornal do Brasil / Agência Brasil",
+     "url": "https://www.jb.com.br/brasil/meio-ambiente/2025/05/1055488-quase-todos-os-biomas-registraram-reducao-do-desmatamento-em-2024.html",
+     "date": "2025-05",
+     "kind": "secundaria",
+     "supports": "Mesmos dados do RAD 2024",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Texto carregado ('injustamente culpado'). Alternativa neutra: 'A responsabilidade do agronegócio pelos problemas ambientais do Brasil é exagerada.'"
+  },
+  {
+   "id": "amb3",
+   "verdict": "ok",
+   "problems": [
+    "Verificado: Ibama negou a licença do bloco FZA-M-59 em 17/05/2023; concedeu licença de operação para um poço exploratório em 20/10/2025 (sem autorizar produção). Desdobramento 2026 (fonte regional, conferir): Ibama autorizou mais poços.",
+    "Sugestão de precisão: dizer 'autorizou a perfuração de um poço exploratório'."
+   ],
+   "suggested": {
+    "context": "A Margem Equatorial é uma área de exploração de petróleo no litoral norte, perto da foz do Amazonas. O Ibama negou a licença em 2023 e autorizou a perfuração de um poço exploratório em outubro de 2025."
+   },
+   "sources": [
+    {
+     "title": "Petrobras obtains license for Brazilian Equatorial Margin well years after initial plan rejected",
+     "publisher": "Oil & Gas Journal",
+     "url": "https://www.ogj.com/exploration-development/area-drilling/news/55324386/petrobras-obtains-license-for-brazilian-equatorial-marin-well-years-after-initial-plan-rejected",
+     "date": "2025-10",
+     "kind": "secundaria",
+     "supports": "Ibama negou em maio/2023 e licenciou em out/2025 o bloco FZA-M-59",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Petrobras obtém licença exploratória para a Margem Equatorial",
+     "publisher": "O Povo",
+     "url": "https://www.opovo.com.br/noticias/economia/2025/10/20/amp/petrobras-obtem-licenca-exploratoria-em-aguas-profundas-do-amapa.html",
+     "date": "2025-10-20",
+     "kind": "secundaria",
+     "supports": "Licença de operação para um poço exploratório em 20/10/2025",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Ibama emite licença para Petrobras explorar Margem Equatorial",
+     "publisher": "Agência Infra",
+     "url": "https://agenciainfra.com/blog/ibama-emite-licenca-para-petrobras-explorar-margem-equatorial/",
+     "date": "2025-10-20",
+     "kind": "secundaria",
+     "supports": "Mesmo fato; licença não autoriza produção",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Ibama autoriza Petrobras a perfurar mais três poços na Margem Equatorial",
+     "publisher": "Diário do Nordeste",
+     "url": "https://diariodonordeste.verdesmares.com.br/negocios/ibama-autoriza-petrobras-a-perfurar-mais-tres-pocos-na-margem-equatorial-1.3789673",
+     "date": "2026",
+     "kind": "secundaria",
+     "supports": "Desdobramento posterior: mais três poços (conferir data)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ]
+  },
+  {
+   "id": "amb4",
+   "verdict": "ok",
+   "problems": [
+    "Sem afirmações factuais verificáveis além de órgãos fiscalizadores. Dado útil: em 2024, 43% da área desmatada tinha alguma autorização (MapBiomas), o que mostra que a questão de fiscalização é só parte do problema."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "Quase todos os biomas registraram redução do desmatamento em 2024",
+     "publisher": "InfoMoney (sobre RAD/MapBiomas)",
+     "url": "https://www.infomoney.com.br/?p=2868287",
+     "date": "2025-05",
+     "kind": "secundaria",
+     "supports": "RAD 2024: agropecuária responde por mais de 97% da perda de vegetação nativa 2019-2024; 43% da área desmatada em 2024 tinha alguma autorização",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Duplo barril ('mais rigorosas' e 'mesmo que encareça'). Mantém pergunta de trade-off; ok.",
+   "notes": "Fonte primária (Ibama/Código Florestal) não consultada: sem URL vista em busca."
+  },
+  {
+   "id": "amb5",
+   "verdict": "ok",
+   "problems": [
+    "'Entre os maiores consumidores' é defensável: em volume ou gasto o Brasil lidera, mas por hectare está abaixo de China e outros (Agência Pública). Lei 14.785/2023 confirmada (sancionada em dez/2023 com vetos; MAPA centraliza registro, Anvisa e Ibama seguem participando; prazos menores).",
+    "Desequilíbrio: o disagree inclui justificativa ('clima tropical exige'), o agree não."
+   ],
+   "suggested": {
+    "disagree": "As regras devem ficar como estão ou ser flexibilizadas."
+   },
+   "sources": [
+    {
+     "title": "Lula sanciona novo marco legal para uso de pesticidas",
+     "publisher": "Rádio Senado",
+     "url": "https://www12.senado.leg.br/radio/1/noticia/2023/12/28/lula-sanciona-novo-marco-legal-para-uso-de-pesticidas",
+     "date": "2023-12-28",
+     "kind": "secundaria",
+     "supports": "Lei 14.785/2023 sancionada com vetos; muda registro de agrotóxicos",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Nova lei dos agrotóxicos: o que muda com os vetos",
+     "publisher": "Folha Vitória",
+     "url": "https://www.folhavitoria.com.br/folha-business/nova-lei-dos-agrotoxicos-o-que-muda-com-os-vetos/",
+     "date": "2023-12",
+     "kind": "secundaria",
+     "supports": "MAPA passa a centralizar registro; Anvisa/Ibama seguem participando; prazos menores",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Afinal, o Brasil é o maior consumidor de agrotóxico do mundo?",
+     "publisher": "Agência Pública",
+     "url": "https://apublica.org/2019/06/afinal-o-brasil-e-o-maior-consumidor-de-agrotoxico-do-mundo/",
+     "date": "2019-06",
+     "kind": "secundaria",
+     "supports": "Depende da métrica: 1º em volume/gasto, mas bem abaixo por hectare",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ]
+  },
+  {
+   "id": "amb6",
+   "verdict": "corrigir",
+   "problems": [
+    "Contexto desatualizado: a Lei Geral do Licenciamento foi aprovada e virou Lei 15.190/2025 (sanção em ago/2025 com vetos, a conferir); em 27/11/2025 o Congresso derrubou 52 itens de veto, restabelecendo a LAC (licença por adesão e compromisso).",
+    "'Destravar obras' é termo favorável ao lado 'concordo'."
+   ],
+   "suggested": {
+    "text": "O licenciamento ambiental deveria ser mais simples e rápido, mesmo com menos exigências.",
+    "context": "Em 2025 o Congresso aprovou a Lei Geral do Licenciamento Ambiental (Lei 15.190), com derrubada de vetos em novembro. Críticos veem risco ambiental, e defensores veem mais agilidade."
+   },
+   "sources": [
+    {
+     "title": "Congresso derruba 52 itens de veto à Lei Geral do Licenciamento Ambiental",
+     "publisher": "Agência Senado",
+     "url": "https://www12.senado.leg.br/noticias/materias/2025/11/27/congresso-derruba-52-itens-de-veto-a-lei-geral-do-licenciamento-ambiental",
+     "date": "2025-11-27",
+     "kind": "secundaria",
+     "supports": "Lei 15.190/2025 aprovada; vetos derrubados em 27/11/2025 (LAC volta ao texto)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "notes": "Fonte primária (texto da Lei 15.190/2025 no Planalto) não aberta; buscar antes de publicar."
+  },
+  {
+   "id": "sob1",
+   "verdict": "corrigir",
+   "problems": [
+    "'Mais altas que a média das grandes economias' é vago e parcialmente impreciso: tarifa NMF média simples do Brasil ~12% (OMC), acima de EUA, UE e China, mas India é superior. Em 2025 os EUA elevaram suas tarifas fortemente, o que muda a comparação.",
+    "Verificar números exatos de cada economia no perfil OMC (TTD) antes de publicar."
+   ],
+   "suggested": {
+    "context": "A tarifa média de importação aplicada pelo Brasil é de cerca de 12%, acima da de EUA, União Europeia e China, segundo a OMC. Reduzi-la baratearia produtos importados, mas exporia a indústria local."
+   },
+   "sources": [
+    {
+     "title": "Brazil tariff profile",
+     "publisher": "OMC (WTO)",
+     "url": "https://www.wto.org/english/res_e/statis_e/daily_update_e/tariff_profiles/BR_e.pdf",
+     "date": "2025",
+     "kind": "primaria",
+     "supports": "Tarifa NMF média simples ~12%, ponderada ~9%",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "WTO Tariff & Trade Data - Brazil",
+     "publisher": "OMC (TTD)",
+     "url": "https://ttd.wto.org/en/profiles/brazil",
+     "date": "2025",
+     "kind": "primaria",
+     "supports": "Perfil tarifário do Brasil; permite comparar com EUA, UE, China",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "notes": "Fonte primária ok; comparação entre países não conferida diretamente."
+  },
+  {
+   "id": "sob2",
+   "verdict": "ok",
+   "problems": [
+    "Nova Indústria Brasil lançada em jan/2024 (memória, não confirmada por busca). Duplo barril leve (tarifas, crédito, conteúdo local)."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "Decreto 11.890/2024 (margem de preferência)",
+     "publisher": "Planalto",
+     "url": "https://planalto.gov.br/ccivil_03/_Ato2023-2026/2024/Decreto/D11890.htm",
+     "date": "2024-01-22",
+     "kind": "primaria",
+     "supports": "Regulamenta o art. 26 da Lei 14.133/2021: margem de até 10% (até 20% com inovação)",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Governo federal regulamenta margem de preferência em licitações",
+     "publisher": "CBIC",
+     "url": "https://cbic.org.br/governo-federal-regulamenta-margem-de-preferencia-em-licitacoes/",
+     "date": "2024-01",
+     "kind": "secundaria",
+     "supports": "Explicação do decreto",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Quase empatada com sob6 e sob1 (mesmo eixo protecionismo x abertura): considerar descartar uma das três.",
+   "notes": "Sem fonte direta de pesquisa; Nova Indústria Brasil sem URL aberta."
+  },
+  {
+   "id": "sob3",
+   "verdict": "ok",
+   "problems": [
+    "Lei 5.709/1971 correta (restringe compra de terras por estrangeiros e por empresas brasileiras com capital estrangeiro majoritário). PL 2963/2019 foi aprovado pelo Senado em dez/2020 e revoga a lei; segue na Câmara (status 2025 não confirmado)."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "Estrangeiros poderão comprar terras rurais brasileiras",
+     "publisher": "Rádio Senado",
+     "url": "https://www12.senado.leg.br/radio/1/noticia/2020/12/16/estrangeiros-poderao-comprar-terras-rurais-brasileiras",
+     "date": "2020-12-16",
+     "kind": "secundaria",
+     "supports": "PL 2963/2019 aprovado no Senado em 2020; revoga a Lei 5.709/1971; segue na Câmara",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "notes": "Texto da Lei 5.709/1971 no Planalto não aberto; adicionar antes de publicar."
+  },
+  {
+   "id": "sob4",
+   "verdict": "ok",
+   "problems": [
+    "O contexto está incompleto: o regime de partilha vale só para o pré-sal; minérios operam por autorização de pesquisa/concessão de lavra. Em maio/2026 a Câmara aprovou o PL 2.780/2024 (Política de Minerais Críticos), em tramitação no Senado."
+   ],
+   "suggested": {
+    "context": "Hoje empresas estrangeiras podem explorar petróleo (por concessão ou partilha) e minérios (por autorização e concessão de lavra). Há projetos em debate sobre minerais críticos e terras raras."
+   },
+   "sources": [
+    {
+     "title": "Relator propõe comitê para definir minerais estratégicos ao país",
+     "publisher": "Monitor Mercantil",
+     "url": "https://monitormercantil.com.br/relator-propoe-comite-para-definir-minerais-estrategicos-ao-pais/",
+     "date": "2026",
+     "kind": "secundaria",
+     "supports": "PL 2.780/2024 (política de minerais críticos) aprovado na Câmara em 6/05/2026, no Senado",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Boletim de Mineração - regulamentação de minerais críticos e estratégicos",
+     "publisher": "TozziniFreire",
+     "url": "https://tozzinifreire.com.br/site/conteudo/uploads/boletim-de-mineracaoregulamentacao-de-mineirais-criticos-e-estrategicos-no-brasil-6a1ef1d11b21e.pdf",
+     "date": "2026",
+     "kind": "secundaria",
+     "supports": "Estado da regulação de minerais críticos",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Triplo barril (petróleo, minérios, terras raras) e 'empresas nacionais' ambíguo (capital ou sede?). Sugestão: 'O Estado deveria manter controle nacional sobre a exploração de minerais estratégicos, como terras raras.'"
+  },
+  {
+   "id": "sob5",
+   "verdict": "corrigir",
+   "problems": [
+    "Contexto lista Bolívia como membro sem ressalva: o Brasil aprovou a adesão em nov/2023, mas a Bolívia tem prazo de 4 anos para adotar TEC e normas. A Venezuela está suspensa desde 2016/2017.",
+    "'Uruguai e Argentina já pediram mais liberdade' não conferido nas buscas: a posição da Argentina de Milei é correta na imprensa, mas não confirmei com fonte aberta."
+   ],
+   "suggested": {
+    "context": "O Mercosul (Brasil, Argentina, Paraguai, Uruguai e, em adesão gradual, Bolívia) negocia acordos comerciais em bloco, e a Venezuela está suspensa. Uruguai e Argentina pedem mais liberdade para negociar sozinhos."
+   },
+   "sources": [
+    {
+     "title": "Senado aprova a entrada da Bolívia no Mercosul",
+     "publisher": "SBT News",
+     "url": "https://sbtnews.sbt.com.br/noticia/congresso/267114-senado-aprova-a-entrada-da-bolivia-no-mercosul",
+     "date": "2023-11-28",
+     "kind": "secundaria",
+     "supports": "Brasil aprova adesão da Bolívia (PDL 380/2023)",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Relatório sobre adesão da Bolívia ao Mercosul",
+     "publisher": "Senado (PDF via Poder360)",
+     "url": "https://static.poder360.com.br/2023/11/relatorio-bolivia-mercosul-28.nov-2023.pdf",
+     "date": "2023-11-28",
+     "kind": "primaria",
+     "supports": "Prazo de 4 anos para adotar a TEC e demais normas",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Venezuela é suspensa do Mercosul",
+     "publisher": "Portal Amazônia",
+     "url": "https://portalamazonia.com/internacional/venezuela-e-suspensa-do-mercosul/",
+     "date": "2016",
+     "kind": "secundaria",
+     "supports": "Venezuela suspensa; não conta como membro ativo",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ]
+  },
+  {
+   "id": "sob6",
+   "verdict": "ok",
+   "problems": [
+    "Margem de preferência correta: art. 26 da Lei 14.133/2021, regulamentado pelo Decreto 11.890/2024: até 10% sobre produtos estrangeiros, até 20% com inovação nacional. O contexto 'um pouco mais' é aceitável."
+   ],
+   "suggested": {
+    "context": "A Lei de Licitações permite pagar até 10% a mais por produtos manufaturados nacionais (até 20% com inovação local)."
+   },
+   "sources": [
+    {
+     "title": "Decreto 11.890/2024 (margem de preferência)",
+     "publisher": "Planalto",
+     "url": "https://planalto.gov.br/ccivil_03/_Ato2023-2026/2024/Decreto/D11890.htm",
+     "date": "2024-01-22",
+     "kind": "primaria",
+     "supports": "Regulamenta o art. 26 da Lei 14.133/2021: margem de até 10% (até 20% com inovação)",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Governo federal regulamenta margem de preferência em licitações",
+     "publisher": "CBIC",
+     "url": "https://cbic.org.br/governo-federal-regulamenta-margem-de-preferencia-em-licitacoes/",
+     "date": "2024-01",
+     "kind": "secundaria",
+     "supports": "Explicação do decreto",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "notes": "Alterações do Decreto 12.218/2024; conferir texto consolidado."
+  },
+  {
+   "id": "geo1",
+   "verdict": "ok",
+   "problems": [
+    "Contexto neutro. Em 2025 o tarifaço de 50% dos EUA mudou a percepção: Datafolha (jul/2025) mostra 89% achando que prejudica o Brasil e os EUA liderando 'não pode confiar' (46%). Item pode ter ficado enviesado pelo contexto.",
+    "Em jan/2026 os EUA capturaram Maduro; Lula condenou."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "Datafolha: 89% acreditam que o tarifaço vai prejudicar a economia",
+     "publisher": "Diario de Pernambuco / Datafolha",
+     "url": "https://www.diariodepernambuco.com.br/datafolha-89-dos-brasileiros-acreditam-que-tarifaco-vai-prejudicar-a-economia-do-brasil.html",
+     "date": "2025-07",
+     "kind": "academica",
+     "supports": "Confiança em parceiros: China 23% 'muito', EUA 19%; EUA lideram 'não pode confiar' (46%)",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Brasileiros veem tarifaço como ato político (Ipsos-Ipec)",
+     "publisher": "Times Brasil",
+     "url": "https://timesbrasil.com.br/mundo/tarifas-trump/brasileiros-tarifaco-ato-politico-parcerias-ipec/",
+     "date": "2025-08",
+     "kind": "academica",
+     "supports": "75% veem tarifaço como ato político; 49% x 43% sobre retaliar",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Reunião de emergência no Itamaraty discute invasão da Venezuela",
+     "publisher": "O Povo",
+     "url": "https://www.opovo.com.br/noticias/mundo/2026/01/03/reuniao-de-emergencia-no-itamaraty-discute-invasao-da-venezuela.html",
+     "date": "2026-01-03",
+     "kind": "secundaria",
+     "supports": "Jan/2026: operação dos EUA captura Maduro; Lula condena uso da força",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Com o tarifaço e a operação na Venezuela, a pergunta tende a consenso discordante. Reformular: 'O Brasil deveria priorizar parceria com os EUA mesmo com divergências políticas.'"
+  },
+  {
+   "id": "geo2",
+   "verdict": "corrigir",
+   "problems": [
+    "Lista desatualizada: o BRICS tem membros plenos Brasil, Rússia, Índia, China, África do Sul, Egito, Etiópia, Irã, EAU e, desde jan/2025 (anúncio do Itamaraty em 06/01/2025), Indonésia. Arábia Saudita convidada mas sem confirmar. 'Desde 2024, outros países' incompleto.",
+    "Pergunta comparativa dupla (BRICS x EUA+Europa)."
+   ],
+   "suggested": {
+    "context": "O BRICS reúne Brasil, Rússia, Índia, China, África do Sul, Egito, Etiópia, Irã, Emirados Árabes e, desde 2025, a Indonésia.",
+    "text": "O BRICS deveria ter prioridade sobre os EUA e a Europa na política externa do Brasil."
+   },
+   "sources": [
+    {
+     "title": "Brasil anuncia Indonésia como novo membro pleno do BRICS",
+     "publisher": "Brasil de Fato",
+     "url": "https://www.brasildefato.com.br/2025/01/06/brasil-anuncia-indonesia-como-novo-membro-pleno-do-brics/",
+     "date": "2025-01-06",
+     "kind": "secundaria",
+     "supports": "Indonésia membro pleno desde jan/2025 (anúncio do Itamaraty)",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "BRICS expands in 2025 with nine new partner countries",
+     "publisher": "Techloy",
+     "url": "https://www.techloy.com/brics-expands-in-2025-with-nine-new-partner-countries/",
+     "date": "2025-01",
+     "kind": "secundaria",
+     "supports": "Membros plenos: 5 originais + Egito, Etiópia, Irã, EAU; parceiros desde 2025",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Datafolha: 89% acreditam que o tarifaço vai prejudicar a economia",
+     "publisher": "Diario de Pernambuco / Datafolha",
+     "url": "https://www.diariodepernambuco.com.br/datafolha-89-dos-brasileiros-acreditam-que-tarifaco-vai-prejudicar-a-economia-do-brasil.html",
+     "date": "2025-07",
+     "kind": "academica",
+     "supports": "Confiança em parceiros: China 23% 'muito', EUA 19%; EUA lideram 'não pode confiar' (46%)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ]
+  },
+  {
+   "id": "geo3",
+   "verdict": "ok",
+   "problems": [
+    "Texto do art. 4º, parágrafo único, da CF correto: 'buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações'."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "Art. 4º, parágrafo único, da CF e o Direito da Integração",
+     "publisher": "Revista de Informação Legislativa (Senado)",
+     "url": "https://www12.senado.leg.br/ril/edicoes/45/179/ril_v45_n179_p317.pdf",
+     "date": "2008",
+     "kind": "academica",
+     "supports": "Texto e alcance do parágrafo único do art. 4º",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Constituição Federal - art. 4º (texto)",
+     "publisher": "Senado Federal",
+     "url": "https://legis.senado.leg.br/sdleg-getter/documento?dm=1414441",
+     "date": "s.d.",
+     "kind": "primaria",
+     "supports": "Texto constitucional (resultado de busca, nao aberto)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Quase consenso retórico; enunciar 'integração política' (ex.: moeda comum, parlamento) em vez de 'prioridade' pode gerar mais variação.",
+   "notes": "Pesquisa Latinobarómetro sobre integração não localizada."
+  },
+  {
+   "id": "geo4",
+   "verdict": "corrigir",
+   "problems": [
+    "Contexto não reflete 2024-2026: o Brasil criticou as eleições de 2024 na Venezuela (cerco a oposição) e vetou a entrada da Venezuela no BRICS; em jan/2026 os EUA capturaram Maduro e Lula condenou o uso da força, defendendo a não intervenção.",
+    "Texto junta três países distintos (Venezuela, Cuba, Nicarágua) e 'afastar' é ambíguo."
+   ],
+   "suggested": {
+    "text": "O Brasil deveria reduzir a proximidade diplomática com governos autoritários da região, como Venezuela, Cuba e Nicarágua.",
+    "context": "Esses governos são criticados por violações de direitos humanos. O Brasil defende não intervenção e diálogo, e em 2026 condenou a captura de Maduro pelos EUA."
+   },
+   "sources": [
+    {
+     "title": "Reunião de emergência no Itamaraty discute invasão da Venezuela",
+     "publisher": "O Povo",
+     "url": "https://www.opovo.com.br/noticias/mundo/2026/01/03/reuniao-de-emergencia-no-itamaraty-discute-invasao-da-venezuela.html",
+     "date": "2026-01-03",
+     "kind": "secundaria",
+     "supports": "Jan/2026: operação dos EUA captura Maduro; Lula condena uso da força",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Reunião de emergência no Itamaraty após invasão da Venezuela",
+     "publisher": "Times Brasil",
+     "url": "https://timesbrasil.com.br/brasil/reuniao-emergencia-itamaraty-invasao-venezuela/",
+     "date": "2026-01",
+     "kind": "secundaria",
+     "supports": "Mesmo fato",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ]
+  },
+  {
+   "id": "geo5",
+   "verdict": "ok",
+   "problems": [
+    "China é o maior parceiro comercial do Brasil: a fonte aberta diz 'há mais de 15 anos' (ano 2009 não confirmado com texto aberto; é consenso histórico). Corrente de comércio de US$ 171 bi em 2025, mais que o dobro do comércio com os EUA (US$ 83 bi)."
+   ],
+   "suggested": {
+    "context": "A China é o maior parceiro comercial do Brasil desde 2009: em 2025 o comércio bilateral foi de US$ 171 bilhões. A China investe em energia, infraestrutura e indústria."
+   },
+   "sources": [
+    {
+     "title": "Comércio Brasil-China atinge recorde de US$ 171 bilhões em 2025",
+     "publisher": "CEBC (via Poder360, PDF)",
+     "url": "https://static.poder360.com.br/2026/01/Comercio-Brasil-China-atinge-recorde-de-US-171-bilhoes-em-2025-CEBC-Alerta.pdf",
+     "date": "2026-01",
+     "kind": "secundaria",
+     "supports": "Corrente de comércio US$ 171 bi em 2025; EUA US$ 83 bi",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "O que o Brasil mais compra e vende para a China",
+     "publisher": "Estado de Minas",
+     "url": "https://www.em.com.br/economia/2026/06/7437937-o-que-o-brasil-mais-compra-e-vende-para-a-china-comercio-bateu-recorde-de-uss-171-bi-em-2025.html",
+     "date": "2026-06",
+     "kind": "secundaria",
+     "supports": "China é principal parceiro há mais de 15 anos",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Datafolha: 89% acreditam que o tarifaço vai prejudicar a economia",
+     "publisher": "Diario de Pernambuco / Datafolha",
+     "url": "https://www.diariodepernambuco.com.br/datafolha-89-dos-brasileiros-acreditam-que-tarifaco-vai-prejudicar-a-economia-do-brasil.html",
+     "date": "2025-07",
+     "kind": "academica",
+     "supports": "Confiança em parceiros: China 23% 'muito', EUA 19%; EUA lideram 'não pode confiar' (46%)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "'Ameaça à soberania' é carregado; vale contraste simétrico: 'A presença da China ... aumenta a dependência do Brasil'."
+  },
+  {
+   "id": "geo6",
+   "verdict": "ok",
+   "problems": [
+    "Afirmação de que a maior parte do comércio é em dólar é correta (consenso). Debate BRICS existe. Sem fonte aberta específica."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "BRICS expands in 2025 with nine new partner countries",
+     "publisher": "Techloy",
+     "url": "https://www.techloy.com/brics-expands-in-2025-with-nine-new-partner-countries/",
+     "date": "2025-01",
+     "kind": "secundaria",
+     "supports": "Membros plenos: 5 originais + Egito, Etiópia, Irã, EAU; parceiros desde 2025",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Datafolha: 89% acreditam que o tarifaço vai prejudicar a economia",
+     "publisher": "Diario de Pernambuco / Datafolha",
+     "url": "https://www.diariodepernambuco.com.br/datafolha-89-dos-brasileiros-acreditam-que-tarifaco-vai-prejudicar-a-economia-do-brasil.html",
+     "date": "2025-07",
+     "kind": "academica",
+     "supports": "Confiança em parceiros: China 23% 'muito', EUA 19%; EUA lideram 'não pode confiar' (46%)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "notes": "Sem fonte primária (BC, Banco Mundial/SWIFT). Dica: o acordo Brasil-China de comércio em moedas locais e o PIX/Mercosul (SML) são exemplos concretos."
+  },
+  {
+   "id": "ins1",
+   "verdict": "ok",
+   "problems": [
+    "Sem fatos no contexto. Duplo barril ('corrompido' + 'radical')."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "Barómetro de las Américas 2023: Pulso de la democracia",
+     "publisher": "LAPOP / Vanderbilt",
+     "url": "https://www.vanderbilt.edu/lapop/ab2023/AB2023-Pulso-de-la-democracia-final-20240219.pdf",
+     "date": "2024-02",
+     "kind": "academica",
+     "supports": "Apoio à democracia e confiança institucional na região (números do Brasil a extrair)",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "LAPOP Brasil 2019 na Folha",
+     "publisher": "LAPOP / Vanderbilt",
+     "url": "https://www.vanderbilt.edu/lapop/news/040619.brazil-folha.pdf",
+     "date": "2019",
+     "kind": "academica",
+     "supports": "35% justificariam golpe militar com muita corrupção; 58% insatisfeitos com a democracia",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Carregada: 'tão corrompido' e 'mudança radical' juntas fazem o agree ser raro. Separar: 'O sistema político brasileiro precisa de mudanças profundas, não apenas ajustes.'"
+  },
+  {
+   "id": "ins2",
+   "verdict": "corrigir",
+   "problems": [
+    "Agree/disagree são reformulações do enunciado ('Você confia...'); o texto é afirmação, o agree está em segunda pessoa.",
+    "'Nenhuma fraude foi comprovada' é verdade amplamente, mas é afirmação forte em 2026 (apurações do TSE e PF não encontraram fraude); deve citar a fonte (TSE) ou suavizar.",
+    "Dados de confiança: Datafolha 82% (mar/2022), 73% (mai/2022), 79% (jul/2022); sem série 2024-2026 achada."
+   ],
+   "suggested": {
+    "agree": "As urnas eletrônicas são confiáveis.",
+    "disagree": "As urnas eletrônicas não são confiáveis."
+   },
+   "sources": [
+    {
+     "title": "Pesquisa mostra 82% da população confiam nas urnas",
+     "publisher": "TSE",
+     "url": "https://www.tse.jus.br/comunicacao/noticias/2022/Marco/pesquisa-mostra-82-da-populacao-confiam-nas-urnas-eletronicas",
+     "date": "2022-03",
+     "kind": "primaria",
+     "supports": "Datafolha mar/2022: 82% confiam",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Datafolha: 79% acreditam no sistema, confiança nas urnas cresce",
+     "publisher": "Correio Braziliense",
+     "url": "https://www.correiobraziliense.com.br/politica/2022/07/amp/5025740-datafolha-com-79-acreditando-no-sistema-confianca-nas-urnas-cresce.html",
+     "date": "2022-07",
+     "kind": "academica",
+     "supports": "79% confiam em jul/2022 (dado mais recente achado; sem série 2024-26)",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Barómetro de las Américas 2023: Pulso de la democracia",
+     "publisher": "LAPOP / Vanderbilt",
+     "url": "https://www.vanderbilt.edu/lapop/ab2023/AB2023-Pulso-de-la-democracia-final-20240219.pdf",
+     "date": "2024-02",
+     "kind": "academica",
+     "supports": "Apoio à democracia e confiança institucional na região (números do Brasil a extrair)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Item é altamente correlacionado com viés ideológico (bolsonarismo) e funciona mais como medida de identidade partidária do que de visão institucional. Manter, mas pesar baixo."
+  },
+  {
+   "id": "ins3",
+   "verdict": "ok",
+   "problems": [
+    "Sem fatos no contexto. Datafolha mar/2026: desconfiança na imprensa 36% (28% em dez/2024), confiança plena 15%."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "Descrédito de instituições cresce, e 52% desconfiam de partidos, mostra Datafolha",
+     "publisher": "Acessa.com / Datafolha",
+     "url": "https://www.acessa.com/politica/2026/03/amp/314801-descredito-de-instituicoes-cresce-e-52-desconfiam-de-partidos-politicos-mostra-datafolha.html",
+     "date": "2026-03",
+     "kind": "academica",
+     "supports": "Desconfiança da imprensa 36% (mar/2026); desconfiança no STF 43% (recorde)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Duplo barril: 'distorcer' + 'interesse próprio'. Alternativa: 'A grande imprensa costuma noticiar de forma enviesada.'"
+  },
+  {
+   "id": "ins4",
+   "verdict": "ok",
+   "problems": [
+    "Contexto correto (separação de Poderes, art. 2º CF). Em set/2025 o STF condenou Bolsonaro a 27 anos e 3 meses por tentativa de golpe; tema relevante."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "STF condena Bolsonaro a 27 anos e 3 meses por tentativa de golpe",
+     "publisher": "Poder360",
+     "url": "https://poder360.com.br/poder-justica/stf-condena-bolsonaro-27-anos-e-3-meses-por-tentativa-de-golpe/",
+     "date": "2025-09-11",
+     "kind": "secundaria",
+     "supports": "Julgamento da trama golpista (contexto de ins4/ins5)",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "LAPOP Brasil 2019 na Folha",
+     "publisher": "LAPOP / Vanderbilt",
+     "url": "https://www.vanderbilt.edu/lapop/news/040619.brazil-folha.pdf",
+     "date": "2019",
+     "kind": "academica",
+     "supports": "35% justificariam golpe militar com muita corrupção; 58% insatisfeitos com a democracia",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Quase consenso na teoria, mas polarizada na prática (cumprimento de decisões do STF). Dificuldade: item de baixa variância."
+  },
+  {
+   "id": "ins5",
+   "verdict": "ok",
+   "problems": [
+    "Contexto correto: STF julgou drogas (RE 635659, 2024), marco temporal (2023, 2025), Marco Civil (2025) e inquéritos sobre ataques às instituições. Datafolha mar/2026: 43% não confiam no STF (recorde da série)."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "Descrédito de instituições cresce, e 52% desconfiam de partidos, mostra Datafolha",
+     "publisher": "Acessa.com / Datafolha",
+     "url": "https://www.acessa.com/politica/2026/03/amp/314801-descredito-de-instituicoes-cresce-e-52-desconfiam-de-partidos-politicos-mostra-datafolha.html",
+     "date": "2026-03",
+     "kind": "academica",
+     "supports": "Desconfiança da imprensa 36% (mar/2026); desconfiança no STF 43% (recorde)",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Datafolha: desconfiança da população no STF atinge nível recorde",
+     "publisher": "Revista Oeste / Datafolha",
+     "url": "https://revistaoeste.com/politica/datafolha-desconfianca-da-populacao-no-stf-atinge-nivel-recorde/",
+     "date": "2026",
+     "kind": "academica",
+     "supports": "Confiança no STF em queda",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "STF condena Bolsonaro a 27 anos e 3 meses por tentativa de golpe",
+     "publisher": "Poder360",
+     "url": "https://poder360.com.br/poder-justica/stf-condena-bolsonaro-27-anos-e-3-meses-por-tentativa-de-golpe/",
+     "date": "2025-09-11",
+     "kind": "secundaria",
+     "supports": "Julgamento da trama golpista (contexto de ins4/ins5)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Item correlacionado com ideologia e lealdade partidária; fraseado ('interferido demais') é carregado, mas disagree equilibra."
+  },
+  {
+   "id": "ins6",
+   "verdict": "ok",
+   "problems": [
+    "LC 179/2021 verificada: mandatos de 4 anos, indicação presidencial e aprovação pelo Senado, mandato do presidente do BC começa em 1º de janeiro do 3º ano do presidente da República, autonomia técnica, operacional, administrativa e financeira, objetivo fundamental de estabilidade de preços.",
+    "Atenção: diretores não podem ser demitidos 'livremente' (podem ser exonerados em casos previstos, com aprovação do Senado). Contexto simplificado, mas aceitável. Duplo barril: 'Banco Central' e 'órgãos técnicos' em geral; o texto afirma que protegem de 'populismo' (carregado)."
+   ],
+   "suggested": {
+    "text": "Órgãos técnicos independentes, como o Banco Central, devem ter autonomia em relação ao governo eleito.",
+    "context": "Desde 2021 o Banco Central tem autonomia: diretores têm mandato de 4 anos e só podem ser exonerados em casos previstos em lei. Ele define a Selic para buscar a meta de inflação."
+   },
+   "sources": [
+    {
+     "title": "LC 179/2021 (texto original)",
+     "publisher": "Câmara dos Deputados (Legin)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2021/leicomplementar-179-24-fevereiro-2021-791083-publicacaooriginal-162335-pl.html",
+     "date": "2021-02-24",
+     "kind": "primaria",
+     "supports": "Mandatos de 4 anos, aprovação pelo Senado, autonomia técnica e operacional",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Lei da autonomia do Banco Central entra em vigor",
+     "publisher": "Agência Senado",
+     "url": "https://www12.senado.leg.br/noticias/materias/2021/02/25/lei-que-estabelece-autonomia-do-banco-central-e-sancionada",
+     "date": "2021-02-25",
+     "kind": "secundaria",
+     "supports": "Mandatos não coincidem com o do presidente da República",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ]
+  },
+  {
+   "id": "div1",
+   "verdict": "ok",
+   "problems": [
+    "Lei 12.711/2012 verificada e atualizada pela Lei 14.723/2023: reserva de 50% das vagas; quilombolas incluídos; renda familiar de até 1 salário mínimo per capita (era 1,5). O contexto está aceitável, mas dá para citar o corte de renda e a revisão decenal."
+   ],
+   "suggested": {
+    "context": "A Lei de Cotas (2012, atualizada em 2023) reserva metade das vagas das instituições federais a estudantes de escola pública, com subcotas para pretos, pardos, indígenas, quilombolas, pessoas com deficiência e baixa renda."
+   },
+   "sources": [
+    {
+     "title": "Lei 14.723/2023",
+     "publisher": "Planalto",
+     "url": "https://planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14723.htm",
+     "date": "2023-11-13",
+     "kind": "primaria",
+     "supports": "Altera a Lei 12.711/2012: 50% de reserva; renda até 1 SM per capita; inclui quilombolas",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Sancionada ampliação da Lei de Cotas",
+     "publisher": "Agência Senado",
+     "url": "https://www12.senado.leg.br/noticias/materias/2023/11/14/sancionada-ampliacao-da-lei-de-cotas",
+     "date": "2023-11-14",
+     "kind": "secundaria",
+     "supports": "Mudanças de 2023 na Lei de Cotas",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "83% são a favor de cotas em universidades, diz Datafolha",
+     "publisher": "Poder360 / Datafolha",
+     "url": "https://www.poder360.com.br/pesquisas/83-sao-a-favor-de-cotas-em-universidades-diz-datafolha/",
+     "date": "2024-04",
+     "kind": "academica",
+     "supports": "Mar/2024: 42% apoiam o formato atual, 41% preferem só escola pública, 15% contra sempre",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "50% são a favor de cotas raciais em faculdades, diz Datafolha",
+     "publisher": "Poder360 / Datafolha",
+     "url": "https://www.poder360.com.br/brasil/50-sao-a-favor-de-cotas-raciais-em-faculdades-diz-datafolha/",
+     "date": "2022-06",
+     "kind": "academica",
+     "supports": "50% a favor x 34% contra de cotas raciais (jun/2022)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Pesquisa Datafolha mar/2024: 42% apoiam o formato atual, 41% preferem só escola pública, 15% contra sempre. O item 'justas' é bom, mas 'raciais' deve ser contrastado com 'sociais'. O disagree restringe a 'só critérios sociais ou desempenho', o que mistura posições."
+  },
+  {
+   "id": "div2",
+   "verdict": "ok",
+   "problems": [
+    "Sem fatos verificáveis. Duplo barril: raça e gênero são tratados juntos, mas é a mesma lógica (universalismo)."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "83% são a favor de cotas em universidades, diz Datafolha",
+     "publisher": "Poder360 / Datafolha",
+     "url": "https://www.poder360.com.br/pesquisas/83-sao-a-favor-de-cotas-em-universidades-diz-datafolha/",
+     "date": "2024-04",
+     "kind": "academica",
+     "supports": "Mar/2024: 42% apoiam o formato atual, 41% preferem só escola pública, 15% contra sempre",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Maioria dos brasileiros vê o país como racista, diz Datafolha",
+     "publisher": "Poder360 / Datafolha",
+     "url": "https://www.poder360.com.br/poder-pesquisas/maioria-dos-brasileiros-ve-o-pais-como-racista-diz-datafolha/",
+     "date": "2024-11",
+     "kind": "academica",
+     "supports": "Nov/2024: cerca de 60% dizem que a maioria discrimina por cor; 45% veem aumento",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Duplo barril. Sugestão: dividir ou usar 'Políticas públicas deveriam tratar todos igualmente, sem levar em conta a raça das pessoas.'",
+   "notes": "Pesquisa Datafolha 2024: 42% do formato atual vs 41% escola pública; mostra divisão."
+  },
+  {
+   "id": "div3",
+   "verdict": "ok",
+   "problems": [
+    "Definição de racismo estrutural neutra. Datafolha nov/2024: cerca de 60% dizem que a maioria discrimina por cor; 45% veem aumento. Poder360: 76% veem racismo, 28% admitem preconceito. Nenhuma pesquisa achada mede 'estrutural' diretamente."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "Maioria dos brasileiros vê o país como racista, diz Datafolha",
+     "publisher": "Poder360 / Datafolha",
+     "url": "https://www.poder360.com.br/poder-pesquisas/maioria-dos-brasileiros-ve-o-pais-como-racista-diz-datafolha/",
+     "date": "2024-11",
+     "kind": "academica",
+     "supports": "Nov/2024: cerca de 60% dizem que a maioria discrimina por cor; 45% veem aumento",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "76% veem racismo no Brasil, mas só 28% admitem preconceito",
+     "publisher": "Poder360 (PoderData)",
+     "url": "https://www.poder360.com.br/datapoder360/76-veem-racismo-no-brasil-mas-so-28-admitem-preconceito-contra-negros/",
+     "date": "2024",
+     "kind": "academica",
+     "supports": "Percepção do racismo x autodeclaração de preconceito",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Quase consenso na versão 'o Brasil é racista' (~75% concordam); a versão 'estrutural' é mais acadêmica e a parte 'instituições' é a discordante. O texto é longo (duplo barril: 'estrutural' e 'não só atitudes individuais')."
+  },
+  {
+   "id": "div4",
+   "verdict": "corrigir",
+   "problems": [
+    "Contexto desatualizado/incompleto: em 2023 o STF (Tema 1.031) rejeitou o marco temporal; o Congresso aprovou a Lei 14.701/2023 recriando-o (veto derrubado em dez/2023). Em dez/2025 o STF reafirmou, em julgamento virtual das ADIs 7582, 7583, 7586 e da ADC 87, que o marco temporal é inconstitucional; embargos julgados em 2026. Há PEC no Congresso para constitucionalizar o marco (status não confirmado).",
+    "O agree 'acelerar' é neutro, mas o disagree mistura 'não acelerar' e 'marco temporal' (duas posições)."
+   ],
+   "suggested": {
+    "context": "A Constituição prevê a demarcação de terras indígenas, mas os processos são lentos e geram conflitos. O STF rejeitou o marco temporal em 2023 e, em dezembro de 2025, reafirmou a inconstitucionalidade da lei do Congresso que o restabelecia.",
+    "disagree": "As demarcações não devem ser aceleradas, ou devem seguir limites como o marco temporal."
+   },
+   "sources": [
+    {
+     "title": "STF forma maioria para reiterar que marco temporal é inconstitucional",
+     "publisher": "Conjur",
+     "url": "https://www.conjur.com.br/2025-dez-17/stf-forma-maioria-para-reiterar-que-marco-temporal-e-inconstitucional//?print=1",
+     "date": "2025-12-17",
+     "kind": "secundaria",
+     "supports": "Dez/2025: STF julga a Lei 14.701/2023 e reafirma a inconstitucionalidade do marco temporal",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Entenda: STF inicia julgamento sobre a Lei do Marco Temporal",
+     "publisher": "STF (Notícias)",
+     "url": "https://noticias.stf.jus.br/postsnoticias/entenda-stf-inicia-nesta-quarta-10-julgamento-sobre-lei-do-marco-temporal-para-demarcacao-de-terras-indigenas/",
+     "date": "2025",
+     "kind": "primaria",
+     "supports": "ADIs 7582, 7583, 7586 e ADC 87 sobre a Lei 14.701/2023",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "Brasileiros são contra a redução de terras indígenas (Datafolha)",
+     "publisher": "Fundação Perseu Abramo",
+     "url": "https://fpabramo.org.br/brasileiros-sao-contra-a-reducao-de-terras-indigenas/",
+     "date": "2019-01",
+     "kind": "academica",
+     "supports": "60% discordam de reduzir terras indígenas; 37% concordam (dez/2018)",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ]
+  },
+  {
+   "id": "div5",
+   "verdict": "ok",
+   "problems": [
+    "Verificado: o STF vem derrubando leis estaduais e municipais que proíbem linguagem neutra, por violação da competência da União para legislar sobre diretrizes da educação (Dino/ADI 7644; Mendonça/ADPF 1.158, DJe 09/05/2025; Fux em Betim, 2026). Isso não é um julgamento do mérito da linguagem neutra.",
+    "Contexto aceitável; pode precisar que a decisão é sobre competência, não sobre a validade do uso."
+   ],
+   "suggested": {
+    "context": "Linguagem neutra usa formas como 'todes' e 'elu' para não marcar gênero. O STF derrubou leis estaduais e municipais que a proibiam, por invadirem a competência da União, sem decidir sobre o mérito do uso."
+   },
+   "sources": [
+    {
+     "title": "STF derruba lei que proibia linguagem neutra em escolas",
+     "publisher": "Migalhas",
+     "url": "https://www.migalhas.com.br/quentes/455735/stf-derruba-lei-que-proibia-linguagem-neutra-em-escolas",
+     "date": "2026",
+     "kind": "secundaria",
+     "supports": "STF fixa que leis estaduais/municipais sobre o tema invadem competência da União (diretrizes da educação)",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "STF derruba lei de cidade mineira que proibia linguagem neutra",
+     "publisher": "Estado de Minas",
+     "url": "https://www.em.com.br/politica/2025/04/7126046-stf-derruba-lei-de-cidade-mineira-que-proibia-linguagem-neutra.html",
+     "date": "2025-04",
+     "kind": "secundaria",
+     "supports": "Precedente reiterado em 2025",
+     "status": "vista_em_busca_nao_aberta"
+    },
+    {
+     "title": "STF suspende lei do Amazonas que proíbe linguagem neutra",
+     "publisher": "Lex",
+     "url": "https://www.lex.com.br/stf-suspende-lei-do-amazonas-que-proibe-uso-de-linguagem-neutra-no-curriculo-escolar/",
+     "date": "2024",
+     "kind": "secundaria",
+     "supports": "ADI 7644; Dino: sem lei nacional, norma estadual/municipal seria inconstitucional",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ],
+   "weak_item": "Tema de baixa saliência nacional e mais cultural do que de política pública federal; carregado em 'todes'. Considerar substituir por um item de gênero mais saliente."
+  },
+  {
+   "id": "div6",
+   "verdict": "corrigir",
+   "problems": [
+    "Texto fala em 'cotas de gênero para candidaturas e conselhos de empresas', mas o contexto só trata das candidaturas: duplo barril e sem fato sobre conselhos (não há cota legal obrigatória nas empresas privadas; só a lei das estatais exige).",
+    "Precisão: Lei 9.504/1997, art. 10, §3º: mínimo de 30% e máximo de 70% das candidaturas por sexo (não 'pelo menos 30% de cada sexo'). O TSE tem a Súmula 73 sobre fraude (candidaturas laranjas)."
+   ],
+   "suggested": {
+    "text": "As cotas de gênero nas candidaturas eleitorais são desnecessárias.",
+    "context": "A lei eleitoral exige que cada partido preencha no mínimo 30% e no máximo 70% das candidaturas com cada sexo. O TSE pune fraudes, como candidaturas fictícias.",
+    "agree": "Essas cotas são desnecessárias.",
+    "disagree": "Essas cotas são necessárias para ampliar a participação feminina."
+   },
+   "sources": [
+    {
+     "title": "Cota de gênero e fraude em candidaturas (Biblioteca Digital do TSE)",
+     "publisher": "TSE",
+     "url": "https://bibliotecadigital.tse.jus.br/bitstreams/5342c747-b71e-4e57-8c4e-71669369468a/download",
+     "date": "s.d.",
+     "kind": "primaria",
+     "supports": "Art. 10, §3º, Lei 9.504/97: mínimo 30% e máximo 70% de cada sexo; fraude e Súmula 73 do TSE",
+     "status": "vista_em_busca_nao_aberta"
+    }
+   ]
+  }
+ ]
+}

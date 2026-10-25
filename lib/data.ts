@@ -28,6 +28,8 @@ export interface QuestionInfo extends Question {
   context: string;
   agree: string;
   disagree: string;
+  /** Fontes do contexto (fact-check), mostradas em "Entenda a pergunta". */
+  refs?: { publisher: string; title: string; url: string }[];
 }
 
 export const axes = axesJson.axes as (Axis & { why: string })[];

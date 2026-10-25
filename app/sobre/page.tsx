@@ -13,7 +13,7 @@ export default function Sobre() {
   return (
     <article className="pt-6 space-y-8 leading-relaxed">
       <header className="space-y-2">
-        <h1 className="text-3xl font-semibold tracking-tight">Metodologia</h1>
+        <h1 className="font-display text-3xl sm:text-4xl">Metodologia</h1>
         <p className="text-muted">
           Protótipo de teste político estilo 12axes/8values, recalibrado para o Brasil e a América do Sul. Versão 1 dos
           dados: {axes.length} eixos, {questions.length} afirmações, {ideologies.length} correntes, {figures.length}{" "}
@@ -22,7 +22,7 @@ export default function Sobre() {
       </header>
 
       <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Eixos</h2>
+        <h2 className="font-display text-xl">Eixos</h2>
         <ul className="space-y-3">
           {axes.map((ax) => (
             <li key={ax.id}>
@@ -36,7 +36,7 @@ export default function Sobre() {
       </section>
 
       <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Como a pontuação funciona</h2>
+        <h2 className="font-display text-xl">Como a pontuação funciona</h2>
         <ul className="list-disc pl-5 space-y-2">
           <li>
             Cada eixo tem 6 afirmações: 3 em que concordar puxa para um polo e 3 em que concordar puxa para o outro.
@@ -62,7 +62,29 @@ export default function Sobre() {
       </section>
 
       <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Privacidade</h2>
+        <h2 className="font-display text-xl">Alinhamento e mapa</h2>
+        <p>
+          O alinhamento (esquerda, centro-esquerda, centro, centro-direita, direita) usa só os eixos em que esquerda e
+          direita têm sentido consensual no Brasil: economia, distribuição e trabalho (eixo horizontal do mapa) e costumes,
+          religião, segurança e diversidade (eixo vertical). Liberdades, instituições, ambiente, modelo de
+          desenvolvimento e política externa ficam de fora porque dividem a esquerda e a direita por dentro. Quem é
+          liberal na economia e progressista nos costumes, ou o contrário, recebe um rótulo próprio. As figuras do mapa
+          são 4 de cada lado e 2 de centro.
+        </p>
+      </section>
+
+      <section className="space-y-3">
+        <h2 className="font-display text-xl">Checagem das perguntas</h2>
+        <p>
+          Cada afirmação e sua explicação passaram por checagem de fatos em outubro de 2026, com fontes primárias (leis,
+          tribunais, órgãos públicos) e jornalísticas. As fontes aparecem em &quot;Entenda a pergunta&quot;. Itens
+          desatualizados foram reescritos (por exemplo, a tributação de dividendos de 2026) e um item virou fato
+          consumado e foi trocado (escala 6x1). Viu um erro? Avise pelo arvex.dev.
+        </p>
+      </section>
+
+      <section className="space-y-3">
+        <h2 className="font-display text-xl">Privacidade</h2>
         <p>
           Opinião política é dado pessoal sensível (LGPD, art. 5º, II). Por isso não há servidor de dados: as respostas
           ficam no seu navegador, e o link de resultado guarda só os {axes.length} scores, sem as respostas. Não há
@@ -71,7 +93,7 @@ export default function Sobre() {
       </section>
 
       <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Limitações</h2>
+        <h2 className="font-display text-xl">Limitações</h2>
         <ul className="list-disc pl-5 space-y-2">
           <li>Ainda não passou por piloto, análise fatorial nem cálculo de consistência interna (alfa de Cronbach).</li>
           <li>
@@ -84,7 +106,7 @@ export default function Sobre() {
       </section>
 
       <section id="referencias" className="space-y-3">
-        <h2 className="text-xl font-semibold">Figuras de referência e base da estimativa</h2>
+        <h2 className="font-display text-xl">Figuras de referência e base da estimativa</h2>
         <ul className="text-sm space-y-1.5">
           {figures.map((f) => (
             <li key={f.id}>

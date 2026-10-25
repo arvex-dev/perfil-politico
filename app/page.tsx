@@ -3,62 +3,57 @@ import { axes, questions, questionsFor } from "@/lib/data";
 
 export default function Home() {
   return (
-    <div className="pt-8 space-y-10">
-      <section className="space-y-4">
-        <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">Onde você está no mapa político brasileiro?</h1>
-        <p className="text-lg text-muted">
-          Um teste em {axes.length} eixos pensado para o Brasil e a América do Sul: Petrobras, Bolsa Família, escala 6x1,
-          armas, Amazônia, STF, BRICS, cotas. No fim você vê sua posição em cada eixo, a corrente de pensamento mais
-          próxima e as figuras políticas e países mais parecidos com você.
+    <div className="pt-10 sm:pt-16 space-y-12">
+      <section className="space-y-6">
+        <h1 className="font-display text-[2.6rem] sm:text-6xl leading-[1.02]">
+          Onde você está na política brasileira?
+        </h1>
+        <p className="text-lg text-muted leading-relaxed max-w-xl">
+          {questions.length} afirmações sobre temas daqui: Petrobras, Bolsa Família, escala 6x1, armas, Amazônia, STF,
+          BRICS. No fim, seu alinhamento, sua posição em {axes.length} eixos e as figuras políticas mais parecidas com
+          você.
         </p>
-      </section>
-
-      <section className="grid gap-3 sm:grid-cols-2">
-        <Link
-          href="/teste"
-          className="rounded-xl border border-line bg-surface p-5 hover:border-accent transition-colors"
-        >
-          <div className="text-lg font-semibold">Teste completo</div>
-          <div className="text-muted">{questions.length} afirmações · cerca de 10 minutos</div>
-        </Link>
-        <Link
-          href="/teste/rapido"
-          className="rounded-xl border border-line bg-surface p-5 hover:border-accent transition-colors"
-        >
-          <div className="text-lg font-semibold">Modo rápido</div>
-          <div className="text-muted">{questionsFor("rapido").length} afirmações · cerca de 3 minutos, menos preciso</div>
-        </Link>
-      </section>
-
-      <section className="space-y-3">
-        <h2 className="text-lg font-semibold">Os {axes.length} eixos</h2>
-        <ul className="grid gap-2 sm:grid-cols-2 text-sm">
-          {axes.map((ax) => (
-            <li key={ax.id} className="rounded-lg bg-surface border border-line px-3 py-2">
-              <span className="font-medium">{ax.name}:</span>{" "}
-              <span className="text-muted">
-                {ax.poleA} ↔ {ax.poleB}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section className="text-sm text-muted space-y-2">
-        <p>
-          <strong className="text-foreground">Privacidade:</strong> suas respostas ficam só no seu navegador. Nada é
-          enviado a servidor nem guardado em banco de dados; o link de resultado contém apenas a posição em cada eixo,
-          nunca as respostas.
-        </p>
-        <p>
-          <strong className="text-foreground">Limites:</strong> é um protótipo sem validação estatística ainda. As
-          posições de figuras e países são estimativas a partir de fontes públicas. Não é recomendação de voto.{" "}
-          <Link href="/sobre" className="underline">
-            Veja a metodologia
+        <div className="flex flex-col sm:flex-row gap-3">
+          <Link
+            href="/teste"
+            className="inline-flex items-center justify-center rounded-full bg-ink text-paper px-7 h-14 text-lg font-semibold hover:opacity-90"
+          >
+            Começar o teste
           </Link>
-          .
+          <Link
+            href="/teste/rapido"
+            className="inline-flex items-center justify-center rounded-full border border-line px-7 h-14 text-lg font-medium hover:border-ink"
+          >
+            Versão rápida ({questionsFor("rapido").length})
+          </Link>
+        </div>
+        <p className="font-mono text-xs uppercase tracking-wider text-muted">
+          ~10 min · sem cadastro · nada fica guardado
         </p>
       </section>
+
+      <section className="grid gap-4 sm:grid-cols-3 text-[15px] leading-relaxed">
+        <div className="space-y-1">
+          <h2 className="font-semibold">Feito para o Brasil</h2>
+          <p className="text-muted">Temas e figuras daqui e da América do Sul, não um teste americano traduzido.</p>
+        </div>
+        <div className="space-y-1">
+          <h2 className="font-semibold">Equilibrado</h2>
+          <p className="text-muted">Cada eixo tem afirmações dos dois lados, e todas trazem contexto e fontes.</p>
+        </div>
+        <div className="space-y-1">
+          <h2 className="font-semibold">Privado</h2>
+          <p className="text-muted">Respostas ficam no seu aparelho; o link do resultado guarda só a posição.</p>
+        </div>
+      </section>
+
+      <p className="text-sm text-muted">
+        Protótipo em validação, não é recomendação de voto.{" "}
+        <Link href="/sobre" className="underline underline-offset-2">
+          Veja a metodologia
+        </Link>
+        .
+      </p>
     </div>
   );
 }

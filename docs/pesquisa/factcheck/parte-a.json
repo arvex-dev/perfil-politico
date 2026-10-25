@@ -1,0 +1,1156 @@
+{
+ "checked_at": "2026-10-25",
+ "notes": "Fontes marcadas '[nao_aberta]' sao referencias conhecidas mas nao consultadas (url vazia). Pesquisas web com resumo automatico; datas de materias de agregadores podem divergir. Verificar promulgacao da PEC 6x1 e andamento da ADPF 442/Tema 1291 nos portais oficiais.",
+ "items": [
+  {
+   "id": "eco1",
+   "verdict": "ok",
+   "problems": [
+    "Data do fim do PPI pode ser precisada: anunciado em maio de 2023 (Prates), substituido por estrategia comercial que considera custo marginal e polos de venda. Reajustes seguindo paridade internacional desde out/2016 (Parente)."
+   ],
+   "suggested": {
+    "context": "Entre 2016 e maio de 2023 a Petrobras reajustou combustiveis pela paridade com o preco internacional e o dolar. Desde entao adota uma estrategia comercial que considera tambem custos e mercado internos."
+   },
+   "sources": [
+    {
+     "title": "Senadores convidam Prates a explicar nova politica da Petrobras",
+     "publisher": "Poder360",
+     "url": "https://www.poder360.com.br/congresso/senadores-convidam-prates-a-explicar-nova-politica-da-petrobras/",
+     "date": "2023-05",
+     "kind": "secundaria",
+     "supports": "fim do PPI em maio de 2023"
+    },
+    {
+     "title": "Petrobras nao ficara alienada da realidade mundial, diz Prates",
+     "publisher": "Poder360",
+     "url": "https://www.poder360.com.br/energia/petrobras-nao-ficara-alienada-da-realidade-mundial-diz-prates/",
+     "date": "2023-05",
+     "kind": "secundaria",
+     "supports": "nova politica continua olhando referencias internacionais"
+    }
+   ],
+   "weak_item": "Item bom (divide esquerda/direita). Lembrar que o texto da afirmacao e o agree embutem 'mesmo que a Petrobras lucre menos', o que e coerente."
+  },
+  {
+   "id": "eco2",
+   "verdict": "ok",
+   "problems": [
+    "Fatos corretos (economia mista, Uniao com maioria das acoes ordinarias/votantes). Numeros exatos de participacao nao verificados nesta rodada."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] Petrobras - composicao acionaria (RI Petrobras / CVM)",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    },
+    {
+     "title": "[nao_aberta] ESEB / LAPOP: item de privatizacao",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Privatizar a Petrobras tem baixo apoio historico em pesquisas; item deve discriminar bem, mas nao achei pesquisa recente aberta (Datafolha/Quaest) - buscar antes de usar como argumento."
+  },
+  {
+   "id": "eco3",
+   "verdict": "corrigir",
+   "problems": [
+    "Item triplo (saneamento, energia, correios): quem pensa diferente sobre cada um nao consegue responder.",
+    "Eletrobras: nao foi 'privatizada' por venda, e sim capitalizada em 2022 com diluicao da Uniao (de ~72% para ~43% do capital segundo Folha; Brazil Journal cita ~37%), limite de 10% de voto e golden share. Em 2025 houve termo de conciliacao no STF.",
+    "Correios: seguem estatais e em crise (prejuizo de R$5,5 bi no 1o sem/2026; emprestimo de R$12 bi); Lula declarou que nao havera privatizacao."
+   ],
+   "suggested": {
+    "text": "A distribuicao de energia e o saneamento funcionam melhor nas maos de empresas privadas, sob regulacao.",
+    "context": "O Marco do Saneamento (Lei 14.026/2020) abriu espaco para concessoes privadas. A Eletrobras deixou o controle estatal em 2022 por aumento de capital, e a Uniao manteve poder de veto por uma acao especial.",
+    "agree": "Esses servicos tendem a ser mais eficientes com empresas privadas, sob regulacao.",
+    "disagree": "Esses servicos devem ficar com empresas publicas."
+   },
+   "sources": [
+    {
+     "title": "Brasil privatiza a Eletrobras",
+     "publisher": "Brazil Journal",
+     "url": "https://braziljournal.com/brazil-privatiza-a-eletrobras/",
+     "date": "2022",
+     "kind": "secundaria",
+     "supports": "capitalizacao, limite de voto de 10%, golden share"
+    },
+    {
+     "title": "Eletrobras - nota da AGU",
+     "publisher": "AGU (via Poder360)",
+     "url": "https://static.poder360.com.br/2023/05/Eletrobras-AGU-nota.pdf",
+     "date": "2023-05",
+     "kind": "primaria",
+     "supports": "limite de 10% de voto (Lei 14.182/2021) e ADI no STF"
+    },
+    {
+     "title": "Analise: debate sobre privatizar Correios e interditado",
+     "publisher": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/analise-debate-sobre-privatizar-correios-e-interditado/",
+     "date": "2026",
+     "kind": "secundaria",
+     "supports": "Correios seguem estatais, debate paralisado"
+    },
+    {
+     "title": "Desequilibrio nos Correios abre crise",
+     "publisher": "InfoMoney",
+     "url": "https://www.infomoney.com.br/?p=3069038",
+     "date": "2025",
+     "kind": "secundaria",
+     "supports": "crise financeira e emprestimo"
+    }
+   ],
+   "weak_item": "Se quiser manter Correios, fazer item separado ('Os Correios deveriam ser privatizados')."
+  },
+  {
+   "id": "eco4",
+   "verdict": "ok",
+   "problems": [
+    "Sem erros factuais; contexto apenas reformula a pergunta."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] LAPOP Brasil - itens ROS (papel do Estado)",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Redacao 'principal responsavel' e forte; pesquisas LAPOP mostram maioria favoravel a papel ativo do Estado, entao pouca discriminacao possivel. Nao abri a fonte LAPOP."
+  },
+  {
+   "id": "eco5",
+   "verdict": "ok",
+   "problems": [
+    "Fatos conferem pelo conhecimento previo (TLP criada pela Lei 13.483/2017, vigente desde jan/2018), mas nao abri a lei nesta rodada."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] Lei 13.483/2017 (TLP) - planalto.gov.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    },
+    {
+     "title": "[nao_aberta] BNDES - Taxa de Longo Prazo",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Tema tecnico; possivel baixo reconhecimento do BNDES pelo publico. Considerar reformular em termos de 'credito subsidiado a setores estrategicos' sem citar BNDES."
+  },
+  {
+   "id": "eco6",
+   "verdict": "ok",
+   "problems": [
+    "Sem erro factual. Atualizar contexto: teto de gastos (EC 95/2016) foi substituido pelo arcabouco fiscal (LC 200/2023)."
+   ],
+   "suggested": {
+    "context": "Quando o governo gasta mais do que arrecada, a divida publica cresce. Desde 2023 o arcabouco fiscal (LC 200/2023) limita o crescimento da despesa e fixa metas de resultado."
+   },
+   "sources": [
+    {
+     "title": "[nao_aberta] Lei Complementar 200/2023 (arcabouco fiscal) - planalto.gov.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    },
+    {
+     "title": "[nao_aberta] Tesouro Nacional - Regra fiscal",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Maioria tende a concordar com 'equilibrar contas' em abstrato; a clausula 'mesmo que reduza programas' ajuda. Ok."
+  },
+  {
+   "id": "dis1",
+   "verdict": "corrigir",
+   "problems": [
+    "Contexto desatualizado: a Lei 15.270/2025 (sancionada em 26/11/2025) isenta quem ganha ate R$5 mil/mes desde jan/2026, com reducao ate R$7.350, e cria imposto minimo (ate 10%) para rendimentos anuais acima de R$600 mil. A tabela progressiva mantem teto de 27,5%, mas ja nao vale 'igualmente' para altas rendas.",
+    "Texto 'do que paga hoje' ainda funciona, mas deve ficar claro o ponto de partida."
+   ],
+   "suggested": {
+    "context": "Desde 2026 quem ganha ate R$ 5 mil por mes esta isento de IR, e quem recebe mais de R$ 600 mil por ano paga um imposto minimo de ate 10%. A aliquota maxima da tabela segue em 27,5%.",
+    "agree": "Devem existir aliquotas maiores para as rendas mais altas.",
+    "disagree": "A tributacao de quem ganha mais deve ficar como esta ou diminuir."
+   },
+   "sources": [
+    {
+     "title": "Lei 15.270/2025 (texto)",
+     "publisher": "Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm",
+     "date": "2025-11-26",
+     "kind": "primaria",
+     "supports": "isencao ate R$5 mil, reducao ate R$7.350, IRPFM acima de R$600 mil/ano, retencao de 10% sobre dividendos"
+    },
+    {
+     "title": "Receita orienta calculo da reducao do IR a partir de 1/1/2026",
+     "publisher": "Receita Federal",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-orienta-fontes-pagadoras-e-contribuintes-a-calcular-a-reducao-do-imposto-de-renda-a-partir-de-1o-de-janeiro-de-2026",
+     "date": "2025-12",
+     "kind": "primaria",
+     "supports": "vigencia da nova tabela do IR em 2026"
+    },
+    {
+     "title": "Tributacao de dividendos e reducao da desigualdade",
+     "publisher": "Consultor Juridico",
+     "url": "https://www.conjur.com.br/2025-dez-02/tributacao-de-dividendos-e-reducao-da-desigualdade//?print=1",
+     "date": "2025-12-02",
+     "kind": "secundaria",
+     "supports": "dividendos passam a ser tributados em 2026"
+    }
+   ],
+   "weak_item": "Apos a reforma, item pode ter menos contraste; considerar 'Quem ganha muito mais deveria pagar uma aliquota media bem maior do que paga hoje'."
+  },
+  {
+   "id": "dis2",
+   "verdict": "corrigir",
+   "problems": [
+    "Erro de redacao no agree: 'O beneficio faz parte das pessoas deixar de procurar trabalho' (falta 'com que ... deixem').",
+    "Regra de protecao: paga 50% do beneficio por ate 2 anos a quem passa de meio salario minimo per capita; foi alterada em 2025 (Portaria MDS 1.084), valores/prazos variam por faixa - dizer 'uma parte do beneficio' e nao detalhar.",
+    "Texto afirma um efeito causal controvertido; ok como item de opiniao, mas disagree tambem e causal."
+   ],
+   "suggested": {
+    "agree": "O beneficio faz com que parte das pessoas deixe de procurar trabalho.",
+    "disagree": "O beneficio nao reduz a procura por trabalho de forma relevante.",
+    "context": "O Bolsa Familia transfere renda a familias pobres, com condicoes como frequencia escolar e vacinacao. Quem consegue emprego pode manter parte do beneficio por um periodo, pela regra de protecao."
+   },
+   "sources": [
+    {
+     "title": "O que significa a regra de protecao do Bolsa Familia",
+     "publisher": "Exame",
+     "url": "https://exame.com/brasil/guia-do-cidadao/o-que-significa-a-regra-de-protecao-do-bolsa-familia",
+     "date": "2025",
+     "kind": "secundaria",
+     "supports": "regra de protecao: metade do beneficio por ate 2 anos"
+    },
+    {
+     "title": "Em 2024, 75% dos empregos com carteira criados foram ocupados por beneficiarios do Bolsa Familia",
+     "publisher": "Folha de Pernambuco",
+     "url": "https://www.folhape.com.br/economia/em-2024-75-dos-empregos-com-carteira-criados-foram-ocupados-por/394932/",
+     "date": "2025",
+     "kind": "secundaria",
+     "supports": "beneficiarios entram no mercado formal"
+    },
+    {
+     "title": "[nao_aberta] MDS - Regra de Protecao (gov.br)",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    },
+    {
+     "title": "[nao_aberta] LAPOP - transferencias condicionadas",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ]
+  },
+  {
+   "id": "dis3",
+   "verdict": "corrigir",
+   "problems": [
+    "Item duplo (grandes fortunas E herancas).",
+    "ITCMD: o teto de 8% vem da Resolucao do Senado 9/1992 (continua em vigor), mas a EC 132/2023 tornou a progressividade do ITCMD obrigatoria (art. 155, par.1o, VI); antes era facultativa (STF, RE 562.045). Contexto omite isso.",
+    "IGF (art. 153, VII) segue sem lei complementar - consistente com o contexto, nao reverificado em fonte primaria."
+   ],
+   "suggested": {
+    "text": "Heranca e doacoes de valores muito altos deveriam pagar uma aliquota maior de imposto.",
+    "context": "A Constituicao preve o imposto sobre grandes fortunas, nunca regulamentado. O imposto sobre heranca (ITCMD) e estadual, tem teto de 8% e, desde a EC 132/2023, deve ser progressivo.",
+    "agree": "Heranca e doacoes muito grandes devem pagar mais imposto.",
+    "disagree": "A tributacao de herancas deve ficar como esta ou diminuir."
+   },
+   "sources": [
+    {
+     "title": "Impactos da reforma tributaria no ITCMD e planejamento sucessorio",
+     "publisher": "Migalhas",
+     "url": "https://www.migalhas.com.br/depeso/416786/impactos-da-reforma-tributaria-no-itcmd-e-planejamento-sucessorio",
+     "date": "2024",
+     "kind": "secundaria",
+     "supports": "EC 132 torna ITCMD progressivo; teto 8% da Res. SF 9/1992"
+    },
+    {
+     "title": "A tributacao da heranca na reforma tributaria",
+     "publisher": "Consultor Juridico",
+     "url": "https://www.conjur.com.br/2024-jul-04/a-tributacao-da-heranca-na-reforma-tributaria//?print=1",
+     "date": "2024-07-04",
+     "kind": "secundaria",
+     "supports": "progressividade obrigatoria do ITCMD"
+    },
+    {
+     "title": "[nao_aberta] Resolucao do Senado 9/1992 - senado.leg.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Se quiser manter 'grandes fortunas', fazer item proprio."
+  },
+  {
+   "id": "dis4",
+   "verdict": "ok",
+   "problems": [
+    "Sem erro factual. Item classico (Latinobarometro/WVS); agree e disagree equilibrados."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] Latinobarometro - causas da pobreza/desigualdade",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    },
+    {
+     "title": "[nao_aberta] World Values Survey - item sobre esforco vs. circunstancias",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Bom discriminador; sem pesquisa aberta nesta rodada."
+  },
+  {
+   "id": "dis5",
+   "verdict": "corrigir",
+   "problems": [
+    "Desatualizado: desde jan/2026 (Lei 15.270/2025) ha retencao de 10% na fonte sobre dividendos pagos a uma mesma pessoa fisica acima de R$50 mil por mes; lucros aprovados ate 31/12/2025 ficam isentos. Dizer que 'continuam isentos' ja nao e verdade.",
+    "O texto 'E justo que ... continuem isentos' ja parte de premissa falsa e e enviesado (justo)."
+   ],
+   "suggested": {
+    "text": "Lucros e dividendos recebidos por acionistas deveriam ser tributados desde o primeiro real, como os salarios.",
+    "context": "Desde 1996 os dividendos eram isentos de IR para o acionista (a empresa ja paga imposto sobre o lucro). Desde 2026, pagamentos acima de R$ 50 mil por mes a uma pessoa fisica sofrem retencao de 10%.",
+    "agree": "Dividendos devem pagar imposto de renda desde o primeiro real, como salarios.",
+    "disagree": "A isencao dos dividendos abaixo do limite atual deve ser mantida."
+   },
+   "sources": [
+    {
+     "title": "Lei 15.270/2025 (texto)",
+     "publisher": "Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm",
+     "date": "2025-11-26",
+     "kind": "primaria",
+     "supports": "isencao ate R$5 mil, reducao ate R$7.350, IRPFM acima de R$600 mil/ano, retencao de 10% sobre dividendos"
+    },
+    {
+     "title": "Tributacao de dividendos e reducao da desigualdade",
+     "publisher": "Consultor Juridico",
+     "url": "https://www.conjur.com.br/2025-dez-02/tributacao-de-dividendos-e-reducao-da-desigualdade//?print=1",
+     "date": "2025-12-02",
+     "kind": "secundaria",
+     "supports": "dividendos passam a ser tributados em 2026"
+    },
+    {
+     "title": "Isencao do IR ate R$5 mil reacende debate sobre taxacao de dividendos",
+     "publisher": "Brasil 61",
+     "url": "https://brasil61.com/n/isencao-do-ir-ate-r-5-mil-reacende-debate-sobre-taxacao-de-dividendos-bras2515420",
+     "date": "2025",
+     "kind": "secundaria",
+     "supports": "debate sobre dividendos"
+    }
+   ],
+   "weak_item": "Polaridade invertida na sugestao (agree = tributar). Avisar o app que agree/disagree trocam de lado para o escore."
+  },
+  {
+   "id": "dis6",
+   "verdict": "corrigir",
+   "problems": [
+    "Contexto incompleto: o STF (MI 7300, 27/04/2021) determinou que o Executivo cumprisse a Lei 10.835/2004; o Bolsa Familia (Lei 14.601/2023) tem condicionalidades. Processo ainda aberto em 2026 (peticao da DPU).",
+    "Item compara 'renda minima' com 'sem contrapartidas' - dois elementos; agree/disagree ok."
+   ],
+   "suggested": {
+    "context": "A Lei 10.835/2004 preve uma renda basica de cidadania, ainda nao implantada por completo; em 2021 o STF mandou o governo avancar nisso. O Bolsa Familia atual exige condicoes como frequencia escolar e vacinacao."
+   },
+   "sources": [
+    {
+     "title": "STF - MI 7300/DF (renda basica de cidadania)",
+     "publisher": "Conjur",
+     "url": "https://www.conjur.com.br/?p=346354",
+     "date": "2021",
+     "kind": "secundaria",
+     "supports": "STF decide em 27/04/2021 sobre Lei 10.835/2004"
+    },
+    {
+     "title": "STF MI 7300 DF",
+     "publisher": "Trilhante (informativos)",
+     "url": "https://informativos.trilhante.com.br/julgados/stf-mi-7300-df",
+     "date": "2021",
+     "kind": "secundaria",
+     "supports": "acordao do MI 7300"
+    },
+    {
+     "title": "[nao_aberta] Lei 10.835/2004 - planalto.gov.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ]
+  },
+  {
+   "id": "tra1",
+   "verdict": "ok",
+   "problems": [
+    "Descricao do conteudo da reforma confere em linhas gerais (Lei 13.467/2017; contribuicao sindical facultativa; trabalho intermitente; regras processuais). 'Mais de 100 pontos' e a contagem usual de dispositivos alterados, nao reverificada."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] Lei 13.467/2017 - planalto.gov.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    },
+    {
+     "title": "[nao_aberta] Datafolha/Quaest - avaliacao da reforma trabalhista",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Avaliacao retrospectiva muito polarizada por partido; bom item, mas depende de opiniao sobre efeitos empiricos."
+  },
+  {
+   "id": "tra2",
+   "verdict": "corrigir",
+   "problems": [
+    "PLP 12/2024 travou na Camara; a discussao migrou para o PLP 152/2025 (relator Augusto Coutinho) e ha julgamento pendente no STF (Tema 1291, RE 1.446.336, Fachin). Sem decisao de merito encontrada ate out/2026; tirado da pauta de 24/06/2026 e devolvido ao relator em agosto (fonte secundaria, verificar).",
+    "'Sao considerados autonomos' e hoje contestado na Justica do Trabalho (TST ja reconheceu vinculo em casos); melhor dizer 'tratados como autonomos pela maioria das plataformas'.",
+    "Item embute tres direitos distintos (ferias, 13o, INSS) e custo; agree 'mesmo que o servico fique mais caro' e uma salvaguarda razoavel."
+   ],
+   "suggested": {
+    "context": "Motoristas e entregadores de aplicativo sao tratados como autonomos, sem carteira assinada. Projetos no Congresso (PLP 12/2024, PLP 152/2025) propoem categoria propria e o STF julga se ha vinculo de emprego (Tema 1291)."
+   },
+   "sources": [
+    {
+     "title": "Uberizacao no STF: julgamento do Tema 1291",
+     "publisher": "Marra CLT",
+     "url": "https://www.marraclt.com.br/jornada/uberizacao-stf-julgamento-24-junho-motorista-vinculo",
+     "date": "2026",
+     "kind": "secundaria",
+     "supports": "Tema 1291 e calendario do julgamento"
+    },
+    {
+     "title": "Regulamentacao de aplicativos: PLP 152/2025, Camara e STF",
+     "publisher": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/regulamentacao-de-aplicativos-plp-152-2025-camara-stf/",
+     "date": "2025",
+     "kind": "secundaria",
+     "supports": "PLP 152/2025 e corrida com o STF"
+    },
+    {
+     "title": "[nao_aberta] STF - RE 1.446.336 / Tema 1291 (portal.stf.jus.br)",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ]
+  },
+  {
+   "id": "tra3",
+   "verdict": "corrigir",
+   "problems": [
+    "Contexto incompleto/desatualizado: em 12/09/2023 o STF (ARE 1018459, Tema 935) passou a admitir contribuicao assistencial fixada em acordo/convencao coletiva mesmo para nao filiados, com direito de oposicao; embargos de 11/2025 vedaram cobranca retroativa e exigem valor razoavel. 'Desde entao a contribuicao e voluntaria' nao descreve o quadro atual.",
+    "Imposto sindical de um dia de salario por ano e correto (art. 578 CLT, antes de 2017)."
+   ],
+   "suggested": {
+    "context": "Ate 2017 todo trabalhador com carteira pagava ao sindicato um dia de salario por ano (imposto sindical). A reforma o tornou voluntario; em 2023 o STF permitiu a contribuicao assistencial, fixada em negociacao coletiva, com direito de oposicao do trabalhador.",
+    "agree": "O trabalhador deve contribuir com o sindicato da categoria, salvo se se opuser.",
+    "disagree": "A contribuicao ao sindicato deve ser sempre voluntaria."
+   },
+   "sources": [
+    {
+     "title": "A declaracao de validade da contribuicao assistencial pelo STF",
+     "publisher": "NetCPA",
+     "url": "https://netcpa.com.br/noticias/artigo-a-declaracao-de-validade-da-contribuicao-assistencial-pelo-stf/17267",
+     "date": "2023",
+     "kind": "secundaria",
+     "supports": "ARE 1018459, 2023"
+    },
+    {
+     "title": "Contribuicao assistencial: modulacao dos efeitos pelo STF",
+     "publisher": "FINDES",
+     "url": "https://findes.com.br/wp-content/uploads/2025/11/Informe-Estrategico-–-Contribuicao-assistencial-Modulacao-dos-efeitos-pelo-STF.pdf",
+     "date": "2025-11",
+     "kind": "secundaria",
+     "supports": "embargos de 2025: sem retroatividade, direito de oposicao"
+    },
+    {
+     "title": "[nao_aberta] STF - Tema 935 (portal.stf.jus.br)",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ]
+  },
+  {
+   "id": "tra4",
+   "verdict": "corrigir",
+   "problems": [
+    "Texto diz 'entre empresa e empregado', mas o negociado sobre o legislado (art. 611-A CLT) vale para convencao/acordo COLETIVO (com sindicato). Acordo individual so prevalece para o 'hipersalariado' (diploma superior e salario >= 2x teto do RGPS, art. 444 par. unico).",
+    "STF (Tema 1046, 2022) validou o negociado sobre o legislado, exceto direitos absolutamente indisponiveis (nao reverificado em fonte aberta).",
+    "Sobreposicao tematica com tra1."
+   ],
+   "suggested": {
+    "text": "Acordos negociados entre empresas e sindicatos deveriam poder valer mais do que a lei trabalhista.",
+    "context": "Desde a reforma de 2017, convencoes e acordos coletivos podem prevalecer sobre a CLT em temas como jornada e banco de horas. Direitos constitucionais nao podem ser reduzidos.",
+    "agree": "Empresas e sindicatos devem poder negociar condicoes diferentes das previstas em lei.",
+    "disagree": "A lei deve garantir um piso de direitos que nenhum acordo possa reduzir."
+   },
+   "sources": [
+    {
+     "title": "[nao_aberta] Lei 13.467/2017 - art. 611-A CLT (planalto.gov.br)",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    },
+    {
+     "title": "[nao_aberta] STF - Tema 1046 (negociado sobre o legislado)",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Considerar remover (redundante com tra1) ou manter apenas um dos dois."
+  },
+  {
+   "id": "tra5",
+   "verdict": "corrigir",
+   "problems": [
+    "Superado pelos fatos: a PEC (221/2019, relatada no Senado por Omar Aziz) foi aprovada na Camara em maio/2026 e no Senado em 14/10/2026 por 75 votos a 1 (Congresso em Foco; 2o turno previsto para o mesmo dia; falta promulgacao): reduz jornada de 44 para 40 h sem corte salarial, limita dia a 8 h e garante 2 repousos semanais remunerados, com transicao.",
+    "'Uma PEC de 2024' e impreciso (Erika Hilton protocolou em 2024-25; PEC 221/2019 de Reginaldo Lopes tambem tramitou)."
+   ],
+   "suggested": {
+    "text": "A escala 6x1 deveria ser proibida por lei.",
+    "context": "A PEC que reduz a jornada de 44 para 40 horas e garante dois repousos semanais foi aprovada pelo Congresso em 2026, com periodo de transicao. A pergunta passa a ser sobre ela.",
+    "agree": "O fim da escala 6x1 foi uma decisao correta, mesmo com custo para as empresas.",
+    "disagree": "A jornada e a escala deveriam ser definidas por negociacao."
+   },
+   "sources": [
+    {
+     "title": "Por 75 votos a 1, Senado aprova PEC do fim da escala 6x1",
+     "publisher": "Congresso em Foco",
+     "url": "https://www.congressoemfoco.com.br/noticia/123241/por-75-votos-a-um-senado-aprova-pec-do-fim-da-escala-6x1",
+     "date": "2026-10-14",
+     "kind": "secundaria",
+     "supports": "aprovacao no Senado e conteudo da PEC"
+    },
+    {
+     "title": "Apoio ao fim da escala 6x1 cresce e chega a 71%, aponta Datafolha",
+     "publisher": "Diario do Comercio",
+     "url": "https://diariodocomercio.com.br/economia/datafolha-apoio-fim-escala-6x1-cresce-brasileiros/",
+     "date": "2026-03",
+     "kind": "academica",
+     "supports": "pesquisa Datafolha (71%)"
+    },
+    {
+     "title": "Apoio ao fim da escala 6x1 recua, mas maioria segue favoravel, diz Quaest",
+     "publisher": "InfoMoney",
+     "url": "https://www.infomoney.com.br/?p=3335962",
+     "date": "2026-05",
+     "kind": "academica",
+     "supports": "pesquisa Quaest (68%)"
+    }
+   ],
+   "weak_item": "RECOMENDO SUBSTITUIR: com a PEC aprovada, o item vira avaliacao de fato consumado e perde poder de discriminacao (Datafolha mar/2026: 71% a favor; Quaest mai/2026: 68%). Sugestao: item sobre 'pejotizacao/contratacao como PJ' ou sobre 'salario minimo real acima da inflacao'. Se mantiver, remover 'deveria ser proibida' e verificar promulgacao."
+  },
+  {
+   "id": "tra6",
+   "verdict": "ok",
+   "problems": [
+    "Idade minima de 65 (homens) e 62 (mulheres) na regra geral da EC 103/2019 confere. A EC nao instituiu ajuste automatico pela expectativa de vida (nao reverificado nesta rodada); texto 'subir automaticamente' e proposta, nao regra vigente."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] EC 103/2019 - planalto.gov.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    },
+    {
+     "title": "[nao_aberta] Datafolha - apoio a reforma da Previdencia",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Provavel maioria contra (baixo apoio a aumentar idade); poucos concordam, reduz discriminacao. Considerar tratar-se de item de baixa variancia."
+  },
+  {
+   "id": "cos1",
+   "verdict": "corrigir",
+   "problems": [
+    "Contexto desatualizado sobre a ADPF 442: Rosa Weber votou pela descriminalizacao ate 12 semanas (09/2023); Barroso votou no mesmo sentido em 17/10/2025 (ultimo dia no STF); Gilmar Mendes pediu destaque e o caso voltou ao plenario fisico, sem data. Poder360 relata que Fachin retirou o caso da pauta virtual.",
+    "Hipoteses legais de aborto corretas (estupro, risco de vida - CP art. 128; anencefalia - ADPF 54/2012), mas 'só' deve citar a base."
+   ],
+   "suggested": {
+    "context": "O aborto e permitido no Brasil em caso de estupro, risco a vida da gestante e anencefalia. O STF analisa a ADPF 442 sobre descriminalizar ate a 12a semana; dois votos favoraveis foram dados (2023 e 2025) e o julgamento esta suspenso."
+   },
+   "sources": [
+    {
+     "title": "Ministro Barroso vota pela descriminalizacao do aborto ate 12 semanas",
+     "publisher": "STF",
+     "url": "https://noticias.stf.jus.br/postsnoticias/ministro-barroso-vota-pela-descriminalizacao-do-aborto-ate-12-semanas-de-gestacao/",
+     "date": "2025-10-17",
+     "kind": "primaria",
+     "supports": "voto de Barroso, destaque de Gilmar, suspensao"
+    },
+    {
+     "title": "Fachin retira descriminalizacao do aborto da pauta apos Barroso votar",
+     "publisher": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/fachin-retira-descriminalizacao-do-aborto-da-pauta-apos-barroso-votar/",
+     "date": "2025-10-17",
+     "kind": "secundaria",
+     "supports": "julgamento retirado da pauta virtual"
+    },
+    {
+     "title": "Barroso vota por descriminalizar aborto e Gilmar suspende julgamento",
+     "publisher": "Congresso em Foco",
+     "url": "https://www.congressoemfoco.com.br/noticia/113066/barroso-vota-por-descriminalizar-aborto-e-gilmar-suspende-julgamento",
+     "date": "2025-10-17",
+     "kind": "secundaria",
+     "supports": "placar e suspensao"
+    },
+    {
+     "title": "Brasileiros rejeitam a legalizacao do aborto, aponta pesquisa",
+     "publisher": "Portal de Prefeitura (agregador; Ipsos-Ipec jul/2025 e Datafolha mar/2024)",
+     "url": "https://portaldeprefeitura.com.br/bastidores-da-politica/brasileiros-rejeitam-a-legalizacao-do-aborto-aponta-pesquisa/600188/",
+     "date": "2025",
+     "kind": "academica",
+     "supports": "opiniao publica sobre aborto (agregador, conferir origem)"
+    }
+   ],
+   "weak_item": "Item muito discriminante (Ipsos-Ipec jul/2025: 75% contra legalizar; Datafolha mar/2024: 42% a favor de descriminalizar). Sem problema de piso/teto. Cuidado com 'por decisao da mulher' (carga) - ok."
+  },
+  {
+   "id": "cos2",
+   "verdict": "corrigir",
+   "problems": [
+    "Item duplo (casamento E adocao) com 'exatamente os mesmos direitos'.",
+    "Contexto: STF reconheceu uniao estavel homoafetiva em 05/2011 (ADI 4277/ADPF 132); o casamento em cartorio vem da Resolucao CNJ 175/2013 (nao do STF em 2011). Omite que o PL 5.167/2009 (proibir) foi aprovado na Comissao de Familia da Camara em 10/2023 e segue em tramitacao."
+   ],
+   "suggested": {
+    "text": "Casais do mesmo sexo devem ter o direito de se casar nos cartorios, como casais de homem e mulher.",
+    "context": "O STF reconheceu a uniao estavel entre pessoas do mesmo sexo em 2011 e o CNJ obrigou cartorios a realizarem casamentos em 2013. Nao ha lei do Congresso sobre o tema; ha projetos para proibir o casamento.",
+    "agree": "Casais do mesmo sexo devem poder se casar como os demais.",
+    "disagree": "O casamento deve ser restrito a casais de homem e mulher."
+   },
+   "sources": [
+    {
+     "title": "O que diz o projeto no Congresso que tenta proibir o casamento homoafetivo",
+     "publisher": "Aos Fatos",
+     "url": "https://www.aosfatos.org/noticias/projeto-tenta-proibir-casamento-homoafetivo/",
+     "date": "2023",
+     "kind": "secundaria",
+     "supports": "PL 5.167/2009 e situacao"
+    },
+    {
+     "title": "Comissao da Camara aprova projeto contra casamento homoafetivo",
+     "publisher": "IBDFAM",
+     "url": "https://ibdfam.org.br/noticias/11238",
+     "date": "2023-10",
+     "kind": "secundaria",
+     "supports": "aprovacao na comissao em 10/10/2023"
+    },
+    {
+     "title": "Apoio ao casamento gay vai a 52% e bate recorde, diz PoderData",
+     "publisher": "Poder360",
+     "url": "https://www.poder360.com.br/poderdata/apoio-ao-casamento-gay-vai-a-52-e-bate-recorde-diz-poderdata/",
+     "date": "2026-01",
+     "kind": "academica",
+     "supports": "pesquisa de opiniao"
+    },
+    {
+     "title": "[nao_aberta] Resolucao CNJ 175/2013 - cnj.jus.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Pesquisa PoderData jan/2026: 52% a favor, 39% contra; item discrimina bem. Adocao pode virar item proprio."
+  },
+  {
+   "id": "cos3",
+   "verdict": "ok",
+   "problems": [
+    "Sem erro factual. Contexto vazio de fatos; poderia citar que o STF derrubou leis municipais que proibiam 'ideologia de genero' nas escolas (ADPF 457 e outras, 2020 - nao reverificado)."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] STF - ADPF 457 (leis municipais sobre ideologia de genero)",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "agree inclui justificativa ('a cargo das familias') enquanto disagree junta 'pode ou deve' - leve desequilibrio. Alternativa: agree 'Esses temas nao devem ser tratados na escola'; disagree 'A escola pode tratar desses temas'."
+  },
+  {
+   "id": "cos4",
+   "verdict": "ok",
+   "problems": [
+    "PL 6583/2013 (Estatuto da Familia) correto. Sem erro factual."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] PL 6583/2013 - camara.leg.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Disagree lista tipos de familia e embute posicao; ok. O STF ja reconheceu familia homoafetiva (ADI 4277)."
+  },
+  {
+   "id": "cos5",
+   "verdict": "corrigir",
+   "problems": [
+    "A afirmacao inclui um efeito empirico ('ajuda a prevenir'), o que torna a resposta dependente de evidencia e viesa pro 'concordo'.",
+    "Disagree duplo: 'Nao ajuda' OU 'deveria ser so da familia'."
+   ],
+   "suggested": {
+    "text": "A escola deveria ensinar educacao sexual aos alunos.",
+    "context": "A educacao sexual na escola pode tratar de corpo, consentimento, prevencao de abuso, gravidez e doencas.",
+    "agree": "A escola deve incluir educacao sexual no ensino.",
+    "disagree": "A educacao sexual deve ser responsabilidade so da familia."
+   },
+   "sources": [
+    {
+     "title": "[nao_aberta] Datafolha/Ipsos - educacao sexual nas escolas",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Provavel maioria a favor; baixa variancia. Considerar remover (sobreposicao com cos3)."
+  },
+  {
+   "id": "cos6",
+   "verdict": "ok",
+   "problems": [
+    "Sem erro factual. Pergunta de percepcao, nao de politica."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] World Values Survey - Brasil",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    },
+    {
+     "title": "[nao_aberta] ESEB - mudanca de valores",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Item vago; correlaciona com idade e religiosidade. Manter com cautela."
+  },
+  {
+   "id": "rel1",
+   "verdict": "ok",
+   "problems": [
+    "Sem erro factual."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] ESEB 2018/2022 - religiao e voto",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    },
+    {
+     "title": "[nao_aberta] Datafolha - religiao e voto 2022",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "'Valores cristaos' exclui outras religioes e pode confundir 'valores' e 'fe'; ainda assim discrimina bem religiosos x laicos."
+  },
+  {
+   "id": "rel2",
+   "verdict": "ok",
+   "problems": [
+    "Art. 19, I da CF confere (Estado laico)."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] Constituicao Federal art. 19 - planalto.gov.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Tende a alta concordancia; possivel pouca discriminacao."
+  },
+  {
+   "id": "rel3",
+   "verdict": "corrigir",
+   "problems": [
+    "Contexto desatualizado: em 2020 o TSE, por 6 a 1, recusou criar um 'abuso de poder religioso' autonomo, mas tratou a pressao religiosa como abuso de poder politico/economico; em 2024 manteve condenacao por uso de culto para campanha (inelegibilidade de 8 anos). Igrejas nao podem doar a campanhas e a propaganda em templos e vedada.",
+    "'Orientar' e ambiguo (declarar preferencia vs. pressionar)."
+   ],
+   "suggested": {
+    "context": "A lei eleitoral proibe doacoes de igrejas a campanhas e propaganda em templos. O TSE ja puniu uso de cultos para pedir votos como abuso de poder politico ou economico.",
+    "agree": "E legitimo que lideres religiosos digam aos fieis em quem votar.",
+    "disagree": "Lideres religiosos nao deveriam orientar o voto dos fieis."
+   },
+   "sources": [
+    {
+     "title": "Uso de igreja para promover candidatos e abuso de poder, diz TSE",
+     "publisher": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/uso-de-igreja-para-promover-candidatos-e-abuso-de-poder-diz-tse/",
+     "date": "2024",
+     "kind": "secundaria",
+     "supports": "decisao do TSE sobre uso de igreja"
+    },
+    {
+     "title": "TSE rejeita criacao de punicao para abuso de poder religioso na eleicao",
+     "publisher": "A Gazeta",
+     "url": "https://www.agazeta.com.br/brasil/tse-rejeita-criacao-de-punicao-para-abuso-de-poder-religioso-na-eleicao-0820",
+     "date": "2020-08",
+     "kind": "secundaria",
+     "supports": "julgamento de 2020, 6 a 1"
+    },
+    {
+     "title": "[nao_aberta] Lei 9.504/1997 (arts. 24 e 37) - planalto.gov.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ]
+  },
+  {
+   "id": "rel4",
+   "verdict": "ok",
+   "problems": [
+    "Art. 150, VI, b e par.4o da CF corretos (patrimonio, renda e servicos ligados as finalidades essenciais). Nao reverificado em fonte aberta; EC 116/2022 estendeu imunidade de IPTU a imoveis alugados de templos."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] CF art. 150, VI, b - planalto.gov.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Item discriminante (laicos x evangelicos). Sem pesquisa aberta."
+  },
+  {
+   "id": "rel5",
+   "verdict": "ok",
+   "problems": [
+    "ADI 4439 julgada em 27/09/2017 (6 x 5) permitindo ensino religioso confessional na rede publica; matricula facultativa (CF art. 210, par.1o). Fatos conferem pelo conhecimento previo; nao abri a pagina do STF."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] STF - ADI 4439 (noticias.stf.jus.br)",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Disagree duplo ('nao e importante' OU 'nao deveria estar na escola publica'); agree trata de 'formacao moral' enquanto disagree mistura laicidade. Proposta: 'O ensino religioso deveria ser oferecido nas escolas publicas.' / 'nao deveria'."
+  },
+  {
+   "id": "rel6",
+   "verdict": "ok",
+   "problems": [
+    "Contexto sem fatos checaveis; CNJ rejeitou em 2007 pedidos de retirada de simbolos em tribunais (nao reverificado)."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] CNJ - PCA 1344 (simbolos religiosos)",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Pode haver alta rejeicao a retirada; discriminacao moderada."
+  },
+  {
+   "id": "seg1",
+   "verdict": "ok",
+   "problems": [
+    "Fatos conferem: CF art. 228, ECA, internacao maxima de 3 anos, PEC 171/1993."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "80% querem maioridade penal aos 16 anos, diz Datafolha",
+     "publisher": "Poder360",
+     "url": "https://www.poder360.com.br/poder-seguranca-publica/80-querem-maioridade-penal-aos-16-anos-diz-datafolha/",
+     "date": "2026-10-17",
+     "kind": "academica",
+     "supports": "Datafolha out/2026: 80% a favor, 18% contra"
+    },
+    {
+     "title": "Datafolha: cresce apoio a reducao da maioridade penal para crimes graves",
+     "publisher": "Poder360",
+     "url": "https://www.poder360.com.br/brasil/datafolha-cresce-apoio-a-reducao-da-maioridade-penal-para-crimes-graves/",
+     "date": "2018",
+     "kind": "academica",
+     "supports": "serie historica"
+    },
+    {
+     "title": "[nao_aberta] PEC 171/1993 - camara.leg.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Item fraco: Datafolha (13-14/10/2026) 80% a favor da reducao para 16 anos (70% entre eleitores de Lula, 89% entre eleitores de Flavio Bolsonaro; junho 2026: 79%). Quase consenso. Proposta mais discriminante: 'Adolescentes de 16 e 17 anos deveriam ser julgados como adultos por qualquer crime, nao apenas os graves.'"
+  },
+  {
+   "id": "seg2",
+   "verdict": "ok",
+   "problems": [
+    "Sem erro factual."
+   ],
+   "suggested": {},
+   "sources": [
+    {
+     "title": "[nao_aberta] LAPOP AOJ22 - prevencao x punicao",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Falsa dicotomia (prevencao x pena): a maioria concorda com ambas; usar escala ou item de trade-off ('Prefiro...'). Provavel viés para 'educacao'."
+  },
+  {
+   "id": "seg3",
+   "verdict": "corrigir",
+   "problems": [
+    "Redacao carregada: 'mais liberdade para agir' + 'mesmo que aumente abusos' coloca o custo na propria afirmacao; agree repete e adiciona 'menos restricoes'.",
+    "Vago: liberdade em que sentido (uso da forca, abordagem, mandados)?"
+   ],
+   "suggested": {
+    "text": "As regras que limitam o uso da forca pela policia deveriam ser flexibilizadas.",
+    "context": "A policia segue regras sobre uso da forca e abordagem, e e fiscalizada por corregedorias e pelo Ministerio Publico. O debate e quanto essas regras devem limitar a atuacao policial.",
+    "agree": "As regras sobre a atuacao policial devem ser flexibilizadas.",
+    "disagree": "As regras e os controles sobre a policia devem ser mantidos ou ampliados."
+   },
+   "sources": [
+    {
+     "title": "[nao_aberta] LAPOP - apoio a acoes policiais fora da lei",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    },
+    {
+     "title": "[nao_aberta] FBSP - Anuario Brasileiro de Seguranca Publica",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ]
+  },
+  {
+   "id": "seg4",
+   "verdict": "corrigir",
+   "problems": [
+    "Item duplo (comprar E portar): porte e regime distinto da posse/compra no Estatuto (Lei 10.826/2003); quem apoia compra pode rejeitar porte.",
+    "Contexto resumido OK (2019–2022 afrouxamento; 2023 decretos de Lula restringiram), mas nao reverificado se houve novas mudancas em 2025–2026. Referendo de 2005: 63,9% 'nao' a proibir comercio."
+   ],
+   "suggested": {
+    "text": "Cidadaos sem antecedentes criminais deveriam poder comprar arma de fogo para se defender.",
+    "context": "O Estatuto do Desarmamento (2003) restringe a compra de armas e proibe o porte para a maioria dos civis. As regras foram afrouxadas por decretos em 2019–2022 e endurecidas em 2023.",
+    "agree": "Deve ser mais facil comprar arma para defesa pessoal.",
+    "disagree": "As restricoes a armas devem ser mantidas ou ampliadas."
+   },
+   "sources": [
+    {
+     "title": "61% dos brasileiros sao contra liberacao da posse de arma, diz Datafolha",
+     "publisher": "Brasil de Fato",
+     "url": "https://www.brasildefato.com.br/2018/12/31/61-dos-brasileiros-sao-contra-liberacao-da-posse-de-arma-de-fogo-como-quer-bolsonaro/",
+     "date": "2018-12-31",
+     "kind": "academica",
+     "supports": "Datafolha sobre posse de armas"
+    },
+    {
+     "title": "Datafolha: 7 em cada 10 rejeitam ideia de que armas trazem mais seguranca",
+     "publisher": "A Gazeta",
+     "url": "https://www.agazeta.com.br/brasil/datafolha-7-em-cada-10-rejeitam-ideia-de-que-armas-trazem-mais-seguranca-0622",
+     "date": "2022-06",
+     "kind": "academica",
+     "supports": "Datafolha sobre armas e seguranca"
+    },
+    {
+     "title": "[nao_aberta] Lei 10.826/2003 - planalto.gov.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "Datafolha 2018-2019: 61% a 70% contra flexibilizar posse; 7 em 10 rejeitam 'armas trazem mais seguranca' (2022). Item discrimina entre bolsonaristas e demais."
+  },
+  {
+   "id": "seg5",
+   "verdict": "ok",
+   "problems": [
+    "Portaria MJSP 648 (28/05/2024, Lewandowski) confere: 16 situacoes em que a camera deve estar ligada; adesao dos estados e voluntaria, mas repasses do FNSP/Funpen dependem das diretrizes. O Olho Vivo (SP) comecou a operar em 2021 (nao 2020). STF (SL 1696, 2024) mandou SP cumprir compromisso de cameras."
+   ],
+   "suggested": {
+    "context": "Cameras presas ao uniforme gravam as acoes dos policiais. Em 2024 o Ministerio da Justica criou diretrizes nacionais (Portaria 648), que os estados aderem de forma voluntaria; defensores falam em menos abusos, criticos citam custo."
+   },
+   "sources": [
+    {
+     "title": "Portaria MJSP 648/2024",
+     "publisher": "Ministerio da Justica (via Poder360)",
+     "url": "https://static.poder360.com.br/2024/05/PORTARIA-648-de-2024-1.pdf",
+     "date": "2024-05-28",
+     "kind": "primaria",
+     "supports": "diretrizes para cameras corporais"
+    },
+    {
+     "title": "Ministro da Justica cria diretrizes para cameras corporais; estados podem escolher aderir",
+     "publisher": "Alma Preta (Agencia Brasil)",
+     "url": "https://almapreta.com.br/sessao/politica/ministro-da-justica-cria-diretrizes-para-uso-de-cameras-corporais-estados-podem-escolher-aderir-ou-ignorar/",
+     "date": "2024-05",
+     "kind": "secundaria",
+     "supports": "adesao voluntaria e 16 situacoes"
+    },
+    {
+     "title": "Supremo determina que SP cumpra compromisso de implementar cameras na PM",
+     "publisher": "Consultor Juridico",
+     "url": "https://www.conjur.com.br/?p=795941",
+     "date": "2024-12",
+     "kind": "secundaria",
+     "supports": "SL 1696 / STF"
+    }
+   ],
+   "weak_item": "Provavel alta aprovacao (baixa variancia)."
+  },
+  {
+   "id": "seg6",
+   "verdict": "ok",
+   "problems": [
+    "Lei 9.714/1998 (art. 44 CP): penas restritivas de direitos para crimes sem violencia/grave ameaca com pena ate 4 anos - confere. Populacao prisional: 964.668 em 2025 segundo 20o Anuario do FBSP (nao ha 'ranking' no Anuario; 3o maior do mundo e dado do World Prison Brief)."
+   ],
+   "suggested": {
+    "context": "Penas alternativas, como prestacao de servicos e multa, podem substituir a prisao em crimes sem violencia com pena de ate 4 anos. O Brasil tem cerca de 960 mil presos e deficit de mais de 280 mil vagas."
+   },
+   "sources": [
+    {
+     "title": "Brasil se aproxima de 1 milhao de presos e deficit de vagas ultrapassa 281 mil",
+     "publisher": "BNews (Anuario FBSP 2026)",
+     "url": "https://www.bnewssaopaulo.com.br/noticias/policia/brasil-se-aproxima-de-1-milhao-de-presos-e-deficit-de-vagas-ultrapassa-281-mil.html",
+     "date": "2026",
+     "kind": "secundaria",
+     "supports": "964.668 presos em 2025; deficit 281.213"
+    },
+    {
+     "title": "Brasil tem aumento de 449% na populacao carceraria em 25 anos",
+     "publisher": "Itatiaia",
+     "url": "https://www.itatiaia.com.br/brasil/brasil-geral/brasil-tem-aumento-de-449-na-populacao-carceraria-em-25-anos-e-quase-1-milhao-de-presos/",
+     "date": "2026",
+     "kind": "secundaria",
+     "supports": "crescimento da populacao prisional"
+    },
+    {
+     "title": "[nao_aberta] Lei 9.714/1998 - planalto.gov.br",
+     "publisher": "-",
+     "url": "",
+     "date": "",
+     "kind": "primaria",
+     "supports": "nao_aberta: fonte conhecida mas nao consultada nesta rodada"
+    }
+   ],
+   "weak_item": "'Melhores' e vago (custo? reincidencia?). Provavel divisao menor que em seg1."
+  }
+ ]
+}

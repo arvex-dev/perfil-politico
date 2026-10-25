@@ -18,6 +18,7 @@ WORKDIR /app
 COPY --from=build /app/.next/standalone ./
 COPY --from=build /app/.next/static ./.next/static
 COPY --from=build /app/public ./public
+COPY --from=build /app/assets ./assets
 USER node
 # HOSTNAME precisa ser 0.0.0.0: o Docker o define como o id do container e o server.js só escutaria nele.
 ENV NODE_ENV=production NEXT_TELEMETRY_DISABLED=1 PORT=3000 HOSTNAME=0.0.0.0

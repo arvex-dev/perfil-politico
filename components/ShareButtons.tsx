@@ -2,59 +2,71 @@
 
 import { useState } from "react";
 
-export default function ShareButtons({ code, ideology }: { code: string; ideology: string }) {
-  const [copied, setCopied] = useState(false);
+// Compartilhar a imagem em si (stories, status do WhatsApp) quando o aparelho permite; senão, o link com a prévia.
+export default function ShareButtons({ code, label }: { code: string; label: string }) {
+  const [status, setStatus] = useState<string | null>(null);
   const url = () => `${window.location.origin}/r/${code}`;
-  const text = `Meu perfil político deu "${ideology}". Faça o teste de 12 eixos feito para o Brasil:`;
+  const text = `Meu alinhamento político deu "${label}". Faça o teste de 12 eixos feito para o Brasil:`;
 
-  async function share() {
-    if (navigator.share) {
-      try {
-        await navigator.share({ title: "Perfil Político", text, url: url() });
+  function flash(msg: string) {
+    setStatus(msg);
+    setTimeout(() => setStatus(null), 2200);
+  }
+
+  async function shareImage() {
+    try {
+      const res = await fetch(`/r/${code}/imagem`);
+      const file = new File([await res.blob()], `perfil-politico.png`, { type: "image/png" });
+      if (navigator.canShare?.({ files: [file] })) {
+        await navigator.share({ files: [file], text: `${text} ${url()}` });
         return;
-      } catch {
-        // cancelado pela pessoa: cai no copiar
       }
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(file);
+      a.download = file.name;
+      a.click();
+      URL.revokeObjectURL(a.href);
+      flash("Imagem baixada");
+    } catch {
+      // cancelado pela pessoa
     }
-    await copy();
   }
 
   async function copy() {
     try {
       await navigator.clipboard.writeText(url());
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
+      flash("Link copiado");
     } catch {}
   }
 
-  const btn = "rounded-lg px-4 py-2 font-medium transition-colors";
+  const ghost = "inline-flex items-center justify-center gap-2 h-12 rounded-full border border-line bg-card px-5 font-medium hover:border-ink";
   return (
-    <section className="space-y-3">
-      <h2 className="text-lg font-semibold">Compartilhar</h2>
-      <div className="flex flex-wrap gap-2">
+    <section className="rounded-[20px] bg-ink text-paper p-5 sm:p-6 space-y-4">
+      <div className="space-y-1">
+        <h2 className="font-display text-xl">Compartilhe seu perfil</h2>
+        <p className="text-sm opacity-75">Imagem pronta para stories e status. O link guarda só sua posição, nunca as respostas.</p>
+      </div>
+      <div className="grid gap-2 sm:grid-cols-3">
+        <button onClick={shareImage} className="inline-flex items-center justify-center h-12 rounded-full bg-paper text-ink px-5 font-semibold hover:opacity-90">
+          Compartilhar imagem
+        </button>
         <a
-          className={`${btn} bg-accent text-white dark:text-black`}
-          href={`https://wa.me/?text=${encodeURIComponent(`${text} `)}`}
+          className={`${ghost} !bg-transparent !border-paper/30 hover:!border-paper text-paper`}
+          href={`https://wa.me/?text=${encodeURIComponent(text)}`}
           onClick={(e) => {
             e.currentTarget.href = `https://wa.me/?text=${encodeURIComponent(`${text} ${url()}`)}`;
           }}
           target="_blank"
           rel="noopener noreferrer"
         >
-          WhatsApp
+          Enviar no WhatsApp
         </a>
-        <button className={`${btn} border border-line bg-surface`} onClick={share}>
-          Compartilhar…
+        <button onClick={copy} className={`${ghost} !bg-transparent !border-paper/30 hover:!border-paper text-paper`}>
+          Copiar link
         </button>
-        <button className={`${btn} border border-line bg-surface`} onClick={copy}>
-          {copied ? "Link copiado" : "Copiar link"}
-        </button>
-        <a className={`${btn} border border-line bg-surface`} href={`/r/${code}/imagem`} download={`perfil-politico-${code}.png`}>
-          Baixar imagem (stories)
-        </a>
       </div>
-      <p className="text-xs text-muted">
-        O link contém só sua posição em cada eixo, não suas respostas. Nada fica guardado no servidor.
+      <p className="text-sm min-h-5 opacity-90" role="status" aria-live="polite">
+        {status}
       </p>
     </section>
   );
