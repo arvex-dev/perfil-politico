@@ -10,6 +10,7 @@ import { IMAGE_VERSION } from "@/lib/og";
 import { decodeResult } from "@/lib/scoring";
 import Comparison from "@/components/Comparison";
 import AxisBreakdown from "@/components/AxisBreakdown";
+import ParliamentSection from "@/components/ParliamentSection";
 
 export async function generateMetadata({ params, searchParams }: PageProps<"/r/[code]">): Promise<Metadata> {
   const { code } = await params;
@@ -74,8 +75,10 @@ export default async function ResultPage({ params, searchParams }: PageProps<"/r
     );
   }
   const a = r.alignment;
-  const vsParam = (await searchParams).vs;
+  const sp = await searchParams;
+  const vsParam = sp.vs;
   const other = typeof vsParam === "string" && vsParam !== code ? buildResult(vsParam) : null;
+  const uf = typeof sp.uf === "string" ? sp.uf.toUpperCase() : undefined;
   const retake = r.mode === "rapido" ? "/teste/rapido" : "/teste";
 
   return (
@@ -166,6 +169,8 @@ export default async function ResultPage({ params, searchParams }: PageProps<"/r
           .
         </p>
       </section>
+
+      <ParliamentSection scores={r.scores} uf={uf} vs={other ? (vsParam as string) : undefined} />
 
       <div className="flex flex-wrap gap-3">
         <Link href={retake} className="inline-flex items-center h-12 rounded-full border border-line px-5 hover:border-ink">

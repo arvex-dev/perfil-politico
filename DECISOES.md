@@ -119,3 +119,10 @@ Registro das escolhas feitas sem consultar o dono, com o motivo. Data: 2026-10-2
   média ponderada com a estimativa anterior (peso 3); excluídas votações ambíguas (PL 2630 urgência, MPV 1031
   Eletrobras) e quase unânimes (IR até 5 mil, 6x1, saidinha). Costumes, religião, liberdades e política externa não
   têm votações utilizáveis e seguem estimados. As figuras continuam marcadas "estimado"; a base mostra o ajuste.
+- **Eleições 2026: "Quem no Congresso vota como você"**, só como seção do resultado (decisão do dono). 582 parlamentares
+  do mandato 2023–2027 com votos (513 deputados e 81 senadores no levantamento; 12 sem nenhum voto utilizável), 34
+  votações nominais em 9 eixos (docs/pesquisa/votacoes/parlamentares.json → data/parlamentares.json, só no servidor).
+  Medida: concordância voto a voto (a chance de a pessoa votar como o parlamentar votou, dada a posição dela no eixo),
+  cada eixo pesando até 3 votos, mínimo de 5 votos em 3 eixos. A distância simples foi descartada porque votos binários
+  (±100) favoreciam quem tinha poucos votos ou votos misturados. Religião, liberdades e política externa não entram
+  (sem votações que separem os lados). Filtro por UF via GET, sem JavaScript.

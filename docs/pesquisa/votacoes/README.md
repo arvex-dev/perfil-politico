@@ -28,3 +28,22 @@ Compara as coordenadas "estimadas" de `data/figures.json` com votos nominais rea
 `scripts/aplicar-votacoes.mjs` (resultado em `aplicado.json`), que além das regras acima exclui a MPV 1031/2021
 (Eletrobras), porque parte dos deputados pró-mercado votou contra pelas térmicas e subsídios incluídos no texto, e não
 contra a privatização.
+
+## Parlamentares (mandato atual)
+
+Dataset para "quais deputados/senadores votam como você": `parlamentares.json` (compacto: `rollcalls` + `members` com `axes: {eixo: {score, n}}` e `votos_total`) e `votos_parlamentares.json` (voto Sim/Não de cada membro em cada votação, para auditoria). Scripts: `scripts/sweepC.mjs`, `sweepS.mjs`, `sweepS_old.mjs` (varredura de votações nominais), `members.mjs`, `fetchvotes.mjs`, `buildparl.mjs`; respostas da API em `cache/` (Câmara, Senado; 1 req/s). Nenhum arquivo de `data/` foi alterado.
+
+**Membros:** 594 = 513 deputados em exercício (`/deputados`, 57ª legislatura, inclui suplentes que assumiram) + 81 senadores (`senador/lista/atual`), com id, nome parlamentar, partido atual, UF, casa, foto e URL do perfil oficiais. Votos de antes de 2023 contam para quem já tinha mandato (mesmo id).
+
+**Método:** igual ao acima: Sim/Não -> +100 (rumo ao polo B) ou -100 (rumo a A) conforme `voto_sim_equivale_polo`; média por eixo, `n` = nº de votos. Abstenção, obstrução, ausência, "Artigo 17"/presidente e licenças não contam. Sem votos no eixo, o eixo não aparece.
+
+**Votações usadas: 34** (23 Câmara + 11 Senado): as 31 de `votacoes.json` menos 7 excluídas, mais 10 novas.
+- Mantidas as exclusões anteriores: PL 2630 urgência (C:2310837-8, ambígua), MPV 1031 Eletrobras (C:2270789-73 e S:6377), quase unânimes (minoria < 10%): IR até 5 mil (C:2487436-169), 6x1 Câmara e Senado (C:2233802-424, S:7106), saidinha no Senado (S:6818).
+- Novas (todas verificadas pela lista nominal na API): Câmara PDL 98/2023 saneamento (economia, Sim=B), PL 4173/2023 fundos exclusivos/offshore (distribuicao, Sim=A), PDL 214/2025 susta IOF (distribuicao, Sim=B), PL 5228/2019 primeiro emprego (trabalho, Sim=B), PL 5582/2025 antifacção (seguranca, Sim=B), PDL 3/2025 susta resolução do CONANDA sobre aborto legal de menores (costumes, Sim=B), PL 1958/2021 cotas em concursos, texto principal (diversidade, Sim=A); Senado PLP 19/2019 autonomia do BC (economia, Sim=B), PEC 48/2023 marco temporal (ambiente, Sim=B), PEC 8/2021 decisões monocráticas do STF (instituicoes, Sim=B, discutível). Justificativa de cada uma no campo `justificativa`.
+- Avaliadas e excluídas (nominais, mas ambíguas): arcabouço fiscal PLP 93/2023 (Câmara 372x108, Senado 57x17; regra fiscal votada por governo, centrão e parte da oposição, sem sentido claro Estado x Mercado); PEC 3/2021 "da Blindagem" (bancadas de esquerda e direita se misturaram no 1º turno); PL 709/2023 (invasores de terra, sem eixo limpo); reforma tributária EC 132 e PLP 68/2024 (pacotes mistos); PL Antifacção no Senado (64x0, unânime); emendas/destaques, requerimentos e votos de urgência (procedimentais). PEC das Drogas não teve votação nominal na Câmara até aqui; PL 1904/2024 idem; PEC da Segurança Pública (PEC 18/2025) sem votação nominal encontrada.
+
+**Votações por eixo** (Câmara / Senado): economia 4/3, distribuicao 2/0, trabalho 3/1, seguranca 3/2, ambiente 5/3, instituicoes 2/2, diversidade 2/0, costumes 1/0, soberania 1/0. Sem votação utilizável: religiao, liberdades, geopolitica (ninguém tem score nesses eixos).
+
+**Cobertura:** mediana de 12 votos úteis por membro (Câmara 13, Senado 7); 96% com 3 ou mais eixos (Câmara 98%, Senado 85%); 12 membros sem nenhum voto (6 deputados, 6 senadores, suplentes/ministros recém-empossados, ex.: Marina Silva, Sônia Guajajara, Camilo Santana). Membros com 3+ votos no mesmo eixo: economia 259, ambiente 289, seguranca 87, trabalho 82; distribuicao, instituicoes, diversidade e costumes têm no máximo 2 votos por pessoa (n baixo, score tende a +-100/0).
+
+**Limitações:** n pequeno e saturação em +-100; votos de coalizão do governo/centrão se misturam com ideologia; Senado tem poucas votações nominais úteis antes de 2017 (API) e só 10 no total; derrubada de vetos (sessões do Congresso) não coletada; partido é o atual, não o da época do voto. Em alguns eixos o mapeamento é discutível (PEC 8/2021, PDL 214/2025 como "menos tributação").

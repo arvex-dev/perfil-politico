@@ -47,3 +47,6 @@ next-env.d.ts
 /arvex.config.json
 /deploy/known_hosts
 /DEPLOY.local.md
+
+# Respostas brutas das APIs da Câmara/Senado (49 MB): regeráveis pelos scripts
+/docs/pesquisa/votacoes/cache/
