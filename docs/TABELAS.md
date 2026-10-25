@@ -114,34 +114,34 @@ Sentido +1: concordar puxa para o polo B. O modo rápido sorteia 1 item de cada 
 | Lula | BR | esquerda | -55 | -65 | -60 | -20 | -20 | -30 | -10 | -30 | -60 | -60 | -40 | -50 | PT (2,97 em Bolognesi, Ribeiro & Codato 2023); programas de governo e discursos [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) |
 | Dilma Rousseff | BR | esquerda | -65 | -60 | -60 | -30 | -30 | -30 | 0 | 0 | -75 | -55 | -40 | -50 | PT; Nova Matriz Econômica, Belo Monte |
 | Fernando Haddad | BR | esquerda | -40 | -60 | -50 | -55 | -45 | -40 | -30 | -45 | -30 | -40 | -50 | -60 | PT; arcabouço fiscal, reforma tributária |
-| Gleisi Hoffmann | BR | esquerda | -65 | -70 | -70 | -45 | -35 | -40 | -10 | -35 | -65 | -70 | -30 | -60 | PT; votações na Câmara |
-| Guilherme Boulos | BR | esquerda | -75 | -85 | -85 | -75 | -55 | -70 | -40 | -65 | -55 | -60 | -20 | -80 | PSOL (1,28 em Bolognesi et al. 2023); MTST [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) |
-| Erika Hilton | BR | esquerda | -75 | -85 | -80 | -95 | -80 | -80 | -55 | -70 | -50 | -55 | -20 | -95 | PSOL; PEC do fim da escala 6x1 |
+| Gleisi Hoffmann | BR | esquerda | -79 | -70 | -70 | -45 | -35 | -40 | -10 | -67 | -65 | -70 | -30 | -60 | PT; votações na Câmara; ajustado por 8 votações nominais (Câmara/Senado, 2015–2026) [fonte](https://dadosabertos.camara.leg.br/) |
+| Guilherme Boulos | BR | esquerda | -75 | -85 | -85 | -75 | -55 | -70 | -40 | -79 | -55 | -60 | -20 | -80 | PSOL (1,28 em Bolognesi et al. 2023); MTST; ajustado por 4 votações nominais (Câmara/Senado, 2015–2026) [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) [fonte](https://dadosabertos.camara.leg.br/) |
+| Erika Hilton | BR | esquerda | -75 | -85 | -80 | -95 | -80 | -80 | -55 | -82 | -50 | -55 | -52 | -95 | PSOL; PEC do fim da escala 6x1; ajustado por 5 votações nominais (Câmara/Senado, 2015–2026) [fonte](https://dadosabertos.camara.leg.br/) |
 | Eduardo Suplicy | BR | esquerda | -50 | -80 | -60 | -60 | -40 | -60 | -60 | -50 | -20 | -30 | -40 | -60 | PT; renda básica de cidadania, defesa da cannabis medicinal |
 | Marina Silva | BR | esquerda | -30 | -50 | -35 | -20 | 30 | -30 | -20 | -95 | -20 | -20 | -50 | -60 | Rede; agenda ambiental; posição pessoal contrária ao aborto |
 | Flávio Dino | BR | esquerda | -50 | -60 | -50 | -40 | -10 | -20 | 30 | -40 | -50 | -40 | -60 | -50 | PCdoB/PSB até 2024; regulação das redes |
 | Ciro Gomes | BR | centro-esquerda | -55 | -55 | -45 | -20 | -20 | 0 | 0 | -20 | -85 | -40 | 0 | -30 | PDT (3,92 em Bolognesi et al. 2023); Projeto Nacional de Desenvolvimento [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) |
 | Leonel Brizola | BR | centro-esquerda | -65 | -65 | -80 | -10 | -20 | -20 | 0 | – | -85 | -60 | 10 | -40 | PTB/PDT; trabalhismo, CIEPs |
 | Getúlio Vargas | BR | outro | -60 | -30 | -70 | 40 | 30 | 40 | 80 | – | -90 | -20 | – | – | CLT, Petrobras, Estado Novo |
-| Tabata Amaral | BR | centro-esquerda | -10 | -45 | -20 | -45 | -30 | -30 | -20 | -50 | 0 | 0 | -60 | -50 | PSB (4,05 em Bolognesi et al. 2023); votou a favor da reforma da Previdência [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) |
-| Simone Tebet | BR | centro | 15 | -20 | 10 | -10 | 0 | 10 | 0 | -10 | 10 | 10 | -60 | -10 | MDB (7,01 em Bolognesi et al. 2023) [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) |
+| Tabata Amaral | BR | centro-esquerda | 34 | -45 | -20 | -45 | -30 | -30 | -20 | -81 | 0 | 0 | -76 | -50 | PSB (4,05 em Bolognesi et al. 2023); votou a favor da reforma da Previdência; ajustado por 11 votações nominais (Câmara/Senado, 2015–2026) [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) [fonte](https://dadosabertos.camara.leg.br/) |
+| Simone Tebet | BR | centro | 49 | -20 | 10 | -10 | 0 | 10 | 0 | -10 | 10 | 10 | -60 | -10 | MDB (7,01 em Bolognesi et al. 2023); ajustado por 4 votações nominais (Câmara/Senado, 2015–2026) [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) [fonte](https://legis.senado.leg.br/dadosabertos/) |
 | Geraldo Alckmin | BR | centro | 30 | -10 | 20 | 30 | 40 | 40 | 20 | 0 | 0 | 10 | -60 | 10 | PSDB até 2021, PSB depois; governos de SP |
 | Fernando Henrique Cardoso | BR | centro | 45 | -20 | 30 | -50 | -40 | -10 | -30 | -30 | 60 | 40 | -70 | -40 | PSDB (7,11 em Bolognesi et al. 2023); privatizações, Plano Real, defesa da descriminalização [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) |
 | Eduardo Leite | BR | centro-direita | 45 | 0 | 40 | -40 | -30 | 20 | -10 | 0 | 40 | 30 | -50 | 10 | PSDB/PSD; privatizações no RS |
 | Ratinho Júnior | BR | centro-direita | 45 | 20 | 40 | 40 | 40 | 60 | 20 | 40 | 30 | 30 | -20 | 40 | PSD (7,09 em Bolognesi et al. 2023) [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) |
-| Arthur Lira | BR | centro-direita | 30 | 20 | 40 | 40 | 40 | 50 | 20 | 60 | 10 | 20 | -10 | 40 | PP (8,20 em Bolognesi et al. 2023); votações [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) |
-| Sergio Moro | BR | direita | 50 | 30 | 40 | 40 | 30 | 90 | 40 | 20 | 40 | 50 | -20 | 40 | Lava Jato; pacote anticrime |
+| Arthur Lira | BR | centro-direita | 58 | 20 | 64 | 40 | 40 | 70 | 20 | 60 | 10 | 20 | 34 | 40 | PP (8,20 em Bolognesi et al. 2023); votações; ajustado por 9 votações nominais (Câmara/Senado, 2015–2026) [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) [fonte](https://dadosabertos.camara.leg.br/) |
+| Sergio Moro | BR | direita | 50 | 30 | 40 | 40 | 30 | 90 | 40 | 52 | 40 | 50 | -20 | 40 | Lava Jato; pacote anticrime; ajustado por 4 votações nominais (Câmara/Senado, 2015–2026) [fonte](https://legis.senado.leg.br/dadosabertos/) |
 | Tarcísio de Freitas | BR | direita | 60 | 30 | 50 | 50 | 40 | 75 | 30 | 40 | 50 | 50 | 0 | 50 | Republicanos; privatização da Sabesp, Operação Escudo |
 | Romeu Zema | BR | direita | 75 | 50 | 70 | 40 | 20 | 50 | 0 | 40 | 70 | 50 | 20 | 60 | Novo (8,13 em Bolognesi et al. 2023) [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) |
 | Ronaldo Caiado | BR | direita | 45 | 40 | 50 | 60 | 50 | 85 | 40 | 85 | 30 | 40 | 0 | 70 | União/DEM (8,57 em Bolognesi et al. 2023); bancada ruralista [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) |
-| Kim Kataguiri | BR | direita | 75 | 55 | 75 | 20 | 0 | 60 | -20 | 40 | 70 | 50 | 30 | 70 | MBL; votações |
-| Marcel van Hattem | BR | direita | 85 | 65 | 85 | 50 | 30 | 60 | -20 | 50 | 80 | 70 | 50 | 75 | Novo; votações |
+| Kim Kataguiri | BR | direita | 85 | 55 | 75 | 20 | 0 | 60 | -20 | 78 | 70 | 50 | 58 | 70 | MBL; votações; ajustado por 12 votações nominais (Câmara/Senado, 2015–2026) [fonte](https://dadosabertos.camara.leg.br/) |
+| Marcel van Hattem | BR | direita | 91 | 65 | 85 | 50 | 30 | 60 | -20 | 81 | 80 | 70 | 70 | 75 | Novo; votações; ajustado por 12 votações nominais (Câmara/Senado, 2015–2026) [fonte](https://dadosabertos.camara.leg.br/) |
 | Paulo Guedes | BR | direita | 90 | 60 | 85 | – | – | – | – | 30 | 85 | 40 | 0 | – | Escola de Chicago; agenda de privatizações |
 | Pablo Marçal | BR | direita | 80 | 70 | 80 | 60 | 60 | 80 | 0 | 50 | 60 | 60 | 80 | 70 | PRTB; discursos de campanha |
-| Jair Bolsonaro | BR | direita | 45 | 45 | 60 | 90 | 80 | 90 | 40 | 80 | 0 | 60 | 80 | 85 | PL (PR 7,78 em Bolognesi et al. 2023); decretos de armas, discursos [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) |
+| Jair Bolsonaro | BR | direita | 45 | 45 | 60 | 90 | 80 | 90 | 40 | 80 | 0 | 60 | 80 | 85 | PL (PR 7,78 em Bolognesi et al. 2023); decretos de armas, discursos; ajustado por 3 votações nominais (Câmara/Senado, 2015–2026) [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) [fonte](https://dadosabertos.camara.leg.br/) |
 | Michelle Bolsonaro | BR | direita | 40 | 40 | 40 | 95 | 95 | 80 | 40 | 50 | 10 | 50 | 60 | 85 | PL; discursos |
-| Nikolas Ferreira | BR | direita | 55 | 50 | 60 | 95 | 85 | 85 | 30 | 60 | 20 | 70 | 80 | 90 | PL; votações e discursos |
-| Damares Alves | BR | direita | 30 | 30 | 30 | 95 | 95 | 75 | 50 | 40 | 10 | 50 | 40 | 80 | Republicanos; Ministério da Mulher, Família e DH |
+| Nikolas Ferreira | BR | direita | 55 | 50 | 60 | 95 | 85 | 85 | 30 | 60 | 20 | 70 | 88 | 90 | PL; votações e discursos; ajustado por 4 votações nominais (Câmara/Senado, 2015–2026) [fonte](https://dadosabertos.camara.leg.br/) |
+| Damares Alves | BR | direita | 30 | 30 | 30 | 95 | 95 | 75 | 50 | 64 | 10 | 50 | 40 | 80 | Republicanos; Ministério da Mulher, Família e DH; ajustado por 4 votações nominais (Câmara/Senado, 2015–2026) [fonte](https://legis.senado.leg.br/dadosabertos/) |
 | Cristina Kirchner | AR | esquerda | -75 | -70 | -70 | -50 | -30 | -20 | 10 | -10 | -80 | -60 | 20 | -50 | Peronismo kirchnerista; estatização da YPF |
 | Javier Milei | AR | direita | 100 | 90 | 95 | 40 | 30 | 60 | -50 | 70 | 95 | 90 | 60 | 80 | La Libertad Avanza; discursos e decretos |
 | Gabriel Boric | CL | esquerda | -60 | -70 | -65 | -80 | -70 | -50 | -40 | -75 | -30 | -10 | -30 | -75 | Frente Amplio; críticas ao governo venezuelano |
@@ -168,7 +168,7 @@ Sentido +1: concordar puxa para o polo B. O modo rápido sorteia 1 item de cada 
 | Giorgia Meloni | IT | direita | 20 | 20 | 20 | 70 | 60 | 80 | 50 | 30 | -20 | – | 10 | 70 | Fratelli d'Italia |
 | Donald Trump | US | direita | 30 | 50 | 40 | 70 | 60 | 85 | 40 | 90 | -60 | – | 90 | 85 | Partido Republicano; tarifas, discursos |
 | Michel Temer | BR | centro | 40 | 10 | 55 | 20 | 20 | 30 | 10 | 30 | 30 | 30 | -50 | 20 | MDB (7,01 em Bolognesi et al. 2023); teto de gastos, reforma trabalhista [fonte](https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/) |
-| Rodrigo Pacheco | BR | centro | 20 | 0 | 20 | 20 | 20 | 20 | 0 | 20 | 10 | 10 | -70 | 10 | PSD; votações e discursos |
+| Rodrigo Pacheco | BR | centro | 60 | 0 | 52 | 20 | 20 | 20 | 0 | 20 | 10 | 10 | -70 | 10 | PSD; votações e discursos; ajustado por 7 votações nominais (Câmara/Senado, 2015–2026) [fonte](https://legis.senado.leg.br/dadosabertos/) |
 | Ulysses Guimarães | BR | centro | -20 | -30 | -30 | 0 | 0 | -20 | -40 | – | -30 | – | -80 | – | PMDB; Constituição de 1988 |
 | Joe Biden | US | centro | -10 | -40 | -40 | -50 | -20 | -10 | 0 | -60 | -20 | – | -70 | -50 | Partido Democrata |
 | Tony Blair | GB | centro | 25 | -20 | 20 | -40 | -10 | 30 | 30 | -30 | 50 | – | -60 | -20 | Novo Trabalhismo, Terceira Via |

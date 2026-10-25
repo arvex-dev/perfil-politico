@@ -1,0 +1,392 @@
+{
+ "Guilherme Boulos": {
+  "ambiente": {
+   "atual": -65,
+   "por_votos": -100,
+   "n": 2,
+   "sugerido": -79,
+   "obs": "divergência de -35; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "diversidade": {
+   "atual": -80,
+   "por_votos": -100,
+   "n": 1,
+   "sugerido": -80,
+   "obs": "consistente (|dif|<=30)"
+  },
+  "instituicoes": {
+   "atual": -20,
+   "por_votos": -100,
+   "n": 1,
+   "sugerido": -20,
+   "obs": "divergência de -80 mas n=1: apenas indicativo, mantido"
+  }
+ },
+ "Erika Hilton": {
+  "ambiente": {
+   "atual": -70,
+   "por_votos": -100,
+   "n": 2,
+   "sugerido": -70,
+   "obs": "consistente (|dif|<=30)"
+  },
+  "diversidade": {
+   "atual": -95,
+   "por_votos": -100,
+   "n": 1,
+   "sugerido": -95,
+   "obs": "consistente (|dif|<=30)"
+  },
+  "instituicoes": {
+   "atual": -20,
+   "por_votos": -100,
+   "n": 2,
+   "sugerido": -52,
+   "obs": "divergência de -80; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  }
+ },
+ "Gleisi Hoffmann": {
+  "economia": {
+   "atual": -65,
+   "por_votos": -100,
+   "n": 3,
+   "sugerido": -82,
+   "obs": "divergência de -35; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "ambiente": {
+   "atual": -35,
+   "por_votos": -100,
+   "n": 3,
+   "sugerido": -67,
+   "obs": "divergência de -65; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "seguranca": {
+   "atual": -40,
+   "por_votos": -100,
+   "n": 1,
+   "sugerido": -40,
+   "obs": "divergência de -60 mas n=1: apenas indicativo, mantido"
+  },
+  "diversidade": {
+   "atual": -60,
+   "por_votos": -100,
+   "n": 1,
+   "sugerido": -60,
+   "obs": "divergência de -40 mas n=1: apenas indicativo, mantido"
+  },
+  "trabalho": {
+   "atual": -70,
+   "por_votos": -100,
+   "n": 1,
+   "sugerido": -70,
+   "obs": "consistente (|dif|<=30)"
+  }
+ },
+ "Tabata Amaral": {
+  "economia": {
+   "atual": -10,
+   "por_votos": 33,
+   "n": 3,
+   "sugerido": 12,
+   "obs": "divergência de +43; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "ambiente": {
+   "atual": -50,
+   "por_votos": -100,
+   "n": 5,
+   "sugerido": -81,
+   "obs": "divergência de -50; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "soberania": {
+   "atual": 0,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 0,
+   "obs": "divergência de +100 mas n=1: apenas indicativo, mantido"
+  },
+  "seguranca": {
+   "atual": -30,
+   "por_votos": -100,
+   "n": 1,
+   "sugerido": -30,
+   "obs": "divergência de -70 mas n=1: apenas indicativo, mantido"
+  },
+  "instituicoes": {
+   "atual": -60,
+   "por_votos": -100,
+   "n": 2,
+   "sugerido": -76,
+   "obs": "divergência de -40; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  }
+ },
+ "Kim Kataguiri": {
+  "economia": {
+   "atual": 75,
+   "por_votos": 33,
+   "n": 3,
+   "sugerido": 54,
+   "obs": "divergência de -42; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "ambiente": {
+   "atual": 40,
+   "por_votos": 100,
+   "n": 5,
+   "sugerido": 78,
+   "obs": "divergência de +60; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "soberania": {
+   "atual": 70,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 70,
+   "obs": "consistente (|dif|<=30)"
+  },
+  "seguranca": {
+   "atual": 60,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 60,
+   "obs": "divergência de +40 mas n=1: apenas indicativo, mantido"
+  },
+  "diversidade": {
+   "atual": 70,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 70,
+   "obs": "consistente (|dif|<=30)"
+  },
+  "instituicoes": {
+   "atual": 30,
+   "por_votos": 100,
+   "n": 2,
+   "sugerido": 58,
+   "obs": "divergência de +70; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  }
+ },
+ "Marcel van Hattem": {
+  "economia": {
+   "atual": 85,
+   "por_votos": 33,
+   "n": 3,
+   "sugerido": 59,
+   "obs": "divergência de -52; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "ambiente": {
+   "atual": 50,
+   "por_votos": 100,
+   "n": 5,
+   "sugerido": 81,
+   "obs": "divergência de +50; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "soberania": {
+   "atual": 80,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 80,
+   "obs": "consistente (|dif|<=30)"
+  },
+  "seguranca": {
+   "atual": 60,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 60,
+   "obs": "divergência de +40 mas n=1: apenas indicativo, mantido"
+  },
+  "diversidade": {
+   "atual": 75,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 75,
+   "obs": "consistente (|dif|<=30)"
+  },
+  "instituicoes": {
+   "atual": 50,
+   "por_votos": 100,
+   "n": 2,
+   "sugerido": 70,
+   "obs": "divergência de +50; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  }
+ },
+ "Nikolas Ferreira": {
+  "ambiente": {
+   "atual": 60,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 60,
+   "obs": "divergência de +40 mas n=1: apenas indicativo, mantido"
+  },
+  "diversidade": {
+   "atual": 90,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 90,
+   "obs": "consistente (|dif|<=30)"
+  },
+  "instituicoes": {
+   "atual": 80,
+   "por_votos": 100,
+   "n": 2,
+   "sugerido": 80,
+   "obs": "consistente (|dif|<=30)"
+  }
+ },
+ "Arthur Lira": {
+  "trabalho": {
+   "atual": 40,
+   "por_votos": 100,
+   "n": 2,
+   "sugerido": 64,
+   "obs": "divergência de +60; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "seguranca": {
+   "atual": 50,
+   "por_votos": 100,
+   "n": 2,
+   "sugerido": 70,
+   "obs": "divergência de +50; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "economia": {
+   "atual": 30,
+   "por_votos": 100,
+   "n": 2,
+   "sugerido": 58,
+   "obs": "divergência de +70; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "soberania": {
+   "atual": 10,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 10,
+   "obs": "divergência de +90 mas n=1: apenas indicativo, mantido"
+  },
+  "instituicoes": {
+   "atual": -10,
+   "por_votos": 100,
+   "n": 2,
+   "sugerido": 34,
+   "obs": "divergência de +110; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  }
+ },
+ "Jair Bolsonaro": {
+  "seguranca": {
+   "atual": 90,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 90,
+   "obs": "consistente (|dif|<=30)"
+  },
+  "economia": {
+   "atual": 45,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 45,
+   "obs": "divergência de +55 mas n=1: apenas indicativo, mantido"
+  },
+  "trabalho": {
+   "atual": 60,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 60,
+   "obs": "divergência de +40 mas n=1: apenas indicativo, mantido"
+  }
+ },
+ "Rodrigo Pacheco": {
+  "trabalho": {
+   "atual": 20,
+   "por_votos": 100,
+   "n": 2,
+   "sugerido": 52,
+   "obs": "divergência de +80; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "economia": {
+   "atual": 20,
+   "por_votos": 100,
+   "n": 3,
+   "sugerido": 60,
+   "obs": "divergência de +80; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "seguranca": {
+   "atual": 20,
+   "por_votos": -100,
+   "n": 1,
+   "sugerido": 20,
+   "obs": "divergência de -120 mas n=1: apenas indicativo, mantido"
+  },
+  "instituicoes": {
+   "atual": -70,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": -70,
+   "obs": "divergência de +170 mas n=1: apenas indicativo, mantido"
+  }
+ },
+ "Simone Tebet": {
+  "economia": {
+   "atual": 15,
+   "por_votos": 33,
+   "n": 3,
+   "sugerido": 15,
+   "obs": "consistente (|dif|<=30)"
+  },
+  "trabalho": {
+   "atual": 10,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 10,
+   "obs": "divergência de +90 mas n=1: apenas indicativo, mantido"
+  },
+  "seguranca": {
+   "atual": 10,
+   "por_votos": -100,
+   "n": 1,
+   "sugerido": 10,
+   "obs": "divergência de -110 mas n=1: apenas indicativo, mantido"
+  }
+ },
+ "Sergio Moro": {
+  "ambiente": {
+   "atual": 20,
+   "por_votos": 100,
+   "n": 2,
+   "sugerido": 52,
+   "obs": "divergência de +80; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "seguranca": {
+   "atual": 90,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 90,
+   "obs": "consistente (|dif|<=30)"
+  },
+  "instituicoes": {
+   "atual": -20,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": -20,
+   "obs": "divergência de +120 mas n=1: apenas indicativo, mantido"
+  }
+ },
+ "Damares Alves": {
+  "ambiente": {
+   "atual": 40,
+   "por_votos": 100,
+   "n": 2,
+   "sugerido": 64,
+   "obs": "divergência de +60; sugerido = média ponderada (atual com peso 3, cada voto peso 1)"
+  },
+  "seguranca": {
+   "atual": 75,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 75,
+   "obs": "consistente (|dif|<=30)"
+  },
+  "instituicoes": {
+   "atual": 40,
+   "por_votos": 100,
+   "n": 1,
+   "sugerido": 40,
+   "obs": "divergência de +60 mas n=1: apenas indicativo, mantido"
+  }
+ }
+}

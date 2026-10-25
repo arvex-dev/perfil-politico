@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "note": "Todas as coordenadas são ESTIMADAS a partir de posições públicas, votações e programas; a base de cada uma está em \"basis\". Não são autodeclarações. Notas de partido de Bolognesi, Ribeiro & Codato (2023), escala 0–10, citadas quando aplicável. null = sem posição pública clara.",
+  "note": "Todas as coordenadas são ESTIMADAS a partir de posições públicas, votações e programas; a base de cada uma está em \"basis\". Não são autodeclarações. Notas de partido de Bolognesi, Ribeiro & Codato (2023), escala 0–10, citadas quando aplicável. null = sem posição pública clara. Ajustes por votação nominal: scripts/aplicar-votacoes.mjs (docs/pesquisa/votacoes/).",
   "figures": [
     {
       "id": "lula",
@@ -83,22 +83,31 @@
       "group": "esquerda",
       "role": "Presidente do PT (2017–2025)",
       "coords": {
-        "economia": -65,
+        "economia": -79,
         "distribuicao": -70,
         "trabalho": -70,
         "costumes": -45,
         "religiao": -35,
         "seguranca": -40,
         "liberdades": -10,
-        "ambiente": -35,
+        "ambiente": -67,
         "soberania": -65,
         "geopolitica": -70,
         "instituicoes": -30,
         "diversidade": -60
       },
-      "basis": "PT; votações na Câmara",
+      "basis": "PT; votações na Câmara; ajustado por 8 votações nominais (Câmara/Senado, 2015–2026)",
       "estimated": true,
-      "sources": []
+      "sources": [
+        "https://dadosabertos.camara.leg.br/"
+      ],
+      "votes": {
+        "economia": 2,
+        "ambiente": 3,
+        "seguranca": 1,
+        "diversidade": 1,
+        "trabalho": 1
+      }
     },
     {
       "id": "guilherme-boulos",
@@ -114,17 +123,23 @@
         "religiao": -55,
         "seguranca": -70,
         "liberdades": -40,
-        "ambiente": -65,
+        "ambiente": -79,
         "soberania": -55,
         "geopolitica": -60,
         "instituicoes": -20,
         "diversidade": -80
       },
-      "basis": "PSOL (1,28 em Bolognesi et al. 2023); MTST",
+      "basis": "PSOL (1,28 em Bolognesi et al. 2023); MTST; ajustado por 4 votações nominais (Câmara/Senado, 2015–2026)",
       "estimated": true,
       "sources": [
-        "https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/"
-      ]
+        "https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/",
+        "https://dadosabertos.camara.leg.br/"
+      ],
+      "votes": {
+        "ambiente": 2,
+        "diversidade": 1,
+        "instituicoes": 1
+      }
     },
     {
       "id": "erika-hilton",
@@ -140,15 +155,22 @@
         "religiao": -80,
         "seguranca": -80,
         "liberdades": -55,
-        "ambiente": -70,
+        "ambiente": -82,
         "soberania": -50,
         "geopolitica": -55,
-        "instituicoes": -20,
+        "instituicoes": -52,
         "diversidade": -95
       },
-      "basis": "PSOL; PEC do fim da escala 6x1",
+      "basis": "PSOL; PEC do fim da escala 6x1; ajustado por 5 votações nominais (Câmara/Senado, 2015–2026)",
       "estimated": true,
-      "sources": []
+      "sources": [
+        "https://dadosabertos.camara.leg.br/"
+      ],
+      "votes": {
+        "ambiente": 2,
+        "diversidade": 1,
+        "instituicoes": 2
+      }
     },
     {
       "id": "eduardo-suplicy",
@@ -303,24 +325,32 @@
       "group": "centro-esquerda",
       "role": "Deputada federal (PSB)",
       "coords": {
-        "economia": -10,
+        "economia": 34,
         "distribuicao": -45,
         "trabalho": -20,
         "costumes": -45,
         "religiao": -30,
         "seguranca": -30,
         "liberdades": -20,
-        "ambiente": -50,
+        "ambiente": -81,
         "soberania": 0,
         "geopolitica": 0,
-        "instituicoes": -60,
+        "instituicoes": -76,
         "diversidade": -50
       },
-      "basis": "PSB (4,05 em Bolognesi et al. 2023); votou a favor da reforma da Previdência",
+      "basis": "PSB (4,05 em Bolognesi et al. 2023); votou a favor da reforma da Previdência; ajustado por 11 votações nominais (Câmara/Senado, 2015–2026)",
       "estimated": true,
       "sources": [
-        "https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/"
-      ]
+        "https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/",
+        "https://dadosabertos.camara.leg.br/"
+      ],
+      "votes": {
+        "economia": 2,
+        "ambiente": 5,
+        "soberania": 1,
+        "seguranca": 1,
+        "instituicoes": 2
+      }
     },
     {
       "id": "simone-tebet",
@@ -329,7 +359,7 @@
       "group": "centro",
       "role": "Ministra do Planejamento (2023–)",
       "coords": {
-        "economia": 15,
+        "economia": 49,
         "distribuicao": -20,
         "trabalho": 10,
         "costumes": -10,
@@ -342,11 +372,17 @@
         "instituicoes": -60,
         "diversidade": -10
       },
-      "basis": "MDB (7,01 em Bolognesi et al. 2023)",
+      "basis": "MDB (7,01 em Bolognesi et al. 2023); ajustado por 4 votações nominais (Câmara/Senado, 2015–2026)",
       "estimated": true,
       "sources": [
-        "https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/"
-      ]
+        "https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/",
+        "https://legis.senado.leg.br/dadosabertos/"
+      ],
+      "votes": {
+        "economia": 2,
+        "trabalho": 1,
+        "seguranca": 1
+      }
     },
     {
       "id": "geraldo-alckmin",
@@ -455,24 +491,32 @@
       "group": "centro-direita",
       "role": "Presidente da Câmara (2021–2025)",
       "coords": {
-        "economia": 30,
+        "economia": 58,
         "distribuicao": 20,
-        "trabalho": 40,
+        "trabalho": 64,
         "costumes": 40,
         "religiao": 40,
-        "seguranca": 50,
+        "seguranca": 70,
         "liberdades": 20,
         "ambiente": 60,
         "soberania": 10,
         "geopolitica": 20,
-        "instituicoes": -10,
+        "instituicoes": 34,
         "diversidade": 40
       },
-      "basis": "PP (8,20 em Bolognesi et al. 2023); votações",
+      "basis": "PP (8,20 em Bolognesi et al. 2023); votações; ajustado por 9 votações nominais (Câmara/Senado, 2015–2026)",
       "estimated": true,
       "sources": [
-        "https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/"
-      ]
+        "https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/",
+        "https://dadosabertos.camara.leg.br/"
+      ],
+      "votes": {
+        "trabalho": 2,
+        "seguranca": 2,
+        "economia": 2,
+        "soberania": 1,
+        "instituicoes": 2
+      }
     },
     {
       "id": "sergio-moro",
@@ -488,15 +532,22 @@
         "religiao": 30,
         "seguranca": 90,
         "liberdades": 40,
-        "ambiente": 20,
+        "ambiente": 52,
         "soberania": 40,
         "geopolitica": 50,
         "instituicoes": -20,
         "diversidade": 40
       },
-      "basis": "Lava Jato; pacote anticrime",
+      "basis": "Lava Jato; pacote anticrime; ajustado por 4 votações nominais (Câmara/Senado, 2015–2026)",
       "estimated": true,
-      "sources": []
+      "sources": [
+        "https://legis.senado.leg.br/dadosabertos/"
+      ],
+      "votes": {
+        "ambiente": 2,
+        "seguranca": 1,
+        "instituicoes": 1
+      }
     },
     {
       "id": "tarcisio-de-freitas",
@@ -581,22 +632,32 @@
       "group": "direita",
       "role": "Deputado federal (União/MBL)",
       "coords": {
-        "economia": 75,
+        "economia": 85,
         "distribuicao": 55,
         "trabalho": 75,
         "costumes": 20,
         "religiao": 0,
         "seguranca": 60,
         "liberdades": -20,
-        "ambiente": 40,
+        "ambiente": 78,
         "soberania": 70,
         "geopolitica": 50,
-        "instituicoes": 30,
+        "instituicoes": 58,
         "diversidade": 70
       },
-      "basis": "MBL; votações",
+      "basis": "MBL; votações; ajustado por 12 votações nominais (Câmara/Senado, 2015–2026)",
       "estimated": true,
-      "sources": []
+      "sources": [
+        "https://dadosabertos.camara.leg.br/"
+      ],
+      "votes": {
+        "economia": 2,
+        "ambiente": 5,
+        "soberania": 1,
+        "seguranca": 1,
+        "diversidade": 1,
+        "instituicoes": 2
+      }
     },
     {
       "id": "marcel-van-hattem",
@@ -605,22 +666,32 @@
       "group": "direita",
       "role": "Deputado federal (Novo)",
       "coords": {
-        "economia": 85,
+        "economia": 91,
         "distribuicao": 65,
         "trabalho": 85,
         "costumes": 50,
         "religiao": 30,
         "seguranca": 60,
         "liberdades": -20,
-        "ambiente": 50,
+        "ambiente": 81,
         "soberania": 80,
         "geopolitica": 70,
-        "instituicoes": 50,
+        "instituicoes": 70,
         "diversidade": 75
       },
-      "basis": "Novo; votações",
+      "basis": "Novo; votações; ajustado por 12 votações nominais (Câmara/Senado, 2015–2026)",
       "estimated": true,
-      "sources": []
+      "sources": [
+        "https://dadosabertos.camara.leg.br/"
+      ],
+      "votes": {
+        "economia": 2,
+        "ambiente": 5,
+        "soberania": 1,
+        "seguranca": 1,
+        "diversidade": 1,
+        "instituicoes": 2
+      }
     },
     {
       "id": "paulo-guedes",
@@ -690,11 +761,17 @@
         "instituicoes": 80,
         "diversidade": 85
       },
-      "basis": "PL (PR 7,78 em Bolognesi et al. 2023); decretos de armas, discursos",
+      "basis": "PL (PR 7,78 em Bolognesi et al. 2023); decretos de armas, discursos; ajustado por 3 votações nominais (Câmara/Senado, 2015–2026)",
       "estimated": true,
       "sources": [
-        "https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/"
-      ]
+        "https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/",
+        "https://dadosabertos.camara.leg.br/"
+      ],
+      "votes": {
+        "seguranca": 1,
+        "economia": 1,
+        "trabalho": 1
+      }
     },
     {
       "id": "michelle-bolsonaro",
@@ -737,12 +814,19 @@
         "ambiente": 60,
         "soberania": 20,
         "geopolitica": 70,
-        "instituicoes": 80,
+        "instituicoes": 88,
         "diversidade": 90
       },
-      "basis": "PL; votações e discursos",
+      "basis": "PL; votações e discursos; ajustado por 4 votações nominais (Câmara/Senado, 2015–2026)",
       "estimated": true,
-      "sources": []
+      "sources": [
+        "https://dadosabertos.camara.leg.br/"
+      ],
+      "votes": {
+        "ambiente": 1,
+        "diversidade": 1,
+        "instituicoes": 2
+      }
     },
     {
       "id": "damares-alves",
@@ -758,15 +842,22 @@
         "religiao": 95,
         "seguranca": 75,
         "liberdades": 50,
-        "ambiente": 40,
+        "ambiente": 64,
         "soberania": 10,
         "geopolitica": 50,
         "instituicoes": 40,
         "diversidade": 80
       },
-      "basis": "Republicanos; Ministério da Mulher, Família e DH",
+      "basis": "Republicanos; Ministério da Mulher, Família e DH; ajustado por 4 votações nominais (Câmara/Senado, 2015–2026)",
       "estimated": true,
-      "sources": []
+      "sources": [
+        "https://legis.senado.leg.br/dadosabertos/"
+      ],
+      "votes": {
+        "ambiente": 2,
+        "seguranca": 1,
+        "instituicoes": 1
+      }
     },
     {
       "id": "cristina-kirchner",
@@ -1401,9 +1492,9 @@
       "group": "centro",
       "role": "Presidente do Senado (2021–2025)",
       "coords": {
-        "economia": 20,
+        "economia": 60,
         "distribuicao": 0,
-        "trabalho": 20,
+        "trabalho": 52,
         "costumes": 20,
         "religiao": 20,
         "seguranca": 20,
@@ -1414,9 +1505,17 @@
         "instituicoes": -70,
         "diversidade": 10
       },
-      "basis": "PSD; votações e discursos",
+      "basis": "PSD; votações e discursos; ajustado por 7 votações nominais (Câmara/Senado, 2015–2026)",
       "estimated": true,
-      "sources": []
+      "sources": [
+        "https://legis.senado.leg.br/dadosabertos/"
+      ],
+      "votes": {
+        "trabalho": 2,
+        "economia": 3,
+        "seguranca": 1,
+        "instituicoes": 1
+      }
     },
     {
       "id": "ulysses-guimaraes",

@@ -114,3 +114,8 @@ Registro das escolhas feitas sem consultar o dono, com o motivo. Data: 2026-10-2
   escala de posições "puras". Recalibrar faixas e coordenadas com dados reais, não com a simulação.
 - **Código aberto**: MIT para o código, CC BY 4.0 para dados e textos; link no rodapé e em /sobre. `arvex.config.json` e
   `deploy/known_hosts` (IP de origem atrás da Cloudflare) saem do git.
+- **Figuras ajustadas por votação nominal** (docs/pesquisa/votacoes/, scripts/aplicar-votacoes.mjs): 31 votações
+  nominais verificadas (20 Câmara, 11 Senado, 2015–2026), 13 figuras com ≥ 3 votos. Ajuste só em eixos com ≥ 2 votos,
+  média ponderada com a estimativa anterior (peso 3); excluídas votações ambíguas (PL 2630 urgência, MPV 1031
+  Eletrobras) e quase unânimes (IR até 5 mil, 6x1, saidinha). Costumes, religião, liberdades e política externa não
+  têm votações utilizáveis e seguem estimados. As figuras continuam marcadas "estimado"; a base mostra o ajuste.

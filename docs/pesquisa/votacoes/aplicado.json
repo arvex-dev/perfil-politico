@@ -1,0 +1,170 @@
+{
+  "Gleisi Hoffmann": {
+    "economia": {
+      "antes": -65,
+      "votos": -100,
+      "n": 2,
+      "depois": -79
+    },
+    "ambiente": {
+      "antes": -35,
+      "votos": -100,
+      "n": 3,
+      "depois": -67
+    }
+  },
+  "Guilherme Boulos": {
+    "ambiente": {
+      "antes": -65,
+      "votos": -100,
+      "n": 2,
+      "depois": -79
+    }
+  },
+  "Erika Hilton": {
+    "ambiente": {
+      "antes": -70,
+      "votos": -100,
+      "n": 2,
+      "depois": -82
+    },
+    "instituicoes": {
+      "antes": -20,
+      "votos": -100,
+      "n": 2,
+      "depois": -52
+    }
+  },
+  "Tabata Amaral": {
+    "economia": {
+      "antes": -10,
+      "votos": 100,
+      "n": 2,
+      "depois": 34
+    },
+    "ambiente": {
+      "antes": -50,
+      "votos": -100,
+      "n": 5,
+      "depois": -81
+    },
+    "instituicoes": {
+      "antes": -60,
+      "votos": -100,
+      "n": 2,
+      "depois": -76
+    }
+  },
+  "Simone Tebet": {
+    "economia": {
+      "antes": 15,
+      "votos": 100,
+      "n": 2,
+      "depois": 49
+    }
+  },
+  "Arthur Lira": {
+    "trabalho": {
+      "antes": 40,
+      "votos": 100,
+      "n": 2,
+      "depois": 64
+    },
+    "seguranca": {
+      "antes": 50,
+      "votos": 100,
+      "n": 2,
+      "depois": 70
+    },
+    "economia": {
+      "antes": 30,
+      "votos": 100,
+      "n": 2,
+      "depois": 58
+    },
+    "instituicoes": {
+      "antes": -10,
+      "votos": 100,
+      "n": 2,
+      "depois": 34
+    }
+  },
+  "Sergio Moro": {
+    "ambiente": {
+      "antes": 20,
+      "votos": 100,
+      "n": 2,
+      "depois": 52
+    }
+  },
+  "Kim Kataguiri": {
+    "economia": {
+      "antes": 75,
+      "votos": 100,
+      "n": 2,
+      "depois": 85
+    },
+    "ambiente": {
+      "antes": 40,
+      "votos": 100,
+      "n": 5,
+      "depois": 78
+    },
+    "instituicoes": {
+      "antes": 30,
+      "votos": 100,
+      "n": 2,
+      "depois": 58
+    }
+  },
+  "Marcel van Hattem": {
+    "economia": {
+      "antes": 85,
+      "votos": 100,
+      "n": 2,
+      "depois": 91
+    },
+    "ambiente": {
+      "antes": 50,
+      "votos": 100,
+      "n": 5,
+      "depois": 81
+    },
+    "instituicoes": {
+      "antes": 50,
+      "votos": 100,
+      "n": 2,
+      "depois": 70
+    }
+  },
+  "Nikolas Ferreira": {
+    "instituicoes": {
+      "antes": 80,
+      "votos": 100,
+      "n": 2,
+      "depois": 88
+    }
+  },
+  "Damares Alves": {
+    "ambiente": {
+      "antes": 40,
+      "votos": 100,
+      "n": 2,
+      "depois": 64
+    }
+  },
+  "Rodrigo Pacheco": {
+    "trabalho": {
+      "antes": 20,
+      "votos": 100,
+      "n": 2,
+      "depois": 52
+    },
+    "economia": {
+      "antes": 20,
+      "votos": 100,
+      "n": 3,
+      "depois": 60
+    }
+  }
+}

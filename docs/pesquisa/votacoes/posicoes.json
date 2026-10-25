@@ -1,0 +1,236 @@
+{
+ "Guilherme Boulos": {
+  "ambiente": {
+   "score": -100,
+   "n": 2
+  },
+  "diversidade": {
+   "score": -100,
+   "n": 1
+  },
+  "instituicoes": {
+   "score": -100,
+   "n": 1
+  }
+ },
+ "Erika Hilton": {
+  "ambiente": {
+   "score": -100,
+   "n": 2
+  },
+  "diversidade": {
+   "score": -100,
+   "n": 1
+  },
+  "instituicoes": {
+   "score": -100,
+   "n": 2
+  }
+ },
+ "Gleisi Hoffmann": {
+  "economia": {
+   "score": -100,
+   "n": 3
+  },
+  "ambiente": {
+   "score": -100,
+   "n": 3
+  },
+  "seguranca": {
+   "score": -100,
+   "n": 1
+  },
+  "diversidade": {
+   "score": -100,
+   "n": 1
+  },
+  "trabalho": {
+   "score": -100,
+   "n": 1
+  }
+ },
+ "Tabata Amaral": {
+  "economia": {
+   "score": 33,
+   "n": 3
+  },
+  "ambiente": {
+   "score": -100,
+   "n": 5
+  },
+  "soberania": {
+   "score": 100,
+   "n": 1
+  },
+  "seguranca": {
+   "score": -100,
+   "n": 1
+  },
+  "instituicoes": {
+   "score": -100,
+   "n": 2
+  }
+ },
+ "Kim Kataguiri": {
+  "economia": {
+   "score": 33,
+   "n": 3
+  },
+  "ambiente": {
+   "score": 100,
+   "n": 5
+  },
+  "soberania": {
+   "score": 100,
+   "n": 1
+  },
+  "seguranca": {
+   "score": 100,
+   "n": 1
+  },
+  "diversidade": {
+   "score": 100,
+   "n": 1
+  },
+  "instituicoes": {
+   "score": 100,
+   "n": 2
+  }
+ },
+ "Marcel van Hattem": {
+  "economia": {
+   "score": 33,
+   "n": 3
+  },
+  "ambiente": {
+   "score": 100,
+   "n": 5
+  },
+  "soberania": {
+   "score": 100,
+   "n": 1
+  },
+  "seguranca": {
+   "score": 100,
+   "n": 1
+  },
+  "diversidade": {
+   "score": 100,
+   "n": 1
+  },
+  "instituicoes": {
+   "score": 100,
+   "n": 2
+  }
+ },
+ "Nikolas Ferreira": {
+  "ambiente": {
+   "score": 100,
+   "n": 1
+  },
+  "diversidade": {
+   "score": 100,
+   "n": 1
+  },
+  "instituicoes": {
+   "score": 100,
+   "n": 2
+  }
+ },
+ "Arthur Lira": {
+  "trabalho": {
+   "score": 100,
+   "n": 2
+  },
+  "seguranca": {
+   "score": 100,
+   "n": 2
+  },
+  "economia": {
+   "score": 100,
+   "n": 2
+  },
+  "soberania": {
+   "score": 100,
+   "n": 1
+  },
+  "instituicoes": {
+   "score": 100,
+   "n": 2
+  }
+ },
+ "Jair Bolsonaro": {
+  "seguranca": {
+   "score": 100,
+   "n": 1
+  },
+  "economia": {
+   "score": 100,
+   "n": 1
+  },
+  "trabalho": {
+   "score": 100,
+   "n": 1
+  }
+ },
+ "Rodrigo Pacheco": {
+  "trabalho": {
+   "score": 100,
+   "n": 2
+  },
+  "economia": {
+   "score": 100,
+   "n": 3
+  },
+  "seguranca": {
+   "score": -100,
+   "n": 1
+  },
+  "instituicoes": {
+   "score": 100,
+   "n": 1
+  }
+ },
+ "Simone Tebet": {
+  "economia": {
+   "score": 33,
+   "n": 3
+  },
+  "trabalho": {
+   "score": 100,
+   "n": 1
+  },
+  "seguranca": {
+   "score": -100,
+   "n": 1
+  }
+ },
+ "Sergio Moro": {
+  "ambiente": {
+   "score": 100,
+   "n": 2
+  },
+  "seguranca": {
+   "score": 100,
+   "n": 1
+  },
+  "instituicoes": {
+   "score": 100,
+   "n": 1
+  }
+ },
+ "Damares Alves": {
+  "ambiente": {
+   "score": 100,
+   "n": 2
+  },
+  "seguranca": {
+   "score": 100,
+   "n": 1
+  },
+  "instituicoes": {
+   "score": 100,
+   "n": 1
+  }
+ }
+}
