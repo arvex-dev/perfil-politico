@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "note": "Score de -100 (polo A, à esquerda na tela) a +100 (polo B, à direita na tela). A ordem dos polos não indica esquerda/direita política.",
+  "axes": [
+    {
+      "id": "economia",
+      "name": "Economia",
+      "poleA": "Estado",
+      "poleB": "Mercado",
+      "descA": "O Estado conduz a economia: empresas públicas, crédito dirigido, controle de preços estratégicos.",
+      "descB": "Empresas e concorrência conduzem a economia: privatização, ajuste fiscal, menos intervenção.",
+      "why": "Petrobras, BNDES, preço dos combustíveis e teto de gastos dividem o debate brasileiro desde os anos 1990 (ESEB, BLS)."
+    },
+    {
+      "id": "distribuicao",
+      "name": "Distribuição",
+      "poleA": "Redistribuição",
+      "poleB": "Responsabilidade individual",
+      "descA": "Impostos progressivos e transferências para reduzir a desigualdade.",
+      "descB": "Renda como resultado de esforço e escolhas; menos tributação e transferências condicionadas.",
+      "why": "O Brasil está entre os países mais desiguais do mundo; Bolsa Família, IR progressivo e taxação de dividendos são centrais (LAPOP, Latinobarómetro)."
+    },
+    {
+      "id": "trabalho",
+      "name": "Trabalho",
+      "poleA": "Proteção ao trabalhador",
+      "poleB": "Flexibilização",
+      "descA": "CLT forte, sindicatos, salário mínimo e limites de jornada.",
+      "descB": "Negociação direta, contratos flexíveis, reforma da previdência.",
+      "why": "Reforma trabalhista de 2017, escala 6x1 e trabalho por aplicativo são temas próprios do contexto brasileiro."
+    },
+    {
+      "id": "costumes",
+      "name": "Costumes",
+      "poleA": "Progressista",
+      "poleB": "Conservador",
+      "descA": "Aborto legal, casamento igualitário, educação sexual e de gênero nas escolas.",
+      "descB": "Família tradicional, restrição ao aborto, cautela com mudanças morais.",
+      "why": "Pauta de costumes é o principal eixo de mobilização eleitoral desde 2018 (ESEB 2018/2022)."
+    },
+    {
+      "id": "religiao",
+      "name": "Religião e política",
+      "poleA": "Laicidade",
+      "poleB": "Religião na vida pública",
+      "descA": "Leis e instituições separadas de preceitos religiosos.",
+      "descB": "Valores religiosos orientando políticos, leis e escolas.",
+      "why": "Crescimento evangélico e a bancada religiosa tornaram a relação Estado–religião um eixo próprio, distinto de costumes."
+    },
+    {
+      "id": "seguranca",
+      "name": "Segurança pública",
+      "poleA": "Prevenção e garantias",
+      "poleB": "Rigor penal",
+      "descA": "Prevenção social, controle da atividade policial, penas alternativas, controle de armas.",
+      "descB": "Penas maiores, redução da maioridade penal, mais liberdade policial, acesso a armas.",
+      "why": "Violência é a maior preocupação dos brasileiros em várias rodadas do LAPOP e do Latinobarómetro."
+    },
+    {
+      "id": "liberdades",
+      "name": "Liberdades",
+      "poleA": "Liberdade individual",
+      "poleB": "Autoridade",
+      "descA": "Legalização de drogas, liberdade de expressão ampla, poucos poderes de exceção.",
+      "descB": "Regulação de redes, vigilância, poderes especiais em crises.",
+      "why": "Separa quem é liberal em tudo de quem é autoritário em tudo, cruzando esquerda e direita (moderação de redes, drogas, vigilância)."
+    },
+    {
+      "id": "ambiente",
+      "name": "Ambiente",
+      "poleA": "Preservação",
+      "poleB": "Produção",
+      "descA": "Amazônia e fiscalização ambiental acima da expansão produtiva.",
+      "descB": "Agro, mineração e petróleo como prioridade, com menos restrições.",
+      "why": "Agro × ambiente é um conflito específico do Brasil e da América do Sul (desmatamento, marco temporal, Margem Equatorial)."
+    },
+    {
+      "id": "soberania",
+      "name": "Modelo de desenvolvimento",
+      "poleA": "Nacional-desenvolvimentismo",
+      "poleB": "Abertura econômica",
+      "descA": "Proteção da indústria nacional, controle de recursos estratégicos, conteúdo local.",
+      "descB": "Tarifas baixas, capital estrangeiro, acordos comerciais livres.",
+      "why": "A tradição varguista/cepalina versus a abertura dos anos 1990 é uma clivagem própria da América Latina."
+    },
+    {
+      "id": "geopolitica",
+      "name": "Política externa",
+      "poleA": "Sul Global / multipolar",
+      "poleB": "Alinhamento ao Ocidente",
+      "descA": "BRICS, integração latino-americana, menos dependência do dólar.",
+      "descB": "Proximidade com EUA e Europa, distância de Venezuela, Cuba e Nicarágua.",
+      "why": "A relação com EUA e China e a postura frente a governos vizinhos dividem a política externa brasileira."
+    },
+    {
+      "id": "instituicoes",
+      "name": "Instituições",
+      "poleA": "Confiança institucional",
+      "poleB": "Antissistema",
+      "descA": "Freios e contrapesos, STF, urnas e órgãos técnicos como garantias.",
+      "descB": "Descrença no sistema, na imprensa e nas instituições; desejo de ruptura.",
+      "why": "A crise de confiança (Lava Jato, 2013, 8 de janeiro) atravessa esquerda e direita; LAPOP mede apoio ao sistema (B1–B47)."
+    },
+    {
+      "id": "diversidade",
+      "name": "Diversidade",
+      "poleA": "Ações afirmativas",
+      "poleB": "Critérios universais",
+      "descA": "Cotas, combate ao racismo estrutural, direitos indígenas específicos.",
+      "descB": "Mesmas regras para todos, sem critérios de raça ou gênero.",
+      "why": "Lei de Cotas, demarcações e linguagem neutra são debates brasileiros com posição própria, distinta de costumes."
+    }
+  ]
+}

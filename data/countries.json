@@ -1,0 +1,606 @@
+{
+  "version": 1,
+  "note": "Posição ESTIMADA do regime de políticas públicas e do governo/sociedade em 2025, não da população. null = não se aplica.",
+  "countries": [
+    {
+      "id": "br",
+      "name": "Brasil",
+      "code": "BR",
+      "coords": {
+        "economia": -10,
+        "distribuicao": -20,
+        "trabalho": -10,
+        "costumes": 10,
+        "religiao": 20,
+        "seguranca": 30,
+        "liberdades": 10,
+        "ambiente": 30,
+        "soberania": -30,
+        "geopolitica": -20,
+        "instituicoes": -20,
+        "diversidade": -40
+      },
+      "estimated": true
+    },
+    {
+      "id": "ar",
+      "name": "Argentina",
+      "code": "AR",
+      "coords": {
+        "economia": 70,
+        "distribuicao": 40,
+        "trabalho": 50,
+        "costumes": 0,
+        "religiao": 0,
+        "seguranca": 40,
+        "liberdades": 0,
+        "ambiente": 40,
+        "soberania": 60,
+        "geopolitica": 70,
+        "instituicoes": 20,
+        "diversidade": 40
+      },
+      "estimated": true
+    },
+    {
+      "id": "cl",
+      "name": "Chile",
+      "code": "CL",
+      "coords": {
+        "economia": 30,
+        "distribuicao": -10,
+        "trabalho": 20,
+        "costumes": -20,
+        "religiao": -20,
+        "seguranca": 30,
+        "liberdades": -10,
+        "ambiente": 0,
+        "soberania": 70,
+        "geopolitica": 30,
+        "instituicoes": -50,
+        "diversidade": 0
+      },
+      "estimated": true
+    },
+    {
+      "id": "uy",
+      "name": "Uruguai",
+      "code": "UY",
+      "coords": {
+        "economia": -10,
+        "distribuicao": -40,
+        "trabalho": -30,
+        "costumes": -80,
+        "religiao": -90,
+        "seguranca": 0,
+        "liberdades": -60,
+        "ambiente": -30,
+        "soberania": 30,
+        "geopolitica": 0,
+        "instituicoes": -80,
+        "diversidade": -30
+      },
+      "estimated": true
+    },
+    {
+      "id": "co",
+      "name": "Colômbia",
+      "code": "CO",
+      "coords": {
+        "economia": -40,
+        "distribuicao": -40,
+        "trabalho": -40,
+        "costumes": -30,
+        "religiao": 0,
+        "seguranca": 40,
+        "liberdades": 10,
+        "ambiente": -40,
+        "soberania": -20,
+        "geopolitica": 0,
+        "instituicoes": -20,
+        "diversidade": -50
+      },
+      "estimated": true
+    },
+    {
+      "id": "bo",
+      "name": "Bolívia",
+      "code": "BO",
+      "coords": {
+        "economia": -60,
+        "distribuicao": -40,
+        "trabalho": -40,
+        "costumes": 0,
+        "religiao": 0,
+        "seguranca": 20,
+        "liberdades": 30,
+        "ambiente": 10,
+        "soberania": -80,
+        "geopolitica": -50,
+        "instituicoes": 10,
+        "diversidade": -80
+      },
+      "estimated": true
+    },
+    {
+      "id": "ve",
+      "name": "Venezuela",
+      "code": "VE",
+      "coords": {
+        "economia": -90,
+        "distribuicao": -50,
+        "trabalho": -30,
+        "costumes": 20,
+        "religiao": 10,
+        "seguranca": 70,
+        "liberdades": 95,
+        "ambiente": 40,
+        "soberania": -90,
+        "geopolitica": -100,
+        "instituicoes": null,
+        "diversidade": 0
+      },
+      "estimated": true
+    },
+    {
+      "id": "py",
+      "name": "Paraguai",
+      "code": "PY",
+      "coords": {
+        "economia": 50,
+        "distribuicao": 50,
+        "trabalho": 50,
+        "costumes": 80,
+        "religiao": 70,
+        "seguranca": 50,
+        "liberdades": 30,
+        "ambiente": 70,
+        "soberania": 40,
+        "geopolitica": 60,
+        "instituicoes": 0,
+        "diversidade": 60
+      },
+      "estimated": true
+    },
+    {
+      "id": "pe",
+      "name": "Peru",
+      "code": "PE",
+      "coords": {
+        "economia": 40,
+        "distribuicao": 30,
+        "trabalho": 40,
+        "costumes": 50,
+        "religiao": 50,
+        "seguranca": 60,
+        "liberdades": 40,
+        "ambiente": 40,
+        "soberania": 60,
+        "geopolitica": 40,
+        "instituicoes": 40,
+        "diversidade": 30
+      },
+      "estimated": true
+    },
+    {
+      "id": "ec",
+      "name": "Equador",
+      "code": "EC",
+      "coords": {
+        "economia": 40,
+        "distribuicao": 20,
+        "trabalho": 30,
+        "costumes": 40,
+        "religiao": 40,
+        "seguranca": 90,
+        "liberdades": 60,
+        "ambiente": 30,
+        "soberania": 40,
+        "geopolitica": 60,
+        "instituicoes": 0,
+        "diversidade": 20
+      },
+      "estimated": true
+    },
+    {
+      "id": "sv",
+      "name": "El Salvador",
+      "code": "SV",
+      "coords": {
+        "economia": 20,
+        "distribuicao": 20,
+        "trabalho": 20,
+        "costumes": 60,
+        "religiao": 60,
+        "seguranca": 100,
+        "liberdades": 90,
+        "ambiente": 30,
+        "soberania": 30,
+        "geopolitica": 40,
+        "instituicoes": null,
+        "diversidade": 40
+      },
+      "estimated": true
+    },
+    {
+      "id": "cu",
+      "name": "Cuba",
+      "code": "CU",
+      "coords": {
+        "economia": -100,
+        "distribuicao": -80,
+        "trabalho": -20,
+        "costumes": 0,
+        "religiao": -40,
+        "seguranca": 70,
+        "liberdades": 100,
+        "ambiente": -20,
+        "soberania": -90,
+        "geopolitica": -100,
+        "instituicoes": null,
+        "diversidade": 0
+      },
+      "estimated": true
+    },
+    {
+      "id": "mx",
+      "name": "México",
+      "code": "MX",
+      "coords": {
+        "economia": -30,
+        "distribuicao": -30,
+        "trabalho": -40,
+        "costumes": -30,
+        "religiao": -30,
+        "seguranca": 40,
+        "liberdades": 20,
+        "ambiente": 0,
+        "soberania": -40,
+        "geopolitica": -10,
+        "instituicoes": 20,
+        "diversidade": -30
+      },
+      "estimated": true
+    },
+    {
+      "id": "us",
+      "name": "Estados Unidos",
+      "code": "US",
+      "coords": {
+        "economia": 60,
+        "distribuicao": 60,
+        "trabalho": 70,
+        "costumes": 30,
+        "religiao": 40,
+        "seguranca": 70,
+        "liberdades": 10,
+        "ambiente": 60,
+        "soberania": -30,
+        "geopolitica": 100,
+        "instituicoes": 30,
+        "diversidade": 50
+      },
+      "estimated": true
+    },
+    {
+      "id": "ca",
+      "name": "Canadá",
+      "code": "CA",
+      "coords": {
+        "economia": 30,
+        "distribuicao": -20,
+        "trabalho": 10,
+        "costumes": -80,
+        "religiao": -70,
+        "seguranca": 0,
+        "liberdades": -30,
+        "ambiente": -40,
+        "soberania": 40,
+        "geopolitica": 90,
+        "instituicoes": -70,
+        "diversidade": -60
+      },
+      "estimated": true
+    },
+    {
+      "id": "se",
+      "name": "Suécia",
+      "code": "SE",
+      "coords": {
+        "economia": 0,
+        "distribuicao": -50,
+        "trabalho": -40,
+        "costumes": -90,
+        "religiao": -90,
+        "seguranca": 0,
+        "liberdades": -30,
+        "ambiente": -80,
+        "soberania": 60,
+        "geopolitica": 80,
+        "instituicoes": -90,
+        "diversidade": -30
+      },
+      "estimated": true
+    },
+    {
+      "id": "dk",
+      "name": "Dinamarca",
+      "code": "DK",
+      "coords": {
+        "economia": 20,
+        "distribuicao": -60,
+        "trabalho": -30,
+        "costumes": -80,
+        "religiao": -60,
+        "seguranca": 20,
+        "liberdades": -20,
+        "ambiente": -80,
+        "soberania": 60,
+        "geopolitica": 80,
+        "instituicoes": -90,
+        "diversidade": 0
+      },
+      "estimated": true
+    },
+    {
+      "id": "de",
+      "name": "Alemanha",
+      "code": "DE",
+      "coords": {
+        "economia": 10,
+        "distribuicao": -40,
+        "trabalho": -40,
+        "costumes": -60,
+        "religiao": -30,
+        "seguranca": 10,
+        "liberdades": 0,
+        "ambiente": -60,
+        "soberania": 40,
+        "geopolitica": 80,
+        "instituicoes": -80,
+        "diversidade": -20
+      },
+      "estimated": true
+    },
+    {
+      "id": "fr",
+      "name": "França",
+      "code": "FR",
+      "coords": {
+        "economia": -20,
+        "distribuicao": -50,
+        "trabalho": -50,
+        "costumes": -60,
+        "religiao": -90,
+        "seguranca": 30,
+        "liberdades": 20,
+        "ambiente": -50,
+        "soberania": 0,
+        "geopolitica": 60,
+        "instituicoes": -60,
+        "diversidade": 40
+      },
+      "estimated": true
+    },
+    {
+      "id": "gb",
+      "name": "Reino Unido",
+      "code": "GB",
+      "coords": {
+        "economia": 40,
+        "distribuicao": -10,
+        "trabalho": 30,
+        "costumes": -60,
+        "religiao": 0,
+        "seguranca": 30,
+        "liberdades": 10,
+        "ambiente": -40,
+        "soberania": 60,
+        "geopolitica": 90,
+        "instituicoes": -60,
+        "diversidade": -20
+      },
+      "estimated": true
+    },
+    {
+      "id": "es",
+      "name": "Espanha",
+      "code": "ES",
+      "coords": {
+        "economia": -10,
+        "distribuicao": -40,
+        "trabalho": -30,
+        "costumes": -80,
+        "religiao": -60,
+        "seguranca": 0,
+        "liberdades": -30,
+        "ambiente": -50,
+        "soberania": 30,
+        "geopolitica": 70,
+        "instituicoes": -60,
+        "diversidade": -40
+      },
+      "estimated": true
+    },
+    {
+      "id": "pt",
+      "name": "Portugal",
+      "code": "PT",
+      "coords": {
+        "economia": 0,
+        "distribuicao": -40,
+        "trabalho": -20,
+        "costumes": -70,
+        "religiao": -30,
+        "seguranca": 0,
+        "liberdades": -60,
+        "ambiente": -50,
+        "soberania": 40,
+        "geopolitica": 70,
+        "instituicoes": -70,
+        "diversidade": -20
+      },
+      "estimated": true
+    },
+    {
+      "id": "it",
+      "name": "Itália",
+      "code": "IT",
+      "coords": {
+        "economia": 10,
+        "distribuicao": -10,
+        "trabalho": 0,
+        "costumes": 30,
+        "religiao": 30,
+        "seguranca": 40,
+        "liberdades": 10,
+        "ambiente": -20,
+        "soberania": 20,
+        "geopolitica": 70,
+        "instituicoes": -30,
+        "diversidade": 30
+      },
+      "estimated": true
+    },
+    {
+      "id": "pl",
+      "name": "Polônia",
+      "code": "PL",
+      "coords": {
+        "economia": 0,
+        "distribuicao": -20,
+        "trabalho": -10,
+        "costumes": 70,
+        "religiao": 80,
+        "seguranca": 40,
+        "liberdades": 20,
+        "ambiente": 30,
+        "soberania": 20,
+        "geopolitica": 90,
+        "instituicoes": -20,
+        "diversidade": 50
+      },
+      "estimated": true
+    },
+    {
+      "id": "ch",
+      "name": "Suíça",
+      "code": "CH",
+      "coords": {
+        "economia": 70,
+        "distribuicao": 10,
+        "trabalho": 60,
+        "costumes": -50,
+        "religiao": -30,
+        "seguranca": 0,
+        "liberdades": -40,
+        "ambiente": -60,
+        "soberania": 60,
+        "geopolitica": 60,
+        "instituicoes": -90,
+        "diversidade": 40
+      },
+      "estimated": true
+    },
+    {
+      "id": "sg",
+      "name": "Singapura",
+      "code": "SG",
+      "coords": {
+        "economia": 80,
+        "distribuicao": 40,
+        "trabalho": 70,
+        "costumes": 30,
+        "religiao": 0,
+        "seguranca": 90,
+        "liberdades": 80,
+        "ambiente": -20,
+        "soberania": 90,
+        "geopolitica": 50,
+        "instituicoes": -70,
+        "diversidade": 0
+      },
+      "estimated": true
+    },
+    {
+      "id": "cn",
+      "name": "China",
+      "code": "CN",
+      "coords": {
+        "economia": -60,
+        "distribuicao": -20,
+        "trabalho": 0,
+        "costumes": 40,
+        "religiao": -80,
+        "seguranca": 80,
+        "liberdades": 100,
+        "ambiente": 0,
+        "soberania": -70,
+        "geopolitica": -100,
+        "instituicoes": null,
+        "diversidade": 50
+      },
+      "estimated": true
+    },
+    {
+      "id": "ru",
+      "name": "Rússia",
+      "code": "RU",
+      "coords": {
+        "economia": -20,
+        "distribuicao": 30,
+        "trabalho": 20,
+        "costumes": 80,
+        "religiao": 60,
+        "seguranca": 80,
+        "liberdades": 90,
+        "ambiente": 60,
+        "soberania": -60,
+        "geopolitica": -100,
+        "instituicoes": null,
+        "diversidade": 60
+      },
+      "estimated": true
+    },
+    {
+      "id": "in",
+      "name": "Índia",
+      "code": "IN",
+      "coords": {
+        "economia": -10,
+        "distribuicao": 10,
+        "trabalho": 10,
+        "costumes": 60,
+        "religiao": 80,
+        "seguranca": 60,
+        "liberdades": 50,
+        "ambiente": 30,
+        "soberania": -50,
+        "geopolitica": -20,
+        "instituicoes": -20,
+        "diversidade": -40
+      },
+      "estimated": true
+    },
+    {
+      "id": "jp",
+      "name": "Japão",
+      "code": "JP",
+      "coords": {
+        "economia": 30,
+        "distribuicao": -20,
+        "trabalho": 20,
+        "costumes": 30,
+        "religiao": -30,
+        "seguranca": 30,
+        "liberdades": 20,
+        "ambiente": -20,
+        "soberania": 10,
+        "geopolitica": 90,
+        "instituicoes": -70,
+        "diversidade": 60
+      },
+      "estimated": true
+    }
+  ]
+}

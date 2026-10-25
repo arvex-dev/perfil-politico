@@ -1,0 +1,405 @@
+{
+  "version": 1,
+  "note": "Coordenadas estimadas pelos autores a partir da literatura (ver docs/PROPOSTA.md). -100 = polo A, +100 = polo B.",
+  "ideologies": [
+    {
+      "id": "marxismo-leninismo",
+      "name": "Marxismo-leninismo",
+      "desc": "Propriedade estatal dos meios de produção, partido de vanguarda e Estado forte para conduzir a transição ao socialismo.",
+      "coords": {
+        "economia": -95,
+        "distribuicao": -90,
+        "trabalho": -90,
+        "costumes": -30,
+        "religiao": -80,
+        "seguranca": -10,
+        "liberdades": 60,
+        "ambiente": -20,
+        "soberania": -80,
+        "geopolitica": -90,
+        "instituicoes": 40,
+        "diversidade": -30
+      }
+    },
+    {
+      "id": "socialismo-democratico",
+      "name": "Socialismo democrático",
+      "desc": "Superação gradual do capitalismo por meios democráticos, com forte redistribuição e pauta de direitos.",
+      "coords": {
+        "economia": -70,
+        "distribuicao": -80,
+        "trabalho": -80,
+        "costumes": -75,
+        "religiao": -70,
+        "seguranca": -60,
+        "liberdades": -40,
+        "ambiente": -60,
+        "soberania": -50,
+        "geopolitica": -50,
+        "instituicoes": -10,
+        "diversidade": -75
+      }
+    },
+    {
+      "id": "anarquismo-socialismo-libertario",
+      "name": "Anarquismo / socialismo libertário",
+      "desc": "Contra o Estado e o capital ao mesmo tempo: autogestão, cooperação e máxima liberdade individual.",
+      "coords": {
+        "economia": -80,
+        "distribuicao": -85,
+        "trabalho": -85,
+        "costumes": -80,
+        "religiao": -80,
+        "seguranca": -80,
+        "liberdades": -95,
+        "ambiente": -70,
+        "soberania": -30,
+        "geopolitica": -60,
+        "instituicoes": 90,
+        "diversidade": -60
+      }
+    },
+    {
+      "id": "populismo-de-esquerda-bolivarianismo",
+      "name": "Populismo de esquerda / bolivarianismo",
+      "desc": "Líder forte, nacionalização de recursos, antagonismo aos EUA e às elites, instituições subordinadas ao Executivo.",
+      "coords": {
+        "economia": -85,
+        "distribuicao": -80,
+        "trabalho": -70,
+        "costumes": -10,
+        "religiao": -30,
+        "seguranca": 20,
+        "liberdades": 50,
+        "ambiente": 0,
+        "soberania": -80,
+        "geopolitica": -95,
+        "instituicoes": 60,
+        "diversidade": -30
+      }
+    },
+    {
+      "id": "nacional-desenvolvimentismo",
+      "name": "Nacional-desenvolvimentismo",
+      "desc": "Estado indutor da industrialização, bancos públicos, proteção à indústria e controle de recursos estratégicos.",
+      "coords": {
+        "economia": -60,
+        "distribuicao": -50,
+        "trabalho": -55,
+        "costumes": -10,
+        "religiao": -30,
+        "seguranca": 0,
+        "liberdades": 10,
+        "ambiente": 20,
+        "soberania": -80,
+        "geopolitica": -40,
+        "instituicoes": -20,
+        "diversidade": -20
+      }
+    },
+    {
+      "id": "trabalhismo",
+      "name": "Trabalhismo",
+      "desc": "Herança varguista e brizolista: direitos trabalhistas, educação pública, soberania nacional.",
+      "coords": {
+        "economia": -55,
+        "distribuicao": -60,
+        "trabalho": -75,
+        "costumes": -20,
+        "religiao": -40,
+        "seguranca": -20,
+        "liberdades": -10,
+        "ambiente": -10,
+        "soberania": -70,
+        "geopolitica": -40,
+        "instituicoes": -20,
+        "diversidade": -40
+      }
+    },
+    {
+      "id": "esquerda-crista",
+      "name": "Esquerda cristã",
+      "desc": "Justiça social e opção pelos pobres com valores religiosos e morais mais tradicionais.",
+      "coords": {
+        "economia": -50,
+        "distribuicao": -55,
+        "trabalho": -55,
+        "costumes": 45,
+        "religiao": 50,
+        "seguranca": 0,
+        "liberdades": 10,
+        "ambiente": -20,
+        "soberania": -40,
+        "geopolitica": -30,
+        "instituicoes": -10,
+        "diversidade": -10
+      }
+    },
+    {
+      "id": "ecossocialismo-socioambientalismo",
+      "name": "Ecossocialismo / socioambientalismo",
+      "desc": "Prioridade ao meio ambiente e aos povos tradicionais, com crítica ao modelo agroexportador.",
+      "coords": {
+        "economia": -50,
+        "distribuicao": -65,
+        "trabalho": -50,
+        "costumes": -65,
+        "religiao": -60,
+        "seguranca": -50,
+        "liberdades": -40,
+        "ambiente": -90,
+        "soberania": -30,
+        "geopolitica": -30,
+        "instituicoes": -30,
+        "diversidade": -70
+      }
+    },
+    {
+      "id": "social-democracia",
+      "name": "Social-democracia",
+      "desc": "Economia de mercado com Estado de bem-estar amplo, impostos progressivos e direitos sociais.",
+      "coords": {
+        "economia": -35,
+        "distribuicao": -55,
+        "trabalho": -45,
+        "costumes": -50,
+        "religiao": -55,
+        "seguranca": -40,
+        "liberdades": -25,
+        "ambiente": -45,
+        "soberania": -20,
+        "geopolitica": -20,
+        "instituicoes": -50,
+        "diversidade": -50
+      }
+    },
+    {
+      "id": "social-liberalismo",
+      "name": "Social-liberalismo",
+      "desc": "Mercado e responsabilidade fiscal combinados com políticas sociais focalizadas e agenda de direitos.",
+      "coords": {
+        "economia": 10,
+        "distribuicao": -25,
+        "trabalho": 0,
+        "costumes": -50,
+        "religiao": -55,
+        "seguranca": -25,
+        "liberdades": -30,
+        "ambiente": -40,
+        "soberania": 25,
+        "geopolitica": 15,
+        "instituicoes": -60,
+        "diversidade": -30
+      }
+    },
+    {
+      "id": "liberalismo-progressista",
+      "name": "Liberalismo progressista",
+      "desc": "Mercado aberto e costumes liberais: menos Estado na economia e na vida privada.",
+      "coords": {
+        "economia": 40,
+        "distribuicao": 0,
+        "trabalho": 30,
+        "costumes": -65,
+        "religiao": -65,
+        "seguranca": -20,
+        "liberdades": -55,
+        "ambiente": -20,
+        "soberania": 55,
+        "geopolitica": 40,
+        "instituicoes": -55,
+        "diversidade": -10
+      }
+    },
+    {
+      "id": "centrismo",
+      "name": "Centrismo",
+      "desc": "Posições moderadas em quase tudo e forte apego às instituições e à negociação.",
+      "coords": {
+        "economia": 0,
+        "distribuicao": 0,
+        "trabalho": 0,
+        "costumes": 0,
+        "religiao": 0,
+        "seguranca": 0,
+        "liberdades": 0,
+        "ambiente": 0,
+        "soberania": 0,
+        "geopolitica": 0,
+        "instituicoes": -30,
+        "diversidade": 0
+      }
+    },
+    {
+      "id": "tecnocracia-liberal",
+      "name": "Tecnocracia liberal",
+      "desc": "Decisões técnicas, instituições independentes, reformas pró-mercado e pragmatismo nos costumes.",
+      "coords": {
+        "economia": 50,
+        "distribuicao": 20,
+        "trabalho": 40,
+        "costumes": -20,
+        "religiao": -30,
+        "seguranca": 10,
+        "liberdades": 10,
+        "ambiente": 0,
+        "soberania": 50,
+        "geopolitica": 40,
+        "instituicoes": -80,
+        "diversidade": 20
+      }
+    },
+    {
+      "id": "democracia-crista",
+      "name": "Democracia cristã",
+      "desc": "Economia social de mercado, valores cristãos moderados e defesa das instituições.",
+      "coords": {
+        "economia": 0,
+        "distribuicao": -20,
+        "trabalho": -10,
+        "costumes": 40,
+        "religiao": 40,
+        "seguranca": 20,
+        "liberdades": 10,
+        "ambiente": 0,
+        "soberania": 0,
+        "geopolitica": 20,
+        "instituicoes": -40,
+        "diversidade": 20
+      }
+    },
+    {
+      "id": "liberal-conservadorismo",
+      "name": "Liberal-conservadorismo",
+      "desc": "Economia de mercado com valores tradicionais moderados e ordem pública.",
+      "coords": {
+        "economia": 50,
+        "distribuicao": 30,
+        "trabalho": 45,
+        "costumes": 35,
+        "religiao": 25,
+        "seguranca": 45,
+        "liberdades": 10,
+        "ambiente": 35,
+        "soberania": 40,
+        "geopolitica": 45,
+        "instituicoes": -20,
+        "diversidade": 45
+      }
+    },
+    {
+      "id": "liberalismo-classico",
+      "name": "Liberalismo clássico",
+      "desc": "Estado mínimo na economia, Estado de direito e liberdades civis.",
+      "coords": {
+        "economia": 75,
+        "distribuicao": 55,
+        "trabalho": 70,
+        "costumes": 0,
+        "religiao": -20,
+        "seguranca": 20,
+        "liberdades": -40,
+        "ambiente": 30,
+        "soberania": 75,
+        "geopolitica": 55,
+        "instituicoes": -10,
+        "diversidade": 50
+      }
+    },
+    {
+      "id": "libertarianismo-anarcocapitalismo",
+      "name": "Libertarianismo / anarcocapitalismo",
+      "desc": "Mercado como regulador de quase tudo e rejeição do Estado na economia e na vida privada.",
+      "coords": {
+        "economia": 100,
+        "distribuicao": 90,
+        "trabalho": 95,
+        "costumes": -10,
+        "religiao": -40,
+        "seguranca": 10,
+        "liberdades": -90,
+        "ambiente": 60,
+        "soberania": 100,
+        "geopolitica": 60,
+        "instituicoes": 70,
+        "diversidade": 60
+      }
+    },
+    {
+      "id": "conservadorismo-religioso",
+      "name": "Conservadorismo religioso",
+      "desc": "Fé como base da vida pública: família tradicional, contra aborto e drogas, ordem moral.",
+      "coords": {
+        "economia": 30,
+        "distribuicao": 30,
+        "trabalho": 30,
+        "costumes": 90,
+        "religiao": 90,
+        "seguranca": 60,
+        "liberdades": 30,
+        "ambiente": 40,
+        "soberania": 10,
+        "geopolitica": 50,
+        "instituicoes": 10,
+        "diversidade": 60
+      }
+    },
+    {
+      "id": "agrarismo-ruralismo",
+      "name": "Agrarismo / ruralismo",
+      "desc": "Prioridade ao agro e ao direito de propriedade, desconfiança da regulação ambiental.",
+      "coords": {
+        "economia": 50,
+        "distribuicao": 40,
+        "trabalho": 50,
+        "costumes": 50,
+        "religiao": 40,
+        "seguranca": 60,
+        "liberdades": 20,
+        "ambiente": 95,
+        "soberania": 30,
+        "geopolitica": 30,
+        "instituicoes": 30,
+        "diversidade": 60
+      }
+    },
+    {
+      "id": "nacional-conservadorismo",
+      "name": "Nacional-conservadorismo",
+      "desc": "Ordem, pátria e família contra o \"sistema\": punitivismo, costumes tradicionais e retórica antiestablishment.",
+      "coords": {
+        "economia": 40,
+        "distribuicao": 40,
+        "trabalho": 45,
+        "costumes": 80,
+        "religiao": 70,
+        "seguranca": 85,
+        "liberdades": 40,
+        "ambiente": 70,
+        "soberania": 10,
+        "geopolitica": 60,
+        "instituicoes": 80,
+        "diversidade": 75
+      }
+    },
+    {
+      "id": "direita-autoritaria",
+      "name": "Direita autoritária",
+      "desc": "Ordem acima de liberdades: militarização, poderes de exceção e nacionalismo econômico.",
+      "coords": {
+        "economia": 20,
+        "distribuicao": 30,
+        "trabalho": 40,
+        "costumes": 70,
+        "religiao": 50,
+        "seguranca": 95,
+        "liberdades": 90,
+        "ambiente": 60,
+        "soberania": -40,
+        "geopolitica": 40,
+        "instituicoes": 60,
+        "diversidade": 60
+      }
+    }
+  ]
+}
