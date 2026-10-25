@@ -157,8 +157,7 @@ export default function Quiz({ mode }: { mode: Mode }) {
 
       {i === 0 && !showInfo && (
         <p className="text-sm text-muted -mt-3">
-          Diga o quanto concorda com a frase como está escrita. Não conhece o tema? Use &quot;Não sei&quot;: a pergunta
-          não entra no resultado.
+          Não conhece o tema? Use &quot;Não sei&quot;, que não conta no resultado.
         </p>
       )}
 
