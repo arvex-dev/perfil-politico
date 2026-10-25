@@ -1,0 +1,123 @@
+{
+ "test": "8values",
+ "persona": "p5-direita-conservadora-religiosa",
+ "personaNome": "Direita conservadora religiosa",
+ "escala_respostas": "+2 CT, +1 C, 0 N, -1 D, -2 DT (conversao especifica do teste no calculo)",
+ "answers": {
+  "1": -2,
+  "2": -2,
+  "3": 1,
+  "4": 1,
+  "5": -2,
+  "6": 0,
+  "7": -2,
+  "8": 1,
+  "9": -2,
+  "10": 1,
+  "11": -2,
+  "12": 1,
+  "13": 1,
+  "14": -2,
+  "15": -2,
+  "16": 1,
+  "17": 1,
+  "18": -2,
+  "19": 2,
+  "20": -2,
+  "21": -1,
+  "22": 2,
+  "23": -1,
+  "24": 1,
+  "25": 2,
+  "26": -2,
+  "27": -2,
+  "28": 1,
+  "29": 1,
+  "30": 2,
+  "31": 2,
+  "32": -2,
+  "33": -2,
+  "34": 2,
+  "35": 2,
+  "36": -2,
+  "37": 2,
+  "38": -2,
+  "39": 0,
+  "40": 1,
+  "41": 0,
+  "42": 1,
+  "43": -2,
+  "44": -1,
+  "45": 2,
+  "46": -2,
+  "47": 2,
+  "48": -2,
+  "49": -2,
+  "50": -2,
+  "51": 2,
+  "52": 2,
+  "53": -2,
+  "54": -2,
+  "55": -2,
+  "56": -2,
+  "57": -2,
+  "58": 2,
+  "59": 2,
+  "60": 2,
+  "61": -2,
+  "62": -2,
+  "63": 2,
+  "64": 2,
+  "65": 1,
+  "66": -1,
+  "67": -2,
+  "68": -2,
+  "69": -2,
+  "70": 0
+ },
+ "result": {
+  "max": {
+   "econ": 195,
+   "dipl": 225,
+   "govt": 320,
+   "scty": 292
+  },
+  "raw": {
+   "econ": -137.5,
+   "dipl": -170,
+   "govt": -180,
+   "scty": -259.5
+  },
+  "equality": 14.7,
+  "wealth": 85.3,
+  "peace": 12.2,
+  "might": 87.8,
+  "liberty": 21.9,
+  "authority": 78.1,
+  "progress": 5.6,
+  "tradition": 94.4,
+  "labels": {
+   "econ": "Capitalist",
+   "dipl": "Nationalist",
+   "govt": "Authoritarian",
+   "scty": "Reactionary"
+  },
+  "ideology": {
+   "best": "Capitalist Fascism",
+   "ranking": [
+    {
+     "name": "Capitalist Fascism",
+     "dist": 170.5
+    },
+    {
+     "name": "Fundamentalism",
+     "dist": 243.4
+    },
+    {
+     "name": "Neo-Conservatism",
+     "dist": 494.5
+    }
+   ]
+  }
+ }
+}

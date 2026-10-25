@@ -1,0 +1,4418 @@
+{
+ "_doc": "Classificacao automatica por regras + excecoes manuais (campo rule). Audite alterando RULES/MANUAL em classificar.mjs. Nota: \"universal\" inclui perguntas com enquadramento anglo-saxao implicito (nao detectavel por regra). Os textos das perguntas do 12axes foram removidos desta cópia versionada (licença \"All rights reserved\"); rode scripts/classificar.mjs localmente com dados/12axes/ para regenerá-los.",
+ "tests": {
+  "12axes": [
+   {
+    "id": "estrutura_01",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "estrutura_02",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "estrutura_03",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "estrutura_04",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "estrutura_05",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "estrutura_06",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "estrutura_07",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "estrutura_08",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "estrutura_09",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "estrutura_10",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "estrutura_11",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "estrutura_12",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "estrutura_13",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "estrutura_14",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "estrutura_15",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "estrutura_16",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "estrutura_17",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "estrutura_18",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "estrutura_19",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "estrutura_20",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "representacao_01",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_02",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_03",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_04",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_05",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "representacao_06",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_07",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_08",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_09",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_10",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_11",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_12",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_13",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_14",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_15",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_16",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_17",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_18",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_19",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "representacao_20",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_01",
+    "cat": "latam",
+    "reason": "areas dominadas por faccoes (seguranca publica brasileira)",
+    "rule": "manual"
+   },
+   {
+    "id": "poder_02",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_03",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_04",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_05",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_06",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_07",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_08",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_09",
+    "cat": "universal",
+    "reason": "restricao de armas: debate brasileiro (Estatuto do Desarmamento) e global",
+    "rule": "manual"
+   },
+   {
+    "id": "poder_10",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_11",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_12",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_13",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_14",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_15",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_16",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_17",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_18",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_19",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "poder_20",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_01",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_02",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_03",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_04",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_05",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_06",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_07",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_08",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_09",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_10",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_11",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_12",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "imigracao_13",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_14",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_15",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_16",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_17",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_18",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_19",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "imigracao_20",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_01",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_02",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_03",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_04",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_05",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_06",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_07",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "diplomacia_08",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_09",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_10",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_11",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_12",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_13",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_14",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_15",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "diplomacia_16",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "diplomacia_17",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "diplomacia_18",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "diplomacia_19",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "diplomacia_20",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "intervencao_01",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "intervencao_02",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "intervencao_03",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "intervencao_04",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "intervencao_05",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "intervencao_06",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "intervencao_07",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "intervencao_08",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "intervencao_09",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "intervencao_10",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "intervencao_11",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "intervencao_12",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "intervencao_13",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "intervencao_14",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "intervencao_15",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "intervencao_16",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "intervencao_17",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "intervencao_18",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "intervencao_19",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "intervencao_20",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "economia_01",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_02",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_03",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_04",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_05",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_06",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_07",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_08",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_09",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_10",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_11",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_12",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "economia_13",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_14",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "economia_15",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "economia_16",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_17",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "economia_18",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_19",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "economia_20",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_01",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_02",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_03",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_04",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_05",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_06",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_07",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_08",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_09",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_10",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_11",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_12",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_13",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_14",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_15",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_16",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_17",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_18",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_19",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "controle_20",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_01",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_02",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_03",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_04",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "comercio_05",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "comercio_06",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_07",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_08",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_09",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "comercio_10",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "comercio_11",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_12",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_13",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "comercio_14",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_15",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_16",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_17",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_18",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_19",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "comercio_20",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_01",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_02",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_03",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_04",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_05",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_06",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_07",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_08",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "religiao_09",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_10",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_11",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_12",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_13",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_14",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_15",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_16",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_17",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_18",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_19",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "religiao_20",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_01",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_02",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_03",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_04",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_05",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "moral_06",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_07",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_08",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "moral_09",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_10",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_11",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_12",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_13",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_14",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_15",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_16",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_17",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_18",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_19",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "moral_20",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_01",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_02",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_03",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_04",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_05",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_06",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_07",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "tecnologia_08",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_09",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_10",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_11",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_12",
+    "cat": "latam",
+    "reason": "referencia explicita ao Brasil / instituicao ou debate tipicamente brasileiro",
+    "rule": "/Brasil|brasileir|STF|Bolsa Fam[ií]lia|quilombola|venezuelan|haitian|Amaz[ôo]nia|Sul ou o Nordeste|reforma agr[aá]ria|governador|prefeitur|Estados e munic[ií]pios|servidores p[uú]blicos|cotas raciais|bancos p[uú]blicos|fac[cç][õo]es/i"
+   },
+   {
+    "id": "tecnologia_13",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_14",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_15",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_16",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_17",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_18",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_19",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "tecnologia_20",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   }
+  ],
+  "8values": [
+   {
+    "id": "1",
+    "text": "Oppression by corporations is more of a concern than oppression by governments.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2",
+    "text": "It is necessary for the government to intervene in the economy to protect consumers.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3",
+    "text": "The freer the markets, the freer the people.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4",
+    "text": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5",
+    "text": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6",
+    "text": "Tariffs on international trade are important to encourage local production.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7",
+    "text": "From each according to his ability, to each according to his needs.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8",
+    "text": "It would be best if social programs were abolished in favor of private charity.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "9",
+    "text": "Taxes should be increased on the rich to provide for the poor.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "10",
+    "text": "Inheritance is a legitimate form of wealth.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "11",
+    "text": "Basic utilities like roads and electricity should be publicly owned.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "12",
+    "text": "Government intervention is a threat to the economy.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "13",
+    "text": "Those with a greater ability to pay should receive better healthcare.",
+    "cat": "euna",
+    "reason": "saude paga por capacidade de pagamento: enquadramento dos EUA",
+    "rule": "manual"
+   },
+   {
+    "id": "14",
+    "text": "Quality education is a right of all people.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "15",
+    "text": "The means of production should belong to the workers who use them.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "16",
+    "text": "The United Nations should be abolished.",
+    "cat": "universal",
+    "reason": "abolir a ONU: trope da direita dos EUA, mas tema universal",
+    "rule": "manual"
+   },
+   {
+    "id": "17",
+    "text": "Military action by our nation is often necessary to protect it.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "18",
+    "text": "I support regional unions, such as the European Union.",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "19",
+    "text": "It is important to maintain our national sovereignty.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "20",
+    "text": "A united world government would be beneficial to mankind.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "21",
+    "text": "It is more important to retain peaceful relations than to further our strength.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "22",
+    "text": "Wars do not need to be justified to other countries.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "23",
+    "text": "Military spending is a waste of money.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "24",
+    "text": "International aid is a waste of money.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "25",
+    "text": "My nation is great.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "26",
+    "text": "Research should be conducted on an international scale.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "27",
+    "text": "Governments should be accountable to the international community.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "28",
+    "text": "Even when protesting an authoritarian government, violence is not acceptable.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "29",
+    "text": "My religious values should be spread as much as possible.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "30",
+    "text": "Our nation's values should be spread as much as possible.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "31",
+    "text": "It is very important to maintain law and order.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "32",
+    "text": "The general populace makes poor decisions.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "33",
+    "text": "Physician-assisted suicide should be legal.",
+    "cat": "euna",
+    "reason": "suicidio assistido: debate de EU/EUA/Canada; quase ausente no Brasil",
+    "rule": "manual"
+   },
+   {
+    "id": "34",
+    "text": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "35",
+    "text": "Government surveillance is necessary in the modern world.",
+    "cat": "universal",
+    "reason": "vigilancia estatal: universal",
+    "rule": "manual"
+   },
+   {
+    "id": "36",
+    "text": "The very existence of the state is a threat to our liberty.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "37",
+    "text": "Regardless of political opinions, it is important to side with your country.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "38",
+    "text": "All authority should be questioned.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "39",
+    "text": "A hierarchical state is best.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "40",
+    "text": "It is important that the government follows the majority opinion, even if it is wrong.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "41",
+    "text": "The stronger the leadership, the better.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "42",
+    "text": "Democracy is more than a decision-making process.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "43",
+    "text": "Environmental regulations are essential.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "44",
+    "text": "A better world will come from automation, science, and technology.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "45",
+    "text": "Children should be educated in religious or traditional values.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "46",
+    "text": "Traditions are of no value on their own.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "47",
+    "text": "Religion should play a role in government.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "48",
+    "text": "Churches should be taxed the same way other institutions are taxed.",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "49",
+    "text": "Climate change is currently one of the greatest threats to our way of life.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "50",
+    "text": "It is important that we work as a united world to combat climate change.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "51",
+    "text": "Society was better many years ago than it is now.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "52",
+    "text": "It is important that we maintain the traditions of our past.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "53",
+    "text": "It is important that we think in the long term, beyond our lifespans.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "54",
+    "text": "Reason is more important than maintaining our culture.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "55",
+    "text": "Drug use should be legalized or decriminalized.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "56",
+    "text": "Same-sex marriage should be legal.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "57",
+    "text": "No cultures are superior to others.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "58",
+    "text": "Sex outside marriage is immoral.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "59",
+    "text": "If we accept migrants at all, it is important that they assimilate into our culture.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "60",
+    "text": "Abortion should be prohibited in most or all cases.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "61",
+    "text": "Gun ownership should be prohibited for those without a valid reason.",
+    "cat": "euna",
+    "reason": "posse de armas como tema central da politica dos EUA",
+    "rule": "manual"
+   },
+   {
+    "id": "62",
+    "text": "I support single-payer, universal healthcare.",
+    "cat": "euna",
+    "reason": "single-payer: debate norte-americano",
+    "rule": "manual"
+   },
+   {
+    "id": "63",
+    "text": "Prostitution should be illegal.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "64",
+    "text": "Maintaining family values is essential.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "65",
+    "text": "To chase progress at all costs is dangerous.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "66",
+    "text": "Genetic modification is a force for good, even on humans.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "67",
+    "text": "We should open our borders to immigration.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "68",
+    "text": "Governments should be as concerned about foreigners as they are about their own citizens.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "69",
+    "text": "All people - regardless of factors like culture or sexuality - should be treated equally.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "70",
+    "text": "It is important that we further my group's goals above all others.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   }
+  ],
+  "9axes": [
+   {
+    "id": "0.0.0",
+    "text": "There is no need for a national government",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.0.1",
+    "text": "Subdivisions of nations should have their own militaries",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.0.2",
+    "text": "State laws should have precedence over national laws",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.1.0",
+    "text": "State and local laws should have precedence over national laws",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.1.1",
+    "text": "The national government can't understand what the people need.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.1.2",
+    "text": "People should hold more loyalty to their local state than their country.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.2.0",
+    "text": "Local governments should have more power than they currently do",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.2.1",
+    "text": "Laws should vary from area to area and culture to culture within a country.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.2.2",
+    "text": "It's a good idea to test a policy in one state rather than implementing it nationwide right away",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.3.0",
+    "text": "Local governments can understand their citizens better than the national government could",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.3.1",
+    "text": "Local governments address issues that the national government would never touch without them",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.3.2",
+    "text": "Local governments give each region good representation of their views",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.4.0",
+    "text": "A country cannot function without a national government",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.4.1",
+    "text": "The national government protects minorities better than some local governments do.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.4.2",
+    "text": "There are many issues that it does not make sense to address at a local level",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.5.0",
+    "text": "The national government needs more power",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.5.1",
+    "text": "Subdivisions should not be able to exempt from national laws",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.5.2",
+    "text": "People should think of themselves as citizens of their nation rather than their state",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.6.0",
+    "text": "A group of states without a strong national government is merely an alliance, not a nation",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.6.1",
+    "text": "A national government must be strong to adequately protect all its citizens",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.6.2",
+    "text": "States cannot function without a strong national government",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.7.0",
+    "text": "There is no need for local or state governments",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.7.1",
+    "text": "Laws should be completely consistent within all regions of a nation",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "0.7.2",
+    "text": "Strong states weaken a nation",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.0.0",
+    "text": "Direct democracy is the best form of government",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.0.1",
+    "text": "People should vote issue by issue themselves",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.0.2",
+    "text": "Representatives rarely represent the nation well",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.1.0",
+    "text": "It is important that the government follows the majority opinion, even if it is wrong.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.1.1",
+    "text": "The more people asked, the better chance there is of reaching the best decision.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.1.2",
+    "text": "Nobody but me can adequately represent my views",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.2.0",
+    "text": "Elections are an effective way of showing government approval",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.2.1",
+    "text": "Democracy is the worst form of government, except for all the others we've tried.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.2.2",
+    "text": "Each person should have one vote, each equal to every other",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.3.0",
+    "text": "Democracy is more than a decision-making process.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.3.1",
+    "text": "People should have the power to choose their leaders",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.3.2",
+    "text": "The government must be by the people for the people",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.4.0",
+    "text": "The stronger the leadership, the better.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.4.1",
+    "text": "Popular opinion is not always right",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.4.2",
+    "text": "Leaders must be strong or a nation will suffer",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.5.0",
+    "text": "A hierarchical state is best.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.5.1",
+    "text": "Society could not function without leaders and followers",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.5.2",
+    "text": "Democracy makes it too easy for a majority to further itself at the expense of minorities",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.6.0",
+    "text": "The general populace makes poor decisions.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.6.1",
+    "text": "It is important that we further my group's goals above all others.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.6.2",
+    "text": "Public opinion swings too much with emotional events to be useful for policy making",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.7.0",
+    "text": "Elections are a waste of resources",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.7.1",
+    "text": "Catering to popular opinion is detrimental to a nation",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "1.7.2",
+    "text": "A nation must obey its leadership without question",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.0.0",
+    "text": "A united world government would be beneficial to mankind.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.0.1",
+    "text": "We are first and foremost citizens of Earth",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.0.2",
+    "text": "In order for humanity to survive, we must get past having separate nations",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.1.0",
+    "text": "The United Nations needs more power",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.1.1",
+    "text": "The United Nations should have a military to enforce its resolutions",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.1.2",
+    "text": "Having independent nations with the risk of global conflict creates a large threat to humanity as a whole",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.2.0",
+    "text": "I support regional unions, such as the European Union.",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "2.2.1",
+    "text": "Governments should be accountable to the international community.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.2.2",
+    "text": "Nations fighting among each other gets in the way of progress",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.3.0",
+    "text": "International trade is generally beneficial.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.3.1",
+    "text": "Alliances are important for protecting a nation",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.3.2",
+    "text": "Nations should cooperate whenever it benefits them both",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.4.0",
+    "text": "It is important to maintain our national sovereignty.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.4.1",
+    "text": "My nation is closer to my views than most nations in the world",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.4.2",
+    "text": "I am proud to be in my country",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.5.0",
+    "text": "International aid is a waste of money.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.5.1",
+    "text": "Alliances can pose a threat to a nation's sovereignty.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.5.2",
+    "text": "National cultures are important to protect",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.6.0",
+    "text": "My nation should stay out of international affairs",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.6.1",
+    "text": "The United Nations should be abolished.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.6.2",
+    "text": "Nobody in other countries has our best interests in mind",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.7.0",
+    "text": "Diplomacy only hurts nations",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.7.1",
+    "text": "There should not be international law",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "2.7.2",
+    "text": "Any deals other countries want must be bad for us",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.0.0",
+    "text": "War is needed to make an economy thrive",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.0.1",
+    "text": "A constant state of war benefits a country",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.0.2",
+    "text": "Only those who serve in the military should be allowed to have influence on who is in power",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.1.0",
+    "text": "There should be compulsory military service",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.1.1",
+    "text": "Countries that do not serve our interests should be toppled",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.1.2",
+    "text": "Only those who served in the military should be able to gain power in government",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.2.0",
+    "text": "Military action by our nation is often necessary to protect it.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.2.1",
+    "text": "Countries that violate human rights should be toppled",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.2.2",
+    "text": "A military option should always be considered",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.3.0",
+    "text": "A government must maintain a strong military to defend itself",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.3.1",
+    "text": "A nation usually needs a military in order to survive",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.3.2",
+    "text": "We should respect those who have served in our military",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.4.0",
+    "text": "It is more important to retain peaceful relations than to further our strength.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.4.1",
+    "text": "Diplomatic options should always be tried before war is even considered",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.4.2",
+    "text": "Peace is preferable to war whenever possible",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.5.0",
+    "text": "Even when protesting an authoritarian government, violence is not acceptable.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.5.1",
+    "text": "Lasting peace leads to prosperity",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.5.2",
+    "text": "War usually leads to worse outcomes",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.6.0",
+    "text": "Military spending is a waste of money.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.6.1",
+    "text": "We have no right to militarily intervene in other nations",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.6.2",
+    "text": "Countries fall apart with constant war",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.7.0",
+    "text": "War is never justified",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.7.1",
+    "text": "In the modern era, militaries aren't really necessary",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "3.7.2",
+    "text": "Nations should not maintain a military",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.0.0",
+    "text": "Those who disagree with the government should be removed from the country",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.0.1",
+    "text": "The government should monitor all citizens to combat terrorism",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "4.0.2",
+    "text": "People should not have protections that could hinder discovering their criminal activity",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.1.0",
+    "text": "Police need more power and protection",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "4.1.1",
+    "text": "It is very important to maintain law and order.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.1.2",
+    "text": "A country must be sure to take all measures to enforce its laws",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.2.0",
+    "text": "If you have nothing to hide, then you shouldn't care about the government having access to your communications",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "4.2.1",
+    "text": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "4.2.2",
+    "text": "Government surveillance is necessary in the modern world.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.3.0",
+    "text": "The government should have access to the emails of suspected terrorists",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "4.3.1",
+    "text": "Some freedom must be given up in order to keep people safe",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.3.2",
+    "text": "Absolute freedom makes a society dangerous",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.4.0",
+    "text": "Marijuana should be legalized",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.4.1",
+    "text": "People should be given freedom whenever it causes little security risk",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.4.2",
+    "text": "The government has no business looking into most people's personal lives",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.5.0",
+    "text": "Abortion should be legal in all cases",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.5.1",
+    "text": "Police should be regulated more",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.5.2",
+    "text": "No authority should be left unquestioned.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.6.0",
+    "text": "Victimless crimes (such as drug use) should not be crimes at all.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.6.1",
+    "text": "Most drugs should be legalized",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.6.2",
+    "text": "Whistleblowers should be strongly protected",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "4.7.0",
+    "text": "The very existence of the state is a threat to our liberty.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.7.1",
+    "text": "There should be no police force",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "4.7.2",
+    "text": "People's freedom should have no limits",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.0.0",
+    "text": "Communism, if implemented correctly, would be a good form of economics",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "5.0.1",
+    "text": "From each according to his ability, to each according to his need",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.0.2",
+    "text": "Equality of outcome is important",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.1.0",
+    "text": "Oppression by corporations is more of a concern than oppression by governments.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.1.1",
+    "text": "Taxes should be increased on the rich to provide for the poor.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.1.2",
+    "text": "Public utilities like roads and electricity should be publicly owned.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.2.0",
+    "text": "I support single-payer, universal healthcare.",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "5.2.1",
+    "text": "The wealthy have far more than they need",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.2.2",
+    "text": "Basic things needed to live, such as healthcare, are rights",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.3.0",
+    "text": "It is necessary for the government to intervene in the economy to protect consumers.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.3.1",
+    "text": "People should have equal opportunity to succeed",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.3.2",
+    "text": "People born to wealthy families have unfair success even when they aren't skilled and don't work hard",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.4.0",
+    "text": "People should have the right to leave their wealth to their descendents",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.4.1",
+    "text": "Excessive government intervention is a threat to the economy.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.4.2",
+    "text": "Economies without any capitalism will collapse",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.5.0",
+    "text": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.5.1",
+    "text": "Capitalism is better than any existing alternative",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.5.2",
+    "text": "Government owned industry is usually a bad idea",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.6.0",
+    "text": "The freer the market, the freer the people",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.6.1",
+    "text": "People should have to work for anything they get",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.6.2",
+    "text": "The poor choose to be poor",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.7.0",
+    "text": "The government should not regulate the economy at all",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.7.1",
+    "text": "The government should not break up monopolies",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "5.7.2",
+    "text": "Those who do not work should die",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.0.0",
+    "text": "Religion should be banned",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.0.1",
+    "text": "Faith is complete nonsense",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.0.2",
+    "text": "Religion must decline for society to progress",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.1.0",
+    "text": "Religious clothing should be banned from public",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "6.1.1",
+    "text": "There is no higher power",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.1.2",
+    "text": "The government should not fund any religious organizations in any way",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.2.0",
+    "text": "I support gay marriage",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.2.1",
+    "text": "Every religion must be looked upon equally by the government",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.2.2",
+    "text": "Religion should be removed from everything in our government",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.3.0",
+    "text": "Religion does not belong in government",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.3.1",
+    "text": "Laws should not be based on religion",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.3.2",
+    "text": "There must be a separation between church and state",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.4.0",
+    "text": "I believe there is something after death",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.4.1",
+    "text": "Religion is beneficial for society",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.4.2",
+    "text": "People must be allowed to follow a religion",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.5.0",
+    "text": "I believe in a higher power",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.5.1",
+    "text": "Religious organizations often provide better assistance to the poor than the government does",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.5.2",
+    "text": "Children should be educated in religious values.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.6.0",
+    "text": "Religion usually provides the truth",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.6.1",
+    "text": "My religious values should be spread as much as possible.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.6.2",
+    "text": "Sex outside marriage is immoral.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.7.0",
+    "text": "Theocracy is a good system of government",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.7.1",
+    "text": "The government should support and only recognize one religion",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "6.7.2",
+    "text": "Most bad things happening in the world are caused by us turning away from religion",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.0.0",
+    "text": "If AI could rule more effectively than humans, then AI should rule",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.0.1",
+    "text": "Genetic modification is a force for good, even on humans.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.0.2",
+    "text": "Tradition just hinders the progress of technology",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.1.0",
+    "text": "Automation overall is extremely good for society",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.1.1",
+    "text": "Traditions are of no value on their own.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.1.2",
+    "text": "When people have already suffered for technology to be developed, we should use that technology",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.2.0",
+    "text": "We should put effort into getting a person on Mars in the near future",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "7.2.1",
+    "text": "Testing products on animals is ethical",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "7.2.2",
+    "text": "Technological progress is usually good",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.3.0",
+    "text": "Human Caused climate change is currently one of the greatest threats to our way of life.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.3.1",
+    "text": "Environmental regulations are essential.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.3.2",
+    "text": "A better world will come from automation, science, and technology.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.4.0",
+    "text": "To chase progress at all costs is dangerous.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.4.1",
+    "text": "Technology is not always beneficial",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.4.2",
+    "text": "Traditions are important",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.5.0",
+    "text": "Technology is negatively affecting modern society",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.5.1",
+    "text": "Genetic modification should be used rarely, if ever",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.5.2",
+    "text": "Maintaining family values is essential.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.6.0",
+    "text": "Society was better many years ago than it is now.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.6.1",
+    "text": "It is important that we maintain the traditions of our past.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.6.2",
+    "text": "The elders in society know the best path for it",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.7.0",
+    "text": "Traditional medicines are often more effective than modern medicines",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.7.1",
+    "text": "The Internet should be banned",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "7.7.2",
+    "text": "We must go back to a basic way of life without modern conveniences.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.0.0",
+    "text": "Foreigners should never enter the country",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.0.1",
+    "text": "We should not allow any refugees",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.0.2",
+    "text": "Only our national language(s) should be spoken in our country",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.1.0",
+    "text": "Only extremely talented immigrants, if that, should be permitted to enter the country",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.1.1",
+    "text": "If we accept migrants at all, it is important that they assimilate into our culture.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.1.2",
+    "text": "Immigrants can never really adapt to our way of life",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.2.0",
+    "text": "In general, immigrants are bad for the country",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.2.1",
+    "text": "A nation's culture is important to protect",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.2.2",
+    "text": "Illegal immigrants do not provide a benefit to the hosting country",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.3.0",
+    "text": "Illegal immigrants should be deported in most or all cases",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.3.1",
+    "text": "Immigrants should be expected to learn the language of the country",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.3.2",
+    "text": "Border protection is important",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.4.0",
+    "text": "We should be taking in more refugees",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.4.1",
+    "text": "Immigrants are a net positive",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.4.2",
+    "text": "I enjoy some foreign cultures",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.5.0",
+    "text": "No cultures are superior to others.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.5.1",
+    "text": "We should be more accepting to other cultures",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.5.2",
+    "text": "All societies are a blend of cultures",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.6.0",
+    "text": "Everybody should speak at least two languages",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.6.1",
+    "text": "All humans share a common identity",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.6.2",
+    "text": "Our culture would be better with other cultures mixed in more",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.7.0",
+    "text": "Governments should be as concerned about foreign citizens as they are about those within their borders.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.7.1",
+    "text": "Anybody who wants to enter the country should be able to",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "8.7.2",
+    "text": "The benefits of open borders would outweigh the costs",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   }
+  ],
+  "sapplyvalues": [
+   {
+    "id": "S0",
+    "text": "Freedom of business is the best practical way a society can prosper.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S1",
+    "text": "Charity is a better way of helping those in need than social welfare.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S2",
+    "text": "Wages are always fair, as employers know best what a worker's labour is worth.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S3",
+    "text": "It is \"human nature\" to be greedy.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S4",
+    "text": "\"Exploitation\" is an outdated term, as the struggles of 1800s capitalism don't exist anymore.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S5",
+    "text": "Communism is an ideal that can never work in practice.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S6",
+    "text": "Taxation of the wealthy is a bad idea, society would be better off without it.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S7",
+    "text": "The harder you work, the more you progress up the social ladder.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S8",
+    "text": "Organisations and corporations cannot be trusted and need to be regulated by the government.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S9",
+    "text": "A government that provides for everyone is an inherently good idea.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S10",
+    "text": "The current welfare system should be expanded to further combat inequality.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S11",
+    "text": "Land should not be a commodity to be bought and sold.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S12",
+    "text": "All industry and the bank should be nationalised.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S13",
+    "text": "Class is the primary division of society.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S14",
+    "text": "Economic inequality is too high in the world.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S15",
+    "text": "Sometimes it is right that the government may spy on its citizens to combat extremists and terrorists.",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "S16",
+    "text": "Authority figures, if morally correct, are a good thing for society.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S17",
+    "text": "Strength is necessary for any government to succeed.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S18",
+    "text": "Only the government can fairly and effectively regulate organisations.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S19",
+    "text": "Society requires structure and bureaucracy in order to function.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S20",
+    "text": "Mandatory IDs should be used to ensure public safety.",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "S21",
+    "text": "In times of crisis, safety becomes more important than civil liberties.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S22",
+    "text": "If you have nothing to hide, you have nothing to fear.",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "S23",
+    "text": "The government should be less involved in the day to day life of its citizens.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S24",
+    "text": "Without democracy, a society is nothing.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S25",
+    "text": "Jury nullification should be legal.",
+    "cat": "euna",
+    "reason": "debate tipicamente anglo-europeu/norte-americano (UE, saude single-payer, antiterrorismo pos-11/9, armas, imposto sobre igrejas, veu, etc.)",
+    "rule": "/European Union|regional unions|single-payer|terroris|Mars\\b|Religious clothing|Jury|Mandatory IDs|Churches should be taxed|Gun ownership|Physician-assisted|nothing to hide|Communism, if implemented|Whistleblowers|Testing products on animals|Police need more power/i"
+   },
+   {
+    "id": "S26",
+    "text": "The smaller the government, the freer the people.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S27",
+    "text": "The government should, at most, provide emergency services and law enforcement.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S28",
+    "text": "The police were not created to protect the people, but to uphold the status quo by force.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S29",
+    "text": "State schools are a bad idea because our state shouldn't be influencing our children.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S30",
+    "text": "Two consenting individuals should be able to do whatever they want with each other, even if it makes me uncomfortable.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S31",
+    "text": "An individual's body is their own property, and they should be able to do anything they desire to it.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S32",
+    "text": "A person should be able to worship whomever or whatever they want.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S33",
+    "text": "Nudism is perfectly natural.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S34",
+    "text": "Animals deserve certain universal rights.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S35",
+    "text": "Gender is a social construct, not a natural state of affairs.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S36",
+    "text": "Laws based on cultural values, rather than ethical ones, aren't justice.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S37",
+    "text": "Autonomy of body extends even to minors, the mentally ill, and serious criminals.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S38",
+    "text": "Homosexuality is against my values.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S39",
+    "text": "Transgender individuals should not be able to adopt children.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S40",
+    "text": "Drugs are harmful and should be banned.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S41",
+    "text": "The death penalty should exist for certain crimes.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S42",
+    "text": "Victimless crimes should still be punished.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S43",
+    "text": "One cannot be moral without religion.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S44",
+    "text": "Parents should hold absolute power over their children, as they are older and more experienced.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   },
+   {
+    "id": "S45",
+    "text": "Multiculturalism is bad.",
+    "cat": "universal",
+    "reason": "sem referencia geografica ou institucional especifica",
+    "rule": "default"
+   }
+  ]
+ },
+ "resumo": {
+  "12axes": {
+   "n": 240,
+   "euna": 0,
+   "latam": 43,
+   "universal": 197,
+   "pct": {
+    "euna": 0,
+    "latam": 17.9,
+    "universal": 82.1
+   }
+  },
+  "8values": {
+   "n": 70,
+   "euna": 7,
+   "latam": 0,
+   "universal": 63,
+   "pct": {
+    "euna": 10,
+    "latam": 0,
+    "universal": 90
+   }
+  },
+  "9axes": {
+   "n": 216,
+   "euna": 12,
+   "latam": 0,
+   "universal": 204,
+   "pct": {
+    "euna": 5.6,
+    "latam": 0,
+    "universal": 94.4
+   }
+  },
+  "sapplyvalues": {
+   "n": 46,
+   "euna": 4,
+   "latam": 0,
+   "universal": 42,
+   "pct": {
+    "euna": 8.7,
+    "latam": 0,
+    "universal": 91.3
+   }
+  }
+ },
+ "cobertura": {
+  "12axes": {
+   "seguranca publica": {
+    "n": 9,
+    "ids": [
+     "estrutura_06",
+     "poder_01",
+     "poder_02",
+     "poder_03",
+     "poder_05",
+     "poder_15",
+     "poder_20",
+     "diplomacia_14",
+     "economia_06"
+    ]
+   },
+   "armas": {
+    "n": 4,
+    "ids": [
+     "poder_09",
+     "poder_10",
+     "diplomacia_07",
+     "diplomacia_15"
+    ]
+   },
+   "drogas": {
+    "n": 3,
+    "ids": [
+     "poder_02",
+     "poder_06",
+     "poder_08"
+    ]
+   },
+   "agro x ambiente": {
+    "n": 7,
+    "ids": [
+     "economia_15",
+     "comercio_11",
+     "tecnologia_05",
+     "tecnologia_06",
+     "tecnologia_07",
+     "tecnologia_12",
+     "tecnologia_17"
+    ]
+   },
+   "estatais / Petrobras": {
+    "n": 9,
+    "ids": [
+     "economia_03",
+     "economia_17",
+     "economia_19",
+     "controle_01",
+     "controle_07",
+     "controle_11",
+     "comercio_09",
+     "comercio_13",
+     "comercio_17"
+    ]
+   },
+   "tributacao e desigualdade": {
+    "n": 8,
+    "ids": [
+     "estrutura_07",
+     "estrutura_10",
+     "economia_08",
+     "economia_10",
+     "economia_18",
+     "controle_05",
+     "controle_06",
+     "religiao_05"
+    ]
+   },
+   "corrupcao": {
+    "n": 0,
+    "ids": []
+   },
+   "STF e instituicoes": {
+    "n": 6,
+    "ids": [
+     "representacao_02",
+     "representacao_05",
+     "representacao_09",
+     "controle_03",
+     "controle_16",
+     "controle_18"
+    ]
+   },
+   "religiao na politica": {
+    "n": 20,
+    "ids": [
+     "religiao_01",
+     "religiao_02",
+     "religiao_03",
+     "religiao_04",
+     "religiao_05",
+     "religiao_06",
+     "religiao_07",
+     "religiao_08",
+     "religiao_09",
+     "religiao_10",
+     "religiao_11",
+     "religiao_12",
+     "religiao_13",
+     "religiao_14",
+     "religiao_15",
+     "religiao_16",
+     "religiao_17",
+     "religiao_18",
+     "religiao_19",
+     "religiao_20"
+    ]
+   },
+   "transferencia de renda (Bolsa Familia)": {
+    "n": 2,
+    "ids": [
+     "economia_11",
+     "economia_14"
+    ]
+   },
+   "relacao com EUA e China": {
+    "n": 1,
+    "ids": [
+     "comercio_15"
+    ]
+   },
+   "Mercosul / integracao regional": {
+    "n": 5,
+    "ids": [
+     "intervencao_04",
+     "intervencao_10",
+     "intervencao_12",
+     "intervencao_14",
+     "intervencao_20"
+    ]
+   }
+  },
+  "8values": {
+   "seguranca publica": {
+    "n": 1,
+    "ids": [
+     "31"
+    ]
+   },
+   "armas": {
+    "n": 1,
+    "ids": [
+     "61"
+    ]
+   },
+   "drogas": {
+    "n": 1,
+    "ids": [
+     "55"
+    ]
+   },
+   "agro x ambiente": {
+    "n": 4,
+    "ids": [
+     "43",
+     "49",
+     "50",
+     "66"
+    ]
+   },
+   "estatais / Petrobras": {
+    "n": 2,
+    "ids": [
+     "11",
+     "15"
+    ]
+   },
+   "tributacao e desigualdade": {
+    "n": 3,
+    "ids": [
+     "9",
+     "10",
+     "48"
+    ]
+   },
+   "corrupcao": {
+    "n": 0,
+    "ids": []
+   },
+   "STF e instituicoes": {
+    "n": 0,
+    "ids": []
+   },
+   "religiao na politica": {
+    "n": 4,
+    "ids": [
+     "29",
+     "45",
+     "47",
+     "48"
+    ]
+   },
+   "transferencia de renda (Bolsa Familia)": {
+    "n": 3,
+    "ids": [
+     "4",
+     "8",
+     "62"
+    ]
+   },
+   "relacao com EUA e China": {
+    "n": 0,
+    "ids": []
+   },
+   "Mercosul / integracao regional": {
+    "n": 1,
+    "ids": [
+     "18"
+    ]
+   }
+  },
+  "9axes": {
+   "seguranca publica": {
+    "n": 5,
+    "ids": [
+     "4.1.0",
+     "4.1.1",
+     "4.5.1",
+     "4.6.0",
+     "4.7.1"
+    ]
+   },
+   "armas": {
+    "n": 0,
+    "ids": []
+   },
+   "drogas": {
+    "n": 3,
+    "ids": [
+     "4.4.0",
+     "4.6.0",
+     "4.6.1"
+    ]
+   },
+   "agro x ambiente": {
+    "n": 4,
+    "ids": [
+     "7.0.1",
+     "7.3.0",
+     "7.3.1",
+     "7.5.1"
+    ]
+   },
+   "estatais / Petrobras": {
+    "n": 2,
+    "ids": [
+     "5.1.2",
+     "5.5.2"
+    ]
+   },
+   "tributacao e desigualdade": {
+    "n": 4,
+    "ids": [
+     "5.1.1",
+     "5.2.1",
+     "5.3.2",
+     "5.4.0"
+    ]
+   },
+   "corrupcao": {
+    "n": 0,
+    "ids": []
+   },
+   "STF e instituicoes": {
+    "n": 0,
+    "ids": []
+   },
+   "religiao na politica": {
+    "n": 19,
+    "ids": [
+     "6.0.0",
+     "6.0.1",
+     "6.0.2",
+     "6.1.0",
+     "6.1.2",
+     "6.2.1",
+     "6.2.2",
+     "6.3.0",
+     "6.3.1",
+     "6.3.2",
+     "6.4.1",
+     "6.4.2",
+     "6.5.1",
+     "6.5.2",
+     "6.6.0",
+     "6.6.1",
+     "6.7.0",
+     "6.7.1",
+     "6.7.2"
+    ]
+   },
+   "transferencia de renda (Bolsa Familia)": {
+    "n": 2,
+    "ids": [
+     "5.2.0",
+     "5.5.0"
+    ]
+   },
+   "relacao com EUA e China": {
+    "n": 0,
+    "ids": []
+   },
+   "Mercosul / integracao regional": {
+    "n": 1,
+    "ids": [
+     "2.2.0"
+    ]
+   }
+  },
+  "sapplyvalues": {
+   "seguranca publica": {
+    "n": 3,
+    "ids": [
+     "S28",
+     "S41",
+     "S42"
+    ]
+   },
+   "armas": {
+    "n": 0,
+    "ids": []
+   },
+   "drogas": {
+    "n": 1,
+    "ids": [
+     "S40"
+    ]
+   },
+   "agro x ambiente": {
+    "n": 0,
+    "ids": []
+   },
+   "estatais / Petrobras": {
+    "n": 1,
+    "ids": [
+     "S12"
+    ]
+   },
+   "tributacao e desigualdade": {
+    "n": 3,
+    "ids": [
+     "S6",
+     "S10",
+     "S14"
+    ]
+   },
+   "corrupcao": {
+    "n": 0,
+    "ids": []
+   },
+   "STF e instituicoes": {
+    "n": 0,
+    "ids": []
+   },
+   "religiao na politica": {
+    "n": 1,
+    "ids": [
+     "S43"
+    ]
+   },
+   "transferencia de renda (Bolsa Familia)": {
+    "n": 2,
+    "ids": [
+     "S1",
+     "S10"
+    ]
+   },
+   "relacao com EUA e China": {
+    "n": 0,
+    "ids": []
+   },
+   "Mercosul / integracao regional": {
+    "n": 0,
+    "ids": []
+   }
+  }
+ },
+ "representacaoLatam": {
+  "12axes": {
+   "paises": {
+    "total": 309,
+    "latam": 39,
+    "pct": 12.6,
+    "subnacionais_brasil": 10,
+    "historicos": 13,
+    "lista": [
+     "Brasil",
+     "México",
+     "Chile",
+     "Bolívia",
+     "Venezuela",
+     "Cuba",
+     "Costa Rica",
+     "Império do Brasil",
+     "Chile de Pinochet",
+     "Argentina Peronista",
+     "Argentina",
+     "Brasil (Era Vargas)",
+     "El Salvador",
+     "Colômbia",
+     "Uruguai",
+     "Grã-Colômbia",
+     "Chile de Allende",
+     "Brasil do Regime Militar",
+     "México de Cárdenas",
+     "Panamá",
+     "Peru",
+     "Paraguai",
+     "Chiapas Zapatista (México)",
+     "Peru Fujimorista",
+     "São Paulo (Brasil)",
+     "Rio de Janeiro (Brasil)",
+     "Santa Catarina (Brasil)",
+     "Paraná (Brasil)",
+     "Rio Grande do Sul (Brasil)",
+     "Minas Gerais (Brasil)",
+     "Equador",
+     "Cuba de Fidel Castro",
+     "Venezuela de Chávez",
+     "Brasil da República Velha",
+     "Bahia (Brasil)",
+     "Pernambuco (Brasil)",
+     "Ceará (Brasil)",
+     "Goiás (Brasil)",
+     "Brasil de Juscelino Kubitschek"
+    ]
+   },
+   "personalidades": {
+    "total": 645,
+    "latam_heuristica": 59,
+    "pct": 9.1,
+    "nota": "heuristica de nacionalidade nos 220 primeiros caracteres de role+description; revisar manualmente",
+    "lista": [
+     "Plínio Salgado",
+     "Getúlio Vargas",
+     "Emiliano Zapata",
+     "Javier Milei",
+     "Leonardo Boff",
+     "Salvador Allende",
+     "Che Guevara",
+     "Lula da Silva",
+     "Hugo Chávez",
+     "Ciro Gomes",
+     "Jair Bolsonaro",
+     "Michel Temer",
+     "Fernando Henrique Cardoso",
+     "Emílio Garrastazu Médici",
+     "Humberto Castelo Branco",
+     "João Goulart",
+     "Leonel Brizola",
+     "Augusto Pinochet",
+     "Fidel Castro",
+     "José Mujica",
+     "Enéas Carneiro",
+     "Juan Domingo Perón",
+     "Papa Francisco",
+     "Nicolás Maduro",
+     "Olavo de Carvalho",
+     "Celso Furtado",
+     "Roberto Campos",
+     "Luiz Carlos Bresser-Pereira",
+     "Eduardo Leite",
+     "Machado de Assis",
+     "Paulo Freire",
+     "José Antonio Kast",
+     "Yamandú Orsi",
+     "Santiago Peña",
+     "Néstor Kirchner",
+     "Carlos Menem",
+     "Luiz Felipe Pondé",
+     "Gustavo Barroso",
+     "Dom Bertrand",
+     "Juan Bautista Alberdi",
+     "Julio Argentino Roca",
+     "Gabriel Boric",
+     "Ricardo Flores Magón",
+     "Aldo Rebelo",
+     "Luiz Philippe de Orleans e Bragança",
+     "Eduardo Paes",
+     "Eduardo Moreira",
+     "Jones Manoel",
+     "Nando Moura",
+     "Raphaël Lima",
+     "João Campos",
+     "José Carlos Mariátegui",
+     "Paulo Kogos",
+     "José Gervasio Artigas",
+     "Juan Manuel Santos",
+     "Johannes Kaiser",
+     "Oscar Niemeyer",
+     "Raúl Prebisch",
+     "Bezerra de Menezes"
+    ]
+   },
+   "ideologias": {
+    "total": 273,
+    "estrito": [
+     "Integralismo Brasileiro",
+     "Socialismo Bolivariano",
+     "Zapatismo",
+     "Nacionalismo Peronista",
+     "Nacionalismo Varguista",
+     "Social-Democracia Brasileira",
+     "Indigenismo"
+    ],
+    "amplo": [
+     "Desenvolvimentismo",
+     "Nacional-Desenvolvimentismo",
+     "Liberal-Desenvolvimentismo",
+     "Social-Desenvolvimentismo",
+     "Desenvolvimentismo de Estado",
+     "Trabalhismo",
+     "Trabalhismo Cristão"
+    ]
+   }
+  },
+  "8values": {
+   "ideologias": 52,
+   "latam": 0,
+   "paises": 0,
+   "figuras": 0,
+   "nota": "nenhum pais/figura; ideologias genericas (sem Peronismo, Varguismo, Bolivarianismo etc.)",
+   "lista": [
+    "Anarcho-Communism",
+    "Libertarian Communism",
+    "Trotskyism",
+    "Marxism",
+    "De Leonism",
+    "Leninism",
+    "Stalinism/Maoism",
+    "Religious Communism",
+    "State Socialism",
+    "Theocratic Socialism",
+    "Religious Socialism",
+    "Democratic Socialism",
+    "Revolutionary Socialism",
+    "Libertarian Socialism",
+    "Anarcho-Syndicalism",
+    "Left-Wing Populism",
+    "Theocratic Distributism",
+    "Distributism",
+    "Social Liberalism",
+    "Christian Democracy",
+    "Social Democracy",
+    "Progressivism",
+    "Anarcho-Mutualism",
+    "National Totalitarianism",
+    "Global Totalitarianism",
+    "Technocracy",
+    "Centrist",
+    "Liberalism",
+    "Religious Anarchism",
+    "Right-Wing Populism",
+    "Moderate Conservatism",
+    "Reactionary",
+    "Social Libertarianism",
+    "Libertarianism",
+    "Anarcho-Egoism",
+    "Nazism",
+    "Autocracy",
+    "Fascism",
+    "Capitalist Fascism",
+    "Conservatism",
+    "Neo-Liberalism",
+    "Classical Liberalism",
+    "Authoritarian Capitalism",
+    "State Capitalism",
+    "Neo-Conservatism",
+    "Fundamentalism",
+    "Libertarian Capitalism",
+    "Market Anarchism",
+    "Objectivism",
+    "Totalitarian Capitalism",
+    "Ultra-Capitalism",
+    "Anarcho-Capitalism"
+   ]
+  },
+  "9axes": {
+   "ideologias": 52,
+   "latam": 0,
+   "paises": 0,
+   "figuras": 0,
+   "nota": "mesma lista de 8values"
+  },
+  "sapplyvalues": {
+   "ideologias": 0,
+   "paises": 0,
+   "figuras": 0,
+   "nota": "so bussola 3D, sem referencias"
+  }
+ }
+}

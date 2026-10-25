@@ -1,0 +1,1730 @@
+[
+ {
+  "id": "0.0.0",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 0,
+  "sign": 1,
+  "text": "There is no need for a national government"
+ },
+ {
+  "id": "0.0.1",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 0,
+  "sign": 1,
+  "text": "Subdivisions of nations should have their own militaries"
+ },
+ {
+  "id": "0.0.2",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 0,
+  "sign": 1,
+  "text": "State laws should have precedence over national laws"
+ },
+ {
+  "id": "0.1.0",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 1,
+  "sign": 1,
+  "text": "State and local laws should have precedence over national laws"
+ },
+ {
+  "id": "0.1.1",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 1,
+  "sign": 1,
+  "text": "The national government can't understand what the people need."
+ },
+ {
+  "id": "0.1.2",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 1,
+  "sign": 1,
+  "text": "People should hold more loyalty to their local state than their country."
+ },
+ {
+  "id": "0.2.0",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 2,
+  "sign": 1,
+  "text": "Local governments should have more power than they currently do"
+ },
+ {
+  "id": "0.2.1",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 2,
+  "sign": 1,
+  "text": "Laws should vary from area to area and culture to culture within a country."
+ },
+ {
+  "id": "0.2.2",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 2,
+  "sign": 1,
+  "text": "It's a good idea to test a policy in one state rather than implementing it nationwide right away"
+ },
+ {
+  "id": "0.3.0",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 3,
+  "sign": 1,
+  "text": "Local governments can understand their citizens better than the national government could"
+ },
+ {
+  "id": "0.3.1",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 3,
+  "sign": 1,
+  "text": "Local governments address issues that the national government would never touch without them"
+ },
+ {
+  "id": "0.3.2",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 3,
+  "sign": 1,
+  "text": "Local governments give each region good representation of their views"
+ },
+ {
+  "id": "0.4.0",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 4,
+  "sign": -1,
+  "text": "A country cannot function without a national government"
+ },
+ {
+  "id": "0.4.1",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 4,
+  "sign": -1,
+  "text": "The national government protects minorities better than some local governments do."
+ },
+ {
+  "id": "0.4.2",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 4,
+  "sign": -1,
+  "text": "There are many issues that it does not make sense to address at a local level"
+ },
+ {
+  "id": "0.5.0",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 5,
+  "sign": -1,
+  "text": "The national government needs more power"
+ },
+ {
+  "id": "0.5.1",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 5,
+  "sign": -1,
+  "text": "Subdivisions should not be able to exempt from national laws"
+ },
+ {
+  "id": "0.5.2",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 5,
+  "sign": -1,
+  "text": "People should think of themselves as citizens of their nation rather than their state"
+ },
+ {
+  "id": "0.6.0",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 6,
+  "sign": -1,
+  "text": "A group of states without a strong national government is merely an alliance, not a nation"
+ },
+ {
+  "id": "0.6.1",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 6,
+  "sign": -1,
+  "text": "A national government must be strong to adequately protect all its citizens"
+ },
+ {
+  "id": "0.6.2",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 6,
+  "sign": -1,
+  "text": "States cannot function without a strong national government"
+ },
+ {
+  "id": "0.7.0",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 7,
+  "sign": -1,
+  "text": "There is no need for local or state governments"
+ },
+ {
+  "id": "0.7.1",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 7,
+  "sign": -1,
+  "text": "Laws should be completely consistent within all regions of a nation"
+ },
+ {
+  "id": "0.7.2",
+  "axis": 0,
+  "axisName": "Federal|Unitary",
+  "level": 7,
+  "sign": -1,
+  "text": "Strong states weaken a nation"
+ },
+ {
+  "id": "1.0.0",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 0,
+  "sign": 1,
+  "text": "Direct democracy is the best form of government"
+ },
+ {
+  "id": "1.0.1",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 0,
+  "sign": 1,
+  "text": "People should vote issue by issue themselves"
+ },
+ {
+  "id": "1.0.2",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 0,
+  "sign": 1,
+  "text": "Representatives rarely represent the nation well"
+ },
+ {
+  "id": "1.1.0",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 1,
+  "sign": 1,
+  "text": "It is important that the government follows the majority opinion, even if it is wrong."
+ },
+ {
+  "id": "1.1.1",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 1,
+  "sign": 1,
+  "text": "The more people asked, the better chance there is of reaching the best decision."
+ },
+ {
+  "id": "1.1.2",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 1,
+  "sign": 1,
+  "text": "Nobody but me can adequately represent my views"
+ },
+ {
+  "id": "1.2.0",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 2,
+  "sign": 1,
+  "text": "Elections are an effective way of showing government approval"
+ },
+ {
+  "id": "1.2.1",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 2,
+  "sign": 1,
+  "text": "Democracy is the worst form of government, except for all the others we've tried."
+ },
+ {
+  "id": "1.2.2",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 2,
+  "sign": 1,
+  "text": "Each person should have one vote, each equal to every other"
+ },
+ {
+  "id": "1.3.0",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 3,
+  "sign": 1,
+  "text": "Democracy is more than a decision-making process."
+ },
+ {
+  "id": "1.3.1",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 3,
+  "sign": 1,
+  "text": "People should have the power to choose their leaders"
+ },
+ {
+  "id": "1.3.2",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 3,
+  "sign": 1,
+  "text": "The government must be by the people for the people"
+ },
+ {
+  "id": "1.4.0",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 4,
+  "sign": -1,
+  "text": "The stronger the leadership, the better."
+ },
+ {
+  "id": "1.4.1",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 4,
+  "sign": -1,
+  "text": "Popular opinion is not always right"
+ },
+ {
+  "id": "1.4.2",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 4,
+  "sign": -1,
+  "text": "Leaders must be strong or a nation will suffer"
+ },
+ {
+  "id": "1.5.0",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 5,
+  "sign": -1,
+  "text": "A hierarchical state is best."
+ },
+ {
+  "id": "1.5.1",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 5,
+  "sign": -1,
+  "text": "Society could not function without leaders and followers"
+ },
+ {
+  "id": "1.5.2",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 5,
+  "sign": -1,
+  "text": "Democracy makes it too easy for a majority to further itself at the expense of minorities"
+ },
+ {
+  "id": "1.6.0",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 6,
+  "sign": -1,
+  "text": "The general populace makes poor decisions."
+ },
+ {
+  "id": "1.6.1",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 6,
+  "sign": -1,
+  "text": "It is important that we further my group's goals above all others."
+ },
+ {
+  "id": "1.6.2",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 6,
+  "sign": -1,
+  "text": "Public opinion swings too much with emotional events to be useful for policy making"
+ },
+ {
+  "id": "1.7.0",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 7,
+  "sign": -1,
+  "text": "Elections are a waste of resources"
+ },
+ {
+  "id": "1.7.1",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 7,
+  "sign": -1,
+  "text": "Catering to popular opinion is detrimental to a nation"
+ },
+ {
+  "id": "1.7.2",
+  "axis": 1,
+  "axisName": "Democratic|Authoritarian",
+  "level": 7,
+  "sign": -1,
+  "text": "A nation must obey its leadership without question"
+ },
+ {
+  "id": "2.0.0",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 0,
+  "sign": 1,
+  "text": "A united world government would be beneficial to mankind."
+ },
+ {
+  "id": "2.0.1",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 0,
+  "sign": 1,
+  "text": "We are first and foremost citizens of Earth"
+ },
+ {
+  "id": "2.0.2",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 0,
+  "sign": 1,
+  "text": "In order for humanity to survive, we must get past having separate nations"
+ },
+ {
+  "id": "2.1.0",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 1,
+  "sign": 1,
+  "text": "The United Nations needs more power"
+ },
+ {
+  "id": "2.1.1",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 1,
+  "sign": 1,
+  "text": "The United Nations should have a military to enforce its resolutions"
+ },
+ {
+  "id": "2.1.2",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 1,
+  "sign": 1,
+  "text": "Having independent nations with the risk of global conflict creates a large threat to humanity as a whole"
+ },
+ {
+  "id": "2.2.0",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 2,
+  "sign": 1,
+  "text": "I support regional unions, such as the European Union."
+ },
+ {
+  "id": "2.2.1",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 2,
+  "sign": 1,
+  "text": "Governments should be accountable to the international community."
+ },
+ {
+  "id": "2.2.2",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 2,
+  "sign": 1,
+  "text": "Nations fighting among each other gets in the way of progress"
+ },
+ {
+  "id": "2.3.0",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 3,
+  "sign": 1,
+  "text": "International trade is generally beneficial."
+ },
+ {
+  "id": "2.3.1",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 3,
+  "sign": 1,
+  "text": "Alliances are important for protecting a nation"
+ },
+ {
+  "id": "2.3.2",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 3,
+  "sign": 1,
+  "text": "Nations should cooperate whenever it benefits them both"
+ },
+ {
+  "id": "2.4.0",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 4,
+  "sign": -1,
+  "text": "It is important to maintain our national sovereignty."
+ },
+ {
+  "id": "2.4.1",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 4,
+  "sign": -1,
+  "text": "My nation is closer to my views than most nations in the world"
+ },
+ {
+  "id": "2.4.2",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 4,
+  "sign": -1,
+  "text": "I am proud to be in my country"
+ },
+ {
+  "id": "2.5.0",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 5,
+  "sign": -1,
+  "text": "International aid is a waste of money."
+ },
+ {
+  "id": "2.5.1",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 5,
+  "sign": -1,
+  "text": "Alliances can pose a threat to a nation's sovereignty."
+ },
+ {
+  "id": "2.5.2",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 5,
+  "sign": -1,
+  "text": "National cultures are important to protect"
+ },
+ {
+  "id": "2.6.0",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 6,
+  "sign": -1,
+  "text": "My nation should stay out of international affairs"
+ },
+ {
+  "id": "2.6.1",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 6,
+  "sign": -1,
+  "text": "The United Nations should be abolished."
+ },
+ {
+  "id": "2.6.2",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 6,
+  "sign": -1,
+  "text": "Nobody in other countries has our best interests in mind"
+ },
+ {
+  "id": "2.7.0",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 7,
+  "sign": -1,
+  "text": "Diplomacy only hurts nations"
+ },
+ {
+  "id": "2.7.1",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 7,
+  "sign": -1,
+  "text": "There should not be international law"
+ },
+ {
+  "id": "2.7.2",
+  "axis": 2,
+  "axisName": "Globalist|Isolationist",
+  "level": 7,
+  "sign": -1,
+  "text": "Any deals other countries want must be bad for us"
+ },
+ {
+  "id": "3.0.0",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 0,
+  "sign": 1,
+  "text": "War is needed to make an economy thrive"
+ },
+ {
+  "id": "3.0.1",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 0,
+  "sign": 1,
+  "text": "A constant state of war benefits a country"
+ },
+ {
+  "id": "3.0.2",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 0,
+  "sign": 1,
+  "text": "Only those who serve in the military should be allowed to have influence on who is in power"
+ },
+ {
+  "id": "3.1.0",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 1,
+  "sign": 1,
+  "text": "There should be compulsory military service"
+ },
+ {
+  "id": "3.1.1",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 1,
+  "sign": 1,
+  "text": "Countries that do not serve our interests should be toppled"
+ },
+ {
+  "id": "3.1.2",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 1,
+  "sign": 1,
+  "text": "Only those who served in the military should be able to gain power in government"
+ },
+ {
+  "id": "3.2.0",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 2,
+  "sign": 1,
+  "text": "Military action by our nation is often necessary to protect it."
+ },
+ {
+  "id": "3.2.1",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 2,
+  "sign": 1,
+  "text": "Countries that violate human rights should be toppled"
+ },
+ {
+  "id": "3.2.2",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 2,
+  "sign": 1,
+  "text": "A military option should always be considered"
+ },
+ {
+  "id": "3.3.0",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 3,
+  "sign": 1,
+  "text": "A government must maintain a strong military to defend itself"
+ },
+ {
+  "id": "3.3.1",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 3,
+  "sign": 1,
+  "text": "A nation usually needs a military in order to survive"
+ },
+ {
+  "id": "3.3.2",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 3,
+  "sign": 1,
+  "text": "We should respect those who have served in our military"
+ },
+ {
+  "id": "3.4.0",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 4,
+  "sign": -1,
+  "text": "It is more important to retain peaceful relations than to further our strength."
+ },
+ {
+  "id": "3.4.1",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 4,
+  "sign": -1,
+  "text": "Diplomatic options should always be tried before war is even considered"
+ },
+ {
+  "id": "3.4.2",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 4,
+  "sign": -1,
+  "text": "Peace is preferable to war whenever possible"
+ },
+ {
+  "id": "3.5.0",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 5,
+  "sign": -1,
+  "text": "Even when protesting an authoritarian government, violence is not acceptable."
+ },
+ {
+  "id": "3.5.1",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 5,
+  "sign": -1,
+  "text": "Lasting peace leads to prosperity"
+ },
+ {
+  "id": "3.5.2",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 5,
+  "sign": -1,
+  "text": "War usually leads to worse outcomes"
+ },
+ {
+  "id": "3.6.0",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 6,
+  "sign": -1,
+  "text": "Military spending is a waste of money."
+ },
+ {
+  "id": "3.6.1",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 6,
+  "sign": -1,
+  "text": "We have no right to militarily intervene in other nations"
+ },
+ {
+  "id": "3.6.2",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 6,
+  "sign": -1,
+  "text": "Countries fall apart with constant war"
+ },
+ {
+  "id": "3.7.0",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 7,
+  "sign": -1,
+  "text": "War is never justified"
+ },
+ {
+  "id": "3.7.1",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 7,
+  "sign": -1,
+  "text": "In the modern era, militaries aren't really necessary"
+ },
+ {
+  "id": "3.7.2",
+  "axis": 3,
+  "axisName": "Militarist|Pacifist",
+  "level": 7,
+  "sign": -1,
+  "text": "Nations should not maintain a military"
+ },
+ {
+  "id": "4.0.0",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 0,
+  "sign": 1,
+  "text": "Those who disagree with the government should be removed from the country"
+ },
+ {
+  "id": "4.0.1",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 0,
+  "sign": 1,
+  "text": "The government should monitor all citizens to combat terrorism"
+ },
+ {
+  "id": "4.0.2",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 0,
+  "sign": 1,
+  "text": "People should not have protections that could hinder discovering their criminal activity"
+ },
+ {
+  "id": "4.1.0",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 1,
+  "sign": 1,
+  "text": "Police need more power and protection"
+ },
+ {
+  "id": "4.1.1",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 1,
+  "sign": 1,
+  "text": "It is very important to maintain law and order."
+ },
+ {
+  "id": "4.1.2",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 1,
+  "sign": 1,
+  "text": "A country must be sure to take all measures to enforce its laws"
+ },
+ {
+  "id": "4.2.0",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 2,
+  "sign": 1,
+  "text": "If you have nothing to hide, then you shouldn't care about the government having access to your communications"
+ },
+ {
+  "id": "4.2.1",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 2,
+  "sign": 1,
+  "text": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism."
+ },
+ {
+  "id": "4.2.2",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 2,
+  "sign": 1,
+  "text": "Government surveillance is necessary in the modern world."
+ },
+ {
+  "id": "4.3.0",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 3,
+  "sign": 1,
+  "text": "The government should have access to the emails of suspected terrorists"
+ },
+ {
+  "id": "4.3.1",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 3,
+  "sign": 1,
+  "text": "Some freedom must be given up in order to keep people safe"
+ },
+ {
+  "id": "4.3.2",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 3,
+  "sign": 1,
+  "text": "Absolute freedom makes a society dangerous"
+ },
+ {
+  "id": "4.4.0",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 4,
+  "sign": -1,
+  "text": "Marijuana should be legalized"
+ },
+ {
+  "id": "4.4.1",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 4,
+  "sign": -1,
+  "text": "People should be given freedom whenever it causes little security risk"
+ },
+ {
+  "id": "4.4.2",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 4,
+  "sign": -1,
+  "text": "The government has no business looking into most people's personal lives"
+ },
+ {
+  "id": "4.5.0",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 5,
+  "sign": -1,
+  "text": "Abortion should be legal in all cases"
+ },
+ {
+  "id": "4.5.1",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 5,
+  "sign": -1,
+  "text": "Police should be regulated more"
+ },
+ {
+  "id": "4.5.2",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 5,
+  "sign": -1,
+  "text": "No authority should be left unquestioned."
+ },
+ {
+  "id": "4.6.0",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 6,
+  "sign": -1,
+  "text": "Victimless crimes (such as drug use) should not be crimes at all."
+ },
+ {
+  "id": "4.6.1",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 6,
+  "sign": -1,
+  "text": "Most drugs should be legalized"
+ },
+ {
+  "id": "4.6.2",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 6,
+  "sign": -1,
+  "text": "Whistleblowers should be strongly protected"
+ },
+ {
+  "id": "4.7.0",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 7,
+  "sign": -1,
+  "text": "The very existence of the state is a threat to our liberty."
+ },
+ {
+  "id": "4.7.1",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 7,
+  "sign": -1,
+  "text": "There should be no police force"
+ },
+ {
+  "id": "4.7.2",
+  "axis": 4,
+  "axisName": "Security|Freedom",
+  "level": 7,
+  "sign": -1,
+  "text": "People's freedom should have no limits"
+ },
+ {
+  "id": "5.0.0",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 0,
+  "sign": 1,
+  "text": "Communism, if implemented correctly, would be a good form of economics"
+ },
+ {
+  "id": "5.0.1",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 0,
+  "sign": 1,
+  "text": "From each according to his ability, to each according to his need"
+ },
+ {
+  "id": "5.0.2",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 0,
+  "sign": 1,
+  "text": "Equality of outcome is important"
+ },
+ {
+  "id": "5.1.0",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 1,
+  "sign": 1,
+  "text": "Oppression by corporations is more of a concern than oppression by governments."
+ },
+ {
+  "id": "5.1.1",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 1,
+  "sign": 1,
+  "text": "Taxes should be increased on the rich to provide for the poor."
+ },
+ {
+  "id": "5.1.2",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 1,
+  "sign": 1,
+  "text": "Public utilities like roads and electricity should be publicly owned."
+ },
+ {
+  "id": "5.2.0",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 2,
+  "sign": 1,
+  "text": "I support single-payer, universal healthcare."
+ },
+ {
+  "id": "5.2.1",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 2,
+  "sign": 1,
+  "text": "The wealthy have far more than they need"
+ },
+ {
+  "id": "5.2.2",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 2,
+  "sign": 1,
+  "text": "Basic things needed to live, such as healthcare, are rights"
+ },
+ {
+  "id": "5.3.0",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 3,
+  "sign": 1,
+  "text": "It is necessary for the government to intervene in the economy to protect consumers."
+ },
+ {
+  "id": "5.3.1",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 3,
+  "sign": 1,
+  "text": "People should have equal opportunity to succeed"
+ },
+ {
+  "id": "5.3.2",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 3,
+  "sign": 1,
+  "text": "People born to wealthy families have unfair success even when they aren't skilled and don't work hard"
+ },
+ {
+  "id": "5.4.0",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 4,
+  "sign": -1,
+  "text": "People should have the right to leave their wealth to their descendents"
+ },
+ {
+  "id": "5.4.1",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 4,
+  "sign": -1,
+  "text": "Excessive government intervention is a threat to the economy."
+ },
+ {
+  "id": "5.4.2",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 4,
+  "sign": -1,
+  "text": "Economies without any capitalism will collapse"
+ },
+ {
+  "id": "5.5.0",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 5,
+  "sign": -1,
+  "text": "It is better to maintain a balanced budget than to ensure welfare for all citizens."
+ },
+ {
+  "id": "5.5.1",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 5,
+  "sign": -1,
+  "text": "Capitalism is better than any existing alternative"
+ },
+ {
+  "id": "5.5.2",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 5,
+  "sign": -1,
+  "text": "Government owned industry is usually a bad idea"
+ },
+ {
+  "id": "5.6.0",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 6,
+  "sign": -1,
+  "text": "The freer the market, the freer the people"
+ },
+ {
+  "id": "5.6.1",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 6,
+  "sign": -1,
+  "text": "People should have to work for anything they get"
+ },
+ {
+  "id": "5.6.2",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 6,
+  "sign": -1,
+  "text": "The poor choose to be poor"
+ },
+ {
+  "id": "5.7.0",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 7,
+  "sign": -1,
+  "text": "The government should not regulate the economy at all"
+ },
+ {
+  "id": "5.7.1",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 7,
+  "sign": -1,
+  "text": "The government should not break up monopolies"
+ },
+ {
+  "id": "5.7.2",
+  "axis": 5,
+  "axisName": "Equality|Markets",
+  "level": 7,
+  "sign": -1,
+  "text": "Those who do not work should die"
+ },
+ {
+  "id": "6.0.0",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 0,
+  "sign": 1,
+  "text": "Religion should be banned"
+ },
+ {
+  "id": "6.0.1",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 0,
+  "sign": 1,
+  "text": "Faith is complete nonsense"
+ },
+ {
+  "id": "6.0.2",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 0,
+  "sign": 1,
+  "text": "Religion must decline for society to progress"
+ },
+ {
+  "id": "6.1.0",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 1,
+  "sign": 1,
+  "text": "Religious clothing should be banned from public"
+ },
+ {
+  "id": "6.1.1",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 1,
+  "sign": 1,
+  "text": "There is no higher power"
+ },
+ {
+  "id": "6.1.2",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 1,
+  "sign": 1,
+  "text": "The government should not fund any religious organizations in any way"
+ },
+ {
+  "id": "6.2.0",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 2,
+  "sign": 1,
+  "text": "I support gay marriage"
+ },
+ {
+  "id": "6.2.1",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 2,
+  "sign": 1,
+  "text": "Every religion must be looked upon equally by the government"
+ },
+ {
+  "id": "6.2.2",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 2,
+  "sign": 1,
+  "text": "Religion should be removed from everything in our government"
+ },
+ {
+  "id": "6.3.0",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 3,
+  "sign": 1,
+  "text": "Religion does not belong in government"
+ },
+ {
+  "id": "6.3.1",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 3,
+  "sign": 1,
+  "text": "Laws should not be based on religion"
+ },
+ {
+  "id": "6.3.2",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 3,
+  "sign": 1,
+  "text": "There must be a separation between church and state"
+ },
+ {
+  "id": "6.4.0",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 4,
+  "sign": -1,
+  "text": "I believe there is something after death"
+ },
+ {
+  "id": "6.4.1",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 4,
+  "sign": -1,
+  "text": "Religion is beneficial for society"
+ },
+ {
+  "id": "6.4.2",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 4,
+  "sign": -1,
+  "text": "People must be allowed to follow a religion"
+ },
+ {
+  "id": "6.5.0",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 5,
+  "sign": -1,
+  "text": "I believe in a higher power"
+ },
+ {
+  "id": "6.5.1",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 5,
+  "sign": -1,
+  "text": "Religious organizations often provide better assistance to the poor than the government does"
+ },
+ {
+  "id": "6.5.2",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 5,
+  "sign": -1,
+  "text": "Children should be educated in religious values."
+ },
+ {
+  "id": "6.6.0",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 6,
+  "sign": -1,
+  "text": "Religion usually provides the truth"
+ },
+ {
+  "id": "6.6.1",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 6,
+  "sign": -1,
+  "text": "My religious values should be spread as much as possible."
+ },
+ {
+  "id": "6.6.2",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 6,
+  "sign": -1,
+  "text": "Sex outside marriage is immoral."
+ },
+ {
+  "id": "6.7.0",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 7,
+  "sign": -1,
+  "text": "Theocracy is a good system of government"
+ },
+ {
+  "id": "6.7.1",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 7,
+  "sign": -1,
+  "text": "The government should support and only recognize one religion"
+ },
+ {
+  "id": "6.7.2",
+  "axis": 6,
+  "axisName": "Secular|Religious",
+  "level": 7,
+  "sign": -1,
+  "text": "Most bad things happening in the world are caused by us turning away from religion"
+ },
+ {
+  "id": "7.0.0",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 0,
+  "sign": 1,
+  "text": "If AI could rule more effectively than humans, then AI should rule"
+ },
+ {
+  "id": "7.0.1",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 0,
+  "sign": 1,
+  "text": "Genetic modification is a force for good, even on humans."
+ },
+ {
+  "id": "7.0.2",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 0,
+  "sign": 1,
+  "text": "Tradition just hinders the progress of technology"
+ },
+ {
+  "id": "7.1.0",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 1,
+  "sign": 1,
+  "text": "Automation overall is extremely good for society"
+ },
+ {
+  "id": "7.1.1",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 1,
+  "sign": 1,
+  "text": "Traditions are of no value on their own."
+ },
+ {
+  "id": "7.1.2",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 1,
+  "sign": 1,
+  "text": "When people have already suffered for technology to be developed, we should use that technology"
+ },
+ {
+  "id": "7.2.0",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 2,
+  "sign": 1,
+  "text": "We should put effort into getting a person on Mars in the near future"
+ },
+ {
+  "id": "7.2.1",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 2,
+  "sign": 1,
+  "text": "Testing products on animals is ethical"
+ },
+ {
+  "id": "7.2.2",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 2,
+  "sign": 1,
+  "text": "Technological progress is usually good"
+ },
+ {
+  "id": "7.3.0",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 3,
+  "sign": 1,
+  "text": "Human Caused climate change is currently one of the greatest threats to our way of life."
+ },
+ {
+  "id": "7.3.1",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 3,
+  "sign": 1,
+  "text": "Environmental regulations are essential."
+ },
+ {
+  "id": "7.3.2",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 3,
+  "sign": 1,
+  "text": "A better world will come from automation, science, and technology."
+ },
+ {
+  "id": "7.4.0",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 4,
+  "sign": -1,
+  "text": "To chase progress at all costs is dangerous."
+ },
+ {
+  "id": "7.4.1",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 4,
+  "sign": -1,
+  "text": "Technology is not always beneficial"
+ },
+ {
+  "id": "7.4.2",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 4,
+  "sign": -1,
+  "text": "Traditions are important"
+ },
+ {
+  "id": "7.5.0",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 5,
+  "sign": -1,
+  "text": "Technology is negatively affecting modern society"
+ },
+ {
+  "id": "7.5.1",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 5,
+  "sign": -1,
+  "text": "Genetic modification should be used rarely, if ever"
+ },
+ {
+  "id": "7.5.2",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 5,
+  "sign": -1,
+  "text": "Maintaining family values is essential."
+ },
+ {
+  "id": "7.6.0",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 6,
+  "sign": -1,
+  "text": "Society was better many years ago than it is now."
+ },
+ {
+  "id": "7.6.1",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 6,
+  "sign": -1,
+  "text": "It is important that we maintain the traditions of our past."
+ },
+ {
+  "id": "7.6.2",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 6,
+  "sign": -1,
+  "text": "The elders in society know the best path for it"
+ },
+ {
+  "id": "7.7.0",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 7,
+  "sign": -1,
+  "text": "Traditional medicines are often more effective than modern medicines"
+ },
+ {
+  "id": "7.7.1",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 7,
+  "sign": -1,
+  "text": "The Internet should be banned"
+ },
+ {
+  "id": "7.7.2",
+  "axis": 7,
+  "axisName": "Progressive|Traditional",
+  "level": 7,
+  "sign": -1,
+  "text": "We must go back to a basic way of life without modern conveniences."
+ },
+ {
+  "id": "8.0.0",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 0,
+  "sign": 1,
+  "text": "Foreigners should never enter the country"
+ },
+ {
+  "id": "8.0.1",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 0,
+  "sign": 1,
+  "text": "We should not allow any refugees"
+ },
+ {
+  "id": "8.0.2",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 0,
+  "sign": 1,
+  "text": "Only our national language(s) should be spoken in our country"
+ },
+ {
+  "id": "8.1.0",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 1,
+  "sign": 1,
+  "text": "Only extremely talented immigrants, if that, should be permitted to enter the country"
+ },
+ {
+  "id": "8.1.1",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 1,
+  "sign": 1,
+  "text": "If we accept migrants at all, it is important that they assimilate into our culture."
+ },
+ {
+  "id": "8.1.2",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 1,
+  "sign": 1,
+  "text": "Immigrants can never really adapt to our way of life"
+ },
+ {
+  "id": "8.2.0",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 2,
+  "sign": 1,
+  "text": "In general, immigrants are bad for the country"
+ },
+ {
+  "id": "8.2.1",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 2,
+  "sign": 1,
+  "text": "A nation's culture is important to protect"
+ },
+ {
+  "id": "8.2.2",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 2,
+  "sign": 1,
+  "text": "Illegal immigrants do not provide a benefit to the hosting country"
+ },
+ {
+  "id": "8.3.0",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 3,
+  "sign": 1,
+  "text": "Illegal immigrants should be deported in most or all cases"
+ },
+ {
+  "id": "8.3.1",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 3,
+  "sign": 1,
+  "text": "Immigrants should be expected to learn the language of the country"
+ },
+ {
+  "id": "8.3.2",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 3,
+  "sign": 1,
+  "text": "Border protection is important"
+ },
+ {
+  "id": "8.4.0",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 4,
+  "sign": -1,
+  "text": "We should be taking in more refugees"
+ },
+ {
+  "id": "8.4.1",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 4,
+  "sign": -1,
+  "text": "Immigrants are a net positive"
+ },
+ {
+  "id": "8.4.2",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 4,
+  "sign": -1,
+  "text": "I enjoy some foreign cultures"
+ },
+ {
+  "id": "8.5.0",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 5,
+  "sign": -1,
+  "text": "No cultures are superior to others."
+ },
+ {
+  "id": "8.5.1",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 5,
+  "sign": -1,
+  "text": "We should be more accepting to other cultures"
+ },
+ {
+  "id": "8.5.2",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 5,
+  "sign": -1,
+  "text": "All societies are a blend of cultures"
+ },
+ {
+  "id": "8.6.0",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 6,
+  "sign": -1,
+  "text": "Everybody should speak at least two languages"
+ },
+ {
+  "id": "8.6.1",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 6,
+  "sign": -1,
+  "text": "All humans share a common identity"
+ },
+ {
+  "id": "8.6.2",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 6,
+  "sign": -1,
+  "text": "Our culture would be better with other cultures mixed in more"
+ },
+ {
+  "id": "8.7.0",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 7,
+  "sign": -1,
+  "text": "Governments should be as concerned about foreign citizens as they are about those within their borders."
+ },
+ {
+  "id": "8.7.1",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 7,
+  "sign": -1,
+  "text": "Anybody who wants to enter the country should be able to"
+ },
+ {
+  "id": "8.7.2",
+  "axis": 8,
+  "axisName": "Assimilationist|Multiculturalist",
+  "level": 7,
+  "sign": -1,
+  "text": "The benefits of open borders would outweigh the costs"
+ }
+]

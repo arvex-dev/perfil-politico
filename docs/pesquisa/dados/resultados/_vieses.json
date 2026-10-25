@@ -1,0 +1,191 @@
+{
+ "concordo_tudo": {
+  "12axes": [
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50
+  ],
+  "8values": {
+   "e": 59,
+   "d": 51.1,
+   "g": 37.5,
+   "s": 53.8,
+   "ideologia": "Centrist"
+  },
+  "9axes_padrao_c1": [
+   60,
+   60,
+   60,
+   60,
+   60,
+   60,
+   60,
+   60,
+   60
+  ],
+  "sapplyvalues": {
+   "right": 0.67,
+   "auth": 0.67,
+   "prog": 0
+  }
+ },
+ "discordo_tudo": {
+  "12axes": [
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50
+  ],
+  "8values": {
+   "e": 41,
+   "d": 48.9,
+   "g": 62.5,
+   "s": 46.2,
+   "ideologia": "Centrist"
+  },
+  "9axes_padrao_c1": [
+   40,
+   40,
+   40,
+   40,
+   40,
+   40,
+   40,
+   40,
+   40
+  ],
+  "sapplyvalues": {
+   "right": -0.67,
+   "auth": -0.67,
+   "prog": 0
+  }
+ },
+ "neutro_tudo": {
+  "12axes": [
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50
+  ],
+  "8values": {
+   "e": 50,
+   "d": 50,
+   "g": 50,
+   "s": 50,
+   "ideologia": "Centrist"
+  },
+  "9axes_padrao_c1": [
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50,
+   50
+  ],
+  "sapplyvalues": {
+   "right": 0,
+   "auth": 0,
+   "prog": 0
+  }
+ },
+ "balanco8values": {
+  "econ": {
+   "positivos": 13,
+   "negativos": 9,
+   "somaPos": 115,
+   "somaNeg": -80
+  },
+  "dipl": {
+   "positivos": 12,
+   "negativos": 12,
+   "somaPos": 115,
+   "somaNeg": -110
+  },
+  "govt": {
+   "positivos": 13,
+   "negativos": 24,
+   "somaPos": 120,
+   "somaNeg": -200
+  },
+  "scty": {
+   "positivos": 18,
+   "negativos": 15,
+   "somaPos": 157,
+   "somaNeg": -135
+  }
+ },
+ "populacaoSintetica": {
+  "n": 300,
+  "compat_top1_ideologia_12axes": {
+   "min": 72.2,
+   "p10": 76.8,
+   "mediana": 83.1,
+   "p90": 89.1,
+   "max": 95
+  },
+  "familias_top1_12axes": {
+   "Libertário": 24,
+   "Esquerda": 57,
+   "Direita": 93,
+   "Esquerda Radical": 36,
+   "Terceira Posição": 20,
+   "Centro": 38,
+   "Anarquismo": 10,
+   "Extrema Direita": 22
+  },
+  "top5_ideologias_8values": [
+   [
+    "Centrist",
+    49
+   ],
+   [
+    "Liberalism",
+    30
+   ],
+   [
+    "Classical Liberalism",
+    23
+   ],
+   [
+    "Revolutionary Socialism",
+    17
+   ],
+   [
+    "Moderate Conservatism",
+    16
+   ],
+   [
+    "Neo-Liberalism",
+    16
+   ]
+  ]
+ }
+}

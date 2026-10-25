@@ -1,0 +1,30 @@
+{
+ "_doc": "Perfil de posicoes (stances) em [-1,1]. Positivo = favoravel ao polo descrito. Usado por todos os testes via mapeamentos/*.json.",
+ "stances": {
+  "est": "estatismo: propriedade/planejamento estatal da economia (+) vs mercado (-)",
+  "red": "redistribuicao: impostos sobre ricos, welfare, saude/educacao publicas (+) vs Estado minimo social (-)",
+  "pro": "protecionismo comercial/industrial (+) vs livre comercio (-)",
+  "nac": "nacionalismo/soberania/orgulho nacional (+) vs cosmopolitismo (-)",
+  "mul": "multilateralismo/instituicoes internacionais (+) vs unilateralismo (-)",
+  "mil": "militarismo/gasto e uso da forca (+) vs pacifismo (-)",
+  "proj": "projecao/pressao externa e intervencao (+) vs nao-intervencao (-)",
+  "aut": "autoridade/ordem/vigilancia/punitivismo (+) vs liberdades civis (-)",
+  "dem": "compromisso com democracia e instituicoes de freios (+) vs autocracia/lider forte (-)",
+  "fed": "federalismo/descentralizacao (+) vs unitarismo (-)",
+  "cmo": "conservadorismo moral/costumes (+) vs progressismo de costumes (-)",
+  "rel": "religiao na vida publica (+) vs laicismo (-)",
+  "imr": "restricao/assimilacao de imigrantes (+) vs fronteiras abertas/multiculturalismo (-)",
+  "amb": "ambientalismo/regulacao ambiental (+) vs desenvolvimentismo extrativista (-)",
+  "tec": "tecno-otimismo/inovacao (+) vs tecno-ceticismo/naturalismo (-)",
+  "arm": "armas: posse ampla (+) vs restricao (-)",
+  "dro": "liberalizacao de drogas (+) vs proibicionismo (-)"
+ },
+ "personas": {
+  "p1-esq-nacional-desenvolvimentista": {"nome":"Esquerda nacional-desenvolvimentista","est":0.8,"red":0.9,"pro":0.8,"nac":0.8,"mul":0.2,"mil":0.0,"proj":-0.1,"aut":0.1,"dem":0.6,"fed":-0.2,"cmo":-0.2,"rel":-0.2,"imr":0.0,"amb":0.2,"tec":0.5,"arm":-0.6,"dro":0.3},
+  "p2-socialdemocrata-urbana": {"nome":"Social-democrata / centro-esquerda urbana","est":0.2,"red":0.7,"pro":-0.2,"nac":-0.3,"mul":0.6,"mil":-0.5,"proj":-0.4,"aut":-0.3,"dem":0.9,"fed":0.2,"cmo":-0.7,"rel":-0.7,"imr":-0.4,"amb":0.7,"tec":0.4,"arm":-0.7,"dro":0.5},
+  "p3-centro-liberal": {"nome":"Centro liberal (mercado + costumes progressistas)","est":-0.4,"red":0.0,"pro":-0.7,"nac":-0.4,"mul":0.4,"mil":-0.3,"proj":-0.2,"aut":-0.2,"dem":0.8,"fed":0.3,"cmo":-0.6,"rel":-0.6,"imr":-0.3,"amb":0.4,"tec":0.7,"arm":-0.5,"dro":0.5},
+  "p4-centro-direita-liberal-eco": {"nome":"Centro-direita liberal na economia, moderada nos costumes","est":-0.6,"red":-0.3,"pro":-0.5,"nac":0.1,"mul":0.1,"mil":0.1,"proj":0.1,"aut":0.3,"dem":0.7,"fed":0.3,"cmo":0.1,"rel":0.1,"imr":0.1,"amb":0.0,"tec":0.5,"arm":0.0,"dro":-0.1},
+  "p5-direita-conservadora-religiosa": {"nome":"Direita conservadora religiosa","est":-0.4,"red":-0.4,"pro":0.2,"nac":0.7,"mul":-0.5,"mil":0.3,"proj":0.4,"aut":0.8,"dem":0.4,"fed":0.0,"cmo":0.9,"rel":0.9,"imr":0.6,"amb":-0.4,"tec":-0.1,"arm":0.6,"dro":-0.8},
+  "p6-direita-libertaria": {"nome":"Direita libertaria","est":-0.95,"red":-0.9,"pro":-0.8,"nac":-0.1,"mul":-0.6,"mil":-0.4,"proj":-0.7,"aut":-0.7,"dem":0.3,"fed":0.8,"cmo":-0.2,"rel":-0.3,"imr":-0.2,"amb":-0.5,"tec":0.6,"arm":0.9,"dro":0.8}
+ }
+}

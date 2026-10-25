@@ -1,0 +1,5 @@
+{
+ "_doc": "Atitude do persona frente ao enunciado S<id>. Por padrao: efeito right -> A_right = -(est+red)/2 * efeito; auth -> aut * efeito; prog -> -cmo * efeito. 'overrides' = tag direta (atitude de quem concorda). 'yes' = consenso (todos concordam).",
+ "base": {"right":"est-,red-","auth":"aut+","prog":"cmo-"},
+ "overrides": {"24":"dem+","25":"aut-","32":"yes+","34":"amb+","40":"dro-","41":"aut+","43":"rel+","38":"cmo+","44":"cmo+","45":"imr+","39":"cmo+","42":"aut+","36":"cmo-","18":"est+","29":"est-","3":"red-"}
+}

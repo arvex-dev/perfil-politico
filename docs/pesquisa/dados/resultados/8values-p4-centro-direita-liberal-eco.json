@@ -1,0 +1,123 @@
+{
+ "test": "8values",
+ "persona": "p4-centro-direita-liberal-eco",
+ "personaNome": "Centro-direita liberal na economia, moderada nos costumes",
+ "escala_respostas": "+2 CT, +1 C, 0 N, -1 D, -2 DT (conversao especifica do teste no calculo)",
+ "answers": {
+  "1": -2,
+  "2": -2,
+  "3": 2,
+  "4": 1,
+  "5": -2,
+  "6": -2,
+  "7": -2,
+  "8": 1,
+  "9": -1,
+  "10": 1,
+  "11": -2,
+  "12": 2,
+  "13": 1,
+  "14": -1,
+  "15": -2,
+  "16": -1,
+  "17": 0,
+  "18": 0,
+  "19": 0,
+  "20": -2,
+  "21": -1,
+  "22": 0,
+  "23": -1,
+  "24": -1,
+  "25": 0,
+  "26": 0,
+  "27": 0,
+  "28": 2,
+  "29": -2,
+  "30": 0,
+  "31": 1,
+  "32": -2,
+  "33": -1,
+  "34": 1,
+  "35": 1,
+  "36": -2,
+  "37": 0,
+  "38": -1,
+  "39": -1,
+  "40": 2,
+  "41": -1,
+  "42": 2,
+  "43": 0,
+  "44": 1,
+  "45": 0,
+  "46": -1,
+  "47": 0,
+  "48": -1,
+  "49": 0,
+  "50": 0,
+  "51": 0,
+  "52": 0,
+  "53": 0,
+  "54": -1,
+  "55": -1,
+  "56": -1,
+  "57": 0,
+  "58": 0,
+  "59": 0,
+  "60": 0,
+  "61": 0,
+  "62": -1,
+  "63": 0,
+  "64": 0,
+  "65": -1,
+  "66": 1,
+  "67": -2,
+  "68": 0,
+  "69": -1,
+  "70": -2
+ },
+ "result": {
+  "max": {
+   "econ": 195,
+   "dipl": 225,
+   "govt": 320,
+   "scty": 292
+  },
+  "raw": {
+   "econ": -115,
+   "dipl": -2.5,
+   "govt": 7.5,
+   "scty": -11
+  },
+  "equality": 20.5,
+  "wealth": 79.5,
+  "peace": 49.4,
+  "might": 50.6,
+  "liberty": 51.2,
+  "authority": 48.8,
+  "progress": 48.1,
+  "tradition": 51.9,
+  "labels": {
+   "econ": "Capitalist",
+   "dipl": "Balanced",
+   "govt": "Moderate",
+   "scty": "Neutral"
+  },
+  "ideology": {
+   "best": "Neo-Liberalism",
+   "ranking": [
+    {
+     "name": "Neo-Liberalism",
+     "dist": 339.2
+    },
+    {
+     "name": "State Capitalism",
+     "dist": 453.2
+    },
+    {
+     "name": "Ultra-Capitalism",
+     "dist": 473.9
+    }
+   ]
+  }
+ }
+}

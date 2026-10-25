@@ -1,0 +1,123 @@
+{
+ "test": "8values",
+ "persona": "p2-socialdemocrata-urbana",
+ "personaNome": "Social-democrata / centro-esquerda urbana",
+ "escala_respostas": "+2 CT, +1 C, 0 N, -1 D, -2 DT (conversao especifica do teste no calculo)",
+ "answers": {
+  "1": 0,
+  "2": 0,
+  "3": -1,
+  "4": -2,
+  "5": 0,
+  "6": -1,
+  "7": 1,
+  "8": -2,
+  "9": 2,
+  "10": -2,
+  "11": 0,
+  "12": -1,
+  "13": -2,
+  "14": 2,
+  "15": -1,
+  "16": -2,
+  "17": -2,
+  "18": 2,
+  "19": -1,
+  "20": 0,
+  "21": 1,
+  "22": -2,
+  "23": 1,
+  "24": -2,
+  "25": -1,
+  "26": 2,
+  "27": 2,
+  "28": 2,
+  "29": -2,
+  "30": -1,
+  "31": -1,
+  "32": -2,
+  "33": 2,
+  "34": -1,
+  "35": -1,
+  "36": -1,
+  "37": -1,
+  "38": 1,
+  "39": -2,
+  "40": 2,
+  "41": -2,
+  "42": 2,
+  "43": 2,
+  "44": 1,
+  "45": -2,
+  "46": 2,
+  "47": -2,
+  "48": 2,
+  "49": 2,
+  "50": 2,
+  "51": -2,
+  "52": -2,
+  "53": 2,
+  "54": 2,
+  "55": 1,
+  "56": 2,
+  "57": 1,
+  "58": -2,
+  "59": -2,
+  "60": -2,
+  "61": 2,
+  "62": 2,
+  "63": -2,
+  "64": -2,
+  "65": -2,
+  "66": 1,
+  "67": -1,
+  "68": 1,
+  "69": 2,
+  "70": -2
+ },
+ "result": {
+  "max": {
+   "econ": 195,
+   "dipl": 225,
+   "govt": 320,
+   "scty": 292
+  },
+  "raw": {
+   "econ": 107.5,
+   "dipl": 157.5,
+   "govt": 207.5,
+   "scty": 258.5
+  },
+  "equality": 77.6,
+  "wealth": 22.4,
+  "peace": 85,
+  "might": 15,
+  "liberty": 82.4,
+  "authority": 17.6,
+  "progress": 94.3,
+  "tradition": 5.7,
+  "labels": {
+   "econ": "Socialist",
+   "dipl": "Internationalist",
+   "govt": "Libertarian",
+   "scty": "Revolutionary"
+  },
+  "ideology": {
+   "best": "Libertarian Socialism",
+   "ranking": [
+    {
+     "name": "Libertarian Socialism",
+     "dist": 129.9
+    },
+    {
+     "name": "Social Libertarianism",
+     "dist": 682.8
+    },
+    {
+     "name": "Libertarian Communism",
+     "dist": 720.4
+    }
+   ]
+  }
+ }
+}

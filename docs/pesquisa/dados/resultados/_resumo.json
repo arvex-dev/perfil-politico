@@ -1,0 +1,658 @@
+{
+ "12axes": {
+  "p1-esq-nacional-desenvolvimentista": {
+   "axes": {
+    "estrutura": 34.3,
+    "representacao": 99,
+    "poder": 53.2,
+    "imigracao": 50.7,
+    "diplomacia": 50.5,
+    "intervencao": 40,
+    "economia": 97.2,
+    "controle": 97.2,
+    "comercio": 97.9,
+    "religiao": 61.2,
+    "moral": 65.7,
+    "tecnologia": 70.1
+   },
+   "ideologies": [
+    "Populismo de Esquerda (91.4)",
+    "Sionismo Trabalhista (91.3)",
+    "Socialismo Lassalliano (89)",
+    "Eurocomunismo (88.9)"
+   ],
+   "countries": [
+    "Segunda República Espanhola (90.6)",
+    "Chile de Allende (89.7)",
+    "Venezuela de Chávez (87.9)"
+   ],
+   "personalities": [
+    "Jawaharlal Nehru (93.4)",
+    "Carlos Marighella (90.8)",
+    "Celso Furtado (90.1)"
+   ],
+   "compatSpread": {
+    "ideologies": {
+     "min": 32.6,
+     "median": 65,
+     "max": 91.4
+    },
+    "countries": {
+     "min": 41.9,
+     "median": 63,
+     "max": 90.6
+    },
+    "personalities": {
+     "min": 36,
+     "median": 64.7,
+     "max": 93.4
+    }
+   }
+  },
+  "p2-socialdemocrata-urbana": {
+   "axes": {
+    "estrutura": 60.5,
+    "representacao": 99,
+    "poder": 29.4,
+    "imigracao": 16.4,
+    "diplomacia": 9.9,
+    "intervencao": 72.1,
+    "economia": 75,
+    "controle": 67.4,
+    "comercio": 39.5,
+    "religiao": 94,
+    "moral": 96.7,
+    "tecnologia": 59.5
+   },
+   "ideologies": [
+    "Tecnoprogressismo (96.8)",
+    "Comunismo de Conselhos (96.3)",
+    "Socialismo Internacionalista (96.2)",
+    "Internacionalismo (95)"
+   ],
+   "countries": [
+    "País de Gales (Reino Unido) (94.4)",
+    "Califórnia (Estados Unidos) (93.7)",
+    "Comuna de Paris (93)"
+   ],
+   "personalities": [
+    "Bertrand Russell (97)",
+    "Nick Srnicek (96.9)",
+    "Mark Fisher (96.1)"
+   ],
+   "compatSpread": {
+    "ideologies": {
+     "min": 27.8,
+     "median": 59.8,
+     "max": 96.8
+    },
+    "countries": {
+     "min": 26.3,
+     "median": 50.6,
+     "max": 94.4
+    },
+    "personalities": {
+     "min": 30.2,
+     "median": 59.7,
+     "max": 97
+    }
+   }
+  },
+  "p3-centro-liberal": {
+   "axes": {
+    "estrutura": 68.8,
+    "representacao": 99,
+    "poder": 33,
+    "imigracao": 24.8,
+    "diplomacia": 25.2,
+    "intervencao": 64.9,
+    "economia": 28,
+    "controle": 20.6,
+    "comercio": 5.3,
+    "religiao": 94,
+    "moral": 93.1,
+    "tecnologia": 76
+   },
+   "ideologies": [
+    "Liberalismo Clássico (94.5)",
+    "Libertarianismo Bleeding-Heart (93.8)",
+    "Neoliberalismo (92.7)",
+    "Liberalismo Verde (92.1)"
+   ],
+   "countries": [
+    "São Paulo (Brasil) (89.3)",
+    "Califórnia (Estados Unidos) (88.1)",
+    "New Hampshire (Estados Unidos) (87.4)"
+   ],
+   "personalities": [
+    "Hal Finney (95.2)",
+    "Max More (94)",
+    "David Friedman (93.4)"
+   ],
+   "compatSpread": {
+    "ideologies": {
+     "min": 19.4,
+     "median": 56.2,
+     "max": 94.5
+    },
+    "countries": {
+     "min": 24.9,
+     "median": 50.2,
+     "max": 89.3
+    },
+    "personalities": {
+     "min": 25.2,
+     "median": 58.2,
+     "max": 95.2
+    }
+   }
+  },
+  "p4-centro-direita-liberal-eco": {
+   "axes": {
+    "estrutura": 66.4,
+    "representacao": 99,
+    "poder": 65.1,
+    "imigracao": 58.8,
+    "diplomacia": 50.5,
+    "intervencao": 42.4,
+    "economia": 11.3,
+    "controle": 6.3,
+    "comercio": 18.4,
+    "religiao": 37.7,
+    "moral": 38.4,
+    "tecnologia": 72.5
+   },
+   "ideologies": [
+    "Conservadorismo Reaganista (91.7)",
+    "Liberalismo Conservador (91.3)",
+    "Libertarianismo Nacional (88.9)",
+    "Conservadorismo Libertário (88.3)"
+   ],
+   "countries": [
+    "Goiás (Brasil) (95.7)",
+    "Madrid (Espanha) (93.3)",
+    "Texas (Estados Unidos) (92.5)"
+   ],
+   "personalities": [
+    "Rupert Murdoch (94.8)",
+    "Luiz Philippe de Orleans e Bragança (94.2)",
+    "Romeu Zema (93.4)"
+   ],
+   "compatSpread": {
+    "ideologies": {
+     "min": 34.3,
+     "median": 59.9,
+     "max": 91.7
+    },
+    "countries": {
+     "min": 35.6,
+     "median": 67.5,
+     "max": 95.7
+    },
+    "personalities": {
+     "min": 31.4,
+     "median": 62.7,
+     "max": 94.8
+    }
+   }
+  },
+  "p5-direita-conservadora-religiosa": {
+   "axes": {
+    "estrutura": 42.6,
+    "representacao": 87,
+    "poder": 83,
+    "imigracao": 94.4,
+    "diplomacia": 77.9,
+    "intervencao": 13.8,
+    "economia": 17.2,
+    "controle": 14.7,
+    "comercio": 64.9,
+    "religiao": 2.1,
+    "moral": 1.8,
+    "tecnologia": 48.8
+   },
+   "ideologies": [
+    "Nacionalismo de Direita (86.8)",
+    "Conservadorismo Americano (86.6)",
+    "Malthusianismo (86.3)",
+    "Neoconservadorismo (85.8)"
+   ],
+   "countries": [
+    "Alabama (Estados Unidos) (90.7)",
+    "Reino da Grécia (89)",
+    "Gujarat (Índia) (85.8)"
+   ],
+   "personalities": [
+    "Flávio Bolsonaro (91.4)",
+    "Andrew Jackson (90.8)",
+    "Marco Rubio (90.7)"
+   ],
+   "compatSpread": {
+    "ideologies": {
+     "min": 26.8,
+     "median": 55.3,
+     "max": 86.8
+    },
+    "countries": {
+     "min": 36.6,
+     "median": 67.1,
+     "max": 90.7
+    },
+    "personalities": {
+     "min": 29.4,
+     "median": 58.2,
+     "max": 91.4
+    }
+   }
+  },
+  "p6-direita-libertaria": {
+   "axes": {
+    "estrutura": 95,
+    "representacao": 82.9,
+    "poder": 5.1,
+    "imigracao": 36.4,
+    "diplomacia": 31.2,
+    "intervencao": 83.9,
+    "economia": 3,
+    "controle": 1.6,
+    "comercio": 3,
+    "religiao": 70.7,
+    "moral": 57.4,
+    "tecnologia": 93.7
+   },
+   "ideologies": [
+    "Libertarianismo (98.7)",
+    "Anarcocapitalismo (98.4)",
+    "Populismo Libertário (96.9)",
+    "Minarquismo (96.5)"
+   ],
+   "countries": [
+    "New Hampshire (Estados Unidos) (90.3)",
+    "Zug (Suíça) (89.4)",
+    "Suíça (81.6)"
+   ],
+   "personalities": [
+    "Murray Rothbard (98.5)",
+    "Raphaël Lima (97.6)",
+    "David Friedman (97.4)"
+   ],
+   "compatSpread": {
+    "ideologies": {
+     "min": 22.2,
+     "median": 51.8,
+     "max": 98.7
+    },
+    "countries": {
+     "min": 24.6,
+     "median": 47.5,
+     "max": 90.3
+    },
+    "personalities": {
+     "min": 24.3,
+     "median": 53.3,
+     "max": 98.5
+    }
+   }
+  }
+ },
+ "8values": {
+  "p1-esq-nacional-desenvolvimentista": {
+   "econ": 87.8,
+   "dipl": 41.1,
+   "govt": 48.8,
+   "scty": 62.6,
+   "ideology": "Democratic Socialism",
+   "labels": {
+    "econ": "Socialist",
+    "dipl": "Balanced",
+    "govt": "Moderate",
+    "scty": "Progressive"
+   }
+  },
+  "p2-socialdemocrata-urbana": {
+   "econ": 77.6,
+   "dipl": 85,
+   "govt": 82.4,
+   "scty": 94.3,
+   "ideology": "Libertarian Socialism",
+   "labels": {
+    "econ": "Socialist",
+    "dipl": "Internationalist",
+    "govt": "Libertarian",
+    "scty": "Revolutionary"
+   }
+  },
+  "p3-centro-liberal": {
+   "econ": 38.5,
+   "dipl": 81.7,
+   "govt": 82.4,
+   "scty": 86.1,
+   "ideology": "Libertarianism",
+   "labels": {
+    "econ": "Market",
+    "dipl": "Internationalist",
+    "govt": "Libertarian",
+    "scty": "Very Progressive"
+   }
+  },
+  "p4-centro-direita-liberal-eco": {
+   "econ": 20.5,
+   "dipl": 49.4,
+   "govt": 51.2,
+   "scty": 48.1,
+   "ideology": "Neo-Liberalism",
+   "labels": {
+    "econ": "Capitalist",
+    "dipl": "Balanced",
+    "govt": "Moderate",
+    "scty": "Neutral"
+   }
+  },
+  "p5-direita-conservadora-religiosa": {
+   "econ": 14.7,
+   "dipl": 12.2,
+   "govt": 21.9,
+   "scty": 5.6,
+   "ideology": "Capitalist Fascism",
+   "labels": {
+    "econ": "Capitalist",
+    "dipl": "Nationalist",
+    "govt": "Authoritarian",
+    "scty": "Reactionary"
+   }
+  },
+  "p6-direita-libertaria": {
+   "econ": 12.2,
+   "dipl": 46.1,
+   "govt": 72.3,
+   "scty": 55.9,
+   "ideology": "Libertarian Capitalism",
+   "labels": {
+    "econ": "Capitalist",
+    "dipl": "Balanced",
+    "govt": "Liberal",
+    "scty": "Neutral"
+   }
+  }
+ },
+ "9axes": {
+  "p1-esq-nacional-desenvolvimentista": {
+   "full": [
+    35,
+    86,
+    17,
+    50,
+    50,
+    95,
+    65,
+    71,
+    50
+   ],
+   "std1": [
+    35,
+    90,
+    15,
+    55,
+    55,
+    100,
+    65,
+    75,
+    55
+   ],
+   "std0": [
+    45,
+    95,
+    25,
+    65,
+    55,
+    100,
+    75,
+    85,
+    65
+   ],
+   "ideology": {
+    "full": "Anarcho-Communism",
+    "std1": "Anarcho-Communism",
+    "std0": "Anarcho-Communism"
+   }
+  },
+  "p2-socialdemocrata-urbana": {
+   "full": [
+    65,
+    95,
+    74,
+    18,
+    26,
+    74,
+    89,
+    86,
+    26
+   ],
+   "std1": [
+    65,
+    100,
+    80,
+    20,
+    20,
+    80,
+    95,
+    90,
+    25
+   ],
+   "std0": [
+    75,
+    100,
+    85,
+    30,
+    30,
+    85,
+    95,
+    95,
+    35
+   ],
+   "ideology": {
+    "full": "Libertarian Socialism",
+    "std1": "Anarcho-Syndicalism",
+    "std0": "Libertarian Socialism"
+   }
+  },
+  "p3-centro-liberal": {
+   "full": [
+    71,
+    92,
+    83,
+    30,
+    31,
+    35,
+    86,
+    84,
+    29
+   ],
+   "std1": [
+    75,
+    95,
+    85,
+    35,
+    30,
+    35,
+    90,
+    85,
+    30
+   ],
+   "std0": [
+    85,
+    95,
+    90,
+    45,
+    35,
+    45,
+    95,
+    90,
+    40
+   ],
+   "ideology": {
+    "full": "Libertarianism",
+    "std1": "Libertarianism",
+    "std0": "Social Libertarianism"
+   }
+  },
+  "p4-centro-direita-liberal-eco": {
+   "full": [
+    71,
+    89,
+    65,
+    55,
+    69,
+    26,
+    44,
+    63,
+    56
+   ],
+   "std1": [
+    75,
+    95,
+    65,
+    55,
+    70,
+    25,
+    45,
+    60,
+    60
+   ],
+   "std0": [
+    85,
+    95,
+    75,
+    65,
+    80,
+    35,
+    55,
+    70,
+    70
+   ],
+   "ideology": {
+    "full": "Libertarian Capitalism",
+    "std1": "Market Anarchism",
+    "std0": "Libertarianism"
+   }
+  },
+  "p5-direita-conservadora-religiosa": {
+   "full": [
+    50,
+    74,
+    17,
+    69,
+    92,
+    26,
+    5,
+    19,
+    86
+   ],
+   "std1": [
+    55,
+    80,
+    15,
+    65,
+    95,
+    25,
+    5,
+    20,
+    90
+   ],
+   "std0": [
+    65,
+    85,
+    25,
+    75,
+    95,
+    35,
+    5,
+    30,
+    95
+   ],
+   "ideology": {
+    "full": "Moderate Conservatism",
+    "std1": "Objectivism",
+    "std0": "Anarcho-Egoism"
+   }
+  },
+  "p6-direita-libertaria": {
+   "full": [
+    92,
+    71,
+    56,
+    28,
+    13,
+    5,
+    71,
+    68,
+    35
+   ],
+   "std1": [
+    95,
+    75,
+    60,
+    35,
+    20,
+    5,
+    75,
+    65,
+    35
+   ],
+   "std0": [
+    95,
+    85,
+    70,
+    45,
+    25,
+    5,
+    85,
+    70,
+    45
+   ],
+   "ideology": {
+    "full": "Libertarian Capitalism",
+    "std1": "Libertarian Capitalism",
+    "std0": "Libertarian Capitalism"
+   }
+  }
+ },
+ "sapplyvalues": {
+  "p1-esq-nacional-desenvolvimentista": {
+   "right": -10,
+   "auth": 2.33,
+   "prog": 2.19,
+   "quadrante": "Esquerda / Autoritario / Progressista"
+  },
+  "p2-socialdemocrata-urbana": {
+   "right": -7.67,
+   "auth": -4.33,
+   "prog": 9.38,
+   "quadrante": "Esquerda / Libertario / Progressista"
+  },
+  "p3-centro-liberal": {
+   "right": 2.33,
+   "auth": -4,
+   "prog": 8.75,
+   "quadrante": "Direita / Libertario / Progressista"
+  },
+  "p4-centro-direita-liberal-eco": {
+   "right": 7.33,
+   "auth": 2,
+   "prog": -1.87,
+   "quadrante": "Direita / Autoritario / Conservador"
+  },
+  "p5-direita-conservadora-religiosa": {
+   "right": 7.33,
+   "auth": 6.67,
+   "prog": -8.75,
+   "quadrante": "Direita / Autoritario / Conservador"
+  },
+  "p6-direita-libertaria": {
+   "right": 10,
+   "auth": -9.67,
+   "prog": 3.44,
+   "quadrante": "Direita / Libertario / Progressista"
+  }
+ }
+}

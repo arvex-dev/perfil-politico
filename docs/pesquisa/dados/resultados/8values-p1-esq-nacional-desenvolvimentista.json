@@ -1,0 +1,123 @@
+{
+ "test": "8values",
+ "persona": "p1-esq-nacional-desenvolvimentista",
+ "personaNome": "Esquerda nacional-desenvolvimentista",
+ "escala_respostas": "+2 CT, +1 C, 0 N, -1 D, -2 DT (conversao especifica do teste no calculo)",
+ "answers": {
+  "1": 2,
+  "2": 2,
+  "3": -2,
+  "4": -2,
+  "5": 2,
+  "6": 2,
+  "7": 2,
+  "8": -2,
+  "9": 2,
+  "10": -2,
+  "11": 2,
+  "12": -2,
+  "13": -2,
+  "14": 2,
+  "15": 1,
+  "16": -1,
+  "17": 0,
+  "18": 0,
+  "19": 2,
+  "20": -1,
+  "21": 0,
+  "22": 1,
+  "23": 0,
+  "24": -1,
+  "25": 2,
+  "26": 0,
+  "27": 0,
+  "28": 2,
+  "29": -2,
+  "30": 2,
+  "31": 0,
+  "32": -2,
+  "33": 0,
+  "34": 0,
+  "35": 0,
+  "36": -2,
+  "37": 2,
+  "38": -1,
+  "39": -1,
+  "40": 2,
+  "41": -1,
+  "42": 2,
+  "43": 0,
+  "44": 1,
+  "45": -1,
+  "46": 0,
+  "47": -1,
+  "48": 0,
+  "49": 0,
+  "50": 0,
+  "51": -1,
+  "52": -1,
+  "53": 0,
+  "54": 0,
+  "55": 1,
+  "56": 0,
+  "57": 0,
+  "58": -1,
+  "59": 0,
+  "60": -1,
+  "61": 2,
+  "62": 2,
+  "63": -1,
+  "64": -1,
+  "65": -1,
+  "66": 1,
+  "67": -2,
+  "68": 0,
+  "69": 0,
+  "70": 1
+ },
+ "result": {
+  "max": {
+   "econ": 195,
+   "dipl": 225,
+   "govt": 320,
+   "scty": 292
+  },
+  "raw": {
+   "econ": 147.5,
+   "dipl": -40,
+   "govt": -7.5,
+   "scty": 73.5
+  },
+  "equality": 87.8,
+  "wealth": 12.2,
+  "peace": 41.1,
+  "might": 58.9,
+  "liberty": 48.8,
+  "authority": 51.2,
+  "progress": 62.6,
+  "tradition": 37.4,
+  "labels": {
+   "econ": "Socialist",
+   "dipl": "Balanced",
+   "govt": "Moderate",
+   "scty": "Progressive"
+  },
+  "ideology": {
+   "best": "Democratic Socialism",
+   "ranking": [
+    {
+     "name": "Democratic Socialism",
+     "dist": 250.5
+    },
+    {
+     "name": "Revolutionary Socialism",
+     "dist": 295.3
+    },
+    {
+     "name": "State Socialism",
+     "dist": 512.4
+    }
+   ]
+  }
+ }
+}

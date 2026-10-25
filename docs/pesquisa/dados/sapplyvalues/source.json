@@ -1,0 +1,9 @@
+{
+ "repo": "https://github.com/SapplyValues/SapplyValues.github.io",
+ "commit": "cf2554cb77424d42bc6cea6ad59861564e0a653f",
+ "files": [
+  "questions.js",
+  "quiz.html (percentageCalculation)",
+  "results.html"
+ ]
+}

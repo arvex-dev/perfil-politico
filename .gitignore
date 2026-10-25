@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 12axes é "All rights reserved": o dump bruto fica só local (repo e commit em docs/pesquisa/02-extracao-simulacao.md)
+/docs/pesquisa/dados/12axes/

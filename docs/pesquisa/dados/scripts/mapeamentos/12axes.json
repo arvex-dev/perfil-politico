@@ -1,0 +1,16 @@
+{
+ "_doc": "Tag por pergunta (indice 01..20 em cada eixo, na ordem de questions.json): termos 'codigo+/-' separados por virgula = posicao do persona que leva a CONCORDAR com o enunciado (+ = concorda quem tem o stance alto; - = concorda quem tem o stance baixo). Sufixo '~' = enunciado extremo (exige posicao forte). Codigos em personas.json.",
+ "estrutura": ["fed+","fed-","fed+","fed-","fed+~","fed-","fed+","fed-","fed+,nac-~","fed-","fed+,imr-","fed-","fed+","fed-","fed+","fed-","fed+","fed-,nac+","fed+","fed-"],
+ "representacao": ["dem+","dem-","dem+","dem-","dem+","dem-","dem+","dem-~","dem+","dem-~","dem+","dem-~","dem+","dem-~","dem+","dem-~","dem+","dem-","dem+","dem-~"],
+ "poder": ["aut+","dro+","aut+","aut-","aut+","dro+,aut-","aut+,dem-","dro+~","arm-","arm+","aut+","cmo-","aut+","aut-","aut+~","cmo-,aut-","aut+","aut-","aut+~","aut-"],
+ "imigracao": ["imr+","imr-","imr+~","imr-","imr+","imr-","imr+,nac+","imr-","imr+","imr-","imr+","imr-","imr+","imr-","imr+","imr-","imr+","imr-~","imr+~","nac-,imr-"],
+ "diplomacia": ["mil+","mil-","mil+","mil-","mil+","mil-,mul+","mil+,nac+~","mil-","mil+","mil-,mul+","mil+,pro+","mil-~","mil+","mul+","mil+~","mil-,mul+","mil+~","mil-~","mil+","mul+,mil-"],
+ "intervencao": ["proj-","proj+,nac+","proj-","proj+,nac+","proj-","proj+,nac+","proj-~","proj+,nac+","mul+","proj+,nac+","nac+","proj+,nac+","proj-,nac+","proj+,mil+~","proj-","nac+","proj-,mil-","nac+","proj-,mil-","proj+,nac+"],
+ "economia": ["est+,red+~","est-","est+","est-,red-","est+~","est-","est+,red+","red-","est+,red+","est-~","red+","est-","est+","red-","red+,est+","est-,red-~","est+","red-","est+","est-"],
+ "controle": ["est+","est-","est+","est-","red+","est-,red-","est+","est-,red-","est+~","est-","est+","est-","est+~","est-","est+","est-","est+","est-~","est+,red+","est-"],
+ "comercio": ["pro+","pro-~","pro+","pro-","pro+~","pro-","pro+","pro-~","pro+,nac+","pro-","pro+","pro-","pro+,nac+","pro-","pro+","pro-","pro+","pro-","pro+,nac+","pro-"],
+ "religiao": ["rel-","rel+","rel-","rel+","rel-","rel+","rel-","rel+~","rel-","rel+","rel-~","rel+","rel-","rel+,cmo+","rel-~","rel+","rel-","rel+","rel-","rel+"],
+ "moral": ["cmo-","cmo+","cmo-","cmo+","cmo-,red+","cmo+","cmo-","cmo+,red-","cmo-","cmo+","cmo-","cmo+","cmo-","cmo+","amb+,cmo-","cmo+","cmo-~","cmo+~","cmo-","cmo+"],
+ "tecnologia": ["tec+","tec-","tec+","tec-,cmo+","tec+","amb+","amb-","amb+","tec+","amb+","tec+","amb+~","tec+","tec-,cmo+","tec+~","amb+","tec+,amb+","tec-","tec+","tec-"],
+ "arquetipos": "escolha por proximidade: ver simulate.mjs (opcao cujo vetor de efeitos fica mais perto do vetor de eixos do persona calculado so com as 240 perguntas)"
+}

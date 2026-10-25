@@ -1,0 +1,5 @@
+{
+ "_doc": "Posicao do persona no POLO ESQUERDO de cada eixo (a lista de axes.json: Federal, Democratic, Globalist, Militarist, Security, Equality, Secular, Progressive, Assimilationist). Atitude frente a um enunciado = posicao_no_polo_esq * sign (sign=+1 niveis 0-3, -1 niveis 4-7). Extremidade e = 4-nivel (nivel<4) ou nivel-3; limiar m=(e-1)*0.2. 'overrides' dao a atitude direta de enunciados fora do tema do eixo (id axis.level.variant).",
+ "axisBase": ["fed+","dem+","mul+,pro-,nac-","mil+","aut+","red+,est+","rel-","cmo-,tec+","imr+"],
+ "overrides": {"4.4.0":"dro+","4.5.0":"cmo-","4.6.0":"dro+","4.6.1":"dro+","6.2.0":"cmo-","6.6.2":"cmo+","7.3.0":"amb+","7.3.1":"amb+","3.5.0":"mil-,aut+"}
+}

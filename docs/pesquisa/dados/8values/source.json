@@ -1,0 +1,10 @@
+{
+ "repo": "https://github.com/8values/8values.github.io",
+ "commit": "3971ed8bc0c3dda18f9b001013327f382343b74f",
+ "files": [
+  "questions.js",
+  "ideologies.js",
+  "quiz.html (calc_score)",
+  "results.html (matching)"
+ ]
+}
