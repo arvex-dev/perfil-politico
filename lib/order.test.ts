@@ -29,15 +29,16 @@ describe('sorteio das perguntas', () => {
     }
   });
 
-  it('rápido: 24 perguntas, 1 de cada sentido por eixo, e o conjunto varia', () => {
-    const sets = new Set<string>();
+  it('rápido: sempre as mesmas 24 perguntas (conjunto fixo), só a ordem muda', () => {
+    const fixed = questions.filter((q) => q.quick).map((q) => q.id).sort();
+    expect(fixed.length).toBe(axes.length * 2);
+    const orders = new Set<string>();
     for (const seed of SEEDS) {
-      const qs = sessionQuestions(questions, 'rapido', seed);
-      expect(qs.length).toBe(axes.length * 2);
-      for (const ax of axes) expect(qs.filter((q) => q.axis === ax.id).map((q) => q.dir).sort(), ax.id).toEqual([-1, 1]);
-      sets.add(qs.map((q) => q.id).sort().join());
+      const ids = sessionQuestions(questions, 'rapido', seed).map((q) => q.id);
+      expect([...ids].sort()).toEqual(fixed);
+      orders.add(ids.join());
     }
-    expect(sets.size).toBeGreaterThan(200);
+    expect(orders.size).toBeGreaterThan(250);
   });
 
   it('a primeira pergunta varia (sem efeito de ordem fixo)', () => {
@@ -45,7 +46,7 @@ describe('sorteio das perguntas', () => {
     expect(first.size).toBe(axes.length);
   });
 
-  it('rápido sorteado: personas ainda caem numa corrente coerente na grande maioria das sessões', () => {
+  it('rápido: personas caem numa corrente coerente (a ordem não muda o resultado)', () => {
     const ok: Record<string, string[]> = {
       'esquerda-nacional-desenvolvimentista': ['nacional-desenvolvimentismo', 'trabalhismo', 'esquerda-crista', 'populismo-de-esquerda-bolivarianismo'],
       'social-democrata': ['social-democracia', 'socialismo-democratico', 'ecossocialismo-socioambientalismo'],
@@ -61,7 +62,7 @@ describe('sorteio das perguntas', () => {
         const top = rank(scoreAxes(axes, qs, answerAs(p.stance, qs)), ideologies)[0].target.id;
         if (ok[p.id].includes(top)) hits++;
       }
-      expect(hits / SEEDS.length, p.id).toBeGreaterThanOrEqual(0.95);
+      expect(hits, p.id).toBe(SEEDS.length);
     }
   });
 });

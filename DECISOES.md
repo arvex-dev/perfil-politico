@@ -84,9 +84,10 @@ Registro das escolhas feitas sem consultar o dono, com o motivo. Data: 2026-10-2
   `scripts/merge-fontes.mjs`): só links abertos e conferidos (HTTP 200 e conteúdo com os termos da afirmação); 2 a 4
   por pergunta, primárias primeiro; 58 de 72 têm fonte primária (as outras 14 só tinham secundárias acessíveis: TSE,
   IBGE notícias e páginas de ministérios bloqueiam acesso automatizado). Teste garante ≥ 2 por pergunta.
-- **Ordem e seleção sorteadas** (lib/order.ts, substitui a "ordem intercalada fixa" e o conjunto `quick` fixo). Completo:
-  as 72 em ordem aleatória; rápido: por eixo, 1 item de cada sentido sorteado entre os 3 (24, equilíbrio mantido). Nos
-  dois, nunca dois itens seguidos do mesmo eixo. Semente guardada no sessionStorage (recarregar mantém a sessão).
-  Motivo: neutralizar efeitos de ordem e de primeira pergunta, prática comum em VAAs. Custo: no rápido, duas pessoas
-  podem ver itens diferentes; testes com 300 sementes mostram que as 6 personas caem numa corrente coerente em ≥ 95%
-  das sessões. Para análise do piloto, registrar a semente junto das respostas.
+- **Ordem sorteada, conjunto fixo** (lib/order.ts). Completo: as 72; rápido: sempre as mesmas 24 (`quick`, 1 de cada
+  sentido por eixo), para os resultados serem comparáveis entre pessoas. Só a ordem é sorteada a cada teste, nunca com
+  dois itens seguidos do mesmo eixo, para neutralizar efeitos de ordem e de primeira pergunta. Conjunto rápido revisto
+  com o fact-check: saem ins2 (urnas, mede identidade partidária) e geo1 (enviesado pelo tarifaço), entram ins5/ins6
+  (STF, BC autônomo) e geo4; seg4 (armas) no lugar de seg1 (maioridade penal, ~80% de apoio).
+- **Semente no resultado** (código v2: versão, modo, semente de 4 bytes, 12 scores). Permite, no piloto, analisar efeito
+  de ordem refazendo a sequência exata de cada pessoa. Códigos v1 (sem semente) continuam abrindo.

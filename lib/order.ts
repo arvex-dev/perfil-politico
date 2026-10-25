@@ -1,6 +1,7 @@
-// Sorteio das perguntas de cada sessão, a partir de uma semente (guardada no navegador, para um recarregamento manter
-// a mesma ordem). Completo: as 72, em ordem aleatória. Rápido: por eixo, 1 pergunta de cada sentido sorteada entre as
-// 3 disponíveis (o equilíbrio contra o viés de concordância se mantém). Nos dois, nunca duas seguidas do mesmo eixo.
+// Ordem das perguntas de cada sessão, sorteada a partir de uma semente (guardada no navegador, para um recarregamento
+// manter a mesma ordem, e no código do resultado). Quais perguntas é fixo: o completo usa as 72 e o rápido o conjunto
+// marcado `quick` (1 de cada sentido por eixo), igual para todos, para os resultados serem comparáveis. Só a ordem
+// varia, e nunca com duas perguntas seguidas do mesmo eixo.
 import type { Mode, Question } from './scoring';
 
 /** Gerador determinístico (mulberry32): mesma semente, mesma sequência. */
@@ -24,16 +25,8 @@ function shuffle<T>(list: T[], rand: () => number): T[] {
   return a;
 }
 
-export function selectQuestions<T extends Question>(all: T[], mode: Mode, rand: () => number): T[] {
-  if (mode === 'completo') return all;
-  const out: T[] = [];
-  for (const axis of [...new Set(all.map((q) => q.axis))]) {
-    for (const dir of [1, -1] as const) {
-      const pool = all.filter((q) => q.axis === axis && q.dir === dir);
-      out.push(pool[Math.floor(rand() * pool.length)]);
-    }
-  }
-  return out;
+export function selectQuestions<T extends Question>(all: T[], mode: Mode): T[] {
+  return mode === 'completo' ? all : all.filter((q) => q.quick);
 }
 
 /**
@@ -70,7 +63,7 @@ export function arrange<T extends Question>(qs: T[], rand: () => number): T[] {
 
 export function sessionQuestions<T extends Question>(all: T[], mode: Mode, seed: number): T[] {
   const rand = rng(seed);
-  return arrange(selectQuestions(all, mode, rand), rand);
+  return arrange(selectQuestions(all, mode), rand);
 }
 
 export function newSeed(): number {

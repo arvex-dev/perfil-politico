@@ -68,7 +68,7 @@ export default function Quiz({ mode }: { mode: Mode }) {
       setI(i + 1);
       return;
     }
-    const code = encodeResult(axes, scoreAxes(axes, qs, next), mode);
+    const code = encodeResult(axes, scoreAxes(axes, qs, next), mode, seed!);
     try {
       sessionStorage.removeItem(storageKey);
     } catch {}

@@ -52,8 +52,8 @@ export default function Sobre() {
             Comparações com menos de 6 eixos em comum são descartadas.
           </li>
           <li>
-            O modo rápido sorteia, em cada eixo, 1 afirmação de cada sentido entre as 3 disponíveis (24 no total), então
-            o equilíbrio se mantém e cada sessão vê um conjunto diferente. É menos preciso que o completo.
+            O modo rápido usa sempre as mesmas 24 afirmações (1 de cada sentido por eixo), escolhidas entre as que mais
+            separam posições, para que os resultados sejam comparáveis entre pessoas. É menos preciso que o completo.
           </li>
           <li>
             A ordem é sorteada a cada teste, sem duas afirmações seguidas do mesmo eixo, para que a ordem não influencie
@@ -89,7 +89,7 @@ export default function Sobre() {
         <h2 className="font-display text-xl">Privacidade</h2>
         <p>
           Opinião política é dado pessoal sensível (LGPD, art. 5º, II). Por isso não há servidor de dados: as respostas
-          ficam no seu navegador, e o link de resultado guarda só os {axes.length} scores, sem as respostas. Não há
+          ficam no seu navegador, e o link de resultado guarda só os {axes.length} scores e o número do sorteio da ordem das perguntas, sem as respostas. Não há
           cookies de rastreamento.
         </p>
       </section>

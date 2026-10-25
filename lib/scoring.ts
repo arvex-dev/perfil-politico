@@ -17,6 +17,8 @@ export interface Question {
   axis: string;
   dir: 1 | -1;
   weight: number;
+  /** Está no conjunto fixo do modo rápido. */
+  quick?: boolean;
   text: string;
 }
 
@@ -139,39 +141,50 @@ export function explain(axes: Axis[], scores: Scores, ideology: Target): string[
   return lines;
 }
 
-// Resultado na URL: só os scores por eixo (nunca as respostas, que são opinião política e dado sensível pela LGPD).
-// Bytes: [versão, modo (0 completo, 1 rápido), score+100 de cada eixo na ordem de axes.json (255 = sem dados)].
-export const CODE_VERSION = 1;
+// Resultado na URL: os scores por eixo e a semente da ordem das perguntas, nunca as respostas (opinião política é dado
+// sensível pela LGPD). v2: [2, modo (0 completo, 1 rápido), semente (4 bytes, big-endian), score+100 de cada eixo na
+// ordem de axes.json (255 = sem dados)]. v1 (sem semente) continua sendo lido, para links antigos.
+export const CODE_VERSION = 2;
 
 export type Mode = 'completo' | 'rapido';
 
-export function encodeResult(axes: Axis[], scores: Scores, mode: Mode): string {
-  const bytes = new Uint8Array(2 + axes.length);
+export interface DecodedResult {
+  scores: Scores;
+  mode: Mode;
+  /** Semente que definiu a ordem das perguntas; null em links v1. */
+  seed: number | null;
+}
+
+export function encodeResult(axes: Axis[], scores: Scores, mode: Mode, seed: number): string {
+  const bytes = new Uint8Array(6 + axes.length);
   bytes[0] = CODE_VERSION;
   bytes[1] = mode === 'rapido' ? 1 : 0;
+  new DataView(bytes.buffer).setUint32(2, seed >>> 0);
   axes.forEach((ax, i) => {
     const s = scores[ax.id];
-    bytes[2 + i] = s === null || s === undefined ? 255 : Math.max(-100, Math.min(100, Math.round(s))) + 100;
+    bytes[6 + i] = s === null || s === undefined ? 255 : Math.max(-100, Math.min(100, Math.round(s))) + 100;
   });
   return toBase64Url(bytes);
 }
 
-export function decodeResult(axes: Axis[], code: string): { scores: Scores; mode: Mode } | null {
+export function decodeResult(axes: Axis[], code: string): DecodedResult | null {
   let bytes: Uint8Array;
   try {
     bytes = fromBase64Url(code);
   } catch {
     return null;
   }
-  if (bytes.length !== 2 + axes.length || bytes[0] !== CODE_VERSION || bytes[1] > 1) return null;
+  const header = bytes[0] === 1 ? 2 : bytes[0] === 2 ? 6 : -1;
+  if (header < 0 || bytes.length !== header + axes.length || bytes[1] > 1) return null;
   const scores: Scores = {};
   for (let i = 0; i < axes.length; i++) {
-    const b = bytes[2 + i];
+    const b = bytes[header + i];
     if (b === 255) scores[axes[i].id] = null;
     else if (b <= 200) scores[axes[i].id] = b - 100;
     else return null;
   }
-  return { scores, mode: bytes[1] === 1 ? 'rapido' : 'completo' };
+  const seed = header === 6 ? new DataView(bytes.buffer, bytes.byteOffset).getUint32(2) : null;
+  return { scores, mode: bytes[1] === 1 ? 'rapido' : 'completo', seed };
 }
 
 function toBase64Url(bytes: Uint8Array): string {

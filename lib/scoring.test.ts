@@ -15,11 +15,12 @@ import { PERSONAS, answerAs } from './personas';
 const all = (a: Answer) => Object.fromEntries(questions.map((q) => [q.id, a]));
 
 describe('dados', () => {
-  it('cada eixo tem 6 perguntas, 3 em cada sentido', () => {
+  it('cada eixo tem 6 perguntas, 3 em cada sentido, e 1 de cada sentido no conjunto fixo do modo rápido', () => {
     for (const ax of axes) {
       const qs = questions.filter((q) => q.axis === ax.id);
       expect(qs.length, ax.id).toBe(6);
       expect(qs.filter((q) => q.dir === 1).length, ax.id).toBe(3);
+      expect(qs.filter((q) => q.quick).map((q) => q.dir).sort(), ax.id).toEqual([-1, 1]);
     }
   });
 
@@ -135,12 +136,20 @@ describe('personas (coerência do resultado)', () => {
 });
 
 describe('codificação na URL', () => {
-  it('ida e volta preserva scores, nulls e modo', () => {
+  it('ida e volta preserva scores, nulls, modo e semente', () => {
     const s = scoreAxes(axes, questions, answerAs(PERSONAS[4].stance, questions));
     s.geopolitica = null;
-    const code = encodeResult(axes, s, 'rapido');
+    const code = encodeResult(axes, s, 'rapido', 3_000_000_123);
     expect(code).toMatch(/^[A-Za-z0-9_-]+$/);
-    expect(decodeResult(axes, code)).toEqual({ scores: s, mode: 'rapido' });
+    expect(decodeResult(axes, code)).toEqual({ scores: s, mode: 'rapido', seed: 3_000_000_123 });
+  });
+
+  it('links v1 (sem semente) continuam abrindo', () => {
+    // Código real de produção antes da v2: persona centro liberal, modo completo.
+    const r = decodeResult(axes, 'AQCWZJYyMmQyZJaWMmQ');
+    expect(r?.mode).toBe('completo');
+    expect(r?.seed).toBeNull();
+    expect(r?.scores.economia).toBe(50);
   });
 
   it('rejeita lixo', () => {
