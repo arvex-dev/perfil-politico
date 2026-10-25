@@ -46,3 +46,4 @@ next-env.d.ts
 # Configuração de deploy com o IP de origem do VPS (atrás da Cloudflare): só local, ver arvex.config.example.json
 /arvex.config.json
 /deploy/known_hosts
+/DEPLOY.local.md

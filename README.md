@@ -1,45 +1,69 @@
 # Perfil Político
 
-Teste político em 12 eixos calibrado para o Brasil e a América do Sul (estilo 12axes/8values). Protótipo:
-Next.js (App Router) + TypeScript + Tailwind, sem backend de dados e sem banco. https://perfilpolitico.arvex.dev
+Teste político em 12 eixos feito para o Brasil e a América do Sul. **https://perfilpolitico.arvex.dev**
 
-- Pesquisa: `docs/pesquisa/` (inventário, extração e simulação, viés, base acadêmica). Proposta: `docs/PROPOSTA.md`.
-  Decisões: `DECISOES.md`.
-- Dados versionados: `data/{axes,questions,ideologies,figures,countries}.json`. `node scripts/tabelas.mjs` regenera
-  `docs/TABELAS.md`.
-- Motor: `lib/scoring.ts` (puro), testes em `lib/scoring.test.ts`.
-- Rotas: `/`, `/teste`, `/teste/rapido`, `/r/<código>` (resultado; o código guarda só os scores),
-  `/r/<código>/imagem` (PNG 1080×1920 via `next/og`), `/sobre`, `/api/health`.
+Em vez de traduzir um teste americano, as afirmações tratam de temas daqui: Petrobras, Bolsa Família, reforma
+trabalhista, armas, Amazônia, STF, BRICS, cotas. No fim, a pessoa vê o alinhamento (esquerda, centro, direita ou perfil
+cruzado), a posição em cada eixo, a corrente de pensamento mais próxima e as figuras políticas mais parecidas. Dá para
+comparar o resultado com um amigo.
+
+Sem cadastro e sem banco de dados: as respostas ficam no navegador e o link do resultado guarda só a posição em cada
+eixo.
+
+## Como funciona
+
+- **12 eixos** com dois polos nomeados (Estado ↔ Mercado, Laicidade ↔ Religião na vida pública, Prevenção e garantias ↔
+  Rigor penal, Sul Global ↔ Ocidente…). Definições em [`data/axes.json`](data/axes.json).
+- **72 afirmações**, 6 por eixo, 3 em cada sentido: quem concorda com tudo cai no centro. Cada uma tem contexto neutro,
+  o que significa concordar e discordar, e de 2 a 4 fontes verificadas ([`data/questions.json`](data/questions.json)).
+  Versão rápida com 24 afirmações fixas. A ordem é sorteada a cada teste.
+- **Pontuação**: score por eixo de −100 a +100; afinidade com correntes, figuras e países = 100 − média quadrática das
+  diferenças ([`lib/scoring.ts`](lib/scoring.ts)), que não dá 90% para todo mundo.
+- **Referências**: 21 correntes, 61 figuras (Brasil, América do Sul e globais) e 30 países. As posições das figuras são
+  estimadas e, para parlamentares, ajustadas por votações nominais da Câmara e do Senado
+  ([`docs/pesquisa/votacoes/`](docs/pesquisa/votacoes/)).
+
+Metodologia completa na página [/sobre](https://perfilpolitico.arvex.dev/sobre) e em [`docs/PROPOSTA.md`](docs/PROPOSTA.md).
+
+## Pesquisa e validação
+
+- [`docs/pesquisa/`](docs/pesquisa/): inventário de testes existentes, extração e simulação de 8values, 9Axes,
+  SapplyValues e 12axes, diagnóstico de viés, base acadêmica (ESEB, LAPOP, Latinobarómetro, PELA, BLS, Bolognesi et
+  al.), checagem de fatos e votações nominais.
+- [`docs/PILOTO.md`](docs/PILOTO.md): piloto simulado com 2.000 respondentes sintéticos (consistência por eixo, chaves dos
+  itens, imunidade ao viés de concordância, estrutura fatorial). Verifica a mecânica; não substitui um piloto com
+  pessoas.
+- [`DECISOES.md`](DECISOES.md): registro das escolhas de desenho e por quê.
+
+## Rodar localmente
+
+Requer Node 24 e pnpm.
 
 ```sh
-export PATH=/opt/homebrew/opt/node@24/bin:$PATH
-pnpm install && pnpm dev     # @arvex-dev/* vem do GitHub Packages: ver .npmrc
-pnpm test && pnpm typecheck
+pnpm install
+pnpm dev          # http://localhost:3000
+pnpm test         # motor, equilíbrio dos eixos, fontes, sorteio, personas
+pnpm typecheck
+pnpm piloto       # refaz docs/PILOTO.md
 ```
 
-## Deploy (VPS ARVEX)
+O rodapé usa `@arvex-dev/brand`, um pacote privado do GitHub Packages da ARVEX. Sem acesso a ele, remova a dependência e
+o rodapé em `app/layout.tsx`; o resto do app não depende dele.
 
-`pnpm ship` = `arvex ship-image` (`@arvex-dev/deploy`): testes + typecheck, `docker build --platform linux/amd64`,
-`docker save | ssh docker load`, `deploy/compose.yaml` em `/srv/perfil-politico`, `up -d --wait`, health, smoke.
-Atrás do Caddy do arvex-edge (`deploy/perfil-politico.caddy`). `arvex.config.json` e `deploy/known_hosts` têm o IP de
-origem e ficam só na máquina de quem publica (modelo em `arvex.config.example.json`). Primeira vez (feito em 2026-10-25):
+Estrutura: `app/` (páginas e rotas de imagem com `next/og`), `components/`, `lib/` (motor de pontuação, sorteio,
+alinhamento, comparação, imagens), `data/` (eixos, perguntas, correntes, figuras, países), `scripts/` (tabelas,
+fontes, votações, piloto).
 
-```sh
-ssh deploy@$ARVEX_HOST 'sudo install -d -m 755 -o deploy -g deploy /srv/perfil-politico'
-npx arvex edge cert perfil-politico perfilpolitico.arvex.dev
-npx arvex edge site deploy/perfil-politico.caddy
-# DNS: A perfil → $ARVEX_HOST, proxied (Cloudflare, zona arvex.dev)
-```
+## Contribuir
 
-Rollback: `ssh deploy@$ARVEX_HOST 'cd /srv/perfil-politico && IMAGE_TAG=$(cat .deploy/previous) docker compose up -d --wait perfil-politico'`.
+Achou um fato errado, uma fonte melhor ou uma posição mal estimada? Abra uma issue com a fonte. Mudanças nas perguntas
+precisam passar em `pnpm test` (cada eixo com 3 itens em cada sentido, ≥ 2 fontes por pergunta, personas coerentes) e
+devem manter a redação neutra: os dois lados com argumentos de peso parecido.
 
 ## Licenças
 
 Código: MIT ([LICENSE](LICENSE)). Perguntas, explicações, posições estimadas, pesquisa e textos (`data/`, `docs/`):
-CC BY 4.0 ([LICENSE-DADOS.md](LICENSE-DADOS.md)). Dados extraídos de 8values, 9Axes e SapplyValues (MIT) em
-`docs/pesquisa/dados/` mantêm a licença original; o 12axes ("All rights reserved") não é redistribuído.
+CC BY 4.0 ([LICENSE-DADOS.md](LICENSE-DADOS.md)), com as exceções listadas lá (dados de 8values, 9Axes e SapplyValues
+sob MIT; resultados derivados do 12axes não cobertos; fontes sob SIL OFL).
 
-## Contribuir
-
-Viu um fato errado, uma fonte melhor ou uma posição mal estimada? Abra uma issue com a fonte. Mudanças nas perguntas
-passam por `pnpm test` (equilíbrio por eixo, fontes, personas) e `pnpm piloto` (piloto simulado, docs/PILOTO.md).
+Não é pesquisa eleitoral nem recomendação de voto.
