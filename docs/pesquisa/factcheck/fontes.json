@@ -49,6 +49,22 @@
      "kind": "primaria",
      "supports": "definição de sociedade de economia mista (art. 4º): maioria das ações com voto pertence à União",
      "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Câmara",
+     "title": "Defesa do controle estatal marca debate sobre política energética na Câmara - Portal da Câ",
+     "url": "https://www.camara.leg.br/noticias/882219-defesa-do-controle-estatal-marca-debate-sobre-politica-energetica-na-camara",
+     "kind": "secundaria",
+     "supports": "União detém 50,38% das ações ordinárias (com voto)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Câmara",
+     "title": "Proposta susta recomendação de conselho sobre a privatização da Petrobras - Portal da Câma",
+     "url": "https://www.camara.leg.br/noticias/887994-proposta-susta-recomendacao-de-conselho-sobre-a-privatizacao-da-petrobras/",
+     "kind": "secundaria",
+     "supports": "debate sobre privatização da Petrobras",
+     "verified": "aberta"
     }
    ],
    "issues": []
@@ -98,6 +114,14 @@
      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
      "kind": "primaria",
      "supports": "papel do Estado na economia: livre iniciativa e Estado como agente normativo e regulador (arts. 170 a 174)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "IBGE",
+     "title": "Indicadores IBGE: PNAD Contínua (trimestre encerrado em julho de 2026)",
+     "url": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/3086/pnacm_2026_jul.pdf",
+     "kind": "primaria",
+     "supports": "distribuição do emprego entre setor privado e setor público (PNAD Contínua)",
      "verified": "aberta"
     }
    ],
@@ -180,6 +204,30 @@
      "kind": "primaria",
      "supports": "isenção até R$ 5 mil por mês e imposto mínimo para renda acima de R$ 600 mil por ano",
      "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Senado",
+     "title": "Sancionada isenção do Imposto de Renda para quem ganha até R$ 5 mil por mês — Senado Notíc",
+     "url": "https://www12.senado.leg.br/noticias/materias/2025/11/27/sancionada-isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil-por-mes",
+     "kind": "secundaria",
+     "supports": "sanção da Lei 15.270/2025",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Isenção de IR para quem ganha até R$ 5 mil entra em vigor",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-12/isencao-de-ir-para-quem-ganha-ate-r-5-mil-entra-em-vigor",
+     "kind": "secundaria",
+     "supports": "vigência em 2026 e imposto mínimo de até 10%",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Câmara",
+     "title": "Ampliação da isenção de Imposto de Renda vira lei, e autoridades destacam justiça tributár",
+     "url": "https://www.camara.leg.br/noticias/1226918-ampliacao-da-isencao-de-imposto-de-renda-vira-lei-e-autoridades-destacam-justica-tributaria/",
+     "kind": "secundaria",
+     "supports": "sanção da lei",
+     "verified": "aberta"
     }
    ],
    "issues": []
@@ -192,6 +240,22 @@
      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm",
      "kind": "primaria",
      "supports": "condicionalidades do Bolsa Família e regra de proteção (50% do benefício por 24 meses)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Governo altera regra de transição do Bolsa Família; entenda",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-05/governo-altera-regra-de-transicao-do-bolsa-familia-entenda",
+     "kind": "secundaria",
+     "supports": "regra de proteção e mudança de prazo em 2025",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Poder360",
+     "title": "56% das vagas formais ficam com beneficiários do Bolsa Família",
+     "url": "https://www.poder360.com.br/poder-economia/56-das-vagas-formais-ficam-com-beneficiarios-do-bolsa-familia/",
+     "kind": "secundaria",
+     "supports": "beneficiários e vagas formais",
      "verified": "aberta"
     }
    ],
@@ -239,6 +303,14 @@
      "kind": "secundaria",
      "supports": "desigualdade de renda no Brasil (IBGE)",
      "verified": "aberta"
+    },
+    {
+     "publisher": "IBGE",
+     "title": "Síntese de Indicadores Sociais 2025 (IBGE)",
+     "url": "https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/71016b2eb0a5feb8f7685271b1233db7.pdf",
+     "kind": "primaria",
+     "supports": "Gini e distribuição de rendimentos (IBGE)",
+     "verified": "aberta"
     }
    ],
    "issues": []
@@ -260,6 +332,22 @@
      "kind": "primaria",
      "supports": "retenção de 10% sobre dividendos acima de R$ 50 mil por mês",
      "verified": "aberta"
+    },
+    {
+     "publisher": "Brasil 61",
+     "title": "Isenção do IR até R$ 5 mil reacende debate sobre taxação de dividendos | Brasil 61",
+     "url": "https://brasil61.com/n/isencao-do-ir-ate-r-5-mil-reacende-debate-sobre-taxacao-de-dividendos-bras2515420",
+     "kind": "secundaria",
+     "supports": "debate sobre taxação de dividendos",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Senado",
+     "title": "Sancionada isenção do Imposto de Renda para quem ganha até R$ 5 mil por mês — Senado Notíc",
+     "url": "https://www12.senado.leg.br/noticias/materias/2025/11/27/sancionada-isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil-por-mes",
+     "kind": "secundaria",
+     "supports": "sanção da lei",
+     "verified": "aberta"
     }
    ],
    "issues": []
@@ -272,6 +360,22 @@
      "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.835.htm",
      "kind": "primaria",
      "supports": "instituição da renda básica de cidadania",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "STF determina que governo implemente o programa de renda básica de cidadania a partir de 2022",
+     "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464858&ori=1",
+     "kind": "primaria",
+     "supports": "MI 7300: STF manda implementar a renda básica",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "STF reconhece que reajuste do Bolsa Família cumpre decisão da Corte sobre renda básica",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-reconhece-que-reajuste-do-bolsa-familia-cumpre-decisao-da-corte-sobre-renda-basica/",
+     "kind": "primaria",
+     "supports": "Bolsa Família e a decisão do STF",
      "verified": "aberta"
     },
     {
@@ -598,6 +702,14 @@
   "cos5": {
    "refs": [
     {
+     "publisher": "MEC",
+     "title": "Parâmetros Curriculares Nacionais: Orientação Sexual (MEC)",
+     "url": "https://basenacionalcomum.mec.gov.br/images/pcn/orientacao.pdf",
+     "kind": "primaria",
+     "supports": "PCN de Orientação Sexual: tema transversal na escola",
+     "verified": "aberta"
+    },
+    {
      "publisher": "Agência Brasil",
      "title": "Unesco defende educação em sexualidade e gênero prevista em lei",
      "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2016-06/unesco-defende-que-educacao-em-sexualidade-e-genero-esteja-prevista-em-lei",
@@ -609,13 +721,38 @@
    "issues": []
   },
   "cos6": {
-   "refs": [],
+   "refs": [
+    {
+     "publisher": "Poder360",
+     "title": "Apoio ao casamento gay vai a 52% e bate recorde, diz PoderData",
+     "url": "https://www.poder360.com.br/poderdata/apoio-ao-casamento-gay-vai-a-52-e-bate-recorde-diz-poderdata/",
+     "kind": "secundaria",
+     "supports": "mudança de atitudes sobre casamento entre pessoas do mesmo sexo",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "IBGE",
+     "title": "Censo Demográfico 2022: Religiões, resultados preliminares da amostra",
+     "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102182.pdf",
+     "kind": "primaria",
+     "supports": "mudança no perfil religioso (Censo 2022)",
+     "verified": "aberta"
+    }
+   ],
    "issues": [
     "Pergunta de percepção (sem fatos no contexto); as fontes mostram mudanças mensuráveis (religião, casamento homoafetivo)."
    ]
   },
   "rel1": {
    "refs": [
+    {
+     "publisher": "IBGE",
+     "title": "Censo Demográfico 2022: Religiões, resultados preliminares da amostra",
+     "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102182.pdf",
+     "kind": "primaria",
+     "supports": "Censo 2022: católicos e evangélicos",
+     "verified": "aberta"
+    },
     {
      "publisher": "Agência Brasil",
      "title": "Evangélicos crescem e representam mais de um quarto da população",
@@ -677,6 +814,30 @@
      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
      "kind": "primaria",
      "supports": "art. 150, VI, b: imunidade de templos de qualquer culto",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Emenda Constitucional 116/2022 (IPTU de templos)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc116.htm",
+     "kind": "primaria",
+     "supports": "EC 116/2022: IPTU de templos",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "STF decide: entidades religiosas têm imunidade tributária sobre qualquer patrimônio",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-decide-entidades-religiosas-tem-imunidade-tributaria-sobre-qualquer-patrimonio-atualizada/",
+     "kind": "primaria",
+     "supports": "alcance da imunidade para entidades religiosas",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Senado",
+     "title": "Promulgada a Emenda Constitucional 116, que isenta de IPTU imóveis alugados por templos —",
+     "url": "https://www12.senado.leg.br/noticias/materias/2022/02/17/promulgada-a-emenda-constitucional-116-que-isenta-de-iptu-imoveis-alugados-por-templos",
+     "kind": "secundaria",
+     "supports": "promulgação da EC 116",
      "verified": "aberta"
     }
    ],
@@ -761,6 +922,14 @@
      "url": "https://www.ipea.gov.br/portal/images/stories/PDFs/nota_tecnica/160405_nt_17_atlas_da_violencia_2016_finalizado.pdf",
      "kind": "primaria",
      "supports": "educação e homicídios (Atlas da Violência)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Ipea",
+     "title": "Atlas da Violência 2019 (Ipea/FBSP)",
+     "url": "https://www.ipea.gov.br/portal/images/stories/PDFs/relatorio_institucional/190605_atlas_da_violencia_2019.pdf",
+     "kind": "primaria",
+     "supports": "juventude, educação e violência letal",
      "verified": "aberta"
     }
    ],
@@ -888,6 +1057,14 @@
      "verified": "aberta"
     },
     {
+     "publisher": "CNJ",
+     "title": "Brasil tem terceira maior população carcerária do mundo",
+     "url": "https://www.cnj.jus.br/brasil-tem-terceira-maior-populacao-carceraria-do-mundo/",
+     "kind": "primaria",
+     "supports": "Brasil tem a terceira maior população carcerária do mundo",
+     "verified": "aberta"
+    },
+    {
      "publisher": "Itatiaia",
      "title": "Brasil tem aumento de 449% na população carcerária em 25 anos e quase 1 milhão de presos |",
      "url": "https://www.itatiaia.com.br/brasil/brasil-geral/brasil-tem-aumento-de-449-na-populacao-carceraria-em-25-anos-e-quase-1-milhao-de-presos/",
@@ -919,6 +1096,22 @@
      "verified": "aberta"
     },
     {
+     "publisher": "Agência Brasil",
+     "title": "Supremo fixa 40g de maconha para diferenciar usuário de traficante",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2024-06/supremo-fixa-40g-de-maconha-para-diferenciar-usuario-de-traficante",
+     "kind": "secundaria",
+     "supports": "decisão do STF sobre porte de maconha",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Entenda a decisão do STF sobre descriminalização do porte de maconha",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2024-06/entenda-decisao-do-stf-sobre-descriminalizacao-do-porte-de-maconha",
+     "kind": "secundaria",
+     "supports": "venda e produção continuam proibidas",
+     "verified": "aberta"
+    },
+    {
      "publisher": "Planalto",
      "title": "Lei 11.343/2006 (Lei de Drogas)",
      "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm",
@@ -937,6 +1130,22 @@
      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
      "kind": "primaria",
      "supports": "Marco Civil da Internet, art. 19",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "STF define parâmetros para responsabilização de plataformas por conteúdos de terceiros",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-define-parametros-para-responsabilizacao-de-plataformas-por-conteudos-de-terceiros/",
+     "kind": "primaria",
+     "supports": "STF e responsabilidade de plataformas (2025)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "STF decide que redes devem ser responsabilizadas por conteúdos ilegais",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-06/stf-decide-que-redes-devem-ser-responsabilizadas-por-conteudos-ilegais",
+     "kind": "secundaria",
+     "supports": "decisão do STF sobre o artigo 19",
      "verified": "aberta"
     }
    ],
@@ -966,7 +1175,24 @@
    ]
   },
   "lib4": {
-   "refs": [],
+   "refs": [
+    {
+     "publisher": "Câmara",
+     "title": "Constituição Federal de 1988 (texto atualizado), arts. 136 e 137",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+     "kind": "primaria",
+     "supports": "arts. 136 e 137: estado de defesa e estado de sítio",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Decreto de estado de sítio não está no radar, diz Bolsonaro",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2020-03/decreto-de-estado-de-sitio-nao-esta-no-radar-diz-bolsonaro",
+     "kind": "secundaria",
+     "supports": "estado de sítio exige aprovação do Congresso",
+     "verified": "aberta"
+    }
+   ],
    "issues": []
   },
   "lib5": {
@@ -1111,6 +1337,22 @@
      "verified": "aberta"
     },
     {
+     "publisher": "Ibama",
+     "title": "Auto de Infração ambiental (Ibama)",
+     "url": "https://www.gov.br/ibama/pt-br/acesso-a-informacao/perguntas-frequentes/auto-de-infracao-ambiental",
+     "kind": "primaria",
+     "supports": "Ibama lavra autos de infração ambiental",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Ibama",
+     "title": "Relatório de Gestão Ibama 2025",
+     "url": "https://www.gov.br/ibama/pt-br/acesso-a-informacao/auditorias/arquivos/20260413_Relatorio_de_Gestao_Ibama_2025.pdf",
+     "kind": "primaria",
+     "supports": "autos de infração, multas e embargos do Ibama em 2025",
+     "verified": "aberta"
+    },
+    {
      "publisher": "Planalto",
      "title": "Lei 12.651/2012 (Código Florestal)",
      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm",
@@ -1181,6 +1423,22 @@
      "url": "https://www.wto.org/english/res_e/statis_e/daily_update_e/tariff_profiles/BR_e.pdf",
      "kind": "primaria",
      "supports": "tarifa NMF aplicada média simples do Brasil: 12,0% (2025)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "OMC",
+     "title": "WTO Tariff Profile: United States",
+     "url": "https://www.wto.org/english/res_e/statis_e/daily_update_e/tariff_profiles/US_e.pdf",
+     "kind": "primaria",
+     "supports": "tarifa média dos EUA: 3,3% (2025)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "OMC",
+     "title": "WTO Tariff Profile: China",
+     "url": "https://www.wto.org/english/res_e/statis_e/daily_update_e/tariff_profiles/CN_e.pdf",
+     "kind": "primaria",
+     "supports": "tarifa média da China: 7,5% (2025)",
      "verified": "aberta"
     },
     {
@@ -1395,6 +1653,14 @@
      "kind": "secundaria",
      "supports": "membros do BRICS e entrada da Indonésia",
      "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Cúpula do Brics define critérios para países se associarem ao bloco",
+     "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2024-10/cupula-do-brics-define-criterios-para-paises-se-associarem-ao-bloco",
+     "kind": "secundaria",
+     "supports": "ampliação do BRICS",
+     "verified": "aberta"
     }
    ],
    "issues": [
@@ -1425,6 +1691,22 @@
   "geo4": {
    "refs": [
     {
+     "publisher": "Agência Brasil",
+     "title": "Brasil saúda eleição da Venezuela e diz aguardar publicação das atas",
+     "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2024-07/brasil-sauda-eleicao-da-venezuela-e-diz-aguardar-publicacao-das-atas",
+     "kind": "secundaria",
+     "supports": "posição do Itamaraty sobre a eleição venezuelana de 2024",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Brasil e Colômbia cobram mais uma vez atas de eleição na Venezuela",
+     "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2024-08/brasil-e-colombia-cobram-atas-de-eleicao-na-venezuela",
+     "kind": "secundaria",
+     "supports": "Brasil e Colômbia cobram as atas",
+     "verified": "aberta"
+    },
+    {
      "publisher": "O Povo",
      "title": "Reunião de emergência no Itamaraty discute invasão da Venezuela",
      "url": "https://www.opovo.com.br/noticias/mundo/2026/01/03/reuniao-de-emergencia-no-itamaraty-discute-invasao-da-venezuela.html",
@@ -1447,6 +1729,22 @@
   },
   "geo5": {
    "refs": [
+    {
+     "publisher": "Agência Brasil",
+     "title": "Na China, Vieira vê parceria com país “mais relevante do que nunca”",
+     "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-06/na-china-vieira-ve-parceria-com-pais-mais-relevante-do-que-nunca",
+     "kind": "secundaria",
+     "supports": "China, principal parceiro comercial desde 2009",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Câmara",
+     "title": "Congresso presta homenagem aos 50 anos da relação diplomática entre Brasil e China - Porta",
+     "url": "https://www.camara.leg.br/noticias/1089205-congresso-presta-homenagem-aos-50-anos-da-relacao-diplomatica-entre-brasil-e-china/",
+     "kind": "secundaria",
+     "supports": "relação Brasil-China",
+     "verified": "aberta"
+    },
     {
      "publisher": "Poder360",
      "title": "CEBC: comércio Brasil-China atinge recorde de US$ 171 bilhões em 2025",
@@ -1497,6 +1795,14 @@
   },
   "ins1": {
    "refs": [
+    {
+     "publisher": "LAPOP",
+     "title": "LAPOP/AmericasBarometer: Brasil (Vanderbilt)",
+     "url": "https://www.vanderbilt.edu/lapop/news/040619.brazil-folha.pdf",
+     "kind": "academica",
+     "supports": "confiança nas instituições e apoio à democracia no Brasil (LAPOP)",
+     "verified": "aberta"
+    },
     {
      "publisher": "Poder360",
      "title": "52% dos brasileiros não confiam nos partidos políticos, diz Datafolha",
@@ -1694,6 +2000,14 @@
   "div3": {
    "refs": [
     {
+     "publisher": "IBGE",
+     "title": "Desigualdades Sociais por Cor ou Raça no Brasil (IBGE, 2022)",
+     "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv101972_informativo.pdf",
+     "kind": "primaria",
+     "supports": "desigualdades por cor ou raça (IBGE)",
+     "verified": "aberta"
+    },
+    {
      "publisher": "Poder360",
      "title": "Maioria dos brasileiros vê o país como racista, diz Datafolha",
      "url": "https://www.poder360.com.br/poder-pesquisas/maioria-dos-brasileiros-ve-o-pais-como-racista-diz-datafolha/",
@@ -1770,6 +2084,22 @@
      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
      "kind": "primaria",
      "supports": "art. 10, §3º: mínimo de 30% e máximo de 70% por sexo",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "TSE aprova súmula de fraude à cota de gênero em eleições proporcionais",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2024-05/tse-aprova-sumula-de-fraude-cota-de-genero-em-eleicoes-proporcionais",
+     "kind": "secundaria",
+     "supports": "Súmula 73 do TSE sobre fraude à cota de gênero",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "TSE condena Republicanos, PSDB e PSD por fraudes a cotas de gênero",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2023-08/tse-condena-republicanos-psdb-e-psd-por-fraudes-cotas-de-genero",
+     "kind": "secundaria",
+     "supports": "TSE pune fraudes à cota",
      "verified": "aberta"
     }
    ],

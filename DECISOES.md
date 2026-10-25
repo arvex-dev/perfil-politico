@@ -80,3 +80,7 @@ Registro das escolhas feitas sem consultar o dono, com o motivo. Data: 2026-10-2
   apoio e quase não discrimina. Equilíbrio de 3 itens por sentido em cada eixo mantido.
 - Fatos de 2026 vieram de buscas (o modelo não os conhecia); os que não foram abertos numa fonte estão marcados no
   fontes.json e não aparecem como fonte na tela.
+- **Fontes por pergunta** (`refs` em data/questions.json, de docs/pesquisa/factcheck/fontes.json via
+  `scripts/merge-fontes.mjs`): só links abertos e conferidos (HTTP 200 e conteúdo com os termos da afirmação); 2 a 4
+  por pergunta, primárias primeiro; 58 de 72 têm fonte primária (as outras 14 só tinham secundárias acessíveis: TSE,
+  IBGE notícias e páginas de ministérios bloqueiam acesso automatizado). Teste garante ≥ 2 por pergunta.

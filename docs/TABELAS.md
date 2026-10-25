@@ -24,7 +24,7 @@ Sentido +1: concordar puxa para o polo B. R = modo rápido.
 | tra2 | Trab | −1 | 1 | R | Motoristas e entregadores de aplicativo deveriam ter direitos como férias, 13º salário e contribuição ao INSS. | PLP 12/2024 e PLP 152/2025; STF Tema 1291 |
 | tra3 | Trab | −1 | 1 |  | Todo trabalhador da categoria deveria contribuir com o sindicato, a não ser que peça para não pagar. | Lei 13.467/2017; STF ARE 1018459 (Tema 935) |
 | tra4 | Trab | +1 | 1 |  | Acordos coletivos entre empresas e sindicatos deveriam poder valer mais do que a lei trabalhista. | CLT art. 611-A (Lei 13.467/2017); STF Tema 1046 |
-| tra5 | Trab | −1 | 1 |  | O salário mínimo deveria ter aumento acima da inflação todos os anos. | Lei 14.663/2023 (política de valorização); pacote fiscal de 2024 |
+| tra5 | Trab | −1 | 1 |  | O salário mínimo deveria ter aumento acima da inflação todos os anos. | Lei 14.663/2023 (política de valorização); Lei 15.077/2024 |
 | tra6 | Trab | +1 | 1 |  | A idade mínima para se aposentar deveria subir à medida que a expectativa de vida aumenta. | Reforma da Previdência (EC 103/2019) |
 | cos1 | Cost | −1 | 1 | R | O aborto deveria ser legal nas primeiras semanas de gestação, por decisão da mulher. | ESEB, LAPOP W14A; ADPF 442 |
 | cos2 | Cost | −1 | 1 |  | Casais do mesmo sexo devem ter o direito de se casar no cartório, como casais de homem e mulher. | STF ADI 4277/ADPF 132 (2011); Resolução CNJ 175/2013; LAPOP D6 |

@@ -32,6 +32,13 @@ describe('dados', () => {
     }
   });
 
+  it('toda pergunta tem pelo menos 2 fontes verificadas com link', () => {
+    for (const q of questions) {
+      expect(q.refs?.length ?? 0, q.id).toBeGreaterThanOrEqual(2);
+      for (const r of q.refs!) expect(r.url, q.id).toMatch(/^https?:\/\//);
+    }
+  });
+
   it('ids únicos e todas as coordenadas dentro de -100..100 ou null', () => {
     expect(new Set(questions.map((q) => q.id)).size).toBe(questions.length);
     for (const t of [...ideologies, ...figures, ...countries]) {
