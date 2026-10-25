@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { axes } from "@/lib/data";
 import { buildResult } from "@/lib/result";
-import { AxisMini, Brand, C, IMAGE_VERSION, Label, MapBox, cachedPng, fonts } from "@/lib/og";
+import { AxisMini, Brand, C, Label, MapBox, cachedPng, fonts, imageKey } from "@/lib/og";
 
 // Imagem vertical 1080×1920 para stories e status do WhatsApp: alinhamento em destaque, mapa, corrente, figuras e os
 // 12 eixos em grade. Depende só do código e de IMAGE_VERSION (na URL).
@@ -12,7 +12,7 @@ export async function GET(_req: Request, { params }: RouteContext<"/r/[code]/ima
   const label = r.alignment.label;
   const colW = (1080 - 2 * 76 - 48) / 2;
 
-  return cachedPng(`imagem:${IMAGE_VERSION}:${code}`, async () => new ImageResponse(
+  return cachedPng(imageKey("imagem", r.scores, r.mode), async () => new ImageResponse(
     (
       <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", background: C.paper, color: C.ink, padding: "84px 76px 64px", fontFamily: "Inter" }}>
         <Brand size={36} />
@@ -50,7 +50,7 @@ export async function GET(_req: Request, { params }: RouteContext<"/r/[code]/ima
         </div>
 
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginTop: "auto" }}>
-          <div style={{ display: "flex", fontFamily: "Archivo", fontSize: 36 }}>perfil.arvex.dev</div>
+          <div style={{ display: "flex", fontFamily: "Archivo", fontSize: 36 }}>perfilpolitico.arvex.dev</div>
           <div style={{ display: "flex", fontSize: 20, color: C.muted }}>Faça o seu · não é recomendação de voto</div>
         </div>
       </div>

@@ -19,7 +19,7 @@ export default async function Image() {
         </div>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginTop: "auto" }}>
           <Label size={20}>Sem cadastro · nada fica guardado · código aberto</Label>
-          <div style={{ display: "flex", fontFamily: "Archivo", fontSize: 30 }}>perfil.arvex.dev</div>
+          <div style={{ display: "flex", fontFamily: "Archivo", fontSize: 30 }}>perfilpolitico.arvex.dev</div>
         </div>
       </div>
     ),

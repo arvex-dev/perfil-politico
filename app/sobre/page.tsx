@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import { axes, countries, figures, ideologies, questions } from "@/lib/data";
 import { REPO_URL } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Metodologia" };
+export const metadata: Metadata = {
+  title: "Metodologia: como o teste político funciona",
+  description: "Eixos, pontuação, alinhamento, checagem de fatos, posições das figuras por votação nominal, privacidade e limitações do teste.",
+  alternates: { canonical: "/sobre" },
+};
 
 const COUNTRY: Record<string, string> = {
   BR: "Brasil", AR: "Argentina", CL: "Chile", UY: "Uruguai", CO: "Colômbia", VE: "Venezuela", BO: "Bolívia",
@@ -102,7 +106,7 @@ export default function Sobre() {
         <p>
           Opinião política é dado pessoal sensível (LGPD, art. 5º, II). Por isso não há servidor de dados: as respostas
           ficam no seu navegador, e o link de resultado guarda só os {axes.length} scores e o número do sorteio da ordem das perguntas, sem as respostas. Não há
-          cookies de rastreamento.
+          cookies de rastreamento. O link do resultado contém sua posição nos eixos e, como qualquer endereço visitado, aparece nos registros técnicos do servidor e da Cloudflare, guardados por pouco tempo e sem ligação com sua identidade.
         </p>
       </section>
 

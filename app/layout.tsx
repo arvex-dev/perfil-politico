@@ -33,9 +33,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <Link href="/" aria-label="Perfil Político, início" className="rounded-md">
             <Logo />
           </Link>
-          <Link href="/sobre" className="text-sm text-muted hover:text-ink rounded-md px-2 py-2">
-            Como funciona
-          </Link>
+          <nav className="flex items-center text-sm text-muted">
+            <Link href="/correntes" className="hover:text-ink rounded-md px-2 py-2">
+              Correntes
+            </Link>
+            <Link href="/sobre" className="hover:text-ink rounded-md px-2 py-2">
+              Como funciona
+            </Link>
+          </nav>
         </header>
         <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-14">{children}</main>
         <p className="mx-auto w-full max-w-2xl px-4 pb-2 text-center text-xs text-muted">

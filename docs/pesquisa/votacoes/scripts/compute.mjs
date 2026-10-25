@@ -1,7 +1,7 @@
 import fs from 'fs';
 const D='..';
 const vot=JSON.parse(fs.readFileSync(D+'/votacoes.json')), votos=JSON.parse(fs.readFileSync(D+'/votos.json'));
-const figs=JSON.parse(fs.readFileSync('/Users/albertoromanholmoreira/repos/perfil-politico/data/figures.json')).figures;
+const figs=JSON.parse(fs.readFileSync(new URL('../../../../data/figures.json', import.meta.url))).figures;
 const byName=Object.fromEntries(figs.map(f=>[f.name,f]));
 const vm=Object.fromEntries(vot.map(v=>[v.id,v]));
 const K=3;

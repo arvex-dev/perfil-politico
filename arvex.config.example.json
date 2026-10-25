@@ -1,7 +1,10 @@
 {
   "host": "<IP do VPS ARVEX, ou ARVEX_HOST>",
   "knownHosts": "deploy/known_hosts",
-  "build": ["pnpm test", "pnpm typecheck"],
+  "build": [
+    "pnpm test",
+    "pnpm typecheck"
+  ],
   "image": {
     "name": "perfil-politico",
     "context": ".",
@@ -9,8 +12,16 @@
     "service": "perfil-politico",
     "compose": "deploy/compose.yaml",
     "npmrc": "~/.npmrc",
-    "health": "https://perfil.arvex.dev/api/health"
+    "health": "https://perfilpolitico.arvex.dev/api/health"
   },
   "edge": {},
-  "smoke": ["https://perfil.arvex.dev/", "https://perfil.arvex.dev/sobre", "https://perfil.arvex.dev/api/health"]
+  "smoke": [
+    "https://perfilpolitico.arvex.dev/",
+    "https://perfilpolitico.arvex.dev/sobre",
+    "https://perfilpolitico.arvex.dev/api/health",
+    {
+      "url": "https://perfil.arvex.dev/",
+      "status": 301
+    }
+  ]
 }

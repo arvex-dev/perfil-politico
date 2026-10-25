@@ -1,7 +1,7 @@
 # Perfil Político no VPS compartilhado, na rede externa `edge` do arvex-edge:
 #   perfil-politico  o servidor Next.js standalone. Imagem construída no laptop e carregada por `arvex ship-image`
 #                    (tag em .deploy/current). Sem estado, sem segredos, sem volumes.
-# O Caddy do arvex-edge manda perfil.arvex.dev inteiro para perfil-politico:3000 (deploy/perfil-politico.caddy).
+# O Caddy do arvex-edge manda perfilpolitico.arvex.dev inteiro para perfil-politico:3000 (deploy/perfil-politico.caddy).
 #   cd /srv/perfil-politico && IMAGE_TAG=$(cat .deploy/current) docker compose up -d --wait perfil-politico
 name: perfil-politico
 

@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 import { buildResult } from "@/lib/result";
-import { Brand, C, IMAGE_VERSION, Label, MapBox, cachedPng, fonts } from "@/lib/og";
+import { Brand, C, Label, MapBox, cachedPng, fonts, imageKey } from "@/lib/og";
 
 // Prévia de link 1200×630 (WhatsApp, X, Telegram cortam imagens verticais na prévia).
 export async function GET(_req: Request, { params }: RouteContext<"/r/[code]/og">) {
@@ -9,7 +9,7 @@ export async function GET(_req: Request, { params }: RouteContext<"/r/[code]/og"
   if (!r) return new Response("Resultado inválido", { status: 404 });
   const label = r.alignment.label;
 
-  return cachedPng(`og:${IMAGE_VERSION}:${code}`, async () => new ImageResponse(
+  return cachedPng(imageKey("og", r.scores, r.mode), async () => new ImageResponse(
     (
       <div style={{ width: "100%", height: "100%", display: "flex", background: C.paper, color: C.ink, padding: 56, gap: 48, fontFamily: "Inter" }}>
         <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
@@ -20,7 +20,7 @@ export async function GET(_req: Request, { params }: RouteContext<"/r/[code]/og"
             <div style={{ display: "flex", fontSize: 24, color: C.muted, marginTop: 6 }}>{`Corrente: ${r.ideology.target.name} (${r.ideology.similarity}%)`}</div>
             <div style={{ display: "flex", fontSize: 24, color: C.muted }}>{`Mais parecido com: ${r.figures.map((f) => f.target.name).slice(0, 2).join(", ")}`}</div>
           </div>
-          <div style={{ display: "flex", marginTop: "auto", fontFamily: "Archivo", fontSize: 26 }}>Faça o seu: perfil.arvex.dev</div>
+          <div style={{ display: "flex", marginTop: "auto", fontFamily: "Archivo", fontSize: 26 }}>Faça o seu: perfilpolitico.arvex.dev</div>
         </div>
         <MapBox r={r} size={518} />
       </div>

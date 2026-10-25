@@ -1,7 +1,7 @@
 # Perfil Político
 
 Teste político em 12 eixos calibrado para o Brasil e a América do Sul (estilo 12axes/8values). Protótipo:
-Next.js (App Router) + TypeScript + Tailwind, sem backend de dados e sem banco. https://perfil.arvex.dev
+Next.js (App Router) + TypeScript + Tailwind, sem backend de dados e sem banco. https://perfilpolitico.arvex.dev
 
 - Pesquisa: `docs/pesquisa/` (inventário, extração e simulação, viés, base acadêmica). Proposta: `docs/PROPOSTA.md`.
   Decisões: `DECISOES.md`.
@@ -26,7 +26,7 @@ origem e ficam só na máquina de quem publica (modelo em `arvex.config.example.
 
 ```sh
 ssh deploy@$ARVEX_HOST 'sudo install -d -m 755 -o deploy -g deploy /srv/perfil-politico'
-npx arvex edge cert perfil-politico perfil.arvex.dev
+npx arvex edge cert perfil-politico perfilpolitico.arvex.dev
 npx arvex edge site deploy/perfil-politico.caddy
 # DNS: A perfil → $ARVEX_HOST, proxied (Cloudflare, zona arvex.dev)
 ```

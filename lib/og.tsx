@@ -5,22 +5,52 @@ import { join } from "node:path";
 import { mapRefs, type Result } from "./result";
 
 /** Sobe quando o layout das imagens muda: entra na URL (?v=) para furar caches de versões anteriores. */
-export const IMAGE_VERSION = 3;
+export const IMAGE_VERSION = 4;
 export const IMAGE_CACHE = "public, max-age=86400";
 
-// Cache em memória das imagens já geradas (cada uma custa ~100 ms de CPU no VPS compartilhado). LRU simples por
-// inserção; 120 PNGs de ~150 KB ≈ 18 MB, dentro do limite de 256 MB do container.
+// Cache em memória das imagens já geradas (cada uma custa de 0,2 a 1,6 s de CPU no VPS compartilhado). LRU simples;
+// 120 PNGs de ~150 KB ≈ 18 MB, dentro do limite de 256 MB do container. Pedidos simultâneos da mesma imagem esperam a
+// mesma geração, e no máximo RENDER_SLOTS geram ao mesmo tempo (o resto espera na fila).
 const rendered = new Map<string, ArrayBuffer>();
+const inflight = new Map<string, Promise<ArrayBuffer | Response>>();
 const MAX_RENDERED = 120;
+const RENDER_SLOTS = 2;
+let busy = 0;
+const queue: (() => void)[] = [];
+
+async function slot<T>(fn: () => Promise<T>): Promise<T> {
+  if (busy >= RENDER_SLOTS) await new Promise<void>((r) => queue.push(r));
+  busy++;
+  try {
+    return await fn();
+  } finally {
+    busy--;
+    queue.shift()?.();
+  }
+}
+
+/** Chave da imagem: tipo, versão e o que aparece nela (modo + scores). A semente da ordem não muda a imagem e fica de
+ *  fora, senão cada uma das 2^32 sementes seria uma imagem nova a gerar. */
+export function imageKey(kind: string, scores: Record<string, number | null>, mode: string) {
+  return `${kind}:${IMAGE_VERSION}:${mode}:${Object.values(scores).join(",")}`;
+}
 
 export async function cachedPng(key: string, render: () => Promise<Response> | Response): Promise<Response> {
   let png = rendered.get(key);
   if (png) {
     rendered.delete(key);
   } else {
-    const res = await render();
-    if (!res.ok) return res;
-    png = await res.arrayBuffer();
+    let job = inflight.get(key);
+    if (!job) {
+      job = slot(async () => {
+        const res = await render();
+        return res.ok ? res.arrayBuffer() : res;
+      }).finally(() => inflight.delete(key));
+      inflight.set(key, job);
+    }
+    const out = await job;
+    if (out instanceof Response) return out;
+    png = out;
     if (rendered.size >= MAX_RENDERED) rendered.delete(rendered.keys().next().value!);
   }
   rendered.set(key, png);
