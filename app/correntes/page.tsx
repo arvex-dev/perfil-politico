@@ -25,9 +25,9 @@ export default function Correntes() {
         {sorted.map((i) => (
           <li key={i.id}>
             <Link href={`/correntes/${i.id}`} className="block px-5 py-4 hover:bg-paper">
-              <div className="flex justify-between gap-3">
+              <div className="flex flex-wrap justify-between gap-x-3">
                 <span className="font-semibold">{i.name}</span>
-                <span className="text-sm text-muted shrink-0">{alignment(i.coords).label}</span>
+                <span className="text-sm text-muted">{alignment(i.coords).label}</span>
               </div>
               <p className="text-sm text-muted mt-1">{i.desc}</p>
             </Link>

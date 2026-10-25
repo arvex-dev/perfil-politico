@@ -57,6 +57,9 @@ body {
   font-stretch: 125%;
   font-weight: 800;
   letter-spacing: -0.01em;
+  /* Títulos com palavras longas na fonte expandida ("Nacional-desenvolvimentismo") cabem em 320 px. */
+  overflow-wrap: anywhere;
+  hyphens: auto;
 }
 
 :focus-visible {

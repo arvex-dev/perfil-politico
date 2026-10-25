@@ -35,10 +35,10 @@ function AxisRow({ name, poleA, poleB, score }: { name: string; poleA: string; p
   const pos = score === null ? 50 : (score + 100) / 2;
   return (
     <li className="py-3.5 first:pt-0 last:pb-0">
+      <p className="font-mono text-[10px] uppercase tracking-wider text-muted text-center mb-1">{name}</p>
       <div className="flex items-baseline justify-between gap-3 text-[13px] mb-2">
-        <span className={score !== null && score < -10 ? "font-semibold" : "text-muted"}>{poleA}</span>
-        <span className="font-mono text-[10px] uppercase tracking-wider text-muted shrink-0">{name}</span>
-        <span className={`text-right ${score !== null && score > 10 ? "font-semibold" : "text-muted"}`}>{poleB}</span>
+        <span className={`min-w-0 [overflow-wrap:anywhere] ${score !== null && score < -10 ? "font-semibold" : "text-muted"}`}>{poleA}</span>
+        <span className={`min-w-0 [overflow-wrap:anywhere] text-right ${score !== null && score > 10 ? "font-semibold" : "text-muted"}`}>{poleB}</span>
       </div>
       <div className="relative h-2 rounded-full bg-track">
         {/* Preenchimento do centro até a posição: mostra o lado e a intensidade de relance. */}

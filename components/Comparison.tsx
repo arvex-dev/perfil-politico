@@ -55,10 +55,10 @@ export default function Comparison({ me, other }: { me: Result; other: Result })
       <ul className="divide-y divide-line">
         {c.axes.map((d) => (
           <li key={d.axis.id} className="py-2.5">
-            <div className="flex justify-between text-xs text-muted">
-              <span>{d.axis.poleA}</span>
-              <span className="font-mono uppercase tracking-wider">{d.axis.name}</span>
-              <span>{d.axis.poleB}</span>
+            <p className="font-mono text-[10px] uppercase tracking-wider text-muted text-center">{d.axis.name}</p>
+            <div className="flex justify-between gap-3 text-xs text-muted">
+              <span className="min-w-0 [overflow-wrap:anywhere]">{d.axis.poleA}</span>
+              <span className="min-w-0 [overflow-wrap:anywhere] text-right">{d.axis.poleB}</span>
             </div>
             <Dots a={d.a} b={d.b} />
           </li>

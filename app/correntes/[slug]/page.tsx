@@ -46,10 +46,10 @@ export default async function Corrente({ params }: PageProps<"/correntes/[slug]"
             const pos = s == null ? 50 : (s + 100) / 2;
             return (
               <li key={ax.id} className="py-3 first:pt-0 last:pb-0">
-                <div className="flex justify-between text-[13px] mb-2">
-                  <span className={s != null && s < -10 ? "font-semibold" : "text-muted"}>{ax.poleA}</span>
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-muted">{ax.name}</span>
-                  <span className={s != null && s > 10 ? "font-semibold" : "text-muted"}>{ax.poleB}</span>
+                <p className="font-mono text-[10px] uppercase tracking-wider text-muted text-center mb-1">{ax.name}</p>
+                <div className="flex justify-between gap-3 text-[13px] mb-2">
+                  <span className={`min-w-0 [overflow-wrap:anywhere] ${s != null && s < -10 ? "font-semibold" : "text-muted"}`}>{ax.poleA}</span>
+                  <span className={`min-w-0 [overflow-wrap:anywhere] text-right ${s != null && s > 10 ? "font-semibold" : "text-muted"}`}>{ax.poleB}</span>
                 </div>
                 <div className="relative h-2 rounded-full bg-track">
                   {s != null && <div className="absolute inset-y-0 bg-accent/35" style={{ left: `${Math.min(50, pos)}%`, width: `${Math.abs(pos - 50)}%` }} />}
