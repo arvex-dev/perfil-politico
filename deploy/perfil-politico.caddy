@@ -1,0 +1,10 @@
+# perfil.arvex.dev no Caddy do arvex-edge (/srv/arvex-edge/sites/, instalado com `arvex edge site`).
+# Atrás do proxy da Cloudflare (nuvem laranja, SSL Full strict); o certificado de origem é da Cloudflare Origin CA,
+# gerado com `arvex edge cert` (a chave nasceu no VPS e fica no volume /data do Caddy).
+# Sem nginx na frente: os cabeçalhos de segurança vêm do snippet `security_headers` do arvex-edge.
+perfil.arvex.dev {
+	tls /data/perfil-politico/origin.pem /data/perfil-politico/origin.key
+	import security_headers
+	encode zstd gzip
+	reverse_proxy perfil-politico:3000
+}

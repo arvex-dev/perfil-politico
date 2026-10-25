@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+  // Auto-hospedado no VPS ARVEX: .next/standalone/server.js roda no container do Dockerfile.
+  output: "standalone",
+  poweredByHeader: false,
   turbopack: {
     rules: {
       "*.css": {

@@ -1,12 +1,15 @@
 {
-  "name": "app",
+  "name": "perfil-politico",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest run",
+    "typecheck": "next typegen && tsc --noEmit",
+    "ship": "arvex ship-image"
   },
   "dependencies": {
     "@arvex-dev/brand": "^0.1.2",
