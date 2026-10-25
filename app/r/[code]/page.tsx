@@ -5,6 +5,7 @@ import { axes } from "@/lib/data";
 import { buildResult } from "@/lib/result";
 import PoliticalMap from "@/components/PoliticalMap";
 import ShareButtons from "@/components/ShareButtons";
+import { IMAGE_VERSION } from "@/lib/og";
 
 export async function generateMetadata({ params }: PageProps<"/r/[code]">): Promise<Metadata> {
   const { code } = await params;
@@ -16,8 +17,8 @@ export async function generateMetadata({ params }: PageProps<"/r/[code]">): Prom
     title,
     description,
     robots: { index: false },
-    openGraph: { title, description, images: [{ url: `/r/${code}/og`, width: 1200, height: 630, alt: title }] },
-    twitter: { card: "summary_large_image", images: [`/r/${code}/og`] },
+    openGraph: { title, description, images: [{ url: `/r/${code}/og?v=${IMAGE_VERSION}`, width: 1200, height: 630, alt: title }] },
+    twitter: { card: "summary_large_image", images: [`/r/${code}/og?v=${IMAGE_VERSION}`] },
   };
 }
 
@@ -88,7 +89,7 @@ export default async function ResultPage({ params }: PageProps<"/r/[code]">) {
         )}
       </section>
 
-      <ShareButtons code={r.code} label={a.label} />
+      <ShareButtons code={r.code} label={a.label} imageVersion={IMAGE_VERSION} />
 
       <section className="space-y-4">
         <h2 className="font-display text-xl">Seus {axes.length} eixos</h2>

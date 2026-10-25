@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 import { buildResult } from "@/lib/result";
-import { Brand, C, Label, MapBox, fonts } from "@/lib/og";
+import { Brand, C, IMAGE_CACHE, Label, MapBox, fonts } from "@/lib/og";
 
 // Prévia de link 1200×630 (WhatsApp, X, Telegram cortam imagens verticais na prévia).
 export async function GET(_req: Request, { params }: RouteContext<"/r/[code]/og">) {
@@ -25,6 +25,6 @@ export async function GET(_req: Request, { params }: RouteContext<"/r/[code]/og"
         <MapBox r={r} size={518} />
       </div>
     ),
-    { width: 1200, height: 630, fonts: await fonts(), headers: { "Cache-Control": "public, max-age=31536000, immutable" } },
+    { width: 1200, height: 630, fonts: await fonts(), headers: { "Cache-Control": IMAGE_CACHE } },
   );
 }

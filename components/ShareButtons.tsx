@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 // Compartilhar a imagem em si (stories, status do WhatsApp) quando o aparelho permite; senão, o link com a prévia.
-export default function ShareButtons({ code, label }: { code: string; label: string }) {
+export default function ShareButtons({ code, label, imageVersion }: { code: string; label: string; imageVersion: number }) {
   const [status, setStatus] = useState<string | null>(null);
   const url = () => `${window.location.origin}/r/${code}`;
   const text = `Meu alinhamento político deu "${label}". Faça o teste de 12 eixos feito para o Brasil:`;
@@ -15,7 +15,7 @@ export default function ShareButtons({ code, label }: { code: string; label: str
 
   async function shareImage() {
     try {
-      const res = await fetch(`/r/${code}/imagem`);
+      const res = await fetch(`/r/${code}/imagem?v=${imageVersion}`);
       const file = new File([await res.blob()], `perfil-politico.png`, { type: "image/png" });
       if (navigator.canShare?.({ files: [file] })) {
         await navigator.share({ files: [file], text: `${text} ${url()}` });

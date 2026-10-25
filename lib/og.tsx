@@ -4,6 +4,10 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { mapRefs, type Result } from "./result";
 
+/** Sobe quando o layout das imagens muda: entra na URL (?v=) para furar caches de versões anteriores. */
+export const IMAGE_VERSION = 2;
+export const IMAGE_CACHE = "public, max-age=86400";
+
 export const C = {
   paper: "#f2efe8",
   card: "#fbfaf6",
@@ -73,4 +77,22 @@ export function MapBox({ r, size }: { r: Result; size: number }) {
 
 export function Label({ children, size = 24 }: { children: string; size?: number }) {
   return <div style={{ display: "flex", fontFamily: "Mono", fontSize: size, letterSpacing: 2, color: C.muted }}>{children.toUpperCase()}</div>;
+}
+
+/** Eixo compacto para a imagem: nome, barra com o ponto e o polo para onde a pessoa pende. */
+export function AxisMini({ name, poleA, poleB, score, width }: { name: string; poleA: string; poleB: string; score: number | null; width: number }) {
+  const lean = score === null ? "Sem dados" : Math.abs(score) < 10 ? "Centro" : score < 0 ? poleA : poleB;
+  const pos = score === null ? null : ((score + 100) / 200) * (width - 20) + 10;
+  return (
+    <div style={{ display: "flex", flexDirection: "column", width, gap: 8 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+        <div style={{ display: "flex", fontFamily: "Mono", fontSize: 17, letterSpacing: 1, color: C.muted }}>{name.toUpperCase()}</div>
+      </div>
+      <div style={{ display: "flex", position: "relative", height: 10, borderRadius: 5, background: "#e4e0d6" }}>
+        <div style={{ position: "absolute", left: width / 2 - 1, top: -3, width: 2, height: 16, background: "#c9c4b8" }} />
+        {pos !== null && <div style={{ position: "absolute", left: pos - 11, top: -6, width: 22, height: 22, borderRadius: 11, background: C.accent, border: `3px solid ${C.paper}` }} />}
+      </div>
+      <div style={{ display: "flex", fontSize: 24, fontWeight: 600, color: C.ink }}>{lean}</div>
+    </div>
+  );
 }
