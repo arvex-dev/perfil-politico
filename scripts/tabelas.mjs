@@ -9,7 +9,6 @@ const { countries } = load('countries');
 const short = Object.fromEntries(axes.map((a) => [a.id, a.name.slice(0, 4)]));
 const esc = (s) => String(s).replace(/\|/g, '\\|');
 const coordRow = (c) => axes.map((a) => (c[a.id] ?? '–')).join(' | ');
-const head = `| ${axes.map((a) => short[a.id]).join(' | ')} |`;
 const sep = `|${axes.map(() => '---:').join('|')}|`;
 
 let md = `# Tabelas (gerado de data/ por scripts/tabelas.mjs, não editar à mão)\n\n`;

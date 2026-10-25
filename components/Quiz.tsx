@@ -23,6 +23,10 @@ function interleave<T extends { axis: string }>(qs: T[]): T[] {
   return out;
 }
 
+function lower(s: string) {
+  return s.charAt(0).toLowerCase() + s.slice(1);
+}
+
 export default function Quiz({ mode }: { mode: Mode }) {
   const router = useRouter();
   const qs = useMemo(() => interleave(questionsFor(mode)), [mode]);
@@ -30,9 +34,13 @@ export default function Quiz({ mode }: { mode: Mode }) {
   const [answers, setAnswers] = useState<Record<string, Answer>>({});
   const [i, setI] = useState(0);
   const [restored, setRestored] = useState(false);
+  // Quem abre a explicação uma vez provavelmente quer vê-la nas próximas: fica aberta até ser fechada.
+  const [showInfo, setShowInfo] = useState(false);
 
-  // Progresso só neste navegador (sessionStorage), para não perder tudo num recarregamento.
+  // Progresso só neste navegador (sessionStorage), para não perder tudo num recarregamento. Lido depois da montagem
+  // porque a página é pré-renderizada sem storage; ler no estado inicial quebraria a hidratação.
   useEffect(() => {
+    /* eslint-disable react-hooks/set-state-in-effect */
     try {
       const saved = JSON.parse(sessionStorage.getItem(storageKey) ?? "null");
       if (saved && typeof saved.i === "number" && saved.answers) {
@@ -41,6 +49,7 @@ export default function Quiz({ mode }: { mode: Mode }) {
       }
     } catch {}
     setRestored(true);
+    /* eslint-enable react-hooks/set-state-in-effect */
   }, [storageKey, qs.length]);
 
   useEffect(() => {
@@ -89,9 +98,42 @@ export default function Quiz({ mode }: { mode: Mode }) {
         </div>
       </div>
 
-      <h1 className="text-2xl sm:text-3xl font-semibold leading-snug min-h-[6rem]" aria-live="polite">
-        {q.text}
-      </h1>
+      <div className="space-y-3">
+        <h1 className="text-2xl sm:text-3xl font-semibold leading-snug" aria-live="polite">
+          {q.text}
+        </h1>
+        <button
+          onClick={() => setShowInfo(!showInfo)}
+          aria-expanded={showInfo}
+          aria-controls="q-info"
+          className="text-sm text-accent font-medium"
+        >
+          {showInfo ? "Ocultar explicação ▴" : "Entenda a pergunta ▾"}
+        </button>
+        {showInfo && (
+          <div id="q-info" className="rounded-xl bg-surface border border-line p-4 space-y-3 text-[15px] leading-relaxed">
+            <p>{q.context}</p>
+            <p>
+              <strong>Concordar</strong> significa: {lower(q.agree)}
+            </p>
+            <p>
+              <strong>Discordar</strong> significa: {lower(q.disagree)}
+            </p>
+            <p className="text-sm text-muted">
+              Use &quot;totalmente&quot; quando a convicção for forte. <strong>Neutro</strong>: você conhece o tema e
+              fica no meio. <strong>Não sei</strong>: não conhece o tema ou prefere não opinar; a pergunta não entra na
+              conta.
+            </p>
+          </div>
+        )}
+      </div>
+
+      {i === 0 && !showInfo && (
+        <p className="text-sm text-muted -mt-2">
+          Diga o quanto concorda com a afirmação como está escrita. Se não conhece o tema, use &quot;Não sei&quot;: ela
+          não conta no resultado.
+        </p>
+      )}
 
       <div className="grid gap-2">
         {OPTIONS.map((o) => (

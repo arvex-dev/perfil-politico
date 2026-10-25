@@ -25,6 +25,13 @@ describe('dados', () => {
     expect(questionsFor('rapido').length).toBe(axes.length * 2);
   });
 
+  it('toda pergunta tem contexto e o que significa concordar e discordar', () => {
+    for (const q of questions) {
+      for (const k of ['context', 'agree', 'disagree'] as const) expect(q[k]?.length, `${q.id}.${k}`).toBeGreaterThan(15);
+      expect(q.agree, q.id).not.toBe(q.disagree);
+    }
+  });
+
   it('ids únicos e todas as coordenadas dentro de -100..100 ou null', () => {
     expect(new Set(questions.map((q) => q.id)).size).toBe(questions.length);
     for (const t of [...ideologies, ...figures, ...countries]) {

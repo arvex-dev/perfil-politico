@@ -23,13 +23,20 @@ export interface Country extends Target {
   estimated: boolean;
 }
 
+export interface QuestionInfo extends Question {
+  source: string;
+  context: string;
+  agree: string;
+  disagree: string;
+}
+
 export const axes = axesJson.axes as (Axis & { why: string })[];
-export const questions = questionsJson.questions as Question[];
+export const questions = questionsJson.questions as QuestionInfo[];
 export const ideologies = ideologiesJson.ideologies as unknown as Ideology[];
 export const figures = figuresJson.figures as unknown as Figure[];
 export const countries = countriesJson.countries as unknown as Country[];
 
-export function questionsFor(mode: 'completo' | 'rapido'): Question[] {
+export function questionsFor(mode: 'completo' | 'rapido'): QuestionInfo[] {
   return mode === 'rapido' ? questions.filter((q) => q.quick) : questions;
 }
 

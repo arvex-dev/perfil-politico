@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Scripts da pesquisa (docs/pesquisa/dados/scripts), não fazem parte do app.
+    "docs/**",
   ]),
 ]);
 
