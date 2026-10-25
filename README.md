@@ -21,13 +21,25 @@ pnpm test && pnpm typecheck
 
 `pnpm ship` = `arvex ship-image` (`@arvex-dev/deploy`): testes + typecheck, `docker build --platform linux/amd64`,
 `docker save | ssh docker load`, `deploy/compose.yaml` em `/srv/perfil-politico`, `up -d --wait`, health, smoke.
-Atrás do Caddy do arvex-edge (`deploy/perfil-politico.caddy`). Primeira vez (feito em 2026-10-25):
+Atrás do Caddy do arvex-edge (`deploy/perfil-politico.caddy`). `arvex.config.json` e `deploy/known_hosts` têm o IP de
+origem e ficam só na máquina de quem publica (modelo em `arvex.config.example.json`). Primeira vez (feito em 2026-10-25):
 
 ```sh
-ssh deploy@ARVEX_HOST 'sudo install -d -m 755 -o deploy -g deploy /srv/perfil-politico'
+ssh deploy@$ARVEX_HOST 'sudo install -d -m 755 -o deploy -g deploy /srv/perfil-politico'
 npx arvex edge cert perfil-politico perfil.arvex.dev
 npx arvex edge site deploy/perfil-politico.caddy
-# DNS: A perfil → ARVEX_HOST, proxied (Cloudflare, zona arvex.dev)
+# DNS: A perfil → $ARVEX_HOST, proxied (Cloudflare, zona arvex.dev)
 ```
 
-Rollback: `ssh deploy@ARVEX_HOST 'cd /srv/perfil-politico && IMAGE_TAG=$(cat .deploy/previous) docker compose up -d --wait perfil-politico'`.
+Rollback: `ssh deploy@$ARVEX_HOST 'cd /srv/perfil-politico && IMAGE_TAG=$(cat .deploy/previous) docker compose up -d --wait perfil-politico'`.
+
+## Licenças
+
+Código: MIT ([LICENSE](LICENSE)). Perguntas, explicações, posições estimadas, pesquisa e textos (`data/`, `docs/`):
+CC BY 4.0 ([LICENSE-DADOS.md](LICENSE-DADOS.md)). Dados extraídos de 8values, 9Axes e SapplyValues (MIT) em
+`docs/pesquisa/dados/` mantêm a licença original; o 12axes ("All rights reserved") não é redistribuído.
+
+## Contribuir
+
+Viu um fato errado, uma fonte melhor ou uma posição mal estimada? Abra uma issue com a fonte. Mudanças nas perguntas
+passam por `pnpm test` (equilíbrio por eixo, fontes, personas) e `pnpm piloto` (piloto simulado, docs/PILOTO.md).

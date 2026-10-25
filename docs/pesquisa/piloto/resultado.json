@@ -1,0 +1,855 @@
+{
+  "config": {
+    "N": 2000,
+    "SEED": 20261025,
+    "LOADING": {
+      "economia": 0.7,
+      "distribuicao": 0.7,
+      "trabalho": 0.65,
+      "costumes": 0.7,
+      "religiao": 0.6,
+      "seguranca": 0.6,
+      "liberdades": 0.15,
+      "ambiente": 0.55,
+      "soberania": 0.35,
+      "geopolitica": 0.55,
+      "instituicoes": 0.4,
+      "diversidade": 0.65
+    },
+    "GROUPS": [
+      {
+        "name": "esquerda",
+        "share": 0.35,
+        "mean": -0.9
+      },
+      {
+        "name": "centro",
+        "share": 0.3,
+        "mean": 0
+      },
+      {
+        "name": "direita",
+        "share": 0.35,
+        "mean": 0.9
+      }
+    ],
+    "CUTS": [
+      -1.3,
+      -0.45,
+      0.45,
+      1.3
+    ],
+    "NOISE": 0.75,
+    "ACQ_SD": 0.35,
+    "DONT_KNOW": 0.05,
+    "discr": "uniforme 0,6–1,4 por item"
+  },
+  "perAxis": [
+    {
+      "axis": "economia",
+      "alpha": 0.83,
+      "alphaQuick": 0.49,
+      "recovery": 0.93,
+      "recoveryQuick": 0.77,
+      "quickVsFull": 0.85,
+      "acquiescence": 0.01,
+      "items": [
+        {
+          "id": "eco1",
+          "dir": -1,
+          "itemTotal": 0.52,
+          "maxOther": 0.24,
+          "ok": true
+        },
+        {
+          "id": "eco2",
+          "dir": 1,
+          "itemTotal": 0.6,
+          "maxOther": 0.25,
+          "ok": true
+        },
+        {
+          "id": "eco3",
+          "dir": 1,
+          "itemTotal": 0.66,
+          "maxOther": 0.29,
+          "ok": true
+        },
+        {
+          "id": "eco4",
+          "dir": -1,
+          "itemTotal": 0.7,
+          "maxOther": 0.31,
+          "ok": true
+        },
+        {
+          "id": "eco5",
+          "dir": -1,
+          "itemTotal": 0.67,
+          "maxOther": 0.31,
+          "ok": true
+        },
+        {
+          "id": "eco6",
+          "dir": 1,
+          "itemTotal": 0.49,
+          "maxOther": 0.24,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "axis": "distribuicao",
+      "alpha": 0.86,
+      "alphaQuick": 0.6,
+      "recovery": 0.93,
+      "recoveryQuick": 0.83,
+      "quickVsFull": 0.89,
+      "acquiescence": -0.03,
+      "items": [
+        {
+          "id": "dis1",
+          "dir": -1,
+          "itemTotal": 0.71,
+          "maxOther": 0.3,
+          "ok": true
+        },
+        {
+          "id": "dis2",
+          "dir": 1,
+          "itemTotal": 0.57,
+          "maxOther": 0.26,
+          "ok": true
+        },
+        {
+          "id": "dis3",
+          "dir": -1,
+          "itemTotal": 0.67,
+          "maxOther": 0.3,
+          "ok": true
+        },
+        {
+          "id": "dis4",
+          "dir": 1,
+          "itemTotal": 0.7,
+          "maxOther": 0.3,
+          "ok": true
+        },
+        {
+          "id": "dis5",
+          "dir": 1,
+          "itemTotal": 0.58,
+          "maxOther": 0.27,
+          "ok": true
+        },
+        {
+          "id": "dis6",
+          "dir": -1,
+          "itemTotal": 0.65,
+          "maxOther": 0.32,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "axis": "trabalho",
+      "alpha": 0.82,
+      "alphaQuick": 0.46,
+      "recovery": 0.92,
+      "recoveryQuick": 0.77,
+      "quickVsFull": 0.85,
+      "acquiescence": 0,
+      "items": [
+        {
+          "id": "tra1",
+          "dir": 1,
+          "itemTotal": 0.51,
+          "maxOther": 0.2,
+          "ok": true
+        },
+        {
+          "id": "tra2",
+          "dir": -1,
+          "itemTotal": 0.59,
+          "maxOther": 0.27,
+          "ok": true
+        },
+        {
+          "id": "tra3",
+          "dir": -1,
+          "itemTotal": 0.55,
+          "maxOther": 0.24,
+          "ok": true
+        },
+        {
+          "id": "tra4",
+          "dir": 1,
+          "itemTotal": 0.62,
+          "maxOther": 0.24,
+          "ok": true
+        },
+        {
+          "id": "tra5",
+          "dir": -1,
+          "itemTotal": 0.59,
+          "maxOther": 0.26,
+          "ok": true
+        },
+        {
+          "id": "tra6",
+          "dir": 1,
+          "itemTotal": 0.65,
+          "maxOther": 0.27,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "axis": "costumes",
+      "alpha": 0.85,
+      "alphaQuick": 0.51,
+      "recovery": 0.93,
+      "recoveryQuick": 0.78,
+      "quickVsFull": 0.86,
+      "acquiescence": 0,
+      "items": [
+        {
+          "id": "cos1",
+          "dir": -1,
+          "itemTotal": 0.61,
+          "maxOther": 0.3,
+          "ok": true
+        },
+        {
+          "id": "cos2",
+          "dir": -1,
+          "itemTotal": 0.69,
+          "maxOther": 0.33,
+          "ok": true
+        },
+        {
+          "id": "cos3",
+          "dir": 1,
+          "itemTotal": 0.54,
+          "maxOther": 0.25,
+          "ok": true
+        },
+        {
+          "id": "cos4",
+          "dir": 1,
+          "itemTotal": 0.6,
+          "maxOther": 0.26,
+          "ok": true
+        },
+        {
+          "id": "cos5",
+          "dir": -1,
+          "itemTotal": 0.7,
+          "maxOther": 0.32,
+          "ok": true
+        },
+        {
+          "id": "cos6",
+          "dir": 1,
+          "itemTotal": 0.62,
+          "maxOther": 0.29,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "axis": "religiao",
+      "alpha": 0.88,
+      "alphaQuick": 0.68,
+      "recovery": 0.94,
+      "recoveryQuick": 0.85,
+      "quickVsFull": 0.91,
+      "acquiescence": -0.02,
+      "items": [
+        {
+          "id": "rel1",
+          "dir": 1,
+          "itemTotal": 0.65,
+          "maxOther": 0.25,
+          "ok": true
+        },
+        {
+          "id": "rel2",
+          "dir": -1,
+          "itemTotal": 0.73,
+          "maxOther": 0.28,
+          "ok": true
+        },
+        {
+          "id": "rel3",
+          "dir": 1,
+          "itemTotal": 0.68,
+          "maxOther": 0.25,
+          "ok": true
+        },
+        {
+          "id": "rel4",
+          "dir": -1,
+          "itemTotal": 0.71,
+          "maxOther": 0.26,
+          "ok": true
+        },
+        {
+          "id": "rel5",
+          "dir": 1,
+          "itemTotal": 0.65,
+          "maxOther": 0.24,
+          "ok": true
+        },
+        {
+          "id": "rel6",
+          "dir": -1,
+          "itemTotal": 0.69,
+          "maxOther": 0.27,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "axis": "seguranca",
+      "alpha": 0.85,
+      "alphaQuick": 0.46,
+      "recovery": 0.93,
+      "recoveryQuick": 0.76,
+      "quickVsFull": 0.84,
+      "acquiescence": -0.03,
+      "items": [
+        {
+          "id": "seg1",
+          "dir": 1,
+          "itemTotal": 0.66,
+          "maxOther": 0.26,
+          "ok": true
+        },
+        {
+          "id": "seg2",
+          "dir": -1,
+          "itemTotal": 0.51,
+          "maxOther": 0.21,
+          "ok": true
+        },
+        {
+          "id": "seg3",
+          "dir": 1,
+          "itemTotal": 0.69,
+          "maxOther": 0.27,
+          "ok": true
+        },
+        {
+          "id": "seg4",
+          "dir": 1,
+          "itemTotal": 0.59,
+          "maxOther": 0.23,
+          "ok": true
+        },
+        {
+          "id": "seg5",
+          "dir": -1,
+          "itemTotal": 0.72,
+          "maxOther": 0.27,
+          "ok": true
+        },
+        {
+          "id": "seg6",
+          "dir": -1,
+          "itemTotal": 0.62,
+          "maxOther": 0.24,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "axis": "liberdades",
+      "alpha": 0.84,
+      "alphaQuick": 0.57,
+      "recovery": 0.92,
+      "recoveryQuick": 0.8,
+      "quickVsFull": 0.88,
+      "acquiescence": 0,
+      "items": [
+        {
+          "id": "lib1",
+          "dir": -1,
+          "itemTotal": 0.56,
+          "maxOther": 0.07,
+          "ok": true
+        },
+        {
+          "id": "lib2",
+          "dir": 1,
+          "itemTotal": 0.67,
+          "maxOther": 0.09,
+          "ok": true
+        },
+        {
+          "id": "lib3",
+          "dir": -1,
+          "itemTotal": 0.65,
+          "maxOther": 0.08,
+          "ok": true
+        },
+        {
+          "id": "lib4",
+          "dir": 1,
+          "itemTotal": 0.59,
+          "maxOther": 0.09,
+          "ok": true
+        },
+        {
+          "id": "lib5",
+          "dir": 1,
+          "itemTotal": 0.57,
+          "maxOther": 0.1,
+          "ok": true
+        },
+        {
+          "id": "lib6",
+          "dir": -1,
+          "itemTotal": 0.69,
+          "maxOther": 0.09,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "axis": "ambiente",
+      "alpha": 0.83,
+      "alphaQuick": 0.59,
+      "recovery": 0.93,
+      "recoveryQuick": 0.83,
+      "quickVsFull": 0.89,
+      "acquiescence": -0.01,
+      "items": [
+        {
+          "id": "amb1",
+          "dir": -1,
+          "itemTotal": 0.69,
+          "maxOther": 0.25,
+          "ok": true
+        },
+        {
+          "id": "amb2",
+          "dir": 1,
+          "itemTotal": 0.56,
+          "maxOther": 0.19,
+          "ok": true
+        },
+        {
+          "id": "amb3",
+          "dir": 1,
+          "itemTotal": 0.5,
+          "maxOther": 0.2,
+          "ok": true
+        },
+        {
+          "id": "amb4",
+          "dir": -1,
+          "itemTotal": 0.65,
+          "maxOther": 0.21,
+          "ok": true
+        },
+        {
+          "id": "amb5",
+          "dir": -1,
+          "itemTotal": 0.53,
+          "maxOther": 0.19,
+          "ok": true
+        },
+        {
+          "id": "amb6",
+          "dir": 1,
+          "itemTotal": 0.7,
+          "maxOther": 0.22,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "axis": "soberania",
+      "alpha": 0.82,
+      "alphaQuick": 0.49,
+      "recovery": 0.92,
+      "recoveryQuick": 0.8,
+      "quickVsFull": 0.87,
+      "acquiescence": 0.04,
+      "items": [
+        {
+          "id": "sob1",
+          "dir": 1,
+          "itemTotal": 0.57,
+          "maxOther": 0.14,
+          "ok": true
+        },
+        {
+          "id": "sob2",
+          "dir": -1,
+          "itemTotal": 0.58,
+          "maxOther": 0.15,
+          "ok": true
+        },
+        {
+          "id": "sob3",
+          "dir": 1,
+          "itemTotal": 0.62,
+          "maxOther": 0.17,
+          "ok": true
+        },
+        {
+          "id": "sob4",
+          "dir": -1,
+          "itemTotal": 0.66,
+          "maxOther": 0.16,
+          "ok": true
+        },
+        {
+          "id": "sob5",
+          "dir": 1,
+          "itemTotal": 0.61,
+          "maxOther": 0.14,
+          "ok": true
+        },
+        {
+          "id": "sob6",
+          "dir": -1,
+          "itemTotal": 0.51,
+          "maxOther": 0.15,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "axis": "geopolitica",
+      "alpha": 0.84,
+      "alphaQuick": 0.5,
+      "recovery": 0.94,
+      "recoveryQuick": 0.78,
+      "quickVsFull": 0.85,
+      "acquiescence": -0.04,
+      "items": [
+        {
+          "id": "geo1",
+          "dir": 1,
+          "itemTotal": 0.65,
+          "maxOther": 0.24,
+          "ok": true
+        },
+        {
+          "id": "geo2",
+          "dir": -1,
+          "itemTotal": 0.59,
+          "maxOther": 0.2,
+          "ok": true
+        },
+        {
+          "id": "geo3",
+          "dir": -1,
+          "itemTotal": 0.71,
+          "maxOther": 0.25,
+          "ok": true
+        },
+        {
+          "id": "geo4",
+          "dir": 1,
+          "itemTotal": 0.55,
+          "maxOther": 0.24,
+          "ok": true
+        },
+        {
+          "id": "geo5",
+          "dir": 1,
+          "itemTotal": 0.54,
+          "maxOther": 0.21,
+          "ok": true
+        },
+        {
+          "id": "geo6",
+          "dir": -1,
+          "itemTotal": 0.71,
+          "maxOther": 0.25,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "axis": "instituicoes",
+      "alpha": 0.9,
+      "alphaQuick": 0.7,
+      "recovery": 0.95,
+      "recoveryQuick": 0.87,
+      "quickVsFull": 0.92,
+      "acquiescence": -0.01,
+      "items": [
+        {
+          "id": "ins1",
+          "dir": 1,
+          "itemTotal": 0.73,
+          "maxOther": 0.18,
+          "ok": true
+        },
+        {
+          "id": "ins2",
+          "dir": -1,
+          "itemTotal": 0.75,
+          "maxOther": 0.16,
+          "ok": true
+        },
+        {
+          "id": "ins3",
+          "dir": 1,
+          "itemTotal": 0.71,
+          "maxOther": 0.17,
+          "ok": true
+        },
+        {
+          "id": "ins4",
+          "dir": -1,
+          "itemTotal": 0.69,
+          "maxOther": 0.16,
+          "ok": true
+        },
+        {
+          "id": "ins5",
+          "dir": 1,
+          "itemTotal": 0.71,
+          "maxOther": 0.17,
+          "ok": true
+        },
+        {
+          "id": "ins6",
+          "dir": -1,
+          "itemTotal": 0.72,
+          "maxOther": 0.15,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "axis": "diversidade",
+      "alpha": 0.79,
+      "alphaQuick": 0.39,
+      "recovery": 0.91,
+      "recoveryQuick": 0.72,
+      "quickVsFull": 0.82,
+      "acquiescence": -0.02,
+      "items": [
+        {
+          "id": "div1",
+          "dir": -1,
+          "itemTotal": 0.47,
+          "maxOther": 0.21,
+          "ok": true
+        },
+        {
+          "id": "div2",
+          "dir": 1,
+          "itemTotal": 0.52,
+          "maxOther": 0.21,
+          "ok": true
+        },
+        {
+          "id": "div3",
+          "dir": -1,
+          "itemTotal": 0.68,
+          "maxOther": 0.3,
+          "ok": true
+        },
+        {
+          "id": "div4",
+          "dir": -1,
+          "itemTotal": 0.6,
+          "maxOther": 0.26,
+          "ok": true
+        },
+        {
+          "id": "div5",
+          "dir": 1,
+          "itemTotal": 0.47,
+          "maxOther": 0.22,
+          "ok": true
+        },
+        {
+          "id": "div6",
+          "dir": 1,
+          "itemTotal": 0.54,
+          "maxOther": 0.24,
+          "ok": true
+        }
+      ]
+    }
+  ],
+  "onlyAgreeAcquiescence": {
+    "economia": 0.32,
+    "distribuicao": 0.27,
+    "trabalho": 0.33,
+    "costumes": 0.33,
+    "religiao": 0.27,
+    "seguranca": 0.26,
+    "liberdades": 0.31,
+    "ambiente": 0.33,
+    "soberania": 0.36,
+    "geopolitica": 0.28,
+    "instituicoes": 0.25,
+    "diversidade": 0.36
+  },
+  "eigenTop": [
+    11.93,
+    5.35,
+    3.61,
+    3.33,
+    3.05,
+    2.75,
+    2.62,
+    2.54,
+    2.37,
+    2.27,
+    2.2,
+    2.09,
+    1.98,
+    0.65,
+    0.65
+  ],
+  "eigRandTop": [
+    1.38,
+    1.35,
+    1.33,
+    1.32,
+    1.3,
+    1.3,
+    1.28,
+    1.27,
+    1.26,
+    1.25,
+    1.23,
+    1.22,
+    1.21,
+    1.2,
+    1.18
+  ],
+  "factorsParallel": 13,
+  "alignmentByGroup": {
+    "centro": {
+      "Centro": 301,
+      "Direita": 10,
+      "Centro-esquerda": 144,
+      "Centro-direita": 163,
+      "Liberal na economia e nos costumes": 9,
+      "Esquerda econômica, conservador nos costumes": 16,
+      "Esquerda": 14
+    },
+    "esquerda": {
+      "Centro-esquerda": 362,
+      "Centro": 127,
+      "Esquerda": 147,
+      "Esquerda econômica, conservador nos costumes": 3,
+      "Centro-direita": 14,
+      "Direita": 1,
+      "Liberal na economia e nos costumes": 1
+    },
+    "direita": {
+      "Centro-direita": 348,
+      "Direita": 166,
+      "Centro": 153,
+      "Centro-esquerda": 15,
+      "Liberal na economia e nos costumes": 5,
+      "Esquerda econômica, conservador nos costumes": 1
+    }
+  },
+  "sideAccuracy": 0.91,
+  "ideologyDistribution": [
+    [
+      "Centrismo",
+      649
+    ],
+    [
+      "Social-democracia",
+      219
+    ],
+    [
+      "Liberal-conservadorismo",
+      190
+    ],
+    [
+      "Democracia cristã",
+      151
+    ],
+    [
+      "Agrarismo / ruralismo",
+      132
+    ],
+    [
+      "Social-liberalismo",
+      105
+    ],
+    [
+      "Conservadorismo religioso",
+      81
+    ],
+    [
+      "Nacional-desenvolvimentismo",
+      79
+    ],
+    [
+      "Esquerda cristã",
+      64
+    ],
+    [
+      "Tecnocracia liberal",
+      52
+    ],
+    [
+      "Liberalismo clássico",
+      52
+    ],
+    [
+      "Trabalhismo",
+      51
+    ],
+    [
+      "Ecossocialismo / socioambientalismo",
+      41
+    ],
+    [
+      "Direita autoritária",
+      37
+    ],
+    [
+      "Nacional-conservadorismo",
+      31
+    ],
+    [
+      "Socialismo democrático",
+      21
+    ],
+    [
+      "Populismo de esquerda / bolivarianismo",
+      13
+    ],
+    [
+      "Liberalismo progressista",
+      12
+    ],
+    [
+      "Anarquismo / socialismo libertário",
+      12
+    ],
+    [
+      "Marxismo-leninismo",
+      6
+    ],
+    [
+      "Libertarianismo / anarcocapitalismo",
+      2
+    ]
+  ],
+  "topFigureSimilarity": {
+    "p10": 48,
+    "median": 60,
+    "p90": 72,
+    "over90": 0
+  }
+}

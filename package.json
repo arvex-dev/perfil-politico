@@ -9,7 +9,8 @@
     "lint": "eslint",
     "test": "vitest run",
     "typecheck": "next typegen && tsc --noEmit",
-    "ship": "arvex ship-image"
+    "ship": "arvex ship-image",
+    "piloto": "vitest run --config vitest.piloto.config.mts"
   },
   "dependencies": {
     "@arvex-dev/brand": "^0.1.2",

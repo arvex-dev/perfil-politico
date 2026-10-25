@@ -3,7 +3,7 @@ import { Archivo, Inter, JetBrains_Mono } from "next/font/google";
 import { footerHtml } from "@arvex-dev/brand";
 import Link from "next/link";
 import { Logo } from "@/components/Logo";
-import { SITE_URL } from "@/lib/site";
+import { REPO_URL, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
@@ -38,6 +38,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </Link>
         </header>
         <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-14">{children}</main>
+        <p className="mx-auto w-full max-w-2xl px-4 pb-2 text-center text-xs text-muted">
+          Código, perguntas, fontes e metodologia abertos:{" "}
+          <a href={REPO_URL} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink">
+            github.com/arvex-dev/perfil-politico
+          </a>
+        </p>
         <div className="hidden dark:block" dangerouslySetInnerHTML={{ __html: footerHtml({ tone: "dark", source: "perfil-politico" }) }} />
         <div className="dark:hidden" dangerouslySetInnerHTML={{ __html: footerHtml({ source: "perfil-politico" }) }} />
       </body>

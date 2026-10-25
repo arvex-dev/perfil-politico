@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 import { buildResult } from "@/lib/result";
-import { Brand, C, IMAGE_CACHE, Label, MapBox, fonts } from "@/lib/og";
+import { Brand, C, IMAGE_VERSION, Label, MapBox, cachedPng, fonts } from "@/lib/og";
 
 // Prévia de link 1200×630 (WhatsApp, X, Telegram cortam imagens verticais na prévia).
 export async function GET(_req: Request, { params }: RouteContext<"/r/[code]/og">) {
@@ -9,7 +9,7 @@ export async function GET(_req: Request, { params }: RouteContext<"/r/[code]/og"
   if (!r) return new Response("Resultado inválido", { status: 404 });
   const label = r.alignment.label;
 
-  return new ImageResponse(
+  return cachedPng(`og:${IMAGE_VERSION}:${code}`, async () => new ImageResponse(
     (
       <div style={{ width: "100%", height: "100%", display: "flex", background: C.paper, color: C.ink, padding: 56, gap: 48, fontFamily: "Inter" }}>
         <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
@@ -25,6 +25,6 @@ export async function GET(_req: Request, { params }: RouteContext<"/r/[code]/og"
         <MapBox r={r} size={518} />
       </div>
     ),
-    { width: 1200, height: 630, fonts: await fonts(), headers: { "Cache-Control": IMAGE_CACHE } },
-  );
+    { width: 1200, height: 630, fonts: await fonts(), },
+  ));
 }

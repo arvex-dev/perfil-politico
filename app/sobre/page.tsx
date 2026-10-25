@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { axes, countries, figures, ideologies, questions } from "@/lib/data";
+import { REPO_URL } from "@/lib/site";
 
 export const metadata: Metadata = { title: "Metodologia" };
 
@@ -82,6 +83,17 @@ export default function Sobre() {
           tribunais, órgãos públicos) e jornalísticas. As fontes aparecem em &quot;Entenda a pergunta&quot;. Itens
           desatualizados foram reescritos (por exemplo, a tributação de dividendos de 2026) e um item virou fato
           consumado e foi trocado (escala 6x1). Viu um erro? Avise pelo arvex.dev.
+        </p>
+      </section>
+
+      <section className="space-y-3">
+        <h2 className="font-display text-xl">Código aberto</h2>
+        <p>
+          Todo o código, as perguntas, as fontes, as posições estimadas e a pesquisa estão em{" "}
+          <a href={REPO_URL} className="underline underline-offset-2" target="_blank" rel="noopener noreferrer">
+            github.com/arvex-dev/perfil-politico
+          </a>
+          , para qualquer pessoa auditar ou sugerir correções. Código sob licença MIT; perguntas, dados e textos sob CC BY 4.0.
         </p>
       </section>
 

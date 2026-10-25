@@ -8,6 +8,25 @@ import { mapRefs, type Result } from "./result";
 export const IMAGE_VERSION = 3;
 export const IMAGE_CACHE = "public, max-age=86400";
 
+// Cache em memória das imagens já geradas (cada uma custa ~100 ms de CPU no VPS compartilhado). LRU simples por
+// inserção; 120 PNGs de ~150 KB ≈ 18 MB, dentro do limite de 256 MB do container.
+const rendered = new Map<string, ArrayBuffer>();
+const MAX_RENDERED = 120;
+
+export async function cachedPng(key: string, render: () => Promise<Response> | Response): Promise<Response> {
+  let png = rendered.get(key);
+  if (png) {
+    rendered.delete(key);
+  } else {
+    const res = await render();
+    if (!res.ok) return res;
+    png = await res.arrayBuffer();
+    if (rendered.size >= MAX_RENDERED) rendered.delete(rendered.keys().next().value!);
+  }
+  rendered.set(key, png);
+  return new Response(png, { headers: { "Content-Type": "image/png", "Cache-Control": IMAGE_CACHE } });
+}
+
 export const C = {
   paper: "#f2efe8",
   card: "#fbfaf6",

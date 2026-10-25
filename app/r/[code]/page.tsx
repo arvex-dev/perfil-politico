@@ -3,15 +3,23 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { axes } from "@/lib/data";
 import { buildResult } from "@/lib/result";
+import { compare } from "@/lib/compare";
 import PoliticalMap from "@/components/PoliticalMap";
 import ShareButtons from "@/components/ShareButtons";
 import { IMAGE_VERSION } from "@/lib/og";
+import { decodeResult } from "@/lib/scoring";
+import Comparison from "@/components/Comparison";
+import AxisBreakdown from "@/components/AxisBreakdown";
 
-export async function generateMetadata({ params }: PageProps<"/r/[code]">): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: PageProps<"/r/[code]">): Promise<Metadata> {
   const { code } = await params;
   const r = buildResult(code);
   if (!r) return { title: "Resultado inválido" };
-  const title = `${r.alignment.label} · ${r.ideology.target.name}`;
+  const vsParam = (await searchParams).vs;
+  const other = typeof vsParam === "string" ? buildResult(vsParam) : null;
+  const title = other
+    ? `Comparação de perfis: ${compare(axes, r.scores, other.scores).agreement}% de concordância`
+    : `${r.alignment.label} · ${r.ideology.target.name}`;
   const description = `Meu perfil político no teste de 12 eixos feito para o Brasil. Figura mais próxima: ${r.figures[0]?.target.name}. Faça o seu.`;
   return {
     title,
@@ -51,14 +59,28 @@ function AxisRow({ name, poleA, poleB, score }: { name: string; poleA: string; p
   );
 }
 
-export default async function ResultPage({ params }: PageProps<"/r/[code]">) {
+export default async function ResultPage({ params, searchParams }: PageProps<"/r/[code]">) {
   const { code } = await params;
   const r = buildResult(code);
-  if (!r) notFound();
+  if (!r) {
+    // Código válido mas com poucos eixos respondidos (links antigos ou editados à mão): explica em vez de dar 404.
+    if (!decodeResult(axes, code)) notFound();
+    return (
+      <div className="pt-10 space-y-4">
+        <h1 className="font-display text-3xl">Respostas insuficientes</h1>
+        <p className="text-muted">Este resultado tem respostas em poucos eixos para calcular o alinhamento. Refaça o teste respondendo um pouco mais.</p>
+        <Link href="/teste" className="inline-flex items-center h-12 rounded-full bg-ink text-paper px-6 font-semibold">Refazer o teste</Link>
+      </div>
+    );
+  }
   const a = r.alignment;
+  const vsParam = (await searchParams).vs;
+  const other = typeof vsParam === "string" && vsParam !== code ? buildResult(vsParam) : null;
+  const retake = r.mode === "rapido" ? "/teste/rapido" : "/teste";
 
   return (
     <div className="pt-6 space-y-10">
+      {other && <Comparison me={r} other={other} />}
       <section className="space-y-3">
         <p className="font-mono text-xs uppercase tracking-wider text-muted">
           Seu alinhamento{r.mode === "rapido" ? " · versão rápida" : ""}
@@ -102,6 +124,7 @@ export default async function ResultPage({ params }: PageProps<"/r/[code]">) {
             <AxisRow key={ax.id} name={ax.name} poleA={ax.poleA} poleB={ax.poleB} score={r.scores[ax.id]} />
           ))}
         </ul>
+        <AxisBreakdown code={r.code} />
       </section>
 
       <section className="grid gap-8 sm:grid-cols-2">
@@ -115,6 +138,10 @@ export default async function ResultPage({ params }: PageProps<"/r/[code]">) {
                   <span className="font-mono tabular-nums">{f.similarity}%</span>
                 </div>
                 <div className="text-sm text-muted">{f.target.role}</div>
+                <details className="mt-1 text-xs text-muted">
+                  <summary className="cursor-pointer select-none">Base da posição (estimada)</summary>
+                  <p className="mt-1 leading-relaxed">{f.target.basis}</p>
+                </details>
               </li>
             ))}
           </ol>
@@ -141,7 +168,7 @@ export default async function ResultPage({ params }: PageProps<"/r/[code]">) {
       </section>
 
       <div className="flex flex-wrap gap-3">
-        <Link href="/teste" className="inline-flex items-center h-12 rounded-full border border-line px-5 hover:border-ink">
+        <Link href={retake} className="inline-flex items-center h-12 rounded-full border border-line px-5 hover:border-ink">
           Refazer o teste
         </Link>
         <Link href="/sobre" className="inline-flex items-center h-12 rounded-full border border-line px-5 hover:border-ink">

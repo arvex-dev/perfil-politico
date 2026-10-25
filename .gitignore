@@ -42,3 +42,7 @@ next-env.d.ts
 
 # 12axes é "All rights reserved": o dump bruto fica só local (repo e commit em docs/pesquisa/02-extracao-simulacao.md)
 /docs/pesquisa/dados/12axes/
+
+# Configuração de deploy com o IP de origem do VPS (atrás da Cloudflare): só local, ver arvex.config.example.json
+/arvex.config.json
+/deploy/known_hosts

@@ -91,3 +91,26 @@ Registro das escolhas feitas sem consultar o dono, com o motivo. Data: 2026-10-2
   (STF, BC autônomo) e geo4; seg4 (armas) no lugar de seg1 (maioridade penal, ~80% de apoio).
 - **Semente no resultado** (código v2: versão, modo, semente de 4 bytes, 12 scores). Permite, no piloto, analisar efeito
   de ordem refazendo a sequência exata de cada pessoa. Códigos v1 (sem semente) continuam abrindo.
+
+## Rodada de melhorias (2026-10-25, noite)
+
+- **Poucas respostas**: o questionário termina numa tela de revisão; com menos de 6 eixos respondidos pede para
+  responder as puladas (antes, a página de resultado dava 404). Links com poucos eixos mostram "Respostas
+  insuficientes".
+- **Comparar com um amigo** sem servidor: convite `/comparar/<código>` (não mostra o resultado de quem convidou antes de
+  responder, para não influenciar), o teste leva `?vs=` e o resultado `/r/<código>?vs=<outro>` mostra concordância
+  (mesma fórmula da afinidade), onde mais concordam e discordam e os 12 eixos com os dois pontos. Rótulos neutros
+  ("este resultado" / "quem convidou") porque o link é visto pelos dois.
+- **Detalhe por eixo** ("por que caí em cada ponto"): só para quem fez o teste, lendo as respostas do sessionStorage;
+  elas nunca vão na URL nem para o servidor.
+- Atalhos 1–5 / 0 / ←, tempo restante, base de cada figura visível, "refazer" no mesmo modo, prévia da home, ícone,
+  sitemap, robots (resultados e convites fora dos buscadores), cache em memória das imagens (LRU de 120).
+- **Itens trocados**: lib3 (princípio abstrato, quase consenso) → legalização de cassinos e bingos; cos5 (educação
+  sexual, quase consenso) → mulheres trans em categorias femininas. Fontes conferidas em
+  docs/pesquisa/factcheck/novos-itens.json.
+- **Piloto simulado** (`pnpm piloto`, docs/PILOTO.md): verifica chaves, balanceamento, pontuação e catálogo com 2.000
+  respondentes sintéticos. Achado a acompanhar no piloto real: respostas com ruído encolhem os scores para o centro
+  (Centrismo é a corrente mais frequente, 32%; afinidade mediana 60%), porque as coordenadas das referências estão na
+  escala de posições "puras". Recalibrar faixas e coordenadas com dados reais, não com a simulação.
+- **Código aberto**: MIT para o código, CC BY 4.0 para dados e textos; link no rodapé e em /sobre. `arvex.config.json` e
+  `deploy/known_hosts` (IP de origem atrás da Cloudflare) saem do git.

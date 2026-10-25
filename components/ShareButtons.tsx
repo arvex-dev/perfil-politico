@@ -32,6 +32,19 @@ export default function ShareButtons({ code, label, imageVersion }: { code: stri
     }
   }
 
+  async function invite() {
+    const link = `${window.location.origin}/comparar/${code}`;
+    const msg = "Compare seu perfil político com o meu:";
+    try {
+      if (navigator.share) {
+        await navigator.share({ text: msg, url: link });
+        return;
+      }
+      await navigator.clipboard.writeText(`${msg} ${link}`);
+      flash("Convite copiado");
+    } catch {}
+  }
+
   async function copy() {
     try {
       await navigator.clipboard.writeText(url());
@@ -65,6 +78,9 @@ export default function ShareButtons({ code, label, imageVersion }: { code: stri
           Copiar link
         </button>
       </div>
+      <button onClick={invite} className="w-full inline-flex items-center justify-center h-12 rounded-full border border-dashed border-paper/40 hover:border-paper px-5 font-medium text-paper">
+        Comparar com um amigo
+      </button>
       <p className="text-sm min-h-5 opacity-90" role="status" aria-live="polite">
         {status}
       </p>

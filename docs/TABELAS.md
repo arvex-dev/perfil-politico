@@ -30,7 +30,7 @@ Sentido +1: concordar puxa para o polo B. O modo rápido sorteia 1 item de cada 
 | cos2 | Cost | −1 | 1 | Casais do mesmo sexo devem ter o direito de se casar no cartório, como casais de homem e mulher. | STF ADI 4277/ADPF 132 (2011); Resolução CNJ 175/2013; LAPOP D6 |
 | cos3 | Cost | +1 | 1 | Escolas não deveriam tratar de temas de gênero e orientação sexual. | Debate Escola sem Partido / planos de educação |
 | cos4 | Cost | +1 | 1 | A família formada por pai, mãe e filhos deve ser o modelo protegido e incentivado pelo Estado. | Estatuto da Família (PL 6583/2013) |
-| cos5 | Cost | −1 | 1 | A escola deveria ensinar educação sexual aos alunos. | Debate sobre educação sexual (adaptado) |
+| cos5 | Cost | −1 | 1 | Mulheres trans deveriam poder competir em categorias esportivas femininas. | Decisão do COI (2026); PL 2200/2019 e PL 4591/2023 |
 | cos6 | Cost | +1 | 1 | Os valores morais da sociedade brasileira estão mudando rápido demais. | World Values Survey / ESEB (adaptado) |
 | rel1 | Reli | +1 | 1 | Seria bom para o Brasil ter mais políticos comprometidos com valores cristãos. | ESEB 2018/2022 (religião e voto, adaptado) |
 | rel2 | Reli | −1 | 1 | As leis devem se basear em argumentos que valham para todos, e não nos preceitos de uma religião. | Laicidade (CF art. 19) |
@@ -46,7 +46,7 @@ Sentido +1: concordar puxa para o polo B. O modo rápido sorteia 1 item de cada 
 | seg6 | Segu | −1 | 1 | Penas alternativas para crimes sem violência são melhores do que a prisão. | Lei 9.714/1998; superlotação carcerária |
 | lib1 | Libe | −1 | 1 | O uso de maconha por adultos deveria ser legalizado. | RE 635659 (STF); Uruguai 2013 |
 | lib2 | Libe | +1 | 1 | A Justiça deveria poder mandar remover das redes sociais conteúdos classificados como desinformação. | Marco Civil da Internet art. 19 (STF, 2025); PL 2630/2020 |
-| lib3 | Libe | −1 | 1 | O Estado não deve interferir no que adultos fazem com a própria vida, desde que não prejudiquem outras pessoas. | Princípio do dano (Mill), adaptado |
+| lib3 | Libe | −1 | 1 | Cassinos e bingos deveriam ser legalizados no Brasil. | Decreto-Lei 9.215/1946; Lei 14.790/2023; PL 2234/2022 |
 | lib4 | Libe | +1 | 1 | Em momentos de crise, o governo deve ter poderes especiais, mesmo que limite algumas liberdades. | LAPOP (apoio a governar sem Congresso, adaptado) |
 | lib5 | Libe | +1 | 1 | Câmeras de reconhecimento facial nas ruas são uma boa forma de aumentar a segurança. | Debate sobre vigilância biométrica (Smart Sampa) |
 | lib6 | Libe | −1 | 1 | Ninguém deveria ser punido por opiniões, mesmo ofensivas, que não incitem violência. | Liberdade de expressão (CF art. 5º), adaptado |

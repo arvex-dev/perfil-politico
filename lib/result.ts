@@ -21,6 +21,7 @@ export function buildResult(code: string) {
   if (!decoded) return null;
   const { scores, mode } = decoded;
   const ideologyRank = rank(scores, ideologies);
+  // Menos de MIN_SHARED_AXES eixos respondidos: não dá para comparar com nada (o questionário já impede isso).
   if (!ideologyRank.length) return null;
   const ideology = ideologyRank[0];
   return {
