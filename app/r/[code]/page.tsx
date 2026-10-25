@@ -32,7 +32,11 @@ function AxisRow({ name, poleA, poleB, score }: { name: string; poleA: string; p
         <span className={`text-right ${score !== null && score > 10 ? "font-semibold" : "text-muted"}`}>{poleB}</span>
       </div>
       <div className="relative h-2 rounded-full bg-track">
-        <div className="absolute left-1/2 -top-0.5 h-3 w-px bg-muted/40" />
+        {/* Preenchimento do centro até a posição: mostra o lado e a intensidade de relance. */}
+        {score !== null && (
+          <div className="absolute inset-y-0 bg-accent/35" style={{ left: `${Math.min(50, pos)}%`, width: `${Math.abs(pos - 50)}%` }} />
+        )}
+        <div className="absolute left-1/2 -top-1.5 h-5 w-0.5 -translate-x-1/2 rounded-full bg-ink/70" title="Centro" />
         {score !== null ? (
           <div
             className="absolute top-1/2 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent ring-2 ring-card"

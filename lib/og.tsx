@@ -5,7 +5,7 @@ import { join } from "node:path";
 import { mapRefs, type Result } from "./result";
 
 /** Sobe quando o layout das imagens muda: entra na URL (?v=) para furar caches de versões anteriores. */
-export const IMAGE_VERSION = 2;
+export const IMAGE_VERSION = 3;
 export const IMAGE_CACHE = "public, max-age=86400";
 
 export const C = {
@@ -53,8 +53,8 @@ export function MapBox({ r, size }: { r: Result; size: number }) {
   return (
     <div style={{ display: "flex", position: "relative", width: size, height: size }}>
       <div style={{ position: "absolute", left: pad, top: pad, width: inner, height: inner, background: C.card, border: `2px solid ${C.line}`, borderRadius: size * 0.04 }} />
-      <div style={{ position: "absolute", left: size / 2 - 1, top: pad, width: 2, height: inner, background: C.line }} />
-      <div style={{ position: "absolute", left: pad, top: size / 2 - 1, width: inner, height: 2, background: C.line }} />
+      <div style={{ position: "absolute", left: size / 2 - 1, top: pad, width: 2, height: inner, background: "#b9b3a6" }} />
+      <div style={{ position: "absolute", left: pad, top: size / 2 - 1, width: inner, height: 2, background: "#b9b3a6" }} />
       <div style={{ position: "absolute", left: 0, top: 0, width: size, display: "flex", justifyContent: "center", fontSize: fs, color: C.muted }}>Conservador</div>
       <div style={{ position: "absolute", left: 0, top: size - fs * 1.3, width: size, display: "flex", justifyContent: "center", fontSize: fs, color: C.muted }}>Progressista</div>
       <div style={{ position: "absolute", left: pad + 10, top: size / 2 + 8, display: "flex", fontSize: fs, color: C.muted }}>Esquerda</div>
@@ -89,7 +89,8 @@ export function AxisMini({ name, poleA, poleB, score, width }: { name: string; p
         <div style={{ display: "flex", fontFamily: "Mono", fontSize: 17, letterSpacing: 1, color: C.muted }}>{name.toUpperCase()}</div>
       </div>
       <div style={{ display: "flex", position: "relative", height: 10, borderRadius: 5, background: "#e4e0d6" }}>
-        <div style={{ position: "absolute", left: width / 2 - 1, top: -3, width: 2, height: 16, background: "#c9c4b8" }} />
+        {pos !== null && <div style={{ position: "absolute", left: Math.min(width / 2, pos), top: 0, width: Math.abs(pos - width / 2), height: 10, background: "rgba(11,110,105,0.35)" }} />}
+        <div style={{ position: "absolute", left: width / 2 - 2, top: -8, width: 4, height: 26, borderRadius: 2, background: "rgba(21,22,27,0.7)" }} />
         {pos !== null && <div style={{ position: "absolute", left: pos - 11, top: -6, width: 22, height: 22, borderRadius: 11, background: C.accent, border: `3px solid ${C.paper}` }} />}
       </div>
       <div style={{ display: "flex", fontSize: 24, fontWeight: 600, color: C.ink }}>{lean}</div>

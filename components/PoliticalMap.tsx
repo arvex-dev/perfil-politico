@@ -12,8 +12,8 @@ export default function PoliticalMap({ x, y }: { x: number | null; y: number | n
       <svg viewBox={`0 0 ${S} ${S}`} className="w-full max-w-[380px] mx-auto block" role="img"
         aria-label={`Mapa político: você está em economia ${x ?? "sem dados"} e costumes ${y ?? "sem dados"}, de −100 a +100.`}>
         <rect x={P} y={P} width={S - 2 * P} height={S - 2 * P} rx="12" fill="var(--card)" stroke="var(--line)" />
-        <line x1={S / 2} y1={P} x2={S / 2} y2={S - P} stroke="var(--line)" />
-        <line x1={P} y1={S / 2} x2={S - P} y2={S / 2} stroke="var(--line)" />
+        <line x1={S / 2} y1={P} x2={S / 2} y2={S - P} stroke="var(--muted)" strokeOpacity="0.5" />
+        <line x1={P} y1={S / 2} x2={S - P} y2={S / 2} stroke="var(--muted)" strokeOpacity="0.5" />
         <text x={S / 2} y={P - 9} textAnchor="middle" fontSize="11" fill="var(--muted)">Conservador</text>
         <text x={S / 2} y={S - P + 18} textAnchor="middle" fontSize="11" fill="var(--muted)">Progressista</text>
         <text x={P - 6} y={S / 2} textAnchor="middle" fontSize="11" fill="var(--muted)" transform={`rotate(-90 ${P - 9} ${S / 2})`}>Esquerda</text>

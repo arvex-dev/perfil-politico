@@ -1,0 +1,1779 @@
+{
+ "checked_at": "2026-10-25",
+ "items": {
+  "eco1": {
+   "refs": [
+    {
+     "publisher": "Poder360",
+     "title": "Senadores convidam Prates a explicar nova política da Petrobras",
+     "url": "https://www.poder360.com.br/congresso/senadores-convidam-prates-a-explicar-nova-politica-da-petrobras/",
+     "kind": "secundaria",
+     "supports": "fim do PPI em maio de 2023",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Poder360",
+     "title": "Petrobras não ficará alienada da realidade mundial, diz Prates",
+     "url": "https://www.poder360.com.br/energia/petrobras-nao-ficara-alienada-da-realidade-mundial-diz-prates/",
+     "kind": "secundaria",
+     "supports": "política de preços após o PPI",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Entenda o que muda na política de preços dos combustíveis",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2023-05/entenda-o-que-muda-na-politica-de-precos-dos-combustiveis",
+     "kind": "secundaria",
+     "supports": "PPI desde 2016 e nova política em 2023",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "Sem fonte primária (Petrobras/SEC bloqueada para acesso automatizado); a data de maio de 2023 está confirmada em Agência Brasil e Poder360."
+   ]
+  },
+  "eco2": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 2.004/1953 (Política Nacional do Petróleo, cria a Petrobras)",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l2004.htm",
+     "kind": "primaria",
+     "supports": "criação da Petrobras pela União (1953)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Lei 13.303/2016",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm",
+     "kind": "primaria",
+     "supports": "definição de sociedade de economia mista (art. 4º): maioria das ações com voto pertence à União",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "eco3": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 14.026/2020 (Marco Legal do Saneamento)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14026.htm",
+     "kind": "primaria",
+     "supports": "Marco do Saneamento: concessões dos serviços",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Lei 14.182/2021 (desestatização da Eletrobras)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14182.htm",
+     "kind": "primaria",
+     "supports": "desestatização da Eletrobras e ação de classe especial da União",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Senado",
+     "title": "Se aprovada MP, Eletrobras poderá estar sob controle privado no início de 2022 — Senado No",
+     "url": "https://www12.senado.leg.br/noticias/materias/2021/06/17/se-aprovada-mp-eletrobras-podera-estar-sob-controle-privado-no-inicio-de-2022",
+     "kind": "secundaria",
+     "supports": "perda do controle pela União e golden share",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Câmara",
+     "title": "Projeto viabiliza privatização da Eletrobras; participação da União cairá para 10% - Porta",
+     "url": "https://www.camara.leg.br/noticias/610022-PROJETO-VIABILIZA-PRIVATIZACAO-DA-ELETROBRAS;-PARTICIPACAO-DA-UNIAO-CAIRA-PARA-10",
+     "kind": "secundaria",
+     "supports": "modelo de capitalização da Eletrobras",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "eco4": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Constituição da República Federativa do Brasil de 1988",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "kind": "primaria",
+     "supports": "papel do Estado na economia: livre iniciativa e Estado como agente normativo e regulador (arts. 170 a 174)",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "Pergunta de enquadramento sem fatos verificáveis; as fontes apresentam o marco constitucional e o peso do emprego privado."
+   ]
+  },
+  "eco5": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 13.483/2017 (Taxa de Longo Prazo, TLP)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13483.htm",
+     "kind": "primaria",
+     "supports": "criação da TLP em substituição à TJLP",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "BNDES",
+     "title": "Taxa de Juros de Longo Prazo - TJLP",
+     "url": "https://www.bndes.gov.br/wps/portal/site/home/financiamento/guia/custos-financeiros/taxa-juros-longo-prazo-tjlp",
+     "kind": "primaria",
+     "supports": "TJLP, taxa anterior aplicada pelo BNDES",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Ipea",
+     "title": "Como será calculada a TLP (que substituirá a TJLP) | Carta de Conjuntura",
+     "url": "https://www.ipea.gov.br/cartadeconjuntura/index.php/2017/09/como-sera-calculada-a-tlp-que-substituira-a-tjlp/",
+     "kind": "primaria",
+     "supports": "TLP converge para taxas de mercado",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Com TLP em vigor, BNDES anuncia melhores condições em linhas de financiamento | Agência Br",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2018-01/com-tlp-em-vigor-bndes-anuncia-melhores-condicoes-em-linhas-de",
+     "kind": "secundaria",
+     "supports": "TLP em vigor desde 2018",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "eco6": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei Complementar 200/2023 (Regime Fiscal Sustentável)",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm",
+     "kind": "primaria",
+     "supports": "arcabouço fiscal: limite de despesas e metas fiscais",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Emenda Constitucional 95/2016 (Novo Regime Fiscal)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc95.htm",
+     "kind": "primaria",
+     "supports": "teto de gastos (EC 95)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Agência Brasil explica o que é arcabouço fiscal",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2023-03/agencia-brasil-explica-o-que-e-arcabouco-fiscal",
+     "kind": "secundaria",
+     "supports": "explicação do arcabouço fiscal",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "dis1": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 15.270/2025 (isenção do IR até R$ 5 mil e tributação de altas rendas)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm",
+     "kind": "primaria",
+     "supports": "isenção até R$ 5 mil por mês e imposto mínimo para renda acima de R$ 600 mil por ano",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "dis2": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 14.601/2023 (Programa Bolsa Família)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm",
+     "kind": "primaria",
+     "supports": "condicionalidades do Bolsa Família e regra de proteção (50% do benefício por 24 meses)",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "Prazo da regra de proteção mudou: a Lei 14.601 prevê 24 meses com 50% do benefício, mas o MDS reduziu para 12 meses para famílias que entraram a partir de junho de 2025 (Agência Brasil, mai/2025). O contexto diz apenas \"por um período\", o que continua correto."
+   ]
+  },
+  "dis3": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Emenda Constitucional 132/2023 (reforma tributária)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+     "kind": "primaria",
+     "supports": "EC 132/2023: ITCMD progressivo",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Migalhas",
+     "title": "Impactos da reforma tributária no ITCMD e planejamento sucessório. - Migalhas",
+     "url": "https://www.migalhas.com.br/depeso/416786/impactos-da-reforma-tributaria-no-itcmd-e-planejamento-sucessorio",
+     "kind": "secundaria",
+     "supports": "ITCMD progressivo e teto de 8% (Resolução do Senado 9/1992)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Constituição da República Federativa do Brasil de 1988",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "kind": "primaria",
+     "supports": "competência estadual do ITCMD (art. 155) e imposto sobre grandes fortunas previsto no art. 153, VII",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "A afirmação de que o imposto sobre grandes fortunas \"nunca foi criado\" não consta literalmente nas fontes abertas (o art. 153, VII, da CF o prevê \"nos termos de lei complementar\"); é correta, mas sem referência explícita verificada."
+   ]
+  },
+  "dis4": {
+   "refs": [
+    {
+     "publisher": "Agência Brasil",
+     "title": "Renda dos 10% mais ricos é 13,4 vezes maior que dos 40% mais pobres",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-05/renda-dos-10-mais-ricos-e-134-vezes-maior-que-dos-40-mais-pobres",
+     "kind": "secundaria",
+     "supports": "desigualdade de renda no Brasil (IBGE)",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "dis5": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 9.249/1995",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9249.htm",
+     "kind": "primaria",
+     "supports": "art. 10: dividendos isentos a partir de 1996",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Lei 15.270/2025 (isenção do IR até R$ 5 mil e tributação de altas rendas)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm",
+     "kind": "primaria",
+     "supports": "retenção de 10% sobre dividendos acima de R$ 50 mil por mês",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "dis6": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 10.835/2004 (renda básica de cidadania)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.835.htm",
+     "kind": "primaria",
+     "supports": "instituição da renda básica de cidadania",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Lei 14.601/2023 (Programa Bolsa Família)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm",
+     "kind": "primaria",
+     "supports": "condicionalidades do Bolsa Família",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "tra1": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 13.467/2017",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13467.htm",
+     "kind": "primaria",
+     "supports": "texto da reforma trabalhista (intermitente, art. 611-A, contribuição sindical)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Reforma trabalhista completa um ano neste domingo",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2018-11/reforma-trabalhista-completa-um-ano-veja-efeitos",
+     "kind": "secundaria",
+     "supports": "efeitos no primeiro ano (intermitente, processos)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Senado",
+     "title": "Aprovada em 2017, reforma trabalhista alterou regras para flexibilizar o mercado de trabal",
+     "url": "https://www12.senado.leg.br/noticias/materias/2019/05/02/aprovada-em-2017-reforma-trabalhista-alterou-regras-para-flexibilizar-o-mercado-de-trabalho",
+     "kind": "secundaria",
+     "supports": "principais mudanças da reforma",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "tra2": {
+   "refs": [
+    {
+     "publisher": "STF",
+     "title": "STF retira de pauta julgamento sobre trabalho em plataformas digitais após aprovação de convenção da OIT",
+     "url": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-dpu-e-do-mpt-stf-retira-de-pauta-julgamento-sobre-relacoes-de-trabalho-em-plataformas-digitais/",
+     "kind": "primaria",
+     "supports": "Tema 1291 retirado de pauta (2026)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "STF irá decidir se existe vínculo empregatício entre motoristas e plataformas de aplicativos",
+     "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=528592&ori=1",
+     "kind": "primaria",
+     "supports": "STF julga vínculo de motoristas de aplicativo (Tema 1291)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "STF inicia julgamento sobre vínculo de emprego de motoristas de apps",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-10/stf-inicia-julgamento-sobre-vinculo-de-emprego-de-motoristas-de-apps",
+     "kind": "secundaria",
+     "supports": "início do julgamento no STF",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "O Povo",
+     "title": "Regulamentação de aplicativos: Câmara quer votar antes do STF",
+     "url": "https://www.gazetadopovo.com.br/economia/regulamentacao-de-aplicativos-plp-152-2025-camara-stf/",
+     "kind": "secundaria",
+     "supports": "PLP 12/2024 e PLP 152/2025",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "tra3": {
+   "refs": [
+    {
+     "publisher": "STF",
+     "title": "STF declara constitucionalidade da contribuição assistencial a trabalhadores não sindicalizados",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-declara-constitucionalidade-da-contribuicao-assistencial-a-trabalhadores-nao-sindicalizados/",
+     "kind": "primaria",
+     "supports": "STF valida contribuição assistencial com direito de oposição",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Lei 13.467/2017",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13467.htm",
+     "kind": "primaria",
+     "supports": "fim da obrigatoriedade da contribuição sindical",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Portal CPA",
+     "title": "Artigo – A declaração de validade da contribuição assistencial pelo STF - Portal CPA",
+     "url": "https://netcpa.com.br/noticias/artigo-a-declaracao-de-validade-da-contribuicao-assistencial-pelo-stf/17267",
+     "kind": "secundaria",
+     "supports": "análise da decisão do STF (2023)",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "Detalhe \"um dia de salário por ano\" (contribuição sindical antes de 2017) não foi confirmado em fonte aberta; o fim da obrigatoriedade consta na Lei 13.467/2017. Na decisão de 2023 o STF exigiu o direito de oposição (confirmado)."
+   ]
+  },
+  "tra4": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 13.467/2017",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13467.htm",
+     "kind": "primaria",
+     "supports": "CLT art. 611-A: negociado sobre o legislado",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "Tema 1.046 de repercussão geral (ARE 1121633)",
+     "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5415427&numeroProcesso=1121633&classeProcesso=ARE&numeroTema=1046",
+     "kind": "primaria",
+     "supports": "Tema 1046: validade de normas coletivas que restringem direitos",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "tra5": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 14.663/2023 (valorização do salário mínimo)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14663.htm",
+     "kind": "primaria",
+     "supports": "política de valorização: INPC mais PIB de dois anos antes",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Câmara",
+     "title": "Projeto de lei traz novos limites aos ganhos do salário mínimo acima da inflação - Portal",
+     "url": "https://www.camara.leg.br/noticias/1117057-projeto-de-lei-traz-novos-limites-aos-ganhos-do-salario-minimo-acima-da-inflacao/",
+     "kind": "secundaria",
+     "supports": "limite de 2,5% ao ganho real (pacote fiscal)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Senado aprova teto para salário mínimo e mudanças no BPC",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2024-12/senado-aprova-teto-para-salario-minimo-e-mudancas-no-bpc",
+     "kind": "secundaria",
+     "supports": "aprovação do teto ao ganho real",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "O limite de 2,5% ao ano para o ganho real veio da Lei 15.077/2024 (aprovada em dez/2024, vale de 2025 a 2030); o contexto situa a mudança \"em 2024\" (pacote fiscal de nov-dez/2024). Sugestão: \"No fim de 2024\"."
+   ]
+  },
+  "tra6": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Emenda Constitucional 103/2019 (reforma da Previdência)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm",
+     "kind": "primaria",
+     "supports": "idade mínima de 65 anos (homens) e 62 (mulheres)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Câmara",
+     "title": "Reforma da Previdência prevê idade mínima de 65 anos para homens e 62 para mulheres - Port",
+     "url": "https://www.camara.leg.br/noticias/552233-reforma-da-previdencia-preve-idade-minima-de-65-anos-para-homens-e-62-para-mulheres",
+     "kind": "secundaria",
+     "supports": "idade mínima na reforma",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Entenda as principais mudanças com aprovação da reforma da Previdência",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2019-10/entenda-principais-mudancas-com-aprovacao-da-reforma-da-previdencia",
+     "kind": "secundaria",
+     "supports": "principais mudanças da reforma",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "cos1": {
+   "refs": [
+    {
+     "publisher": "STF",
+     "title": "Ministro Barroso vota pela descriminalização do aborto até 12 semanas de gestação",
+     "url": "https://noticias.stf.jus.br/postsnoticias/ministro-barroso-vota-pela-descriminalizacao-do-aborto-ate-12-semanas-de-gestacao/",
+     "kind": "primaria",
+     "supports": "ADPF 442: voto de Barroso até a 12ª semana",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Código Penal (Decreto-Lei 2.848/1940), art. 128",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+     "kind": "primaria",
+     "supports": "Código Penal art. 128: aborto legal em caso de estupro e risco à vida",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Congresso em Foco",
+     "title": "Barroso vota por descriminalizar aborto, e Gilmar suspende julgamento",
+     "url": "https://www.congressoemfoco.com.br/noticia/113066/barroso-vota-por-descriminalizar-aborto-e-gilmar-suspende-julgamento",
+     "kind": "secundaria",
+     "supports": "julgamento suspenso",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Poder360",
+     "title": "Fachin retira descriminalização do aborto da pauta após Barroso votar",
+     "url": "https://www.poder360.com.br/poder-justica/fachin-retira-descriminalizacao-do-aborto-da-pauta-apos-barroso-votar/",
+     "kind": "secundaria",
+     "supports": "Fachin retira a ADPF da pauta",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "cos2": {
+   "refs": [
+    {
+     "publisher": "STF",
+     "title": "Supremo reconhece união homoafetiva",
+     "url": "https://noticias.stf.jus.br/postsnoticias/supremo-reconhece-uniao-homoafetiva/",
+     "kind": "primaria",
+     "supports": "ADI 4277/ADPF 132 (2011)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "CNJ",
+     "title": "Resolução CNJ 175/2013 (casamento civil entre pessoas do mesmo sexo)",
+     "url": "https://atos.cnj.jus.br/atos/detalhar/1754",
+     "kind": "primaria",
+     "supports": "Resolução CNJ 175/2013: cartórios devem celebrar casamento",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Aos Fatos",
+     "title": "O que diz o projeto no Congresso que tenta proibir o casamento homoafetivo | Aos Fatos",
+     "url": "https://www.aosfatos.org/noticias/projeto-tenta-proibir-casamento-homoafetivo/",
+     "kind": "secundaria",
+     "supports": "projetos no Congresso para proibir o casamento",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "cos3": {
+   "refs": [
+    {
+     "publisher": "STF",
+     "title": "STF invalida norma que proibia escolas de Blumenau (SC) de abordar questões de gênero",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-invalida-norma-que-proibia-escolas-de-blumenau-sc-de-abordar-questoes-de-genero/",
+     "kind": "primaria",
+     "supports": "STF derruba proibição de temas de gênero em escola",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "STF decide que escolas devem combater discriminação por gênero ou orientação sexual",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-decide-que-escolas-devem-combater-discriminacao-por-genero-ou-orientacao-sexual/",
+     "kind": "primaria",
+     "supports": "escolas devem combater discriminação por gênero e orientação sexual",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "Julgadas inconstitucionais leis sobre Escola Livre e proibição de ensino de sexualidade",
+     "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=450392&ori=1",
+     "kind": "primaria",
+     "supports": "leis Escola Livre e proibição de ensino de sexualidade",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "cos4": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Constituição da República Federativa do Brasil de 1988",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "kind": "primaria",
+     "supports": "art. 226: entidade familiar",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Câmara",
+     "title": "Câmara aprova Estatuto da Família formada a partir da união de homem e mulher - Portal da",
+     "url": "https://www.camara.leg.br/noticias/472681-camara-aprova-estatuto-da-familia-formada-a-partir-da-uniao-de-homem-e-mulher/",
+     "kind": "secundaria",
+     "supports": "Estatuto da Família (PL 6583/2013)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Câmara",
+     "title": "PL 6583/2013 (Estatuto da Família): ficha de tramitação",
+     "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=597005",
+     "kind": "primaria",
+     "supports": "tramitação do PL 6583/2013",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Comissão aprova Estatuto da Família com conceito que exclui casais homoafetivos | Agência",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2015-09/comissao-aprova-estatuto-da-familia-com-conceito-que-exclui-casais",
+     "kind": "secundaria",
+     "supports": "conceito de família no Estatuto da Família",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "cos5": {
+   "refs": [
+    {
+     "publisher": "Agência Brasil",
+     "title": "Unesco defende educação em sexualidade e gênero prevista em lei",
+     "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2016-06/unesco-defende-que-educacao-em-sexualidade-e-genero-esteja-prevista-em-lei",
+     "kind": "secundaria",
+     "supports": "Unesco e educação em sexualidade",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "cos6": {
+   "refs": [],
+   "issues": [
+    "Pergunta de percepção (sem fatos no contexto); as fontes mostram mudanças mensuráveis (religião, casamento homoafetivo)."
+   ]
+  },
+  "rel1": {
+   "refs": [
+    {
+     "publisher": "Agência Brasil",
+     "title": "Evangélicos crescem e representam mais de um quarto da população",
+     "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-06/evangelicos-crescem-e-representam-mais-de-um-quarto-da-populacao",
+     "kind": "secundaria",
+     "supports": "crescimento dos evangélicos",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "rel2": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Constituição da República Federativa do Brasil de 1988",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "kind": "primaria",
+     "supports": "art. 19, I: vedado ao Estado estabelecer cultos religiosos ou subvencioná-los",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "STF conclui julgamento sobre ensino religioso nas escolas públicas",
+     "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=357099",
+     "kind": "primaria",
+     "supports": "laicidade do Estado no julgamento da ADI 4439",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "rel3": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 9.504/1997 (Lei das Eleições)",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+     "kind": "primaria",
+     "supports": "art. 24 (doações de entidades religiosas vedadas) e art. 37 (propaganda em templos)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Poder360",
+     "title": "Uso de igreja para promover candidatos é abuso de poder, diz TSE",
+     "url": "https://www.poder360.com.br/poder-justica/uso-de-igreja-para-promover-candidatos-e-abuso-de-poder-diz-tse/",
+     "kind": "secundaria",
+     "supports": "TSE: uso de culto para promover candidatos é abuso de poder",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "rel4": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Constituição da República Federativa do Brasil de 1988",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "kind": "primaria",
+     "supports": "art. 150, VI, b: imunidade de templos de qualquer culto",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "rel5": {
+   "refs": [
+    {
+     "publisher": "STF",
+     "title": "STF conclui julgamento sobre ensino religioso nas escolas públicas",
+     "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=357099",
+     "kind": "primaria",
+     "supports": "ADI 4439: ensino religioso confessional permitido (2017)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Lei 9.394/1996",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9394.htm",
+     "kind": "primaria",
+     "supports": "LDB art. 33: matrícula facultativa",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "rel6": {
+   "refs": [
+    {
+     "publisher": "CNJ",
+     "title": "Uso de símbolos religiosos não fere laicidade do Estado",
+     "url": "https://www.cnj.jus.br/uso-de-solos-religiosos-nfere-laicidade-do-estado/",
+     "kind": "primaria",
+     "supports": "CNJ mantém símbolos religiosos no Judiciário",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Maioria do STF vota por manter símbolos religiosos em órgãos públicos",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2024-11/maioria-do-stf-vota-por-manter-simbolos-religiosos-em-orgaos-publicos",
+     "kind": "secundaria",
+     "supports": "STF e símbolos religiosos em órgãos públicos",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "seg1": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 8.069/1990 (Estatuto da Criança e do Adolescente)",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm",
+     "kind": "primaria",
+     "supports": "ECA: medidas socioeducativas e internação de até 3 anos",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Constituição da República Federativa do Brasil de 1988",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "kind": "primaria",
+     "supports": "art. 228: inimputabilidade penal aos 18 anos",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Poder360",
+     "title": "80% querem maioridade penal aos 16 anos, diz Datafolha",
+     "url": "https://www.poder360.com.br/poder-seguranca-publica/80-querem-maioridade-penal-aos-16-anos-diz-datafolha/",
+     "kind": "secundaria",
+     "supports": "opinião pública sobre maioridade penal",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "seg2": {
+   "refs": [
+    {
+     "publisher": "Ipea",
+     "title": "Atlas da Violência 2016 (Ipea)",
+     "url": "https://www.ipea.gov.br/portal/images/stories/PDFs/nota_tecnica/160405_nt_17_atlas_da_violencia_2016_finalizado.pdf",
+     "kind": "primaria",
+     "supports": "educação e homicídios (Atlas da Violência)",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "seg3": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 13.060/2014 (uso de instrumentos de menor potencial ofensivo)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13060.htm",
+     "kind": "primaria",
+     "supports": "regras legais sobre uso da força pela polícia",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "ADPF das Favelas: STF homologa parcialmente plano do Rio de Janeiro para reduzir letalidade policial",
+     "url": "https://noticias.stf.jus.br/postsnoticias/adpf-das-favelas-stf-homologa-parcialmente-plano-do-estado-do-rio-de-janeiro-para-reduzir-letalidade-policial/",
+     "kind": "primaria",
+     "supports": "ADPF 635: limites ao uso da força",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "ADPF das Favelas: Entenda as medidas que foram determinadas pelo STF",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-10/adpf-das-favelas-entenda-medidas-que-foram-determinadas-pelo-stf",
+     "kind": "secundaria",
+     "supports": "medidas determinadas pelo STF na ADPF 635",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "seg4": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 10.826/2003 (Estatuto do Desarmamento)",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826.htm",
+     "kind": "primaria",
+     "supports": "Estatuto do Desarmamento",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Decreto 9.785/2019 (regulamenta o Estatuto do Desarmamento)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/D9785.htm",
+     "kind": "primaria",
+     "supports": "decreto de 2019 que flexibilizou regras",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Decreto 11.615/2023 (regulamenta o Estatuto do Desarmamento)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11615.htm",
+     "kind": "primaria",
+     "supports": "decreto de 2023 que endureceu regras",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Maioria do STF confirma decretos de Lula que restringem acesso a armas",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-06/maioria-do-stf-confirma-decretos-de-lula-que-restringe-acesso-armas",
+     "kind": "secundaria",
+     "supports": "STF e os decretos de 2023",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Bolsonaro revoga decreto de armas e publica novas regras",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2019-06/bolsonaro-revoga-decreto-de-armas-e-publica-novas-regras",
+     "kind": "secundaria",
+     "supports": "decretos de armas de 2019",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "seg5": {
+   "refs": [
+    {
+     "publisher": "Poder360",
+     "title": "Portaria MJSP 648/2024 (diretrizes para câmeras corporais)",
+     "url": "https://static.poder360.com.br/2024/05/PORTARIA-648-de-2024-1.pdf",
+     "kind": "secundaria",
+     "supports": "diretrizes do MJSP para câmeras corporais",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "FBSP",
+     "title": "As câmeras corporais na Polícia Militar do Estado de São Paulo (FBSP)",
+     "url": "https://forumseguranca.org.br/wp-content/uploads/2023/05/cameras-corporais-pmesp.pdf",
+     "kind": "academica",
+     "supports": "impacto das câmeras corporais na PM de São Paulo (Olho Vivo)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Alma Preta",
+     "title": "Ministro da Justiça cria diretrizes para uso de câmeras corporais; estados podem escolher",
+     "url": "https://almapreta.com.br/sessao/politica/ministro-da-justica-cria-diretrizes-para-uso-de-cameras-corporais-estados-podem-escolher-aderir-ou-ignorar/",
+     "kind": "secundaria",
+     "supports": "diretrizes e adesão dos estados",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Especialistas criticam edital de câmeras corporais para PM de SP",
+     "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2024-05/especialistas-criticam-edital-de-cameras-corporais-para-pm-de-sp",
+     "kind": "secundaria",
+     "supports": "críticas e custo do programa",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "seg6": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 9.714/1998 (penas alternativas)",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9714.htm",
+     "kind": "primaria",
+     "supports": "penas alternativas para crimes sem violência com pena até 4 anos",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Itatiaia",
+     "title": "Brasil tem aumento de 449% na população carcerária em 25 anos e quase 1 milhão de presos |",
+     "url": "https://www.itatiaia.com.br/brasil/brasil-geral/brasil-tem-aumento-de-449-na-populacao-carceraria-em-25-anos-e-quase-1-milhao-de-presos/",
+     "kind": "secundaria",
+     "supports": "população prisional perto de 1 milhão (Anuário FBSP)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "BNews",
+     "title": "Brasil se aproxima de 1 milhão de presos e déficit de vagas ultrapassa 281 mil",
+     "url": "https://www.bnewssaopaulo.com.br/noticias/policia/brasil-se-aproxima-de-1-milhao-de-presos-e-deficit-de-vagas-ultrapassa-281-mil.html",
+     "kind": "secundaria",
+     "supports": "déficit de vagas",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "\"Uma das maiores populações carcerárias do mundo\" confirmada pelo CNJ (\"terceira maior\"); números variam entre fontes (CNJ cita ~670 mil em 2025; Anuário FBSP cita ~1 milhão contando todas as modalidades)."
+   ]
+  },
+  "lib1": {
+   "refs": [
+    {
+     "publisher": "STF",
+     "title": "STF define 40 gramas de maconha como critério para diferenciar usuário de traficante",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-define-40-gramas-de-maconha-como-criterio-para-diferenciar-usuario-de-traficante/",
+     "kind": "primaria",
+     "supports": "STF define 40 g como critério (2024)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Lei 11.343/2006 (Lei de Drogas)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm",
+     "kind": "primaria",
+     "supports": "Lei de Drogas",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "lib2": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 12.965/2014 (Marco Civil da Internet)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+     "kind": "primaria",
+     "supports": "Marco Civil da Internet, art. 19",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "lib3": {
+   "refs": [
+    {
+     "publisher": "Stanford",
+     "title": "John Stuart Mill (Stanford Encyclopedia of Philosophy)",
+     "url": "https://plato.stanford.edu/entries/mill/",
+     "kind": "academica",
+     "supports": "princípio do dano (harm principle) de John Stuart Mill",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Constituição da República Federativa do Brasil de 1988",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "kind": "primaria",
+     "supports": "art. 5º, II: ninguém é obrigado a fazer ou deixar de fazer senão em virtude de lei",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "Princípio filosófico, não há fatos empíricos no contexto."
+   ]
+  },
+  "lib4": {
+   "refs": [],
+   "issues": []
+  },
+  "lib5": {
+   "refs": [
+    {
+     "publisher": "Forbes Brasil",
+     "title": "Estudo Aponta Riscos de Tecnologias de Reconhecimento Facial",
+     "url": "https://forbes.com.br/forbes-tech/2025/05/estudo-aponta-riscos-de-tecnologias-de-reconhecimento-facial/",
+     "kind": "secundaria",
+     "supports": "riscos do reconhecimento facial",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Pesquisa aponta problemas e prisões indevidas a partir do Smart Sampa",
+     "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-02/pesquisa-aponta-problemas-e-prisoes-indevidas-partir-do-smart-sampa",
+     "kind": "secundaria",
+     "supports": "Smart Sampa: prisões indevidas",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "lib6": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 14.532/2023 (injúria racial como crime de racismo)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14532.htm",
+     "kind": "primaria",
+     "supports": "injúria racial como crime de racismo",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Migalhas",
+     "title": "Lula sanciona lei que equipara crime de injúria racial ao racismo - Migalhas",
+     "url": "https://www.migalhas.com.br/quentes/379878/lula-sanciona-lei-que-equipara-crime-de-injuria-racial-ao-racismo",
+     "kind": "secundaria",
+     "supports": "sanção da Lei 14.532/2023",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Migalhas",
+     "title": "STF e a criminalização da homofobia - Migalhas",
+     "url": "https://www.migalhas.com.br/depeso/319644/stf-e-a-criminalizacao-da-homofobia",
+     "kind": "secundaria",
+     "supports": "STF e criminalização da homofobia (2019)",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "amb1": {
+   "refs": [
+    {
+     "publisher": "InfoMoney",
+     "title": "Quase todos os biomas registraram redução do desmatamento em 2024",
+     "url": "https://www.infomoney.com.br/?p=2868287",
+     "kind": "secundaria",
+     "supports": "MapBiomas: agropecuária e perda de vegetação nativa",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Desmatamento no Brasil caiu 32,4% em 2024",
+     "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2025-05/desmatamento-no-brasil-caiu-324-em-2024",
+     "kind": "secundaria",
+     "supports": "desmatamento e agropecuária (MapBiomas RAD 2024)",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "amb2": {
+   "refs": [
+    {
+     "publisher": "Agência Brasil",
+     "title": "Desmatamento no Brasil caiu 32,4% em 2024",
+     "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2025-05/desmatamento-no-brasil-caiu-324-em-2024",
+     "kind": "secundaria",
+     "supports": "MapBiomas: 97% do desmatamento ligado à agropecuária",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "InfoMoney",
+     "title": "Quase todos os biomas registraram redução do desmatamento em 2024",
+     "url": "https://www.infomoney.com.br/?p=2868287",
+     "kind": "secundaria",
+     "supports": "MapBiomas RAD 2024",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Jornal do Brasil",
+     "title": "Quase todos os biomas registraram redução do desmatamento em 2024",
+     "url": "https://www.jb.com.br/brasil/meio-ambiente/2025/05/1055488-quase-todos-os-biomas-registraram-reducao-do-desmatamento-em-2024.html",
+     "kind": "secundaria",
+     "supports": "desmatamento por bioma em 2024",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "amb3": {
+   "refs": [
+    {
+     "publisher": "Agência iNFRA",
+     "title": "Ibama emite licença para Petrobras explorar Margem Equatorial - Agência iNFRA",
+     "url": "https://agenciainfra.com/blog/ibama-emite-licenca-para-petrobras-explorar-margem-equatorial/",
+     "kind": "secundaria",
+     "supports": "indeferimento em 2023 e licença em 2025",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "O Povo",
+     "title": "Petrobras obtém licença exploratória para a Margem Equatorial",
+     "url": "https://www.opovo.com.br/noticias/economia/2025/10/20/amp/petrobras-obtem-licenca-exploratoria-em-aguas-profundas-do-amapa.html",
+     "kind": "secundaria",
+     "supports": "licença para perfuração na Margem Equatorial",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "Nenhuma fonte primária (Ibama) abriu: as páginas gov.br retornam apenas o shell da página. Fatos (indeferimento em maio/2023 e licença em out/2025) confirmados por duas fontes secundárias."
+   ]
+  },
+  "amb4": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 9.605/1998 (Lei de Crimes Ambientais)",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9605.htm",
+     "kind": "primaria",
+     "supports": "Lei de Crimes Ambientais: sanções e multas",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Decreto 6.514/2008 (infrações e sanções ambientais)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6514.htm",
+     "kind": "primaria",
+     "supports": "infrações administrativas ambientais e multas",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Lei 12.651/2012 (Código Florestal)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm",
+     "kind": "primaria",
+     "supports": "Código Florestal",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "amb5": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 14.785/2023 (Lei dos Agrotóxicos)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14785.htm",
+     "kind": "primaria",
+     "supports": "Lei 14.785/2023: novas regras de registro de agrotóxicos",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Rádio Senado",
+     "title": "Lula sanciona novo marco legal para uso de pesticidas",
+     "url": "https://www12.senado.leg.br/radio/1/noticia/2023/12/28/lula-sanciona-novo-marco-legal-para-uso-de-pesticidas",
+     "kind": "secundaria",
+     "supports": "sanção do novo marco legal",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Pública",
+     "title": "Afinal, o Brasil é o maior consumidor de agrotóxico do mundo? - Agência Pública",
+     "url": "https://apublica.org/2019/06/afinal-o-brasil-e-o-maior-consumidor-de-agrotoxico-do-mundo/",
+     "kind": "secundaria",
+     "supports": "consumo brasileiro de agrotóxicos em perspectiva",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "\"Está entre os maiores consumidores de agrotóxicos do mundo\": a reportagem da Pública (2019) discute que o Brasil é o maior consumidor em volume absoluto, mas não em quantidade por hectare; a formulação do contexto é compatível, mas a fonte traz nuance."
+   ]
+  },
+  "amb6": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 15.190/2025 (Lei Geral do Licenciamento Ambiental)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15190.htm",
+     "kind": "primaria",
+     "supports": "Lei Geral do Licenciamento Ambiental",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Senado",
+     "title": "Congresso derruba 52 itens de veto à Lei Geral do Licenciamento Ambiental — Senado Notícia",
+     "url": "https://www12.senado.leg.br/noticias/materias/2025/11/27/congresso-derruba-52-itens-de-veto-a-lei-geral-do-licenciamento-ambiental",
+     "kind": "secundaria",
+     "supports": "derrubada de vetos em novembro de 2025",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "sob1": {
+   "refs": [
+    {
+     "publisher": "OMC",
+     "title": "WTO Tariff Profile: Brazil",
+     "url": "https://www.wto.org/english/res_e/statis_e/daily_update_e/tariff_profiles/BR_e.pdf",
+     "kind": "primaria",
+     "supports": "tarifa NMF aplicada média simples do Brasil: 12,0% (2025)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "OMC",
+     "title": "WTO Tariff & Trade Data: Brazil",
+     "url": "https://ttd.wto.org/en/profiles/brazil",
+     "kind": "primaria",
+     "supports": "perfil tarifário do Brasil na OMC",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "A comparação com a União Europeia (\"acima da UE\") não foi verificada: o perfil tarifário da OMC para a UE não abriu. Verificado: Brasil 12,0%, EUA 3,3%, China 7,5% (média simples NMF aplicada, 2025)."
+   ]
+  },
+  "sob2": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Decreto 11.890/2024 (margem de preferência em licitações)",
+     "url": "https://planalto.gov.br/ccivil_03/_Ato2023-2026/2024/Decreto/D11890.htm",
+     "kind": "primaria",
+     "supports": "margem de preferência para produtos nacionais",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "CBIC",
+     "title": "Governo federal regulamenta margem de preferência em licitações - CBIC – Câmara Brasileira",
+     "url": "https://cbic.org.br/governo-federal-regulamenta-margem-de-preferencia-em-licitacoes/",
+     "kind": "secundaria",
+     "supports": "regulamentação da margem de preferência",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "sob3": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 5.709/1971 (aquisição de imóvel rural por estrangeiro)",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l5709.htm",
+     "kind": "primaria",
+     "supports": "restrições à compra de terras por estrangeiros (1971)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Rádio Senado",
+     "title": "Estrangeiros poderão comprar terras rurais brasileiras",
+     "url": "https://www12.senado.leg.br/radio/1/noticia/2020/12/16/estrangeiros-poderao-comprar-terras-rurais-brasileiras",
+     "kind": "secundaria",
+     "supports": "PL 2963/2019 aprovado no Senado",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Senado aprova venda de terras para estrangeiros",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2020-12/senado-aprova-venda-de-terras-para-estrangeiros",
+     "kind": "secundaria",
+     "supports": "PL 2963/2019",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Senado",
+     "title": "PL 2963/2019 (terras rurais e estrangeiros): Senado Federal",
+     "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/136853",
+     "kind": "primaria",
+     "supports": "tramitação do PL 2963/2019",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "sob4": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 9.478/1997 (Lei do Petróleo)",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9478.htm",
+     "kind": "primaria",
+     "supports": "Lei do Petróleo: regime de concessão",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Lei 12.351/2010 (partilha de produção do pré-sal)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12351.htm",
+     "kind": "primaria",
+     "supports": "regime de partilha no pré-sal",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Decreto-Lei 227/1967 (Código de Mineração)",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0227.htm",
+     "kind": "primaria",
+     "supports": "Código de Mineração",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "sob5": {
+   "refs": [
+    {
+     "publisher": "SBT News",
+     "title": "Senado aprova a entrada da Bolívia no Mercosul | SBT News",
+     "url": "https://sbtnews.sbt.com.br/noticia/congresso/267114-senado-aprova-a-entrada-da-bolivia-no-mercosul",
+     "kind": "secundaria",
+     "supports": "adesão da Bolívia ao Mercosul",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Portal Amazônia",
+     "title": "Venezuela é suspensa do Mercosul - Portal Amazônia",
+     "url": "https://portalamazonia.com/internacional/venezuela-e-suspensa-do-mercosul/",
+     "kind": "secundaria",
+     "supports": "Venezuela suspensa do Mercosul",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Guedes pede flexibilidade do Mercosul para negociar acordos",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2021-04/guedes-pede-flexibilidade-do-mercosul-para-negociar-acordos-bilaterais",
+     "kind": "secundaria",
+     "supports": "pedido de flexibilidade para acordos bilaterais",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Mercosul: cúpula termina sem apoio do Uruguai a comunicado conjunto",
+     "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2023-07/mercosul-cupula-termina-sem-apoio-do-uruguai-comunicado-conjunto",
+     "kind": "secundaria",
+     "supports": "Uruguai e a flexibilização do Mercosul",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Presidentes vão flexibilizar tarifas comerciais do Mercosul",
+     "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2025-06/presidentes-vao-flexibilizar-tarifas-comerciais-do-mercosul/",
+     "kind": "secundaria",
+     "supports": "flexibilização no Mercosul em 2025",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "sob6": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 14.133/2021 (Nova Lei de Licitações)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14133.htm",
+     "kind": "primaria",
+     "supports": "Lei de Licitações: margem de preferência",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Decreto 11.890/2024 (margem de preferência em licitações)",
+     "url": "https://planalto.gov.br/ccivil_03/_Ato2023-2026/2024/Decreto/D11890.htm",
+     "kind": "primaria",
+     "supports": "regulamentação da margem de preferência",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "CBIC",
+     "title": "Governo federal regulamenta margem de preferência em licitações - CBIC – Câmara Brasileira",
+     "url": "https://cbic.org.br/governo-federal-regulamenta-margem-de-preferencia-em-licitacoes/",
+     "kind": "secundaria",
+     "supports": "regulamentação da margem de preferência",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "geo1": {
+   "refs": [
+    {
+     "publisher": "Poder360",
+     "title": "52% preferem Brasil mais próximo da China e não dos EUA",
+     "url": "https://www.poder360.com.br/poderdata/52-preferem-brasil-mais-proximo-da-china-e-nao-dos-eua/",
+     "kind": "secundaria",
+     "supports": "opinião sobre aproximação com EUA ou China",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Entenda a guerra de tarifas de Trump e consequências para Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-04/entenda-guerra-de-tarifas-de-trump-e-consequencias-para-brasil",
+     "kind": "secundaria",
+     "supports": "tarifas dos EUA e o Brasil",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Com tarifaço de Trump, exportações para EUA caem 6,6% em 2025",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/com-tarifaco-de-trump-exportacoes-para-eua-caem-66-em-2025",
+     "kind": "secundaria",
+     "supports": "comércio Brasil-EUA em 2025",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "geo2": {
+   "refs": [
+    {
+     "publisher": "Brasil de Fato",
+     "title": "Brasil anuncia Indonésia como novo membro pleno do Brics | Brasil de Fato",
+     "url": "https://www.brasildefato.com.br/2025/01/06/brasil-anuncia-indonesia-como-novo-membro-pleno-do-brics/",
+     "kind": "secundaria",
+     "supports": "membros do BRICS e entrada da Indonésia",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "O Brasil de Fato lista Arábia Saudita como membro indeciso e a Argentina recusou o convite; a lista do contexto (sem os dois) é consistente."
+   ]
+  },
+  "geo3": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Constituição da República Federativa do Brasil de 1988",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "kind": "primaria",
+     "supports": "art. 4º, parágrafo único: integração latino-americana",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Senado (RIL)",
+     "title": "Revista de Informação Legislativa 179: integração latino-americana",
+     "url": "https://www12.senado.leg.br/ril/edicoes/45/179/ril_v45_n179_p317.pdf",
+     "kind": "academica",
+     "supports": "integração latino-americana na Constituição",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "geo4": {
+   "refs": [
+    {
+     "publisher": "O Povo",
+     "title": "Reunião de emergência no Itamaraty discute invasão da Venezuela",
+     "url": "https://www.opovo.com.br/noticias/mundo/2026/01/03/reuniao-de-emergencia-no-itamaraty-discute-invasao-da-venezuela.html",
+     "kind": "secundaria",
+     "supports": "Brasil condena a ação dos EUA contra Maduro (jan/2026)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Times Brasil",
+     "title": "Reunião de emergência no Itamaraty discute invasão da Venezuela - Times Brasil | CNBC",
+     "url": "https://timesbrasil.com.br/brasil/reuniao-emergencia-itamaraty-invasao-venezuela/",
+     "kind": "secundaria",
+     "supports": "reunião de emergência no Itamaraty",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "Posição do Brasil sobre a eleição venezuelana de 2024: as fontes confirmam que o Itamaraty cobrou a publicação das atas (não \"criticou\" a eleição de forma explícita); o contexto diz \"criticou a eleição venezuelana de 2024\", o que pode ser reformulado como \"cobrou transparência das atas\"."
+   ]
+  },
+  "geo5": {
+   "refs": [
+    {
+     "publisher": "Poder360",
+     "title": "CEBC: comércio Brasil-China atinge recorde de US$ 171 bilhões em 2025",
+     "url": "https://static.poder360.com.br/2026/01/Comercio-Brasil-China-atinge-recorde-de-US-171-bilhoes-em-2025-CEBC-Alerta.pdf",
+     "kind": "secundaria",
+     "supports": "comércio Brasil-China de US$ 171 bi em 2025",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Alta de 28,6% nas exportações para a China compensa tarifaço americano",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-12/alta-de-286-nas-exportacoes-para-china-compensa-tarifaco-americano",
+     "kind": "secundaria",
+     "supports": "exportações para a China em 2025",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "geo6": {
+   "refs": [
+    {
+     "publisher": "BIS",
+     "title": "BIS Triennial Survey 2022: FX trading and OTC derivatives",
+     "url": "https://www.bis.org/press/p221027.htm",
+     "kind": "primaria",
+     "supports": "dólar em 88% das operações de câmbio (BIS 2022)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Brics deve avançar no uso de moedas locais entre os países-membros",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-02/brics-deve-avancar-no-uso-de-moedas-locais-entre-os-paises-membros",
+     "kind": "secundaria",
+     "supports": "BRICS e moedas locais",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Para especialistas, ameaças de Trump não devem frear comércio do Brics",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-07/para-especialistas-ameacas-de-trump-nao-devem-frear-comercio-do-brics",
+     "kind": "secundaria",
+     "supports": "BRICS e redução do uso do dólar",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "ins1": {
+   "refs": [
+    {
+     "publisher": "Poder360",
+     "title": "52% dos brasileiros não confiam nos partidos políticos, diz Datafolha",
+     "url": "https://www.poder360.com.br/poder-pesquisas/52-dos-brasileiros-nao-confiam-nos-partidos-politicos-diz-datafolha/",
+     "kind": "secundaria",
+     "supports": "descrédito das instituições (Datafolha, 2026)",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "Pergunta de enquadramento; fontes mostram descrédito institucional, não validam a alternativa \"mudança radical\"."
+   ]
+  },
+  "ins2": {
+   "refs": [
+    {
+     "publisher": "Ministério da Defesa",
+     "title": "Relatório das Forças Armadas sobre as urnas eletrônicas (Ministério da Defesa)",
+     "url": "https://www.gov.br/defesa/pt-br/centrais-de-conteudo/relatorio-das-forcas-armadas-nao-excluiu-a-possibilidade-de-fraude-ou-inconsistencia-nas-urnas-eletronicas",
+     "kind": "primaria",
+     "supports": "relatório das Forças Armadas sobre as urnas em 2022",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Brasil",
+     "title": "Ministério da Defesa entrega relatório sobre urnas eletrônicas ao TSE",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2022-11/ministerio-da-defesa-entrega-relatorio-sobre-urnas-eletronicas-ao-tse",
+     "kind": "secundaria",
+     "supports": "entrega do relatório ao TSE",
+     "verified": "aberta"
+    }
+   ],
+   "issues": [
+    "\"Urnas desde 1996\" e \"testes públicos de segurança\" não puderam ser confirmados: as páginas do TSE bloqueiam acesso automatizado (403). O relatório das Forças Armadas (Defesa) diz que não identificou fraude, mas que não excluiu a possibilidade de fraude ou inconsistência por limitações de acesso ao código; a frase \"apurações não encontraram fraude\" é correta para o TSE e outros fiscalizadores, mas pode merecer essa ressalva."
+   ]
+  },
+  "ins3": {
+   "refs": [
+    {
+     "publisher": "Poder360",
+     "title": "52% dos brasileiros não confiam nos partidos políticos, diz Datafolha",
+     "url": "https://www.poder360.com.br/poder-pesquisas/52-dos-brasileiros-nao-confiam-nos-partidos-politicos-diz-datafolha/",
+     "kind": "secundaria",
+     "supports": "confiança na imprensa: 36% não confiam (Datafolha, mar/2026)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Poder360",
+     "title": "Datafolha: paulistanos confiam mais na imprensa do que nas redes",
+     "url": "https://www.poder360.com.br/brasil/datafolha-paulistanos-confiam-mais-na-imprensa-do-que-nas-redes/",
+     "kind": "secundaria",
+     "supports": "confiança na imprensa e nas redes (Datafolha 2024)",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "ins4": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Constituição da República Federativa do Brasil de 1988",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "kind": "primaria",
+     "supports": "art. 2º: Poderes independentes e harmônicos",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Poder360",
+     "title": "STF condena Bolsonaro a 27 anos e 3 meses por tentativa de golpe",
+     "url": "https://poder360.com.br/poder-justica/stf-condena-bolsonaro-27-anos-e-3-meses-por-tentativa-de-golpe/",
+     "kind": "secundaria",
+     "supports": "STF condena Bolsonaro por tentativa de golpe",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "ins5": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Constituição da República Federativa do Brasil de 1988",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "kind": "primaria",
+     "supports": "art. 102: competência do STF",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Poder360",
+     "title": "52% dos brasileiros não confiam nos partidos políticos, diz Datafolha",
+     "url": "https://www.poder360.com.br/poder-pesquisas/52-dos-brasileiros-nao-confiam-nos-partidos-politicos-diz-datafolha/",
+     "kind": "secundaria",
+     "supports": "confiança no STF (Datafolha, 2026)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "STF considera inconstitucional trecho de lei que institui marco temporal para terras indígenas",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-considera-inconstitucional-trecho-de-lei-que-institui-marco-temporal-para-terras-indigenas/",
+     "kind": "primaria",
+     "supports": "decisão do STF sobre lei do Congresso (marco temporal)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "STF define 40 gramas de maconha como critério para diferenciar usuário de traficante",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-define-40-gramas-de-maconha-como-criterio-para-diferenciar-usuario-de-traficante/",
+     "kind": "primaria",
+     "supports": "STF e política de drogas",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "ins6": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei Complementar 179/2021 (autonomia do Banco Central)",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp179.htm",
+     "kind": "primaria",
+     "supports": "autonomia do Banco Central: mandatos fixos",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Senado",
+     "title": "Lei da autonomia do Banco Central entra em vigor",
+     "url": "https://www12.senado.leg.br/noticias/materias/2021/02/25/lei-que-estabelece-autonomia-do-banco-central-e-sancionada",
+     "kind": "secundaria",
+     "supports": "sanção da LC 179/2021",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "div1": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 12.711/2012 (Lei de Cotas)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12711.htm",
+     "kind": "primaria",
+     "supports": "Lei de Cotas",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Lei 14.723/2023 (revisão da Lei de Cotas)",
+     "url": "https://planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14723.htm",
+     "kind": "primaria",
+     "supports": "revisão da Lei de Cotas (2023)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Agência Senado",
+     "title": "Sancionada ampliação da Lei de Cotas",
+     "url": "https://www12.senado.leg.br/noticias/materias/2023/11/14/sancionada-ampliacao-da-lei-de-cotas",
+     "kind": "secundaria",
+     "supports": "ampliação da Lei de Cotas",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "div2": {
+   "refs": [
+    {
+     "publisher": "Poder360",
+     "title": "83% são a favor de cotas em universidades, diz Datafolha",
+     "url": "https://www.poder360.com.br/pesquisas/83-sao-a-favor-de-cotas-em-universidades-diz-datafolha/",
+     "kind": "secundaria",
+     "supports": "opinião sobre cotas (Datafolha)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Lei 12.288/2010 (Estatuto da Igualdade Racial)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12288.htm",
+     "kind": "primaria",
+     "supports": "Estatuto da Igualdade Racial: ações afirmativas",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Constituição da República Federativa do Brasil de 1988",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "kind": "primaria",
+     "supports": "art. 3º, IV: promover o bem de todos sem preconceitos",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "div3": {
+   "refs": [
+    {
+     "publisher": "Poder360",
+     "title": "Maioria dos brasileiros vê o país como racista, diz Datafolha",
+     "url": "https://www.poder360.com.br/poder-pesquisas/maioria-dos-brasileiros-ve-o-pais-como-racista-diz-datafolha/",
+     "kind": "secundaria",
+     "supports": "percepção de racismo (Datafolha)",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "div4": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 14.701/2023 (terras indígenas e marco temporal)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14701.htm",
+     "kind": "primaria",
+     "supports": "Lei 14.701/2023: marco temporal",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Planalto",
+     "title": "Constituição da República Federativa do Brasil de 1988",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "kind": "primaria",
+     "supports": "art. 231: terras indígenas",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "STF considera inconstitucional trecho de lei que institui marco temporal para terras indígenas",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-considera-inconstitucional-trecho-de-lei-que-institui-marco-temporal-para-terras-indigenas/",
+     "kind": "primaria",
+     "supports": "STF derruba marco temporal da Lei 14.701 (dez/2025)",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "STF",
+     "title": "Entenda: STF inicia julgamento sobre Lei do Marco Temporal para demarcação de terras indígenas",
+     "url": "https://noticias.stf.jus.br/postsnoticias/entenda-stf-inicia-nesta-quarta-10-julgamento-sobre-lei-do-marco-temporal-para-demarcacao-de-terras-indigenas/",
+     "kind": "primaria",
+     "supports": "contexto do julgamento",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "div5": {
+   "refs": [
+    {
+     "publisher": "Migalhas",
+     "title": "STF derruba lei que proibia linguagem neutra em escolas - Migalhas",
+     "url": "https://www.migalhas.com.br/quentes/455735/stf-derruba-lei-que-proibia-linguagem-neutra-em-escolas",
+     "kind": "secundaria",
+     "supports": "STF derruba lei que proibia linguagem neutra",
+     "verified": "aberta"
+    },
+    {
+     "publisher": "Estado de Minas",
+     "title": "STF derruba lei de cidade mineira que proibia linguagem neutra",
+     "url": "https://www.em.com.br/politica/2025/04/7126046-stf-derruba-lei-de-cidade-mineira-que-proibia-linguagem-neutra.html",
+     "kind": "secundaria",
+     "supports": "STF derruba lei municipal sobre linguagem neutra",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  },
+  "div6": {
+   "refs": [
+    {
+     "publisher": "Planalto",
+     "title": "Lei 9.504/1997 (Lei das Eleições)",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+     "kind": "primaria",
+     "supports": "art. 10, §3º: mínimo de 30% e máximo de 70% por sexo",
+     "verified": "aberta"
+    }
+   ],
+   "issues": []
+  }
+ }
+}
