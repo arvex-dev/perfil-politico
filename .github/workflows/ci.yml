@@ -1,0 +1,118 @@
+name: CI
+
+# Nothing runs on a plain push or PR. A manual run (workflow_dispatch) runs the checks; a pushed `deploy-*` tag runs
+# the checks, then deploys to the VPS. Only when the owner asks:
+#   git tag deploy-$(date -u +%Y%m%d-%H%M) && git push origin <tag>
+# Fallback if Actions is unavailable: `pnpm ship` from the laptop. Do not add push: branches or pull_request: triggers.
+on:
+  push:
+    tags: ['deploy-*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: read # fallback token for the private kit when ARVEX_PACKAGES_TOKEN is not set
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    name: Verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      # pnpm version comes from "packageManager" in package.json.
+      - uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v4.4.0
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '24'
+          cache: pnpm
+
+      - name: GitHub Packages token for the private @arvex-dev kit
+        env:
+          ARVEX_PACKAGES_TOKEN: ${{ secrets.ARVEX_PACKAGES_TOKEN || github.token }}
+        run: printf '//npm.pkg.github.com/:_authToken=%s\n' "$ARVEX_PACKAGES_TOKEN" >> ~/.npmrc
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Test
+        run: pnpm test
+
+      - name: Build
+        run: pnpm build
+
+  deploy:
+    name: Deploy (build image, ship over SSH)
+    if: startsWith(github.ref, 'refs/tags/deploy-')
+    needs: [verify]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    concurrency:
+      group: deploy-perfil-politico
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Refuse tags that are not on main
+        run: git merge-base --is-ancestor "$GITHUB_SHA" origin/main || { echo "tag $GITHUB_REF_NAME is not on main"; exit 1; }
+
+      # pnpm version comes from "packageManager" in package.json.
+      - uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v4.4.0
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '24' # the arvex CLI needs Node 24
+          cache: pnpm
+
+      - name: GitHub Packages token for the private @arvex-dev kit
+        env:
+          ARVEX_PACKAGES_TOKEN: ${{ secrets.ARVEX_PACKAGES_TOKEN || github.token }}
+        run: printf '//npm.pkg.github.com/:_authToken=%s\n' "$ARVEX_PACKAGES_TOKEN" >> ~/.npmrc
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      # This repo is public: arvex.config.json (origin IP) and deploy/known_hosts are gitignored, so CI rebuilds them
+      # from the committed example plus the ARVEX_HOST and DEPLOY_KNOWN_HOSTS secrets.
+      - name: Deploy config and pinned host key
+        env:
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          cp arvex.config.example.json arvex.config.json
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > deploy/known_hosts
+
+      - name: SSH admin key
+        env:
+          DEPLOY_ADMIN_SSH_KEY: ${{ secrets.DEPLOY_ADMIN_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_ADMIN_SSH_KEY" > ~/.ssh/deploy_admin && chmod 600 ~/.ssh/deploy_admin
+
+      # arvex ship-image (arvex.config.json): docker build (~/.npmrc as a BuildKit secret) | docker save | ssh load as
+      # `deploy`, compose up --wait, health check, prune old images, smoke. The checks already ran in `verify`, hence
+      # --skip-build. The Caddy site file (`arvex edge site`) is a one-off setup step and is not part of routine deploys.
+      - name: Build, ship and deploy
+        env:
+          ARVEX_HOST: ${{ secrets.ARVEX_HOST }}
+        run: |
+          export ARVEX_ADMIN_KEY="$HOME/.ssh/deploy_admin"
+          pnpm exec arvex ship-image --skip-build
