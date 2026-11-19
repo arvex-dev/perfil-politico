@@ -11,7 +11,6 @@ on:
 
 permissions:
   contents: read
-  packages: read # fallback token for the private kit when ARVEX_PACKAGES_TOKEN is not set
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -37,7 +36,7 @@ jobs:
 
       - name: GitHub Packages token for the private @arvex-dev kit
         env:
-          ARVEX_PACKAGES_TOKEN: ${{ secrets.ARVEX_PACKAGES_TOKEN || github.token }}
+          ARVEX_PACKAGES_TOKEN: ${{ secrets.ARVEX_PACKAGES_TOKEN }}
         run: printf '//npm.pkg.github.com/:_authToken=%s\n' "$ARVEX_PACKAGES_TOKEN" >> ~/.npmrc
 
       - name: Install
@@ -83,7 +82,7 @@ jobs:
 
       - name: GitHub Packages token for the private @arvex-dev kit
         env:
-          ARVEX_PACKAGES_TOKEN: ${{ secrets.ARVEX_PACKAGES_TOKEN || github.token }}
+          ARVEX_PACKAGES_TOKEN: ${{ secrets.ARVEX_PACKAGES_TOKEN }}
         run: printf '//npm.pkg.github.com/:_authToken=%s\n' "$ARVEX_PACKAGES_TOKEN" >> ~/.npmrc
 
       - name: Install
